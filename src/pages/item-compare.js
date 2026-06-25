@@ -1,4 +1,4 @@
-import { getData, translateName, ATTR_CN, scalingGrade } from '../store.js';
+import { getData, translateName, ATTR_CN, CATEGORY_CN, scalingGrade } from '../store.js';
 
 const GROUPS = [
   { key: 'armaments', label: '武器' },
@@ -79,7 +79,7 @@ export function renderItemCompare(container, params) {
 
     if (activeGroup === 'armaments') {
       fields.push({ label: '重量', render: i => i.weight || 0 });
-      fields.push({ label: '类型', render: i => i.category || '' });
+      fields.push({ label: '类型', render: i => CATEGORY_CN[i.category] || i.category_cn || i.category || '' });
       if (selected.some(i => i.attack_attributes)) {
         (selected[0].attack_attributes || []).forEach(attr => {
           fields.push({ label: ATTR_CN[attr] || attr, render: i => (i.attack || {})[attr] || 0 });
@@ -103,7 +103,7 @@ export function renderItemCompare(container, params) {
       }
     } else if (activeGroup === 'armor') {
       fields.push({ label: '重量', render: i => i.weight || 0 });
-      fields.push({ label: '部位', render: i => i.category || '' });
+      fields.push({ label: '部位', render: i => CATEGORY_CN[i.category] || i.category_cn || i.category || '' });
       if (selected.some(i => i.absorptions)) {
         const absLabels = { physical: '物理', strike: '打击', slash: '斩击', pierce: '突刺', magic: '魔法', fire: '火焰', lightning: '雷', holy: '圣' };
         Object.keys(selected[0].absorptions || {}).forEach(k => {

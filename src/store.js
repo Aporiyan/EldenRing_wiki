@@ -71,6 +71,8 @@ const CATEGORY_CN = {
   'Ash of War': '战灰',
   'Spirit Ash': '骨灰',
   Talisman: '护符',
+  // Info items
+  Clue: '线索', Note: '笔记', Painting: '画作', Tutorial: '教程',
 };
 
 const CATEGORY_GROUP = {
@@ -139,6 +141,9 @@ function translateName(engName) {
     const cn = translateName(base);
     if (cn && cn !== base) return cn + suffix;
   }
+  // Strip all double quotes (e.g. "\"Homing Instinct\" Painting" -> "Homing Instinct Painting")
+  const unquoted = engName.replace(/"/g, '');
+  if (unquoted !== engName && nameMap[unquoted]) return nameMap[unquoted];
   return engName;
 }
 

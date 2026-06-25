@@ -108,13 +108,18 @@ function lookupTable(tbl, val) {
 function calcHP(v) { return lookupTable(HP_TABLE, v); }
 function calcFP(v) { return lookupTable(FP_TABLE, v); }
 function calcStamina(v) {
-  if (v <= 30) return 80 + v * 1.0;
-  if (v <= 40) return 110 + (v - 30) * 1.5;
-  if (v <= 60) return 125 + (v - 40) * 1.5;
-  if (v <= 99) return 155 + (v - 60) * 0.5;
-  return 170;
+  if (v <= 1) return 80;
+  if (v <= 15) return Math.floor(80 + 25 * (v - 1) / 14);
+  if (v <= 30) return Math.floor(105 + 25 * (v - 15) / 15);
+  if (v <= 50) return Math.floor(130 + 25 * (v - 30) / 20);
+  return Math.floor(155 + 15 * (v - 50) / 49);
 }
-function calcMaxLoad(v) { return v * 1.5 + 8; }
+function calcMaxLoad(v) {
+  if (v <= 8) return 45.0;
+  if (v <= 25) return Math.round((45 + 27 * (v - 8) / 17) * 10) / 10;
+  if (v <= 60) return Math.round((72 + 48 * Math.pow((v - 25) / 35, 1.1)) * 10) / 10;
+  return Math.round((120 + 40 * (v - 60) / 39) * 10) / 10;
+}
 
 const RESIST_KEYS = ['immunity', 'robustness', 'focus', 'vitality'];
 const RESIST_CN = { immunity: '免疫力', robustness: '健壮度', focus: '理智度', vitality: '抗死度', poise: '强韧度' };
