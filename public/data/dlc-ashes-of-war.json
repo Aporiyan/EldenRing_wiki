@@ -1,0 +1,635 @@
+{
+ "Ash of War: Dryleaf Whirlwind": {
+  "full_hex_id": "80030D40",
+  "id": 200000,
+  "name": "Ash of War: Dryleaf Whirlwind",
+  "summary": "战技：落叶旋风脚",
+  "description": [
+   "战技：落叶旋风脚",
+   "丹恩流踢击术的奥义。",
+   "连续回旋踢的同时身体上浮，最后下踢的战技。",
+   "踢击会缠绕气，因此攻击范围较广。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8500,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Aspects of the Crucible: Wings": {
+  "full_hex_id": "80030DA4",
+  "id": 200100,
+  "name": "Ash of War: Aspects of the Crucible: Wings",
+  "summary": "战技：熔炉百相之羽",
+  "description": [
+   "战技：熔炉百相之羽",
+   "源自熔炉生命的战技。",
+   "能形成黄金双翼，飞起的同时高举武器突击。",
+   "装备双头剑时，突击会变成回旋攻击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8501,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Spinning Gravity Thrust": {
+  "full_hex_id": "80061A80",
+  "id": 400000,
+  "name": "Ash of War: Spinning Gravity Thrust",
+  "summary": "战技：重力旋刺",
+  "description": [
+   "战技：重力旋刺",
+   "过去师从白王的人们学习的重力招式。",
+   "借由重力浮起，再全身旋转展开突刺。",
+   "再次发动能再一次突刺。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8503,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Palm Blast": {
+  "full_hex_id": "80061E68",
+  "id": 401000,
+  "name": "Ash of War: Palm Blast",
+  "summary": "战技：发劲",
+  "description": [
+   "战技：发劲",
+   "人称“落叶派”的求道者们使用的战技。",
+   "将气运至掌底，出掌后引发爆炸。",
+   "攻击威力与冲击力道的表现皆优秀，",
+   "借由蓄力发动，能提升威力。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8504,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Piercing Throw": {
+  "full_hex_id": "80062250",
+  "id": 402000,
+  "name": "Ash of War: Piercing Throw",
+  "summary": "战技：贯穿投掷",
+  "description": [
+   "战技：贯穿投掷",
+   "在武器缠绕强力旋流，再投掷而出的战技。",
+   "飞翔距离会比平时更长，能够贯穿敌人。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8505,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Scattershot Throw": {
+  "full_hex_id": "80062638",
+  "id": 403000,
+  "name": "Ash of War: Scattershot Throw",
+  "summary": "战技：多重投掷",
+  "description": [
+   "战技：多重投掷",
+   "透过锻造术的力量，在双手复制出武器，",
+   "再同时、大量投掷出去的战技。",
+   "再次发动能再一次投掷。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8506,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Wall of Sparks": {
+  "full_hex_id": "80062A20",
+  "id": 404000,
+  "name": "Ash of War: Wall of Sparks",
+  "summary": "战技：四面火花香",
+  "description": [
+   "战技：四面火花香",
+   "在自身周围大范围释放香粉，",
+   "一定时间后，形成大型火花的战技。",
+   "借由蓄力发动能提升威力，扩大火花的范围。",
+   "火花的性质会随着调香瓶的种类变化。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8507,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Rolling Sparks": {
+  "full_hex_id": "80062E08",
+  "id": 405000,
+  "name": "Ash of War: Rolling Sparks",
+  "summary": "战技：串联火花香",
+  "description": [
+   "战技：串联火花香",
+   "朝前方释放香粉，一定时间后，",
+   "形成先后出现的大型火花的战技。",
+   "火花的性质会随着调香瓶的种类变化。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8508,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Raging Beast": {
+  "full_hex_id": "800631F0",
+  "id": 406000,
+  "name": "Ash of War: Raging Beast",
+  "summary": "战技：野兽突袭",
+  "description": [
+   "战技：野兽突袭",
+   "如野兽般地向前快速踏步，",
+   "再跳至半空，撕裂敌人的战技。",
+   "能控制往前后，或是左右方向踏步。",
+   "发动后接着使出重攻击，能追加攻击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8509,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Savage Claws": {
+  "full_hex_id": "800635D8",
+  "id": 407000,
+  "name": "Ash of War: Savage Claws",
+  "summary": "战技：野兽爪击",
+  "description": [
+   "战技：野兽爪击",
+   "如野兽般地压低身形，跳起后挥舞左右双爪，",
+   "猛力撕裂敌人的战技。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8510,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Blind Spot": {
+  "full_hex_id": "80063DA8",
+  "id": 409000,
+  "name": "Ash of War: Blind Spot",
+  "summary": "战技：死角一击",
+  "description": [
+   "战技：死角一击",
+   "压低身形踏出步伐，与敌人拉近距离，",
+   "再从侧面死角攻击的战技。",
+   "能控制往左、右方踏出步伐，",
+   "也能绕过武器的防御，进行攻击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8511,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Swift Slash": {
+  "full_hex_id": "80064190",
+  "id": 410000,
+  "name": "Ash of War: Swift Slash",
+  "summary": "战技：迅斩",
+  "description": [
+   "战技：迅斩",
+   "角人剑士继承而来的战技。",
+   "在迅速踏出步伐的同时，砍向敌人。",
+   "攻击快而凌厉，会形成撕裂敌人的真空。",
+   "借由蓄力发动能提升威力，增加踏出步伐时的距离。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8512,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Overhead Stance": {
+  "full_hex_id": "80064578",
+  "id": 411000,
+  "name": "Ash of War: Overhead Stance",
+  "summary": "战技：大上段",
+  "description": [
+   "战技：大上段",
+   "将剑高举过头，摆出架式的战技。",
+   "轻攻击能向前踏出再下砍。",
+   "重攻击能使出连续下砍。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8513,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Wing Stance": {
+  "full_hex_id": "80064960",
+  "id": 412000,
+  "name": "Ash of War: Wing Stance",
+  "summary": "战技：单翼架式",
+  "description": [
+   "战技：单翼架式",
+   "将武器向右平举，摆出架式后静止不动，",
+   "接着使出攻击的战技。",
+   "轻攻击能使出高速三连击。",
+   "重攻击能在跳起之后，使出突刺。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8514,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Blinkbolt": {
+  "full_hex_id": "80064D48",
+  "id": 413000,
+  "name": "Ash of War: Blinkbolt",
+  "summary": "战技：瞬雷",
+  "description": [
+   "战技：瞬雷",
+   "侍奉葛德文的黄金骑士们使用的战技。",
+   "压低身形摆出架式，将自身化为雷电，",
+   "朝前方快速移动。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8515,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Flame Skewer": {
+  "full_hex_id": "80065130",
+  "id": 414000,
+  "name": "Ash of War: Flame Skewer",
+  "summary": "战技：火焰穿刺",
+  "description": [
+   "战技：火焰穿刺",
+   "“火焰骑士”昆兰的战技。",
+   "在武器缠绕火焰，压低身形向前踏出，",
+   "一口气刺穿敌人。",
+   "使出重攻击，能释放追击火焰。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8516,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Savage Lion's Claw": {
+  "full_hex_id": "80065518",
+  "id": 415000,
+  "name": "Ash of War: Savage Lion's Claw",
+  "summary": "战技：勇猛狮子斩",
+  "description": [
+   "战技：勇猛狮子斩",
+   "在红狮子之中，特别勇猛的战士使用的战技。",
+   "能朝前方跳跃，一边旋身一边以武器敲击。",
+   "再次发动，能再一次以武器敲击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8517,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Divine Beast Frost Stomp": {
+  "full_hex_id": "80065900",
+  "id": 416000,
+  "name": "Ash of War: Divine Beast Frost Stomp",
+  "summary": "战技：神兽冻霜踏地",
+  "description": [
+   "战技：神兽冻霜踏地",
+   "神兽舞狮展现愤怒的战技。",
+   "能举起脚大力踏向地面，",
+   "让剧烈冻霜朝前方随之扩散。",
+   "借由蓄力发动能提升威力，扩大冻霜扩散的范围。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8518,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Flame Spear": {
+  "full_hex_id": "80065CE8",
+  "id": 417000,
+  "name": "Ash of War: Flame Spear",
+  "summary": "战技：火焰枪",
+  "description": [
+   "战技：火焰枪",
+   "火焰骑士的首席，库德的战技。",
+   "将武器指向前方，摆出准备突刺的架式，",
+   "再朝前方释放火焰枪。",
+   "借由蓄力发动能提升威力、提升枪的飞翔距离。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8519,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Carian Sovereignty": {
+  "full_hex_id": "800660D0",
+  "id": 418000,
+  "name": "Ash of War: Carian Sovereignty",
+  "summary": "战技：尊矣卡利亚",
+  "description": [
+   "战技：尊矣卡利亚",
+   "卡利亚王室成员传承而来的战技。",
+   "将剑身化为魔力大剑，再向下挥舞。",
+   "再次发动，能大范围水平横扫。",
+   "上述攻击能借由蓄力发动，提升威力。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8520,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Shriek of Sorrow": {
+  "full_hex_id": "800664B8",
+  "id": 419000,
+  "name": "Ash of War: Shriek of Sorrow",
+  "summary": "战技：悲恸惨叫",
+  "description": [
+   "战技：悲恸惨叫",
+   "遭受蹂躏的人们使用的战技。",
+   "惨叫出声，让周围敌人陷入硬直的同时，",
+   "再回想起深仇大恨，提升自身的攻击力。",
+   "自身的血量越低，效果越佳。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8521,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Ghostflame Call": {
+  "full_hex_id": "80067070",
+  "id": 422000,
+  "name": "Ash of War: Ghostflame Call",
+  "summary": "战技：唤起灵火",
+  "description": [
+   "战技：唤起灵火",
+   "在指向前方的武器，召唤灵火的战技。",
+   "轻攻击能释放爬行地面的灵火；",
+   "重攻击能引爆灵火，形成大爆炸。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8525,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: The Poison Flower Blooms Twice": {
+  "full_hex_id": "8007B4A8",
+  "id": 505000,
+  "name": "Ash of War: The Poison Flower Blooms Twice",
+  "summary": "战技：双刺毒花",
+  "description": [
+   "战技：双刺毒花",
+   "在脚底形成猩红腐败的棘刺，刺向敌人的战技。",
+   "对上陷入中毒或猩红腐败状态的敌人，",
+   "如果成功使出追击，能一口气给予大伤害。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8522,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Igon's Drake Hunt": {
+  "full_hex_id": "80085CA0",
+  "id": 548000,
+  "name": "Ash of War: Igon's Drake Hunt",
+  "summary": "战技：埃贡的猎龙",
+  "description": [
+   "战技：埃贡的猎龙",
+   "“龙战士”埃贡的战技。",
+   "能侧身拉开大弓，发出咆哮的同时",
+   "扭转弓弦射击，借此大幅提升攻击力。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8523,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ },
+ "Ash of War: Shield Strike": {
+  "full_hex_id": "800C3500",
+  "id": 800000,
+  "name": "Ash of War: Shield Strike",
+  "summary": "战技：盾牌攻击",
+  "description": [
+   "战技：盾牌攻击",
+   "透过盾牌进行攻击的战技。",
+   "再次发动能使出最多三次的追击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 300,
+  "rarity": "Common",
+  "icon": 8524,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "category": "Ash of War",
+  "fp_cost": 10,
+  "effects": [],
+  "compatible_types": [
+   "Melee"
+  ]
+ }
+}

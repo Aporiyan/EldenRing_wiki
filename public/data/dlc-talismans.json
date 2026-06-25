@@ -1,0 +1,1253 @@
+{
+ "Crimson Amber Medallion +3": {
+  "full_hex_id": "20001B58",
+  "id": 7000,
+  "name": "Crimson Amber Medallion +3",
+  "summary": "镶有红色琥珀的链坠。",
+  "description": [
+   "镶有红色琥珀的链坠。",
+   "能最大幅提升血量的上限。",
+   "琥珀为黄金树的古老露滴，",
+   "在“初始艾尔登之王”葛孚雷的时代",
+   "被视为特殊的宝石。",
+   "据说葛德文的禁卫骑士们──",
+   "杰出的黄金骑士，受赐的琥珀最为大颗。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18900,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Cerulean Amber Medallion +3": {
+  "full_hex_id": "20001B62",
+  "id": 7010,
+  "name": "Cerulean Amber Medallion +3",
+  "summary": "镶有蓝色琥珀的链坠。",
+  "description": [
+   "镶有蓝色琥珀的链坠。",
+   "能最大幅提升专注值的上限。",
+   "琥珀为黄金树的古老露滴，",
+   "在“初始艾尔登之王”葛孚雷的时代",
+   "被视为特殊的宝石。",
+   "据说葛德文的禁卫骑士们──",
+   "杰出的黄金骑士，受赐的琥珀最为大颗。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18901,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Viridian Amber Medallion +3": {
+  "full_hex_id": "20001B6C",
+  "id": 7020,
+  "name": "Viridian Amber Medallion +3",
+  "summary": "镶有绿色琥珀的链坠。",
+  "description": [
+   "镶有绿色琥珀的链坠。",
+   "能最大幅提升精力的上限。",
+   "琥珀为黄金树的古老露滴，",
+   "在“初始艾尔登之王”葛孚雷的时代",
+   "被视为特殊的宝石。",
+   "据说葛德文的禁卫骑士们──",
+   "杰出的黄金骑士，受赐的琥珀最为大颗。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18902,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Two-Headed Turtle Talisman": {
+  "full_hex_id": "20001B76",
+  "id": 7030,
+  "name": "Two-Headed Turtle Talisman",
+  "summary": "参考双头绿乌龟的模样制成的护符。",
+  "description": [
+   "参考双头绿乌龟的模样制成的护符。",
+   "能大幅提升精力的恢复速度。",
+   "乌龟是著名的营养食材，为精力无穷的象征。",
+   "而其中，两颗头的乌龟",
+   "在脖子交错时，形状有如螺旋，",
+   "为塔之地特别喜爱的题材。"
+  ],
+  "is_tradable": true,
+  "price_sold": 1000,
+  "rarity": "Rare",
+  "icon": 18903,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.0,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Stalwart Horn Charm +2": {
+  "full_hex_id": "20001B80",
+  "id": 7040,
+  "name": "Stalwart Horn Charm +2",
+  "summary": "角人们于祭祀时使用的装饰品。",
+  "description": [
+   "角人们于祭祀时使用的装饰品。",
+   "能更大幅提升健壮度。",
+   "（健壮度是对出血、冻伤的抵抗力。）",
+   "对角人们而言，角是神圣的象征，",
+   "也因此证明他们是受选的子民。",
+   "其中不停萌发新芽的混生角，",
+   "则被视为灵力之首的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18904,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Immunizing Horn Charm +2": {
+  "full_hex_id": "20001B8A",
+  "id": 7050,
+  "name": "Immunizing Horn Charm +2",
+  "summary": "角人们于祭祀时使用的装饰品。",
+  "description": [
+   "角人们于祭祀时使用的装饰品。",
+   "能更大幅提升免疫力。",
+   "（免疫力是对中毒、腐败的抵抗力。）",
+   "对角人们而言，角是神圣的象征，",
+   "也因此证明他们是受选的子民。",
+   "其中不停萌发新芽的混生角，",
+   "则被视为灵力之首的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18905,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Clarifying Horn Charm +2": {
+  "full_hex_id": "20001B94",
+  "id": 7060,
+  "name": "Clarifying Horn Charm +2",
+  "summary": "角人们于祭祀时使用的装饰品。",
+  "description": [
+   "角人们于祭祀时使用的装饰品。",
+   "能更大幅提升理智度。",
+   "（理智度是对催眠、发狂的抵抗力。）",
+   "对角人们而言，角是神圣的象征，",
+   "也因此证明他们是受选的子民。",
+   "其中不停萌发新芽的混生角，",
+   "则被视为灵力之首的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18906,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Mottled Necklace +2": {
+  "full_hex_id": "20001BA8",
+  "id": 7080,
+  "name": "Mottled Necklace +2",
+  "summary": "角人们于祭祀时使用的装饰品。",
+  "description": [
+   "角人们于祭祀时使用的装饰品。",
+   "其中以多种色彩点缀的贵重物品。",
+   "能更大幅提升免疫力、健壮度、理智度。",
+   "对角人们而言，角是神圣的象征，",
+   "也因此证明他们是受选的子民。",
+   "其中不停萌发新芽的混生角，",
+   "则被视为灵力之首的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 3000,
+  "rarity": "Rare",
+  "icon": 18908,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.2,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Spelldrake Talisman +3": {
+  "full_hex_id": "20001BB2",
+  "id": 7090,
+  "name": "Spelldrake Talisman +3",
+  "summary": "绘有巨大蓝色古龙图案的护符。",
+  "description": [
+   "绘有巨大蓝色古龙图案的护符。",
+   "能最大幅提升魔力属性减伤率。",
+   "在黄金树尚未出现的史前时代，",
+   "据说古龙是那时代的主宰，",
+   "也是保护王的铜墙铁壁。",
+   "因此龙的图案被视为各种庇佑的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18909,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Flamedrake Talisman +3": {
+  "full_hex_id": "20001BBC",
+  "id": 7100,
+  "name": "Flamedrake Talisman +3",
+  "summary": "绘有巨大红色古龙图案的护符。",
+  "description": [
+   "绘有巨大红色古龙图案的护符。",
+   "能最大幅提升火属性减伤率。",
+   "在黄金树尚未出现的史前时代，",
+   "据说古龙是那时代的主宰，",
+   "也是保护王的铜墙铁壁。",
+   "因此龙的图案被视为各种庇佑的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18910,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Boltdrake Talisman +3": {
+  "full_hex_id": "20001BC6",
+  "id": 7110,
+  "name": "Boltdrake Talisman +3",
+  "summary": "绘有巨大黄色古龙图案的护符。",
+  "description": [
+   "绘有巨大黄色古龙图案的护符。",
+   "能最大幅提升雷属性减伤率。",
+   "在黄金树尚未出现的史前时代，",
+   "据说古龙是那时代的主宰，",
+   "也是保护王的铜墙铁壁。",
+   "因此龙的图案被视为各种庇佑的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18911,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Golden Braid": {
+  "full_hex_id": "20001BD0",
+  "id": 7120,
+  "name": "Golden Braid",
+  "summary": "被剪断的金黄色编发。",
+  "description": [
+   "被剪断的金黄色编发。",
+   "玛莉卡女王献给祖母的供品。",
+   "能最大幅提升圣属性减伤率。",
+   "没有人知道玛莉卡为了什么而祈祷、许愿，",
+   "又或是，为了什么而忏悔。",
+   "能确定的是从那之后，祂不曾再回去故乡。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18912,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Pearldrake Talisman +3": {
+  "full_hex_id": "20001BDA",
+  "id": 7130,
+  "name": "Pearldrake Talisman +3",
+  "summary": "绘有巨大珍珠色古龙图案的护符。",
+  "description": [
+   "绘有巨大珍珠色古龙图案的护符。",
+   "能最大幅提升物理以外的减伤率。",
+   "在黄金树尚未出现的史前时代，",
+   "据说古龙是那时代的主宰，",
+   "也是保护王的铜墙铁壁。",
+   "因此龙的图案被视为各种庇佑的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18913,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.2,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Crimson Seed Talisman +1": {
+  "full_hex_id": "20001BE4",
+  "id": 7140,
+  "name": "Crimson Seed Talisman +1",
+  "summary": "参考黄金树种子的模样制成的红色护符。",
+  "description": [
+   "参考黄金树种子的模样制成的红色护符。",
+   "能大幅提升红露滴圣杯瓶的恢复量。",
+   "以不曾出现的种子为主题的护符，",
+   "其中最古老的一个，有着代表双指的设计。",
+   "此为黄金树之始的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18914,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.1,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Cerulean Seed Talisman +1": {
+  "full_hex_id": "20001BEE",
+  "id": 7150,
+  "name": "Cerulean Seed Talisman +1",
+  "summary": "参考黄金树种子的模样制成的蓝色护符。",
+  "description": [
+   "参考黄金树种子的模样制成的蓝色护符。",
+   "能大幅提升蓝露滴圣杯瓶的恢复量。",
+   "以不曾出现的种子为主题的护符，",
+   "其中最古老的一个，有着代表双指的设计。",
+   "此为黄金树之始的象征。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18915,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.1,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Blessed Blue Dew Talisman": {
+  "full_hex_id": "20001F40",
+  "id": 8000,
+  "name": "Blessed Blue Dew Talisman",
+  "summary": "承接黄金树的恩惠──",
+  "description": [
+   "承接黄金树的恩惠──",
+   "参考承接蓝露滴的模样制成的护符。",
+   "能缓慢恢复专注值。",
+   "据说在过去，恩惠露滴源源不绝──",
+   "那是转眼即逝的丰饶时代，",
+   "黄金树因此成为了信仰。"
+  ],
+  "is_tradable": true,
+  "price_sold": 1000,
+  "rarity": "Rare",
+  "icon": 18916,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.2,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Fine Crucible Feather Talisman": {
+  "full_hex_id": "20001F4A",
+  "id": 8010,
+  "name": "Fine Crucible Feather Talisman",
+  "summary": "在远古时代，据说会长在人体上，",
+  "description": [
+   "在远古时代，据说会长在人体上，",
+   "揉合生物百相的轻薄翅膀所制成的护符。",
+   "能强化后跃的闪避能力，",
+   "但会增加受到的损伤。",
+   "角人们认为熔炉相当神圣──",
+   "因为在那历经淬炼的进化尽头，",
+   "就是他们身上的混生角。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18917,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Outer God Heirloom": {
+  "full_hex_id": "20001F54",
+  "id": 8020,
+  "name": "Outer God Heirloom",
+  "summary": "雕制关于外在神祇传说的护符。",
+  "description": [
+   "雕制关于外在神祇传说的护符。",
+   "能提升感应。",
+   "人民蒙受火难、被夺去一切后，",
+   "从他们尊贵祖先的遗体影子里，",
+   "发现了异样的为神本质。",
+   "在备受折磨、走投无路的情况下，",
+   "他们还是向不祥的异形求助。"
+  ],
+  "is_tradable": true,
+  "price_sold": 1000,
+  "rarity": "Rare",
+  "icon": 18918,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Shattered Stone Talisman": {
+  "full_hex_id": "20001F5E",
+  "id": 8030,
+  "name": "Shattered Stone Talisman",
+  "summary": "裂开的镇邪石。",
+  "description": [
+   "裂开的镇邪石。",
+   "能提升踢击与踏地类招式的威力。",
+   "镇邪石是用于镇住地震的灵异石。",
+   "据说当它裂开以后，城镇也随之陷入地面。",
+   "但关于城镇下陷的原因，有另一种说法──",
+   "那可能是月亮坠落导致。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18924,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.8,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Two-Handed Sword Talisman": {
+  "full_hex_id": "20001F68",
+  "id": 8040,
+  "name": "Two-Handed Sword Talisman",
+  "summary": "以双手剑与战士的形象制成的护符。",
+  "description": [
+   "以双手剑与战士的形象制成的护符。",
+   "能强化以双手共持武器时的攻击。",
+   "角战士为塔的守护者──",
+   "他们的力量是塔的武力象征。",
+   "据说那出神入化的一击，能斩断一切。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18919,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.2,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Crusade Insignia": {
+  "full_hex_id": "20001F72",
+  "id": 8050,
+  "name": "Crusade Insignia",
+  "summary": "参考高举的矛与火焰制成的护符。",
+  "description": [
+   "参考高举的矛与火焰制成的护符。",
+   "与梅瑟莫并肩作战，",
+   "为圣战捐躯的人们拥有的徽章。",
+   "打倒敌人时，能提升攻击力。",
+   "他们一昧地杀戮、烧尽污秽──",
+   "不带悲悯之心，也没有名誉可言。",
+   "只有坚信此为圣战的人们，",
+   "才能从殒命的哀号声中，找到一丝激昂。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18920,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.2,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Aged One's Exultation": {
+  "full_hex_id": "20001F7C",
+  "id": 8060,
+  "name": "Aged One's Exultation",
+  "summary": "外貌犹如熟透的葡萄──",
+  "description": [
+   "外貌犹如熟透的葡萄──",
+   "参考禁触老翁的欢欣模样制成的护符。",
+   "当周围人物陷入异常状态发狂时，",
+   "能提升攻击力。",
+   "我等会为了王，献上发狂──",
+   "让所有人拥有葡萄，",
+   "让所有人的葡萄熟成吧。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18921,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Arrow's Soaring Sting Talisman": {
+  "full_hex_id": "20001F86",
+  "id": 8070,
+  "name": "Arrow's Soaring Sting Talisman",
+  "summary": "以羽毛箭与铁箭组合制成的护符。",
+  "description": [
+   "以羽毛箭与铁箭组合制成的护符。",
+   "能提升弓的射程距离，",
+   "与射出箭、弩箭时的攻击力。"
+  ],
+  "is_tradable": true,
+  "price_sold": 1000,
+  "rarity": "Rare",
+  "icon": 18922,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.1,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Pearl Shield Talisman": {
+  "full_hex_id": "20001F9A",
+  "id": 8090,
+  "name": "Pearl Shield Talisman",
+  "summary": "以珍珠色大盾与骑士的形象制成的护符。",
+  "description": [
+   "以珍珠色大盾与骑士的形象制成的护符。",
+   "防御时，能提升物理以外的减伤率。",
+   "无从得知污秽有几分力量──",
+   "为此，骑士们作足准备。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18925,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Dried Bouquet": {
+  "full_hex_id": "20001FA4",
+  "id": 8100,
+  "name": "Dried Bouquet",
+  "summary": "惹人怜爱的干枯花束。",
+  "description": [
+   "惹人怜爱的干枯花束。",
+   "供养在小墓碑前的物品。",
+   "当自己召唤的灵魂死亡时，能提升攻击力。",
+   "对深爱之人的不幸感到心伤──",
+   "这情感不论身处何地，皆是如此。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18923,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.8,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Smithing Talisman": {
+  "full_hex_id": "20001FAE",
+  "id": 8110,
+  "name": "Smithing Talisman",
+  "summary": "以老旧锻造铁锤的形象制成的护符。",
+  "description": [
+   "以老旧锻造铁锤的形象制成的护符。",
+   "表面刻着流纹文字。",
+   "能强化投掷武器时的攻击。",
+   "在远古时代，锻造是敬神的仪式。",
+   "据说在熔化的钢铁中，一层层的皱褶内刻有文字。",
+   "铁匠会找出文字，用于固定武器的灵魂。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18934,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.3,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Ailment Talisman": {
+  "full_hex_id": "20001FB8",
+  "id": 8120,
+  "name": "Ailment Talisman",
+  "summary": "参考病死的模样制成的护符。",
+  "description": [
+   "参考病死的模样制成的护符。",
+   "在陷入异常状态后，一定时间内，",
+   "遇上同样的异常状态时，能提升抵抗力。",
+   "体弱的人罹患可怕的苍蝇病时，",
+   "远在变形之前，生命就会先走到终点。",
+   "据说只有看护患者到最后一刻，",
+   "并慎重安葬的照顾者，才能免于罹病。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18926,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Retaliatory Crossed-Tree": {
+  "full_hex_id": "20001FC2",
+  "id": 8130,
+  "name": "Retaliatory Crossed-Tree",
+  "summary": "参考黄金交错树的形象制成的工艺品。",
+  "description": [
+   "参考黄金交错树的形象制成的工艺品。",
+   "金针骑士们受赐的其中一项物品。",
+   "能强化在翻滚、后跃之后使出的攻击。",
+   "在过去，金针骑士们侍奉米凯拉；",
+   "而如今，那骑士只剩一人。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18937,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.8,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Lacerating Crossed-Tree": {
+  "full_hex_id": "20001FCC",
+  "id": 8140,
+  "name": "Lacerating Crossed-Tree",
+  "summary": "参考黄金交错树的形象制成的工艺品。",
+  "description": [
+   "参考黄金交错树的形象制成的工艺品。",
+   "金针骑士们受赐的其中一项物品。",
+   "能强化冲刺攻击。",
+   "在过去，金针骑士们侍奉米凯拉；",
+   "而如今，那骑士只剩一人。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18938,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.8,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Sharpshot Talisman": {
+  "full_hex_id": "20001FD6",
+  "id": 8150,
+  "name": "Sharpshot Talisman",
+  "summary": "以长弓与射手的形象制成的护符。",
+  "description": [
+   "以长弓与射手的形象制成的护符。",
+   "能提升精密射击的攻击力。",
+   "白金之子射手们十分灵巧，",
+   "以令人畏惧的优秀狙击能力为人所知。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18927,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "St. Trina's Smile": {
+  "full_hex_id": "20001FE0",
+  "id": 8160,
+  "name": "St. Trina's Smile",
+  "summary": "以圣女托莉娜微笑时的模样制成的护符。",
+  "description": [
+   "以圣女托莉娜微笑时的模样制成的护符。",
+   "某位男性深藏心底的幻想。",
+   "当周围人物陷入异常状态催眠时，",
+   "能提升攻击力。",
+   "只有我才知道──",
+   "陷在您的深沉酣眠里，有多么甜美。",
+   "所以说，请只对着我笑吧。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18928,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Talisman of the Dread": {
+  "full_hex_id": "20001FEA",
+  "id": 8170,
+  "name": "Talisman of the Dread",
+  "summary": "参考尖刺山的狂龙模样制成的护符。",
+  "description": [
+   "参考尖刺山的狂龙模样制成的护符。",
+   "当它发出轰然咆哮，尖刺山的熔岩会随之沸腾。",
+   "能提升熔岩的威力。",
+   "狂龙之名为贝勒──",
+   "据说它曾挑战古龙之王，最后落得两败俱伤。",
+   "有着愤怒的破坏者之称。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18929,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.6,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Enraged Divine Beast": {
+  "full_hex_id": "20001FF4",
+  "id": 8180,
+  "name": "Enraged Divine Beast",
+  "summary": "塔进行祭祀时，神兽于其中舞动──",
+  "description": [
+   "塔进行祭祀时，神兽于其中舞动──",
+   "参考那狂怒舞动的模样制成的护符。",
+   "能提升风暴的威力。",
+   "据说神兽是来自上天的使者──",
+   "它的愤怒会造成天空失序，",
+   "而其中最显著的，就是风暴。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18930,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.7,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Beloved Stardust": {
+  "full_hex_id": "20001FFE",
+  "id": 8190,
+  "name": "Beloved Stardust",
+  "summary": "以老者手指轻捏辉石的模样制成的护符。",
+  "description": [
+   "以老者手指轻捏辉石的模样制成的护符。",
+   "能最大幅缩短魔法、祷告的咏唱时间，",
+   "但增加受到的损伤。",
+   "尤弥尔疾呼：",
+   "对星星怀抱浪漫思维、对星尘满怀爱意──",
+   "能办到如此，就能成为顶尖魔法师。",
+   "你呀，要去学会爱。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18931,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.3,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Talisman of Lord's Bestowal": {
+  "full_hex_id": "20002008",
+  "id": 8200,
+  "name": "Talisman of Lord's Bestowal",
+  "summary": "参考“初始艾尔登之王”葛孚雷",
+  "description": [
+   "参考“初始艾尔登之王”葛孚雷",
+   "受赐露滴时的模样制成的护符。",
+   "能提升使用露滴圣杯瓶时的强韧度。",
+   "王受赐露滴时气势非凡、充满魄力──",
+   "据说在受赐的当下，他文风不动。",
+   "黄金树之王，耸立于大地。"
+  ],
+  "is_tradable": true,
+  "price_sold": 1000,
+  "rarity": "Rare",
+  "icon": 18932,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 3.0,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Verdigris Discus": {
+  "full_hex_id": "20002012",
+  "id": 8210,
+  "name": "Verdigris Discus",
+  "summary": "以十分沉重的腐败金属──",
+  "description": [
+   "以十分沉重的腐败金属──",
+   "铜绿制成的圆碟。",
+   "装备重量越重，防御力会越高。",
+   "重量代表着强度，",
+   "也是守护他人的力量。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18933,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 4.5,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Rellana's Cameo": {
+  "full_hex_id": "2000201C",
+  "id": 8220,
+  "name": "Rellana's Cameo",
+  "summary": "“双月骑士”蕾菈娜──",
+  "description": [
+   "“双月骑士”蕾菈娜──",
+   "雕着她气质凛然的肖像护符。",
+   "摆出架式，并维持一定时间后，",
+   "能强化之后使出的攻击。",
+   "侍奉蕾菈娜，一同离开故乡的人们，",
+   "将超越忠诚的心思，刻划其中的物品。",
+   "请允许我们同行──",
+   "共乘您的月之舟，直到海角天涯。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18935,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 0.8,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Blade of Mercy": {
+  "full_hex_id": "20002026",
+  "id": 8230,
+  "name": "Blade of Mercy",
+  "summary": "刀身窄短、沾满血液的短刀。",
+  "description": [
+   "刀身窄短、沾满血液的短刀。",
+   "已经不能作为武器使用。",
+   "能提升在使出致命一击后的攻击力。",
+   "角人们让受苦的族人解脱用的物品。",
+   "夺走多条性命后，刀锋已有缺损，",
+   "也带有一丝邪气。"
+  ],
+  "is_tradable": true,
+  "price_sold": 500,
+  "rarity": "Rare",
+  "icon": 18936,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.3,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ },
+ "Talisman of All Crucibles": {
+  "full_hex_id": "20002030",
+  "id": 8240,
+  "name": "Talisman of All Crucibles",
+  "summary": "揉合熔炉百相，所有特征的巨型块状物。",
+  "description": [
+   "揉合熔炉百相，所有特征的巨型块状物。",
+   "能减少致命一击、头部射击造成的损伤，",
+   "与强化翻滚、后跃的闪避能力，",
+   "但增加受到的损伤。",
+   "据说是源自巨人身体的物品。",
+   "在塔的神话中，此物被称为“熔炉之母”。"
+  ],
+  "is_tradable": true,
+  "price_sold": 2000,
+  "rarity": "Rare",
+  "icon": 18939,
+  "max_held": 999,
+  "max_stored": 999,
+  "remarks": [],
+  "weight": 1.9,
+  "effects": [
+   {
+    "attribute": "Unknown",
+    "value": 0,
+    "model": "multiplicative",
+    "type": "positive"
+   }
+  ],
+  "conflicts": [],
+  "category": "Talisman"
+ }
+}

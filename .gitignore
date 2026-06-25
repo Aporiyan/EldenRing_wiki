@@ -1,7 +1,7 @@
 node_modules/
 dist/
 .vite/
-data/
+/data/
 *.sp_consumption_rate
 .weight
 .tmp_*
