@@ -3,7 +3,7 @@ dist/
 .vite/
 /data/
 *.sp_consumption_rate
-.weight
+*.weight
 .tmp_*
 temp_*
 tmp_*
