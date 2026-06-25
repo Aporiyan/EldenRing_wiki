@@ -7,7 +7,6 @@ import { createDetailPage } from './pages/detail.js';
 import { renderItemsPage, renderItemsCategory, renderItemsTabGroup } from './pages/items.js';
 import { renderSearchResults } from './pages/search.js';
 import { renderArmorSetsList, renderArmorSetDetail } from './pages/armor-sets.js';
-import { createMapPage } from './pages/live-map.js';
 import { renderInfoPage } from './pages/info-items.js';
 import { renderUpgradeCalc } from './pages/upgrade-calc.js';
 import { renderBuildPlanner } from './pages/build-planner.js';
@@ -71,9 +70,6 @@ async function init() {
   registerRoute('/keys/:id', createDetailPage('keys', '钥匙'));
   registerRoute('/crafting-materials/:id', createDetailPage('crafting-materials', '制作材料'));
   registerRoute('/bolstering-materials/:id', createDetailPage('bolstering-materials', '强化材料'));
-
-  // Live map
-  registerRoute('/map', createMapPage());
 
   // New feature pages
   registerRoute('/info', (container, params) => renderInfoPage(container, params));
