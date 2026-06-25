@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Map Test</title>
+<link rel="stylesheet" href="/assets/index-BWX-iGwT.css">
+<style>
+  #map { width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script type="importmap">
+{
+  "imports": {
+    "leaflet": "/assets/leaflet.js"
+  }
+}
+</script>
+<script type="module">
+import L from 'leaflet';
+console.log('L loaded:', typeof L, typeof L.map, typeof L.CRS, typeof L.CRS.Simple);
+
+const map = L.map('map', {
+  crs: L.CRS.Simple,
+  center: [127.5, 127.5],
+  zoom: 11,
+  minZoom: 8,
+  maxZoom: 13,
+});
+
+L.tileLayer('/tiles/surface/{z}/{x}_{y}.jpg', {
+  tileSize: 256,
+  minZoom: 8,
+  maxZoom: 13,
+  noWrap: true,
+  errorTileUrl: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+}).addTo(map);
+
+console.log('Map created');
+</script>
+</body>
+</html>

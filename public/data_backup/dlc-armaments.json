@@ -1,0 +1,3076 @@
+{
+  "Main-gauche": {
+    "full_hex_id": "0016E360",
+    "id": 1500000,
+    "name": "Main-gauche",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Main-gauche"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Fire Knight's Shortsword": {
+    "full_hex_id": "00170A70",
+    "id": 1510000,
+    "name": "Fire Knight's Shortsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Fire Knight's Shortsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Velvet Sword of St. Trina": {
+    "full_hex_id": "00264CB0",
+    "id": 2510000,
+    "name": "Velvet Sword of St. Trina",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Velvet Sword of St. Trina"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Star-Lined Sword": {
+    "full_hex_id": "002673C0",
+    "id": 2520000,
+    "name": "Star-Lined Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Star-Lined Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Carian Sorcery Sword": {
+    "full_hex_id": "00269AD0",
+    "id": 2530000,
+    "name": "Carian Sorcery Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Carian Sorcery Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Thrusting Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Stone-Sheathed Sword": {
+    "full_hex_id": "0026C1E0",
+    "id": 2540000,
+    "name": "Stone-Sheathed Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Stone-Sheathed Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Sword of Light": {
+    "full_hex_id": "0026E8F0",
+    "id": 2550000,
+    "name": "Sword of Light",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Sword of Light"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Straight Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Sword of Darkness": {
+    "full_hex_id": "00271000",
+    "id": 2560000,
+    "name": "Sword of Darkness",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Sword of Darkness"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Sword Lance": {
+    "full_hex_id": "003567E0",
+    "id": 3500000,
+    "name": "Sword Lance",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Sword Lance"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Spear",
+    "weight": 2.0
+  },
+  "Greatsword of Damnation": {
+    "full_hex_id": "00358EF0",
+    "id": 3510000,
+    "name": "Greatsword of Damnation",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Greatsword of Damnation"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Lizard Greatsword": {
+    "full_hex_id": "0035B600",
+    "id": 3520000,
+    "name": "Lizard Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Lizard Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Greatsword of Solitude": {
+    "full_hex_id": "00362B30",
+    "id": 3550000,
+    "name": "Greatsword of Solitude",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Greatsword of Solitude"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Ancient Meteoric Ore Greatsword": {
+    "full_hex_id": "0044AA20",
+    "id": 4500000,
+    "name": "Ancient Meteoric Ore Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Ancient Meteoric Ore Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Fire Knight's Greatsword": {
+    "full_hex_id": "0044F840",
+    "id": 4520000,
+    "name": "Fire Knight's Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Fire Knight's Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Greatsword of Radahn (Lord)": {
+    "full_hex_id": "00451F50",
+    "id": 4530000,
+    "name": "Greatsword of Radahn (Lord)",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Greatsword of Radahn (Lord)"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Moonrithyll's Knight Sword": {
+    "full_hex_id": "00454660",
+    "id": 4540000,
+    "name": "Moonrithyll's Knight Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Moonrithyll's Knight Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Greatsword of Radahn (Light)": {
+    "full_hex_id": "00456D70",
+    "id": 4550000,
+    "name": "Greatsword of Radahn (Light)",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Greatsword of Radahn (Light)"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Queelign's Greatsword": {
+    "full_hex_id": "00632EA0",
+    "id": 6500000,
+    "name": "Queelign's Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Queelign's Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Spirit Sword": {
+    "full_hex_id": "007270E0",
+    "id": 7500000,
+    "name": "Spirit Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Spirit Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Falx": {
+    "full_hex_id": "007297F0",
+    "id": 7510000,
+    "name": "Falx",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Falx"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Dancing Blade of Ranah": {
+    "full_hex_id": "0072BF00",
+    "id": 7520000,
+    "name": "Dancing Blade of Ranah",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dancing Blade of Ranah"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Horned Warrior's Sword": {
+    "full_hex_id": "0072E610",
+    "id": 7530000,
+    "name": "Horned Warrior's Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Horned Warrior's Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Curved Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Putrescence Cleaver": {
+    "full_hex_id": "0081B320",
+    "id": 8500000,
+    "name": "Putrescence Cleaver",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Putrescence Cleaver"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greataxe",
+    "weight": 2.0
+  },
+  "Freyja's Greatsword": {
+    "full_hex_id": "0081DA30",
+    "id": 8510000,
+    "name": "Freyja's Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Freyja's Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Horned Warrior's Greatsword": {
+    "full_hex_id": "00820140",
+    "id": 8520000,
+    "name": "Horned Warrior's Greatsword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Horned Warrior's Greatsword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Curved Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Sword of Night": {
+    "full_hex_id": "0090F560",
+    "id": 9500000,
+    "name": "Sword of Night",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Sword of Night"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Straight Sword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Euporia": {
+    "full_hex_id": "00A037A0",
+    "id": 10500000,
+    "name": "Euporia",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Euporia"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Twinblade",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Black Steel Twinblade": {
+    "full_hex_id": "00A05EB0",
+    "id": 10510000,
+    "name": "Black Steel Twinblade",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Black Steel Twinblade"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Flowerstone Gavel": {
+    "full_hex_id": "00AF79E0",
+    "id": 11500000,
+    "name": "Flowerstone Gavel",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Flowerstone Gavel"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Hammer",
+    "weight": 2.0
+  },
+  "Smithscript Greathammer": {
+    "full_hex_id": "00BEBC20",
+    "id": 12500000,
+    "name": "Smithscript Greathammer",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Greathammer"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Hammer",
+    "weight": 2.0
+  },
+  "Anvil Hammer": {
+    "full_hex_id": "00BEE330",
+    "id": 12510000,
+    "name": "Anvil Hammer",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Anvil Hammer"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Black Steel Greathammer": {
+    "full_hex_id": "00BF0A40",
+    "id": 12520000,
+    "name": "Black Steel Greathammer",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Black Steel Greathammer"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Hammer",
+    "weight": 2.0
+  },
+  "Bloodfiend's Arm": {
+    "full_hex_id": "00BF3150",
+    "id": 12530000,
+    "name": "Bloodfiend's Arm",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Bloodfiend's Arm"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Serpent Flail": {
+    "full_hex_id": "00CDFE60",
+    "id": 13500000,
+    "name": "Serpent Flail",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Serpent Flail"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Flail",
+    "weight": 2.0
+  },
+  "Smithscript Axe": {
+    "full_hex_id": "00DD40A0",
+    "id": 14500000,
+    "name": "Smithscript Axe",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Axe"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Axe",
+    "weight": 2.0
+  },
+  "Death Knight's Twin Axes": {
+    "full_hex_id": "00DD67B0",
+    "id": 14510000,
+    "name": "Death Knight's Twin Axes",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Death Knight's Twin Axes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Axe",
+    "weight": 2.0
+  },
+  "Messmer Soldier's Axe": {
+    "full_hex_id": "00DD8EC0",
+    "id": 14520000,
+    "name": "Messmer Soldier's Axe",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Messmer Soldier's Axe"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Axe",
+    "weight": 2.0
+  },
+  "Forked-Tongue Hatchet": {
+    "full_hex_id": "00DDDCE0",
+    "id": 14540000,
+    "name": "Forked-Tongue Hatchet",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Forked-Tongue Hatchet"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Axe",
+    "weight": 2.0
+  },
+  "Death Knight's Longhaft Axe": {
+    "full_hex_id": "00EC82E0",
+    "id": 15500000,
+    "name": "Death Knight's Longhaft Axe",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Death Knight's Longhaft Axe"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greataxe",
+    "weight": 2.0
+  },
+  "Bonny Butchering Knife": {
+    "full_hex_id": "00ECA9F0",
+    "id": 15510000,
+    "name": "Bonny Butchering Knife",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Bonny Butchering Knife"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greataxe",
+    "weight": 2.0
+  },
+  "Smithscript Spear": {
+    "full_hex_id": "00FBC520",
+    "id": 16500000,
+    "name": "Smithscript Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Spear",
+    "weight": 2.0
+  },
+  "Swift Spear": {
+    "full_hex_id": "00FC1340",
+    "id": 16520000,
+    "name": "Swift Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Swift Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Spear",
+    "weight": 2.0
+  },
+  "Bloodfiend's Fork": {
+    "full_hex_id": "00FC6160",
+    "id": 16540000,
+    "name": "Bloodfiend's Fork",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Bloodfiend's Fork"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Spear",
+    "weight": 2.0
+  },
+  "Spear of the Impaler": {
+    "full_hex_id": "010B0760",
+    "id": 17500000,
+    "name": "Spear of the Impaler",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Spear of the Impaler"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Bloodfiend's Sacred Spear": {
+    "full_hex_id": "00FC8870",
+    "id": 16550000,
+    "name": "Bloodfiend's Sacred Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Bloodfiend's Sacred Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Spear",
+    "weight": 2.0
+  },
+  "Messmer Soldier's Spear": {
+    "full_hex_id": "010B2E70",
+    "id": 17510000,
+    "name": "Messmer Soldier's Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Messmer Soldier's Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Spear",
+    "weight": 2.0
+  },
+  "Barbed Staff-Spear": {
+    "full_hex_id": "010B5580",
+    "id": 17520000,
+    "name": "Barbed Staff-Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Barbed Staff-Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Spear",
+    "weight": 2.0
+  },
+  "Spirit Glaive": {
+    "full_hex_id": "011A49A0",
+    "id": 18500000,
+    "name": "Spirit Glaive",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Spirit Glaive"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Poleblade of the Bud": {
+    "full_hex_id": "011A70B0",
+    "id": 18510000,
+    "name": "Poleblade of the Bud",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Poleblade of the Bud"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Obsidian Lamina": {
+    "full_hex_id": "01298BE0",
+    "id": 19500000,
+    "name": "Obsidian Lamina",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Obsidian Lamina"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Reaper",
+    "weight": 2.0
+  },
+  "Tooth Whip": {
+    "full_hex_id": "0138CE20",
+    "id": 20500000,
+    "name": "Tooth Whip",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Tooth Whip"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Whip",
+    "weight": 2.0
+  },
+  "Thiollier's Hidden Needle": {
+    "full_hex_id": "01481060",
+    "id": 21500000,
+    "name": "Thiollier's Hidden Needle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Thiollier's Hidden Needle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Fist",
+    "weight": 2.0
+  },
+  "Pata": {
+    "full_hex_id": "01483770",
+    "id": 21510000,
+    "name": "Pata",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Pata"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Fist",
+    "weight": 2.0
+  },
+  "Poisoned Hand": {
+    "full_hex_id": "01485E80",
+    "id": 21520000,
+    "name": "Poisoned Hand",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Poisoned Hand"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Madding Hand": {
+    "full_hex_id": "01488590",
+    "id": 21530000,
+    "name": "Madding Hand",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Madding Hand"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Golem Fist": {
+    "full_hex_id": "0148ACA0",
+    "id": 21540000,
+    "name": "Golem Fist",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Golem Fist"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Fist",
+    "weight": 2.0
+  },
+  "Shield of Night": {
+    "full_hex_id": "0148D3B0",
+    "id": 21550000,
+    "name": "Shield of Night",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Shield of Night"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Claws of Night": {
+    "full_hex_id": "015752A0",
+    "id": 22500000,
+    "name": "Claws of Night",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Claws of Night"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Claw",
+    "weight": 2.0
+  },
+  "Devonia's Hammer": {
+    "full_hex_id": "016694E0",
+    "id": 23500000,
+    "name": "Devonia's Hammer",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Devonia's Hammer"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Shadow Sunflower Blossom": {
+    "full_hex_id": "0166BBF0",
+    "id": 23510000,
+    "name": "Shadow Sunflower Blossom",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Shadow Sunflower Blossom"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Gazing Finger": {
+    "full_hex_id": "0166E300",
+    "id": 23520000,
+    "name": "Gazing Finger",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Gazing Finger"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Nanaya's Torch": {
+    "full_hex_id": "0175D720",
+    "id": 24500000,
+    "name": "Nanaya's Torch",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Nanaya's Torch"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Lamenting Visage": {
+    "full_hex_id": "0175FE30",
+    "id": 24510000,
+    "name": "Lamenting Visage",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Lamenting Visage"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Colossal Weapon",
+    "weight": 2.0
+  },
+  "Smithscript Shield": {
+    "full_hex_id": "01D18BB0",
+    "id": 30510000,
+    "name": "Smithscript Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Small Shield",
+    "weight": 2.0
+  },
+  "Messmer Soldier Shield": {
+    "full_hex_id": "01E0A6E0",
+    "id": 31500000,
+    "name": "Messmer Soldier Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Messmer Soldier Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Small Shield",
+    "weight": 2.0
+  },
+  "Wolf Crest Shield": {
+    "full_hex_id": "01E0CDF0",
+    "id": 31510000,
+    "name": "Wolf Crest Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Wolf Crest Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Small Shield",
+    "weight": 2.0
+  },
+  "Serpent Crest Shield": {
+    "full_hex_id": "01E0F500",
+    "id": 31520000,
+    "name": "Serpent Crest Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Serpent Crest Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Golden Lion Shield": {
+    "full_hex_id": "01E11C10",
+    "id": 31530000,
+    "name": "Golden Lion Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Golden Lion Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Medium Shield",
+    "weight": 2.0
+  },
+  "Black Steel Greatshield": {
+    "full_hex_id": "01EFE920",
+    "id": 32500000,
+    "name": "Black Steel Greatshield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Black Steel Greatshield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Greatshield",
+    "weight": 2.0
+  },
+  "Verdigris Greatshield": {
+    "full_hex_id": "01F03740",
+    "id": 32520000,
+    "name": "Verdigris Greatshield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Verdigris Greatshield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Staff of the Great Beyond": {
+    "full_hex_id": "01FF5270",
+    "id": 33510000,
+    "name": "Staff of the Great Beyond",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Staff of the Great Beyond"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Maternal Staff": {
+    "full_hex_id": "01FF7980",
+    "id": 33520000,
+    "name": "Maternal Staff",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Maternal Staff"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Glintstone Staff",
+    "weight": 2.0
+  },
+  "Dryleaf Seal": {
+    "full_hex_id": "020E6DA0",
+    "id": 34500000,
+    "name": "Dryleaf Seal",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dryleaf Seal"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Sacred Seal",
+    "weight": 2.0
+  },
+  "Fire Knight's Seal": {
+    "full_hex_id": "020E94B0",
+    "id": 34510000,
+    "name": "Fire Knight's Seal",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Fire Knight's Seal"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Sacred Seal",
+    "weight": 2.0
+  },
+  "Spiraltree Seal": {
+    "full_hex_id": "020EBBC0",
+    "id": 34520000,
+    "name": "Spiraltree Seal",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Spiraltree Seal"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Sacred Seal",
+    "weight": 2.0
+  },
+  "Bone Bow": {
+    "full_hex_id": "0269FB20",
+    "id": 40500000,
+    "name": "Bone Bow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Bone Bow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Bow",
+    "weight": 2.0
+  },
+  "Ansbach's Longbow": {
+    "full_hex_id": "02796470",
+    "id": 41510000,
+    "name": "Ansbach's Longbow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Ansbach's Longbow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Bow",
+    "weight": 2.0
+  },
+  "Igon's Greatbow": {
+    "full_hex_id": "02887FA0",
+    "id": 42500000,
+    "name": "Igon's Greatbow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Igon's Greatbow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Repeating Crossbow": {
+    "full_hex_id": "0297C1E0",
+    "id": 43500000,
+    "name": "Repeating Crossbow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Repeating Crossbow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Crossbow",
+    "weight": 2.0
+  },
+  "Spread Crossbow": {
+    "full_hex_id": "0297E8F0",
+    "id": 43510000,
+    "name": "Spread Crossbow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Spread Crossbow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Rabbath's Cannon": {
+    "full_hex_id": "02A70420",
+    "id": 44500000,
+    "name": "Rabbath's Cannon",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Rabbath's Cannon"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ballista",
+    "weight": 2.0
+  },
+  "Piquebone Arrow (Fletched)": {
+    "full_hex_id": "03032DE0",
+    "id": 50540000,
+    "name": "Piquebone Arrow (Fletched)",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Piquebone Arrow (Fletched)"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Piquebone Arrow": {
+    "full_hex_id": "030354F0",
+    "id": 50550000,
+    "name": "Piquebone Arrow",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Piquebone Arrow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Igon's Harpoon": {
+    "full_hex_id": "0311D3E0",
+    "id": 51500000,
+    "name": "Igon's Harpoon",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Igon's Harpoon"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Piquebone Bolt": {
+    "full_hex_id": "03216440",
+    "id": 52520000,
+    "name": "Piquebone Bolt",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Piquebone Bolt"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Rabbath's Greatbolt": {
+    "full_hex_id": "03305860",
+    "id": 53500000,
+    "name": "Rabbath's Greatbolt",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Rabbath's Greatbolt"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Bolt",
+    "weight": 2.0
+  },
+  "Dryleaf Arts": {
+    "full_hex_id": "039B2820",
+    "id": 60500000,
+    "name": "Dryleaf Arts",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dryleaf Arts"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Hand-to-Hand",
+    "weight": 2.0
+  },
+  "Dane's Footwork": {
+    "full_hex_id": "039B4F30",
+    "id": 60510000,
+    "name": "Dane's Footwork",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dane's Footwork"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Hand-to-Hand",
+    "weight": 2.0
+  },
+  "Firespark Perfume Bottle": {
+    "full_hex_id": "03AA6A60",
+    "id": 61500000,
+    "name": "Firespark Perfume Bottle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Firespark Perfume Bottle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Perfume Bottle",
+    "weight": 2.0
+  },
+  "Chilling Perfume Bottle": {
+    "full_hex_id": "03AA9170",
+    "id": 61510000,
+    "name": "Chilling Perfume Bottle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Chilling Perfume Bottle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Perfume Bottle",
+    "weight": 2.0
+  },
+  "Frenzyflame Perfume Bottle": {
+    "full_hex_id": "03AAB880",
+    "id": 61520000,
+    "name": "Frenzyflame Perfume Bottle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Frenzyflame Perfume Bottle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Lightning Perfume Bottle": {
+    "full_hex_id": "03AADF90",
+    "id": 61530000,
+    "name": "Lightning Perfume Bottle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Lightning Perfume Bottle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Perfume Bottle",
+    "weight": 2.0
+  },
+  "Deadly Poison Perfume Bottle": {
+    "full_hex_id": "03AB06A0",
+    "id": 61540000,
+    "name": "Deadly Poison Perfume Bottle",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Deadly Poison Perfume Bottle"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Dagger",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Dueling Shield": {
+    "full_hex_id": "03B9ACA0",
+    "id": 62500000,
+    "name": "Dueling Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dueling Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Thrusting Shield",
+    "weight": 2.0
+  },
+  "Carian Thrusting Shield": {
+    "full_hex_id": "03B9D3B0",
+    "id": 62510000,
+    "name": "Carian Thrusting Shield",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Carian Thrusting Shield"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Thrusting Shield",
+    "weight": 2.0
+  },
+  "Smithscript Dagger": {
+    "full_hex_id": "03C8EEE0",
+    "id": 63500000,
+    "name": "Smithscript Dagger",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Dagger"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Throwing Blade",
+    "weight": 2.0
+  },
+  "Backhand Blade": {
+    "full_hex_id": "03D83120",
+    "id": 64500000,
+    "name": "Backhand Blade",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Backhand Blade"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Backhand Blade",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Smithscript Cirque": {
+    "full_hex_id": "03D85830",
+    "id": 64510000,
+    "name": "Smithscript Cirque",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Smithscript Cirque"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Backhand Blade",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Curseblade's Cirque": {
+    "full_hex_id": "03D87F40",
+    "id": 64520000,
+    "name": "Curseblade's Cirque",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Curseblade's Cirque"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Backhand Blade",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Great Katana": {
+    "full_hex_id": "03F6B5A0",
+    "id": 66500000,
+    "name": "Great Katana",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Great Katana"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Katana",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Dragon-Hunter's Great Katana": {
+    "full_hex_id": "03F6DCB0",
+    "id": 66510000,
+    "name": "Dragon-Hunter's Great Katana",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Dragon-Hunter's Great Katana"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Katana",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Rakshasa's Great Katana": {
+    "full_hex_id": "03F703C0",
+    "id": 66520000,
+    "name": "Rakshasa's Great Katana",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Rakshasa's Great Katana"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Great Katana",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Milady": {
+    "full_hex_id": "0405F7E0",
+    "id": 67500000,
+    "name": "Milady",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Milady"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Light Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Leda's Sword": {
+    "full_hex_id": "04061EF0",
+    "id": 67510000,
+    "name": "Leda's Sword",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Leda's Sword"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Light Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Rellana's Twin Blades": {
+    "full_hex_id": "04064600",
+    "id": 67520000,
+    "name": "Rellana's Twin Blades",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Rellana's Twin Blades"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Light Greatsword",
+    "weight": 2.0,
+    "default_skill_id": 800,
+    "allow_ash_of_war": true,
+    "is_buffable": true,
+    "is_l1_guard": false,
+    "upgrade_material": "Smithing Stone",
+    "attack_attributes": [
+      "Standard"
+    ],
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    }
+  },
+  "Red Bear's Claw": {
+    "full_hex_id": "04156130",
+    "id": 68510000,
+    "name": "Red Bear's Claw",
+    "summary": "no summary",
+    "description": [
+      "DLC item: Red Bear's Claw"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 0,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Claw",
+    "weight": 2.0
+  }
+}

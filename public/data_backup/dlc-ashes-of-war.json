@@ -1,0 +1,702 @@
+{
+  "Ash of War: Dryleaf Whirlwind": {
+    "full_hex_id": "80030D40",
+    "id": 2147683648,
+    "name": "Ash of War: Dryleaf Whirlwind",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Dryleaf Whirlwind"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Aspects of the Crucible: Wings": {
+    "full_hex_id": "80030DA4",
+    "id": 2147683748,
+    "name": "Ash of War: Aspects of the Crucible: Wings",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Aspects of the Crucible: Wings"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Spinning Gravity Thrust": {
+    "full_hex_id": "80061A80",
+    "id": 2147883648,
+    "name": "Ash of War: Spinning Gravity Thrust",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Spinning Gravity Thrust"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Palm Blast": {
+    "full_hex_id": "80061E68",
+    "id": 2147884648,
+    "name": "Ash of War: Palm Blast",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Palm Blast"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Piercing Throw": {
+    "full_hex_id": "80062250",
+    "id": 2147885648,
+    "name": "Ash of War: Piercing Throw",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Piercing Throw"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Scattershot Throw": {
+    "full_hex_id": "80062638",
+    "id": 2147886648,
+    "name": "Ash of War: Scattershot Throw",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Scattershot Throw"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Wall of Sparks": {
+    "full_hex_id": "80062A20",
+    "id": 2147887648,
+    "name": "Ash of War: Wall of Sparks",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Wall of Sparks"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Rolling Sparks": {
+    "full_hex_id": "80062E08",
+    "id": 2147888648,
+    "name": "Ash of War: Rolling Sparks",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Rolling Sparks"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Raging Beast": {
+    "full_hex_id": "800631F0",
+    "id": 2147889648,
+    "name": "Ash of War: Raging Beast",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Raging Beast"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Savage Claws": {
+    "full_hex_id": "800635D8",
+    "id": 2147890648,
+    "name": "Ash of War: Savage Claws",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Savage Claws"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Blind Spot": {
+    "full_hex_id": "80063DA8",
+    "id": 2147892648,
+    "name": "Ash of War: Blind Spot",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Blind Spot"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Swift Slash": {
+    "full_hex_id": "80064190",
+    "id": 2147893648,
+    "name": "Ash of War: Swift Slash",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Swift Slash"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Overhead Stance": {
+    "full_hex_id": "80064578",
+    "id": 2147894648,
+    "name": "Ash of War: Overhead Stance",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Overhead Stance"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Wing Stance": {
+    "full_hex_id": "80064960",
+    "id": 2147895648,
+    "name": "Ash of War: Wing Stance",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Wing Stance"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Blinkbolt": {
+    "full_hex_id": "80064D48",
+    "id": 2147896648,
+    "name": "Ash of War: Blinkbolt",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Blinkbolt"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Flame Skewer": {
+    "full_hex_id": "80065130",
+    "id": 2147897648,
+    "name": "Ash of War: Flame Skewer",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Flame Skewer"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Savage Lion's Claw": {
+    "full_hex_id": "80065518",
+    "id": 2147898648,
+    "name": "Ash of War: Savage Lion's Claw",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Savage Lion's Claw"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Divine Beast Frost Stomp": {
+    "full_hex_id": "80065900",
+    "id": 2147899648,
+    "name": "Ash of War: Divine Beast Frost Stomp",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Divine Beast Frost Stomp"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Flame Spear": {
+    "full_hex_id": "80065CE8",
+    "id": 2147900648,
+    "name": "Ash of War: Flame Spear",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Flame Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Carian Sovereignty": {
+    "full_hex_id": "800660D0",
+    "id": 2147901648,
+    "name": "Ash of War: Carian Sovereignty",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Carian Sovereignty"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Shriek of Sorrow": {
+    "full_hex_id": "800664B8",
+    "id": 2147902648,
+    "name": "Ash of War: Shriek of Sorrow",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Shriek of Sorrow"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Ghostflame Call": {
+    "full_hex_id": "80067070",
+    "id": 2147905648,
+    "name": "Ash of War: Ghostflame Call",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Ghostflame Call"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: The Poison Flower Blooms Twice": {
+    "full_hex_id": "8007B4A8",
+    "id": 2147988648,
+    "name": "Ash of War: The Poison Flower Blooms Twice",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: The Poison Flower Blooms Twice"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Igon's Drake Hunt": {
+    "full_hex_id": "80085CA0",
+    "id": 2148031648,
+    "name": "Ash of War: Igon's Drake Hunt",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Igon's Drake Hunt"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  },
+  "Ash of War: Shield Strike": {
+    "full_hex_id": "800C3500",
+    "id": 2148283648,
+    "name": "Ash of War: Shield Strike",
+    "summary": "no summary",
+    "description": [
+      "DLC Ash of War: Ash of War: Shield Strike"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Common",
+    "icon": 8300,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "category": "Ash of War",
+    "weight": 0,
+    "fp_cost": 10,
+    "effects": [],
+    "compatible_types": [
+      "Melee"
+    ]
+  }
+}

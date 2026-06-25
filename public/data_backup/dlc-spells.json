@@ -1,0 +1,1430 @@
+{
+  "Miriam's Vanishing": {
+    "full_hex_id": "401E954C",
+    "id": 1075746124,
+    "name": "Miriam's Vanishing",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Miriam's Vanishing"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Glintblade Trio": {
+    "full_hex_id": "401E9556",
+    "id": 1075746134,
+    "name": "Glintblade Trio",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Glintblade Trio"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Rellana's Twin Moons": {
+    "full_hex_id": "401E9560",
+    "id": 1075746144,
+    "name": "Rellana's Twin Moons",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Rellana's Twin Moons"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Glintstone Nail": {
+    "full_hex_id": "401E9614",
+    "id": 1075746324,
+    "name": "Glintstone Nail",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Glintstone Nail"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Glintstone Nails": {
+    "full_hex_id": "401E961E",
+    "id": 1075746334,
+    "name": "Glintstone Nails",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Glintstone Nails"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Blades of Stone": {
+    "full_hex_id": "401E96DC",
+    "id": 1075746524,
+    "name": "Blades of Stone",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Blades of Stone"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Gravitational Missile": {
+    "full_hex_id": "401E96E6",
+    "id": 1075746534,
+    "name": "Gravitational Missile",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Gravitational Missile"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Mantle of Thorns": {
+    "full_hex_id": "401E97A4",
+    "id": 1075746724,
+    "name": "Mantle of Thorns",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Mantle of Thorns"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Impenetrable Thorns": {
+    "full_hex_id": "401E97AE",
+    "id": 1075746734,
+    "name": "Impenetrable Thorns",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Impenetrable Thorns"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Rings of Spectral Light": {
+    "full_hex_id": "401E9808",
+    "id": 1075746824,
+    "name": "Rings of Spectral Light",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Rings of Spectral Light"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Vortex of Putrescence": {
+    "full_hex_id": "401E9CB8",
+    "id": 1075748024,
+    "name": "Vortex of Putrescence",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Vortex of Putrescence"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Mass of Putrescence": {
+    "full_hex_id": "401E9CC2",
+    "id": 1075748034,
+    "name": "Mass of Putrescence",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Mass of Putrescence"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Furious Blade of Ansbach": {
+    "full_hex_id": "401E9D1C",
+    "id": 1075748124,
+    "name": "Furious Blade of Ansbach",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Furious Blade of Ansbach"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Heal from Afar": {
+    "full_hex_id": "401E9D80",
+    "id": 1075748224,
+    "name": "Heal from Afar",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Heal from Afar"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Aspects of the Crucible: Thorns": {
+    "full_hex_id": "401E9E7A",
+    "id": 1075748474,
+    "name": "Aspects of the Crucible: Thorns",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Aspects of the Crucible: Thorns"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Aspects of the Crucible: Bloom": {
+    "full_hex_id": "401E9E84",
+    "id": 1075748484,
+    "name": "Aspects of the Crucible: Bloom",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Aspects of the Crucible: Bloom"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Minor Erdtree": {
+    "full_hex_id": "401E9E8E",
+    "id": 1075748494,
+    "name": "Minor Erdtree",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Minor Erdtree"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Land of Shadow": {
+    "full_hex_id": "401E9E98",
+    "id": 1075748504,
+    "name": "Land of Shadow",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Land of Shadow"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Wrath from Afar": {
+    "full_hex_id": "401E9EA2",
+    "id": 1075748514,
+    "name": "Wrath from Afar",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Wrath from Afar"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Light of Miquella": {
+    "full_hex_id": "401E9EAC",
+    "id": 1075748524,
+    "name": "Light of Miquella",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Light of Miquella"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Multilayered Ring of Light": {
+    "full_hex_id": "401E9EB6",
+    "id": 1075748534,
+    "name": "Multilayered Ring of Light",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Multilayered Ring of Light"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Roar of Rugalea": {
+    "full_hex_id": "401E9F10",
+    "id": 1075748624,
+    "name": "Roar of Rugalea",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Roar of Rugalea"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Knight's Lightning Spear": {
+    "full_hex_id": "401E9F74",
+    "id": 1075748724,
+    "name": "Knight's Lightning Spear",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Knight's Lightning Spear"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Dragonbolt of Florissax": {
+    "full_hex_id": "401E9F7E",
+    "id": 1075748734,
+    "name": "Dragonbolt of Florissax",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Dragonbolt of Florissax"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Electrocharge": {
+    "full_hex_id": "401E9F88",
+    "id": 1075748744,
+    "name": "Electrocharge",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Electrocharge"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Bayle's Tyranny": {
+    "full_hex_id": "401E9FD8",
+    "id": 1075748824,
+    "name": "Bayle's Tyranny",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Bayle's Tyranny"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Bayle's Flame Lightning": {
+    "full_hex_id": "401E9FE2",
+    "id": 1075748834,
+    "name": "Bayle's Flame Lightning",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Bayle's Flame Lightning"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Ghostflame Breath": {
+    "full_hex_id": "401E9FEC",
+    "id": 1075748844,
+    "name": "Ghostflame Breath",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Ghostflame Breath"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Rotten Butterflies": {
+    "full_hex_id": "401EA0A0",
+    "id": 1075749024,
+    "name": "Rotten Butterflies",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Rotten Butterflies"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Pest-Thread Spears": {
+    "full_hex_id": "401EA0AA",
+    "id": 1075749034,
+    "name": "Pest-Thread Spears",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Pest-Thread Spears"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Midra's Flame of Frenzy": {
+    "full_hex_id": "401EA104",
+    "id": 1075749124,
+    "name": "Midra's Flame of Frenzy",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Midra's Flame of Frenzy"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Fleeting Microcosm": {
+    "full_hex_id": "401EA172",
+    "id": 1075749234,
+    "name": "Fleeting Microcosm",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Fleeting Microcosm"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Cherishing Fingers": {
+    "full_hex_id": "401EA17C",
+    "id": 1075749244,
+    "name": "Cherishing Fingers",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Cherishing Fingers"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Watchful Spirit": {
+    "full_hex_id": "401EA230",
+    "id": 1075749424,
+    "name": "Watchful Spirit",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Watchful Spirit"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Golden Arcs": {
+    "full_hex_id": "401EA294",
+    "id": 1075749524,
+    "name": "Golden Arcs",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Golden Arcs"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Giant Golden Arc": {
+    "full_hex_id": "401EA29E",
+    "id": 1075749534,
+    "name": "Giant Golden Arc",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Giant Golden Arc"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Spira": {
+    "full_hex_id": "401EA2A8",
+    "id": 1075749544,
+    "name": "Spira",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Spira"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Divine Beast Tornado": {
+    "full_hex_id": "401EA2B2",
+    "id": 1075749554,
+    "name": "Divine Beast Tornado",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Divine Beast Tornado"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Divine Bird Feathers": {
+    "full_hex_id": "401EA2BC",
+    "id": 1075749564,
+    "name": "Divine Bird Feathers",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Divine Bird Feathers"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Fire Serpent": {
+    "full_hex_id": "401EA2F8",
+    "id": 1075749624,
+    "name": "Fire Serpent",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Fire Serpent"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Rain of Fire": {
+    "full_hex_id": "401EA302",
+    "id": 1075749634,
+    "name": "Rain of Fire",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Rain of Fire"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Messmer's Orb": {
+    "full_hex_id": "401EA30C",
+    "id": 1075749644,
+    "name": "Messmer's Orb",
+    "summary": "DLC spell",
+    "description": [
+      "DLC spell: Messmer's Orb"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 6000,
+    "max_held": 99,
+    "max_stored": 600,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 15,
+    "fp_cost_extra": 0,
+    "sp_cost": 30,
+    "sp_cost_extra": 0,
+    "category": "Sorcery",
+    "slots_used": 1,
+    "hold_action": "None",
+    "is_weapon_buff": false,
+    "is_shield_buff": false,
+    "is_horseback_castable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  }
+}

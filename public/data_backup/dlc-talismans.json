@@ -1,0 +1,1211 @@
+{
+  "Crimson Amber Medallion +3": {
+    "full_hex_id": "20001B58",
+    "id": 536877912,
+    "name": "Crimson Amber Medallion +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Crimson Amber Medallion +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Cerulean Amber Medallion +3": {
+    "full_hex_id": "20001B62",
+    "id": 536877922,
+    "name": "Cerulean Amber Medallion +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Cerulean Amber Medallion +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Viridian Amber Medallion +3": {
+    "full_hex_id": "20001B6C",
+    "id": 536877932,
+    "name": "Viridian Amber Medallion +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Viridian Amber Medallion +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Two-Headed Turtle Talisman": {
+    "full_hex_id": "20001B76",
+    "id": 536877942,
+    "name": "Two-Headed Turtle Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Two-Headed Turtle Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Stalwart Horn Charm +2": {
+    "full_hex_id": "20001B80",
+    "id": 536877952,
+    "name": "Stalwart Horn Charm +2",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Stalwart Horn Charm +2"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Immunizing Horn Charm +2": {
+    "full_hex_id": "20001B8A",
+    "id": 536877962,
+    "name": "Immunizing Horn Charm +2",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Immunizing Horn Charm +2"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Clarifying Horn Charm +2": {
+    "full_hex_id": "20001B94",
+    "id": 536877972,
+    "name": "Clarifying Horn Charm +2",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Clarifying Horn Charm +2"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Mottled Necklace +2": {
+    "full_hex_id": "20001BA8",
+    "id": 536877992,
+    "name": "Mottled Necklace +2",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Mottled Necklace +2"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Spelldrake Talisman +3": {
+    "full_hex_id": "20001BB2",
+    "id": 536878002,
+    "name": "Spelldrake Talisman +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Spelldrake Talisman +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Flamedrake Talisman +3": {
+    "full_hex_id": "20001BBC",
+    "id": 536878012,
+    "name": "Flamedrake Talisman +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Flamedrake Talisman +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Boltdrake Talisman +3": {
+    "full_hex_id": "20001BC6",
+    "id": 536878022,
+    "name": "Boltdrake Talisman +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Boltdrake Talisman +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Golden Braid": {
+    "full_hex_id": "20001BD0",
+    "id": 536878032,
+    "name": "Golden Braid",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Golden Braid"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Pearldrake Talisman +3": {
+    "full_hex_id": "20001BDA",
+    "id": 536878042,
+    "name": "Pearldrake Talisman +3",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Pearldrake Talisman +3"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Crimson Seed Talisman +1": {
+    "full_hex_id": "20001BE4",
+    "id": 536878052,
+    "name": "Crimson Seed Talisman +1",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Crimson Seed Talisman +1"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Cerulean Seed Talisman +1": {
+    "full_hex_id": "20001BEE",
+    "id": 536878062,
+    "name": "Cerulean Seed Talisman +1",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Cerulean Seed Talisman +1"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Blessed Blue Dew Talisman": {
+    "full_hex_id": "20001F40",
+    "id": 536878912,
+    "name": "Blessed Blue Dew Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Blessed Blue Dew Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Fine Crucible Feather Talisman": {
+    "full_hex_id": "20001F4A",
+    "id": 536878922,
+    "name": "Fine Crucible Feather Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Fine Crucible Feather Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Outer God Heirloom": {
+    "full_hex_id": "20001F54",
+    "id": 536878932,
+    "name": "Outer God Heirloom",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Outer God Heirloom"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Shattered Stone Talisman": {
+    "full_hex_id": "20001F5E",
+    "id": 536878942,
+    "name": "Shattered Stone Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Shattered Stone Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Two-Handed Sword Talisman": {
+    "full_hex_id": "20001F68",
+    "id": 536878952,
+    "name": "Two-Handed Sword Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Two-Handed Sword Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Crusade Insignia": {
+    "full_hex_id": "20001F72",
+    "id": 536878962,
+    "name": "Crusade Insignia",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Crusade Insignia"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Aged One's Exultation": {
+    "full_hex_id": "20001F7C",
+    "id": 536878972,
+    "name": "Aged One's Exultation",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Aged One's Exultation"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Arrow's Soaring Sting Talisman": {
+    "full_hex_id": "20001F86",
+    "id": 536878982,
+    "name": "Arrow's Soaring Sting Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Arrow's Soaring Sting Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Pearl Shield Talisman": {
+    "full_hex_id": "20001F9A",
+    "id": 536879002,
+    "name": "Pearl Shield Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Pearl Shield Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Dried Bouquet": {
+    "full_hex_id": "20001FA4",
+    "id": 536879012,
+    "name": "Dried Bouquet",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Dried Bouquet"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Smithing Talisman": {
+    "full_hex_id": "20001FAE",
+    "id": 536879022,
+    "name": "Smithing Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Smithing Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Ailment Talisman": {
+    "full_hex_id": "20001FB8",
+    "id": 536879032,
+    "name": "Ailment Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Ailment Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Retaliatory Crossed-Tree": {
+    "full_hex_id": "20001FC2",
+    "id": 536879042,
+    "name": "Retaliatory Crossed-Tree",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Retaliatory Crossed-Tree"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Lacerating Crossed-Tree": {
+    "full_hex_id": "20001FCC",
+    "id": 536879052,
+    "name": "Lacerating Crossed-Tree",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Lacerating Crossed-Tree"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Sharpshot Talisman": {
+    "full_hex_id": "20001FD6",
+    "id": 536879062,
+    "name": "Sharpshot Talisman",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Sharpshot Talisman"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "St. Trina's Smile": {
+    "full_hex_id": "20001FE0",
+    "id": 536879072,
+    "name": "St. Trina's Smile",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: St. Trina's Smile"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Talisman of the Dread": {
+    "full_hex_id": "20001FEA",
+    "id": 536879082,
+    "name": "Talisman of the Dread",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Talisman of the Dread"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Enraged Divine Beast": {
+    "full_hex_id": "20001FF4",
+    "id": 536879092,
+    "name": "Enraged Divine Beast",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Enraged Divine Beast"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Beloved Stardust": {
+    "full_hex_id": "20001FFE",
+    "id": 536879102,
+    "name": "Beloved Stardust",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Beloved Stardust"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Talisman of Lord's Bestowal": {
+    "full_hex_id": "20002008",
+    "id": 536879112,
+    "name": "Talisman of Lord's Bestowal",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Talisman of Lord's Bestowal"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Verdigris Discus": {
+    "full_hex_id": "20002012",
+    "id": 536879122,
+    "name": "Verdigris Discus",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Verdigris Discus"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Rellana's Cameo": {
+    "full_hex_id": "2000201C",
+    "id": 536879132,
+    "name": "Rellana's Cameo",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Rellana's Cameo"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Blade of Mercy": {
+    "full_hex_id": "20002026",
+    "id": 536879142,
+    "name": "Blade of Mercy",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Blade of Mercy"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  },
+  "Talisman of All Crucibles": {
+    "full_hex_id": "20002030",
+    "id": 536879152,
+    "name": "Talisman of All Crucibles",
+    "summary": "DLC talisman",
+    "description": [
+      "DLC talisman: Talisman of All Crucibles"
+    ],
+    "is_tradable": true,
+    "price_sold": 500,
+    "rarity": "Rare",
+    "icon": 18000,
+    "max_held": 999,
+    "max_stored": 999,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "weight": 0.5,
+    "effects": [
+      {
+        "attribute": "Unknown",
+        "value": 0,
+        "model": "multiplicative",
+        "type": "positive"
+      }
+    ],
+    "conflicts": []
+  }
+}

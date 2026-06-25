@@ -1,0 +1,502 @@
+{
+  "Curseblade Meera": {
+    "full_hex_id": "402191C0",
+    "id": 1075941824,
+    "name": "Curseblade Meera",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Curseblade Meera"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Bloodfiend Hexer's Ashes": {
+    "full_hex_id": "402195A8",
+    "id": 1075942824,
+    "name": "Bloodfiend Hexer's Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Bloodfiend Hexer's Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Gravebird Ashes": {
+    "full_hex_id": "40219990",
+    "id": 1075943824,
+    "name": "Gravebird Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Gravebird Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Fire Knight Hilde": {
+    "full_hex_id": "40219D78",
+    "id": 1075944824,
+    "name": "Fire Knight Hilde",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Fire Knight Hilde"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Spider Scorpion Ashes": {
+    "full_hex_id": "4021A160",
+    "id": 1075945824,
+    "name": "Spider Scorpion Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Spider Scorpion Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Inquisitor Ashes": {
+    "full_hex_id": "4021A548",
+    "id": 1075946824,
+    "name": "Inquisitor Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Inquisitor Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Demi-Human Swordsman Yosh": {
+    "full_hex_id": "4021A930",
+    "id": 1075947824,
+    "name": "Demi-Human Swordsman Yosh",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Demi-Human Swordsman Yosh"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Messmer Soldier Ashes": {
+    "full_hex_id": "4021AD18",
+    "id": 1075948824,
+    "name": "Messmer Soldier Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Messmer Soldier Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Black Knight Commander Andreas": {
+    "full_hex_id": "4021B100",
+    "id": 1075949824,
+    "name": "Black Knight Commander Andreas",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Black Knight Commander Andreas"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Black Knight Captain Huw": {
+    "full_hex_id": "4021B4E8",
+    "id": 1075950824,
+    "name": "Black Knight Captain Huw",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Black Knight Captain Huw"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Bigmouth Imp Ashes": {
+    "full_hex_id": "4021B8D0",
+    "id": 1075951824,
+    "name": "Bigmouth Imp Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Bigmouth Imp Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Man-Fly Ashes": {
+    "full_hex_id": "4021BCB8",
+    "id": 1075952824,
+    "name": "Man-Fly Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Man-Fly Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Taylew the Golem Smith": {
+    "full_hex_id": "4021C0A0",
+    "id": 1075953824,
+    "name": "Taylew the Golem Smith",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Taylew the Golem Smith"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Divine Bird Warrior Ornis": {
+    "full_hex_id": "4021C488",
+    "id": 1075954824,
+    "name": "Divine Bird Warrior Ornis",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Divine Bird Warrior Ornis"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Horned Warrior Ashes": {
+    "full_hex_id": "4021C870",
+    "id": 1075955824,
+    "name": "Horned Warrior Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Horned Warrior Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Ancient Dragon Florissax": {
+    "full_hex_id": "4021CC58",
+    "id": 1075956824,
+    "name": "Ancient Dragon Florissax",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Ancient Dragon Florissax"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Fingercreeper Ashes": {
+    "full_hex_id": "4021D428",
+    "id": 1075958824,
+    "name": "Fingercreeper Ashes",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Fingercreeper Ashes"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Fire Knight Queelign": {
+    "full_hex_id": "4021D810",
+    "id": 1075959824,
+    "name": "Fire Knight Queelign",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Fire Knight Queelign"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Swordhand of Night Jolán": {
+    "full_hex_id": "4021DBF8",
+    "id": 1075960824,
+    "name": "Swordhand of Night Jolán",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Swordhand of Night Jolán"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  },
+  "Jolán and Anna": {
+    "full_hex_id": "4021DFE0",
+    "id": 1075961824,
+    "name": "Jolán and Anna",
+    "summary": "no summary",
+    "description": [
+      "DLC Spirit Ash: Jolán and Anna"
+    ],
+    "is_tradable": true,
+    "price_sold": 0,
+    "rarity": "Common",
+    "icon": 102,
+    "max_held": 1,
+    "max_stored": 1,
+    "locations": [
+      {
+        "summary": "Shadow of the Erdtree DLC"
+      }
+    ],
+    "remarks": [],
+    "fp_cost": 50,
+    "hp_cost": 0,
+    "category": "Spirit Ash",
+    "upgrade_material": "Glovewort"
+  }
+}

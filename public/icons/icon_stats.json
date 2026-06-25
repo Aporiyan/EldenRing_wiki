@@ -1,0 +1,22 @@
+{
+  "fan_api_endpoints": {
+    "weapons": 300,
+    "armors": 600,
+    "items": 500,
+    "incantations": 98,
+    "sorceries": 71,
+    "talismans": 87,
+    "ashes": 90
+  },
+  "fan_api_total": 641,
+  "erdb_total": 1897,
+  "matched": 589,
+  "unmatched": 1308,
+  "matched_rate": 31.0,
+  "downloaded": 466,
+  "failed": 11,
+  "placeholders": 905,
+  "skipped_existing": 112,
+  "total_bytes": 9673163,
+  "elapsed_seconds": 112
+}
