@@ -232,7 +232,7 @@
         "zone": "MULTIPLE",
         "note": "Boc can be found at any of these sites of grace:\\n- Lake Facing Cliffs\\n- East Raya Lucaria Gate\\n- Altus Highway Junction\\n- East Capital Rampart\\n\\nYou have now unlocked the ability to alter legendary garments.",
         "description_cn": "在步骤注明的任意赐福点找到柏克，将金缝衣针交给他。",
-        "note_cn": "柏克可以在以下赐福点找到：- 湖旁断崖\n- 雷亚卢卡利亚东门\n- 亚坛高速公路岔道\n- 东侧王城城墙你现在已解锁修改传说装备的能力。"
+        "note_cn": "柏克可以在以下赐福点找到：\n- 湖旁断崖\n- 雷亚卢卡利亚东门\n- 亚坛高速公路岔道\n- 东侧王城城墙\n你现在已解锁修改传说装备的能力。"
       },
       {
         "id": 7,
@@ -781,8 +781,8 @@
         "zone": "LIURNIA",
         "note": "Ranni's Rise requires you to have progressed Blaidd's questline partway, OR reached Altus Plateau, OR defeated Radahn.",
         "optional": false,
-        "description_cn": "与菈妮在菈妮魔法师塔利耶尼亚在到达亚坛高原或击败拉塔恩. 她请求你寻找出隐藏宝藏的诺克隆恩。",
-        "note_cn": "菈妮魔法师塔需要你有推进布莱泽的支线途中, 或到达亚坛高原, 或击败拉塔恩。"
+        "description_cn": "到达亚坛高原或击败拉塔恩后，在利耶尼亚的菈妮魔法师塔与菈妮对话。她请你寻找藏匿在诺克隆恩的秘密宝藏。",
+        "note_cn": "菈妮魔法师塔需要先推进一定的支线进度，或者到达亚坛高原，也可以先击败拉塔恩。"
       },
       {
         "id": 2,
@@ -790,7 +790,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": true,
-        "description_cn": "与布莱泽, 瑟廉, 并伊吉 (顾问外部菈妮魔法师塔) 了解关于菈妮的。"
+        "description_cn": "与布莱泽、塞尔维斯、伊吉（菈妮魔法师塔外部）了解关于菈妮和诺克隆恩的事。"
       },
       {
         "id": 3,
@@ -798,7 +798,7 @@
         "zone": "LIURNIA",
         "note": "This unlocks the Carian Study Hall.",
         "optional": false,
-        "description_cn": "返回菈妮并接受效劳. 她会给你卡利亚倒转雕像。",
+        "description_cn": "回到菈妮处接受任务，她给你卡利亚颠倒像。",
         "note_cn": "这会解锁卡利亚书斋。"
       },
       {
@@ -807,7 +807,7 @@
         "zone": "LIURNIA",
         "note": "The Divine Tower is only accessible after inverting the Study Hall.",
         "optional": false,
-        "description_cn": "使用卡利亚倒转雕像在卡利亚书斋到达利耶尼亚神授塔. 取回死亡咒痕的死亡从顶部。",
+        "description_cn": "在卡利亚书斋使用卡利亚颠倒像到达神授塔，取回猎杀指头刀。",
         "note_cn": "神圣塔是仅可到达在倒转研究大厅。"
       },
       {
@@ -825,8 +825,8 @@
         "zone": "LIURNIA",
         "note": "Rest at the site of grace and talk to Ranni again if she doesn't reward you.",
         "optional": false,
-        "description_cn": "返回猎杀指头刀刃菈妮. 她奖励你使用卡利亚王权杖 (如果有) 并暗月亮戒指. 她然后离开。",
-        "note_cn": "休息在赐福并与菈妮再次如果她 ' 奖励你。"
+        "description_cn": "将猎杀指头刀交给菈妮，她奖励你卡利亚权杖（法杖）并给你 inverted statue。然后她离开。",
+        "note_cn": "如果她没有给你奖励，在赐福休息后再与菈妮对话。"
       },
       {
         "id": 7,
@@ -843,7 +843,7 @@
         "zone": "AINSEL_RIVER",
         "note": "You must exhaust the dialogue by selecting \"Talk to doll\" each time you rest.",
         "optional": false,
-        "description_cn": "寻找细小菈妮人偶在安瑟尔河主要赐福. 赐福休息并与人偶重复直到她回应 (可以需要休息 2-3 时间)。",
+        "description_cn": "在安瑟尔河主流赐福找到细小的菈妮人偶。在赐福休息时与人偶对话至出现回应（可能需要休息2-3次）。",
         "note_cn": "必须重复对话至对话通过选择 \"与人偶\" 每个时间你休息。"
       },
       {
@@ -852,7 +852,7 @@
         "zone": "AINSEL_RIVER",
         "note": null,
         "optional": false,
-        "description_cn": "前进穿过安瑟尔河, 击败龙人士兵的诺克史黛拉, 并进入腐败湖。"
+        "description_cn": "前往安瑟尔河的诺克史黛拉，击败龙人士兵，涉水穿过腐败湖。"
       },
       {
         "id": 10,
@@ -860,7 +860,7 @@
         "zone": "LAKE_OF_ROT",
         "note": "Use the pillar platforms to avoid Rot buildup.",
         "optional": false,
-        "description_cn": "十字标记腐败湖, 击败女神的腐败首领, 并打开大门大回廊。",
+        "description_cn": "穿过腐败湖后，到达大回廊入口，通过大棺材进入。",
         "note_cn": "使用柱平台避免腐败积累。"
       },
       {
@@ -869,7 +869,7 @@
         "zone": "LAKE_OF_ROT",
         "note": "Astel is a mandatory boss for Ranni's questline.",
         "optional": false,
-        "description_cn": "穿过大回廊并寻找棺材那个拿取你艾斯缇, 天生的虚空首领竞技场. 击败艾斯缇。",
+        "description_cn": "穿过大回廊找到棺材，它会把你带到「自然之子」艾斯提的竞技场。击败艾斯提。",
         "note_cn": "艾斯缇是强制首领菈妮的支线。"
       },
       {
@@ -878,7 +878,7 @@
         "zone": "CONSECRATED_SNOWFIELD",
         "note": "Ranni will be kneeling where Rennala once was.",
         "optional": false,
-        "description_cn": "在艾斯缇, 进入月光祭坛高原. 头部玛努斯·塞利斯大教堂并找到菈妮下一步毁坏塔. 交给她的暗月亮戒指。",
+        "description_cn": "击败艾斯提后，进入月光祭坛高原，前往玛努斯·塞利斯大教堂找到菈妮的召唤标记，召唤她的暗月大剑。",
         "note_cn": "菈妮跪位置蕾娜菈一次曾是。"
       },
       {
@@ -887,7 +887,7 @@
         "zone": "CONSECRATED_SNOWFIELD",
         "note": "The summon sign for Ranni appears near the tower. Use it to be summoned.",
         "optional": false,
-        "description_cn": "重复对话至菈妮的对话. 她会给你暗月亮大剑并感谢在赐福休息并重新加载寻找她的召唤标记。",
+        "description_cn": "与菈妮对话至重复，她给你暗月大剑并感谢你。在赐福休息后重新加载，寻找她的召唤标记。",
         "note_cn": "召唤标记菈妮出现在附近塔. 使用召唤。"
       },
       {
@@ -955,8 +955,8 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "D dies automatically when you enter Nokron via Radahn's crater.",
         "optional": false,
-        "description_cn": "在死去 (触发方式：到达诺克隆恩), 寻找菲雅哭泣她的房间. 对话至重复。",
-        "note_cn": "死去自动当你进入诺克隆恩经由拉塔恩的陨石坑。"
+        "description_cn": "D死后（到达诺克隆恩触发），发现菲雅在房间里哭泣。对话至重复。",
+        "note_cn": "D会在史东薇尔城地下墓地死亡，除非已经提前被击败。"
       },
       {
         "id": 4,
@@ -965,7 +965,7 @@
         "note": "Accessible either via the coffin after Valiant Gargoyles in Siofra, or via the sewers under Leyndell.",
         "optional": false,
         "description_cn": "前往深根底层穿过从希芙拉水道或经由英勇石像鬼首领对抗。",
-        "note_cn": "可到达任一经由棺材在英勇石像鬼希芙拉, 或经由下水道下方王城罗德尔。"
+        "note_cn": "可以从死王子宝座旁到达，或者从深根底层水边往下走到希芙拉河。"
       },
       {
         "id": 5,
@@ -973,8 +973,8 @@
         "zone": "DEEPROOT",
         "note": "She is located near the \"Across the Roots\" site of grace.",
         "optional": false,
-        "description_cn": "寻找菲雅在深根底层, 包围通过她的勇士. 与她的. 她请求你带来死亡咒痕的死亡。",
-        "note_cn": "她位于附近 \"穿过根\" 赐福。"
+        "description_cn": "在深根底层寻找菲雅，她被自己的勇士环绕着。与她对话，她请求你带来死亡咒痕。",
+        "note_cn": "她位于「穿过树根」赐福附近。"
       },
       {
         "id": 6,
@@ -982,8 +982,8 @@
         "zone": "LIURNIA",
         "note": "Accessible via the Carian Study Hall inversion, or separately.",
         "optional": false,
-        "description_cn": "取回死亡咒痕的死亡从利耶尼亚神授塔 (顶部楼层, 尸体的葛德文)。",
-        "note_cn": "可到达经由卡利亚书斋倒转, 或独立。"
+        "description_cn": "从利耶尼亚神授塔（顶楼，葛德文的尸体上）取回死亡咒痕。",
+        "note_cn": "神塔在卡利亚书斋翻转后可达，也可以从神授塔底部进入。"
       },
       {
         "id": 7,
@@ -991,7 +991,8 @@
         "zone": "DEEPROOT",
         "note": null,
         "optional": false,
-        "description_cn": "返回菲雅并交给她的死亡咒痕的在赐福休息并来返回。"
+        "description_cn": "返回菲雅并交给她的死亡咒痕的在赐福休息并来返回。",
+        "note_cn": "选择拒绝才能继续菲雅的支线。"
       },
       {
         "id": 8,
@@ -999,8 +1000,8 @@
         "zone": "DEEPROOT",
         "note": "You need to rest at grace first, then Fia's champions will invade.",
         "optional": false,
-        "description_cn": "击败菲雅的勇士 (NPC 入侵小队包含的莱昂内尔, 罗伊, .)。",
-        "note_cn": "在赐福休息第一, 然后菲雅的勇士会入侵。"
+        "description_cn": "击败菲雅的英雄（NPC召唤：D的弟弟在第二场，贝纳尔等）。",
+        "note_cn": "击败菲雅的英雄后获得该物品。"
       },
       {
         "id": 9,
@@ -1008,7 +1009,7 @@
         "zone": "DEEPROOT",
         "note": "Fia will ask you to hold her.",
         "optional": false,
-        "description_cn": "与菲雅躺向下. 获得灾厄幽影召唤标记并完成最终步骤。",
+        "description_cn": "与躺下的菲雅对话。出现恶意之影的召唤标记，击败后获得死亡咒痕。然后回到菲雅处。",
         "note_cn": "菲雅请求你厅堂她的。"
       },
       {
@@ -1026,7 +1027,7 @@
         "zone": "DEEPROOT",
         "note": null,
         "optional": false,
-        "description_cn": "在弗尔·桑克斯, 重生赐福并拾取菲雅的套装并修复卢恩的死亡-王子从她的尸体。"
+        "description_cn": "在菲雅离开的地方，从她的尸体上拾取菲雅套装和修复卢恩。"
       }
     ],
     "rewards": [
@@ -1125,7 +1126,7 @@
         "note": "Direct interaction with his real body in the sewers unlocks his puppet summon.",
         "optional": false,
         "description_cn": "带来五温床诅咒食粪者在圆桌厅堂, 或寻找他的真实尸体弃置恶兆的地底 (王城罗德尔下水道) 并使用温床诅咒在他直接。",
-        "note_cn": "直接互动与他的真实尸体在下水道解锁他的傀儡召唤。"
+        "note_cn": "直接与下水道中他的真实尸体互动，解锁他的傀儡召唤。"
       },
       {
         "id": 9,
@@ -1177,8 +1178,8 @@
         "zone": "CAELID",
         "note": "Gowry appears as a merchant. Exhaust all dialogue.",
         "optional": false,
-        "description_cn": "与高瑞在他的小屋盖利德, 南的熏火墙赐福. 他请求你寻找针米莉森。",
-        "note_cn": "高瑞作为商人. 对话至重复。"
+        "description_cn": "在盖利德即将熄灭的城墙赐福南边的小屋找到盖里，他请你寻找米莉森。",
+        "note_cn": "盖里以商人形态出现，对话至重复。"
       },
       {
         "id": 2,
@@ -1203,7 +1204,7 @@
         "zone": "CAELID",
         "note": "The hidden path opens after lighting all three braziers in Sellia, Town of Sorcery.",
         "optional": false,
-        "description_cn": "去瑟利亚藏身处 (后面书架在瑟利亚, 解锁通过点燃三火焰塔). 击败诺克斯剑士双人内部进入仪式地点。",
+        "description_cn": "去瑟利亚隐藏洞窟（位于瑟利亚镇，通过点燃火台解锁），在内部击败诺克斯剑客双人组，这是修复仪式的地点。",
         "note_cn": "隐藏路径打开在点燃所有三火盆瑟利亚魔法镇。"
       },
       {
@@ -1221,7 +1222,7 @@
         "note": "Millicent is on the path near the Dominula, Windmill Village area in Altus.",
         "optional": false,
         "description_cn": "交给针米莉森 (她出现在北的黄金树凝视山丘赐福). 对话至重复。",
-        "note_cn": "米莉森是在路径附近风车, 风车村庄区域亚坛。"
+        "note_cn": "她就在赐福北边，坐在悬崖边。"
       },
       {
         "id": 7,
@@ -1229,7 +1230,7 @@
         "zone": "ALTUS",
         "note": null,
         "optional": false,
-        "description_cn": "重新加载区域. 米莉森移动到新位置: 风车村庄赐福附近阴影城堡. 与她的再次。"
+        "description_cn": "重新加载区域，米莉森移动到新位置：阴影城堡附近的风车村庄赐福处。再次与她对话。"
       },
       {
         "id": 8,
@@ -1245,7 +1246,7 @@
         "zone": "HALIGTREE",
         "note": "She is located in the inner section of Elphael.",
         "optional": false,
-        "description_cn": "前往圣树. 在祈祷房间赐福找到米莉森。对话至重复。",
+        "description_cn": "前往圣树，在祷告室赐福附近找到米莉森，对话至重复。",
         "note_cn": "她位于在内部区域的艾布雷菲尔。"
       },
       {
@@ -1254,7 +1255,7 @@
         "zone": "HALIGTREE",
         "note": "The summon signs are near the Drainage Channel grace in Elphael.",
         "optional": false,
-        "description_cn": "选择: 帮助米莉森击败她的姐妹(高瑞的请求)或背叛米莉森并帮助众姐妹击杀她的。决定决定你的奖励。",
+        "description_cn": "在圣树排水通道赐福附近找到米莉森。她需要做出抉择。选择帮助她还是与她为敌。",
         "note_cn": "召唤标记是附近排水水道赐福在艾布雷菲尔。"
       },
       {
@@ -1263,7 +1264,7 @@
         "zone": "HALIGTREE",
         "note": "Gowry dies if you help Millicent. He leaves his bell bearing.",
         "optional": false,
-        "description_cn": "如果帮助米莉森: 击败她的姐妹和她一起. 她死去并离开你腐烂翼剑徽章. 如果背叛她的: 拾取米莉森的义手从她的尸体。",
+        "description_cn": "如果你帮助米莉森：与她一同击败她的姐妹们。她死去后留下腐败翼剑徽章。如果你与她为敌：从她尸体上拾取米莉森的义手。",
         "note_cn": "高瑞死去如果帮助米莉森.他留下他的铃珠。"
       }
     ],
@@ -1312,8 +1313,8 @@
         "zone": "LIURNIA",
         "note": "She is near the entrance to the village, past the wolf packs.",
         "optional": false,
-        "description_cn": "前往村庄的白金在利耶尼亚. 找到涅斐丽并与她的。",
-        "note_cn": "他附近入口村庄, 过去包含。"
+        "description_cn": "前往利耶尼亚的白金村，找到涅斐丽并与她对话。",
+        "note_cn": "她在村庄入口附近，穿过狼群之后。"
       },
       {
         "id": 3,
@@ -1321,7 +1322,8 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "击败恶兆杀手首领在村庄的白金. 与涅斐丽再次对抗。"
+        "description_cn": "击败恶兆杀手首领在村庄的白金. 与涅斐丽再次对抗。",
+        "note_cn": "如果完成她的支线前杀了葛瑞克，她不会出现在圆桌厅堂。"
       },
       {
         "id": 4,
@@ -1329,7 +1331,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "Gideon is in his study.",
         "optional": false,
-        "description_cn": "回到圆桌厅堂与基甸关于涅斐丽, 然后与涅斐丽。",
+        "description_cn": "回到圆桌厅堂与百智爵士对话，然后寻找涅斐丽。",
         "note_cn": "基甸是在他的研究。"
       },
       {
@@ -1338,8 +1340,8 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "The Stormhawk King is located on the same chapel where you start the game.",
         "optional": false,
-        "description_cn": "给予涅斐丽风暴鹰王灰在一具尸体上顶部的小教堂的候王, 进入经由四钟楼传送门在利耶尼亚)。",
-        "note_cn": "风暴鹰王位于在相同小教堂位置你开始。"
+        "description_cn": "在半狼布莱泽的尸体上找到风暴鹰古王，需要经过塞尔维斯的地下药水房（在利耶尼亚）。",
+        "note_cn": "药水会永久结束她的支线，可在百智处查看。"
       },
       {
         "id": 6,
@@ -1365,7 +1367,7 @@
         "note": "Gostoc can be found near the main gate, then throughout the castle.",
         "optional": false,
         "description_cn": "对话门卫葛托克在史东薇尔城. 确保完成他的互动 (不要击杀他)。",
-        "note_cn": "葛托克可以找到附近主要大门, 然后整个城。"
+        "note_cn": "确保不要杀死葛托克，否则无法完成王座室结局。"
       },
       {
         "id": 9,
@@ -1373,7 +1375,7 @@
         "zone": "STORMVEIL",
         "note": "You may need to rest at the gate and back at the Secluded Cell grace.",
         "optional": false,
-        "description_cn": "在击败葛瑞克并重新加载区域, 找到涅斐丽, 肯尼斯, 并葛托克一起史东薇尔城王座房间. 对话至重复。",
+        "description_cn": "击败葛瑞克并重新加载区域后，在史东薇尔城王座室找到涅斐丽、肯尼斯和葛托克，对话至重复。",
         "note_cn": "可以需要休息在大门并返回隐蔽牢房赐福。"
       },
       {
@@ -1382,7 +1384,7 @@
         "zone": "STORMVEIL",
         "note": "She sells Smithing Stones.",
         "optional": false,
-        "description_cn": "在赐福休息然后返回. 涅斐丽是现统治者的史东薇尔城. 她奖励你使用武具护符并成为商人。",
+        "description_cn": "在赐福休息后返回，涅斐丽成为史东薇尔的统治者，她奖励你古王护符或风暴鹰作为盟友。",
         "note_cn": "她出售锻造。"
       }
     ],
@@ -1421,7 +1423,7 @@
         "zone": "LIMGRAVE",
         "note": "Patches will ambush you when you try to open the chest.",
         "optional": false,
-        "description_cn": "在雾水洞窟 (宁姆格福, 附近雾水海岸赐福)找到帕奇。进入洞窟并接近他。",
+        "description_cn": "在蒙流洞窟（宁姆格福，蒙流河岸赐福北边）找到帕奇，进入洞窟并接近他。",
         "note_cn": "帕奇会埋伏你当你打开宝箱。"
       },
       {
@@ -1431,7 +1433,7 @@
         "note": "If you kill him, his quest ends.",
         "optional": false,
         "description_cn": "对抗帕奇直到他投降选择饶恕他 (不要交付结束)。",
-        "note_cn": "如果击杀他, 他的支线结局。"
+        "note_cn": "如果杀死他，该支线结束。"
       },
       {
         "id": 3,
@@ -1439,7 +1441,7 @@
         "zone": "LIMGRAVE",
         "note": "Buy the gesture and important items from him.",
         "optional": false,
-        "description_cn": "与帕奇并对话至重复. 他打开并出售 \"帕奇的下蹲\" 动作。",
+        "description_cn": "与帕奇对话至重复，他开店并出售「帕奇的蹲姿」动作。",
         "note_cn": "购买动作并重要道具从他。"
       },
       {
@@ -1456,8 +1458,8 @@
         "zone": "ALTUS",
         "note": "He is in the courtyard of Shaded Castle, near the poison swamp.",
         "optional": false,
-        "description_cn": "在亚坛高原找到帕奇阴影城堡。他伪装作为商人. 对话至重复。",
-        "note_cn": "他在庭院的阴影城堡, 附近毒沼泽。"
+        "description_cn": "在亚坛高原的阴影城堡找到帕奇，他伪装成商人。对话至重复。",
+        "note_cn": "在庭院对面，阴影城堡区域。"
       },
       {
         "id": 6,
@@ -1466,7 +1468,7 @@
         "note": "He is on a cliff-edge, pretending to be a merchant.",
         "optional": false,
         "description_cn": "在守护者驻屯地赐福找到巨人山顶。",
-        "note_cn": "他在悬崖-, 假装商人。"
+        "note_cn": "再次回到蒙流洞窟，他已离开。"
       },
       {
         "id": 7,
@@ -1474,8 +1476,8 @@
         "zone": "LIMGRAVE",
         "note": "This is the end of his quest. Loot his equipment from the cave.",
         "optional": false,
-        "description_cn": "回到雾水洞窟最终时间帕奇有左后面 \"帕奇套装\" 并 \"矛 +7\" 作为他的遗产. 他有离去在旅程。",
-        "note_cn": "这是结局的他的支线. 拾取他的装备从洞窟。"
+        "description_cn": "最后一次回到蒙流洞窟，帕奇留下了「帕奇套装」和「矛+7」作为遗产。他继续踏上旅程。",
+        "note_cn": "这是他的支线终点。从洞窟拾取他的装备。"
       }
     ],
     "rewards": [
@@ -1513,7 +1515,7 @@
         "zone": "LIMGRAVE",
         "note": "He is the first NPC you encounter after the tutorial.",
         "optional": false,
-        "description_cn": "与梵雷 在初始引导赐福宁姆格福. 对话至重复。",
+        "description_cn": "在宁姆格福的「引导之初」赐福遇见梵雷，对话至重复。",
         "note_cn": "他第一 NPC 你遇到在教程。"
       },
       {
@@ -1522,7 +1524,7 @@
         "zone": "LIMGRAVE",
         "note": "He comments on the Hold.",
         "optional": false,
-        "description_cn": "前往圆桌厅堂第一时间 (在休息门前赐福或获得层). 返回与梵雷 再次。",
+        "description_cn": "第一次前往圆桌厅堂（在关卡前赐福休息后），再次与梵雷对话。",
         "note_cn": "他评论在厅堂。"
       },
       {
@@ -1531,7 +1533,8 @@
         "zone": "LIMGRAVE",
         "note": null,
         "optional": false,
-        "description_cn": "重复对话至梵雷' 对话再次. 他会给你 \"王的血的恩惠\" 并请求你在血的女巫。"
+        "description_cn": "再次与梵雷对话至重复，他给你「鲜血君王的恩宠」并要求你让女巫沾染鲜血。",
+        "note_cn": "「沾染女巫」是指入侵一个女巫，或在白面具支线对话中推进。"
       },
       {
         "id": 4,
@@ -1539,7 +1542,7 @@
         "zone": "MULTIPLE",
         "note": "The Church of Inhibition is west of the Bellum Highway in Liurnia.",
         "optional": false,
-        "description_cn": "使用恶臭血指头 (给予过通过梵雷) 入侵三其他世界成功, 或寻找死亡女巫在镇静教堂利耶尼亚恩惠。",
+        "description_cn": "使用血指（通过入侵其他玩家）多次成功入侵，或找到女巫的尸体在利耶尼亚北边的镇静教堂前。",
         "note_cn": "镇静教堂是西的彼鲁姆大道在利耶尼亚。"
       },
       {
@@ -1548,7 +1551,8 @@
         "zone": "LIMGRAVE",
         "note": null,
         "optional": false,
-        "description_cn": "返回梵雷. 他奖励你使用 \"血指头\" (无限使用入侵道具) 并布血。"
+        "description_cn": "回到梵雷处，他奖励你「血指」（无限使用的入侵道具）和纯血骑士勋章。",
+        "note_cn": "纯血骑士勋章是传送到蒙格温王朝的关键道具。"
       },
       {
         "id": 6,
@@ -1556,8 +1560,8 @@
         "zone": "LIMGRAVE",
         "note": "This is a key teleport item. Do NOT discard it.",
         "optional": false,
-        "description_cn": "梵雷 给予你 \"纯血骑士的徽章\". 使用从你的背包传送蒙格温王朝。",
-        "note_cn": "这是钥匙传送道具. 不要丢弃。"
+        "description_cn": "梵雷给你「纯血骑士勋章」，从背包中使用直接传送至蒙格温王朝庙。",
+        "note_cn": "这是一个关键传送道具，不要丢弃。"
       },
       {
         "id": 7,
@@ -1565,7 +1569,8 @@
         "zone": "MOHGWYN_PALACE",
         "note": null,
         "optional": false,
-        "description_cn": "与梵雷 在蒙格温王朝王朝灵庙 (附近王朝灵庙赐福). 对话至重复。"
+        "description_cn": "与梵雷 在蒙格温王朝王朝灵庙 (附近王朝灵庙赐福). 对话至重复。",
+        "note_cn": "和NPC互动后对话至重复。"
       },
       {
         "id": 8,
@@ -1573,7 +1578,7 @@
         "zone": "MOHGWYN_PALACE",
         "note": null,
         "optional": false,
-        "description_cn": "击败蒙格, 王的血. 返回梵雷' 位置 (他可能有移动到)。"
+        "description_cn": "击败「鲜血君王」蒙格，回到梵雷的位置（他可能移动过）。"
       },
       {
         "id": 9,
@@ -1581,7 +1586,7 @@
         "zone": "MOHGWYN_PALACE",
         "note": "Varré becomes hostile if you kill Mohg before getting his medal.",
         "optional": false,
-        "description_cn": "如果击败蒙格之前结束支线, 可以仍然完成步骤通过访问梵雷 在蒙格温王朝赐福。",
+        "description_cn": "在击败蒙格之前推进支线，他仍然可用，可在蒙格温王朝的赐福与他对话。",
         "note_cn": "梵雷 成为敌对如果击杀蒙格之前获得他的徽章。"
       },
       {
@@ -1590,8 +1595,8 @@
         "zone": "MOHGWYN_PALACE",
         "note": "Optional: you can keep him alive as a merchant.",
         "optional": true,
-        "description_cn": "击杀或饶恕梵雷 在结局的支线. 他掉落战争外科医生套装并他的铃珠如果击杀。",
-        "note_cn": "可选: 可以城他活着作为商人。"
+        "description_cn": "在支线结束时选择杀死或放过梵雷，他会掉落战外科医师套装（如果杀死）。",
+        "note_cn": "如果你杀了他，他就不再提供任何服务。"
       }
     ],
     "rewards": [
@@ -1662,7 +1667,8 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "返回托普斯并告诉他你进入学院. 他会给你 \"辉石钥匙\" 并请求你交付某物。"
+        "description_cn": "回到托普斯处，告诉他你进入了学院，他给你「辉石钥匙」托你交给某人。",
+        "note_cn": "这把钥匙是用来打开学院封印的辉石钥匙。"
       },
       {
         "id": 6,
@@ -1670,7 +1676,7 @@
         "zone": "RAYA_LUCARIA",
         "note": null,
         "optional": false,
-        "description_cn": "推进学院. 在击败红狼的拉达冈, 寻找 \"学院辉石钥匙\" 讨论大厅。"
+        "description_cn": "推进学院进度，击败拉达冈的红狼后，找到「学院辉石钥匙」从一间教室。"
       },
       {
         "id": 7,
@@ -1686,8 +1692,8 @@
         "zone": "RAYA_LUCARIA",
         "note": "Thops dies here. His body is found at the church.",
         "optional": false,
-        "description_cn": "继续教堂位置学派教室在一具尸体上附近封印门, 找到托普斯的铃珠并他的套装。",
-        "note_cn": "托普斯死去 . 他的尸体是找到在教堂。"
+        "description_cn": "在正门的尸体上找到教室钥匙后，如果之前错过，回到教室，找到托普斯的尸体并拾取他的装备。",
+        "note_cn": "托普斯已去世，他的尸体在教堂被发现。"
       },
       {
         "id": 9,
@@ -1734,7 +1740,7 @@
         "zone": "STORMVEIL",
         "note": "He is before the area where you fight the Banished Knight.",
         "optional": false,
-        "description_cn": "在城墙塔赐福找到罗杰尔史东薇尔城, 在阳台。对话至重复。",
+        "description_cn": "在史东薇尔城的城墙赐福旁边找到罗杰尔，在阳台处对话至重复。",
         "note_cn": "他之前区域位置你对抗放逐骑士。"
       },
       {
@@ -1752,7 +1758,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "与罗杰尔在圆桌厅堂. 他请求你寻找黑匕首印记并死亡咒痕的死亡。"
+        "description_cn": "与圆桌厅堂的罗杰尔对话，他请你寻找黑刀烙印并带回夜与火之城。"
       },
       {
         "id": 4,
@@ -1760,7 +1766,7 @@
         "zone": "NOKRON",
         "note": "It's on a body near the gargoyle that shoots projectiles.",
         "optional": false,
-        "description_cn": "前往诺克隆恩在黑夜神域区域, 寻找黑匕首印记一具尸体上附近假黑夜女巫。",
+        "description_cn": "前往诺克隆恩的黑夜神域，在一个尸体上找到黑刀烙印（位于黑刀刺客附近）。",
         "note_cn": "' 在尸体附近石像鬼那个射击弹射物。"
       },
       {
@@ -1785,7 +1791,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "Rogier is dying.",
         "optional": false,
-        "description_cn": "进度菈妮的支线. 当菈妮离开 (在给予她的猎杀指头刀刃), 返回罗杰尔。",
+        "description_cn": "推进菈妮的支线，当菈妮离开后（交付猎杀指头刀后），回到罗杰尔处。",
         "note_cn": "罗杰尔是濒死。"
       },
       {
@@ -1794,7 +1800,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "Loot his armor set from where he sat.",
         "optional": false,
-        "description_cn": "重复对话至罗杰尔的对话. 他会给你他的细剑 +8 之前关口 . 寻找他的套装并铃珠在他的尸体。",
+        "description_cn": "重复对话至罗杰尔的对话. 他会给你他的细剑 +8 之前关口。寻找他的套装并铃珠在他的尸体。",
         "note_cn": "拾取他的套装套装从位置他。"
       }
     ],
@@ -1834,7 +1840,7 @@
         "note": "She appears after you've met Yura near Murkwater and progressed his questline, or after you've inherited the Frenzied Flame.",
         "optional": false,
         "description_cn": "遇见海妲在湖畔断崖赐福利耶尼亚. 他请求夏玻利利葡萄。",
-        "note_cn": "她出现在你的尤拉附近黑水并推进他的支线, 或在你的继承癫火火焰。"
+        "note_cn": "夏玻利利的葡萄关联到海妲和海妲的支线，最终引导你继承癫火。"
       },
       {
         "id": 2,
@@ -1868,7 +1874,7 @@
         "zone": "LIURNIA",
         "note": "She is near the Church of Vows.",
         "optional": false,
-        "description_cn": "重新加载. 海妲移动到彼鲁姆教堂在北部利耶尼亚. 与她的。",
+        "description_cn": "重新加载，海妲移动到利耶尼亚北部的彼鲁姆教堂。与她对话。",
         "note_cn": "他附近教堂的誓言。"
       },
       {
@@ -1904,7 +1910,7 @@
         "zone": "CAPITAL",
         "note": "This locks you into the Frenzied Flame ending unless you use Miquella's Needle.",
         "optional": false,
-        "description_cn": "在继承癫火火焰, 与海妲. 她揭示她的真实本质并成为女巫的癫火火焰。",
+        "description_cn": "继承癫火后，与海妲对话。她揭示自己的真实身份是女巫的指头少女。",
         "note_cn": "这个锁住你在癫火火焰结局除非你使用米凯拉的针。"
       }
     ],
@@ -1941,8 +1947,8 @@
         "zone": "LIMGRAVE",
         "note": "She is east of Agheel Lake.",
         "optional": false,
-        "description_cn": "在宁姆格福, 废墟建筑就北的驿站街遗迹地下室找到瑟濂。与她的并了解魔法。",
-        "note_cn": "他东的亚基尔湖。"
+        "description_cn": "在宁姆格福，驿站街遗迹以北的废墟建筑地下室找到瑟濂，与她对话了解魔法。",
+        "note_cn": "她在这个地下室的魔法师囚笼后面，对话前先旋转视角。"
       },
       {
         "id": 2,
@@ -1950,7 +1956,7 @@
         "zone": "WEEPING_PENINSULA",
         "note": "This is needed later for the quest.",
         "optional": false,
-        "description_cn": "前往寻罪者废墟在啜泣半岛 (西南宁姆格福). 地下室找到瑟濂的真实尸体囚禁。",
+        "description_cn": "前往啜泣半岛的寻妖废墟（宁姆格福西南），在那里找到瑟濂的真实尸体。",
         "note_cn": "这是需要之后支线。"
       },
       {
@@ -1968,7 +1974,7 @@
         "zone": "LIMGRAVE",
         "note": null,
         "optional": false,
-        "description_cn": "返回瑟濂在宁姆格福并告诉她的关于原始辉石. 她请求你带来她的。"
+        "description_cn": "回到宁姆格福的瑟濂处，告诉她关于原始辉石的事。她请你帮她找到它。"
       },
       {
         "id": 5,
@@ -1976,7 +1982,8 @@
         "zone": "CAELID",
         "note": null,
         "optional": false,
-        "description_cn": "去隐藏地下室在瑟利亚并取回瑟濂的原始辉石. 交给她的。"
+        "description_cn": "前往瑟利亚的隐藏地下室，取回瑟濂的原始辉石，交给她。",
+        "note_cn": "隐藏地下室在瑟利亚镇的一个书架后面。"
       },
       {
         "id": 6,
@@ -1984,8 +1991,8 @@
         "zone": "LIMGRAVE",
         "note": "This is the branching point.",
         "optional": false,
-        "description_cn": "瑟濂告诉你关于她的竞争对手, 杰廉. 她需要你帮助她的夺回学院. 选择站在瑟濂或杰廉一边。",
-        "note_cn": "这是分支点。"
+        "description_cn": "瑟濂告诉你关于她的对手杰廉的事，她需要你帮她夺回学院。选择站在瑟濂或杰廉一方。",
+        "note_cn": "与杰廉对话前，建议先探索拉塔恩的祭典。"
       },
       {
         "id": 7,
@@ -1993,8 +2000,8 @@
         "zone": "CAELID",
         "note": "After Radahn, Jerren moves.",
         "optional": false,
-        "description_cn": "如果站队与瑟濂: 前往红狮子城在盖利德并与杰廉触发拉塔恩祭典如果不已经。",
-        "note_cn": "在拉塔恩, 杰廉移动到。"
+        "description_cn": "如果站在瑟濂一方：前往盖利德的红狮子城与杰廉对话，触发拉塔恩祭典。",
+        "note_cn": "在红狮子城与杰廉对话前，建议先完成拉塔恩祭典。"
       },
       {
         "id": 8,
@@ -2003,7 +2010,7 @@
         "note": "This completes the task for Sellen.",
         "optional": false,
         "description_cn": "在啜泣半岛 (他猎杀瑟濂)找到杰廉寻罪者废墟。击杀杰廉。",
-        "note_cn": "这个完成瑟濂。"
+        "note_cn": "你需要找到塞露薇的药师秘密笔记后才能得知真相。"
       },
       {
         "id": 9,
@@ -2011,7 +2018,7 @@
         "zone": "RAYA_LUCARIA",
         "note": "She is at Rennala's location.",
         "optional": false,
-        "description_cn": "前往宏大图书馆的雷亚卢卡利亚 (在击败蕾娜菈). 瑟濂的灵魂是现在新尸体. 与她的。",
+        "description_cn": "前往雷亚卢卡利亚大书库（击败蕾娜菈后），瑟濂的灵魂已附在新躯体上。与她对话。",
         "note_cn": "他在蕾娜菈的位置。"
       },
       {
@@ -2020,7 +2027,7 @@
         "zone": "WEEPING_PENINSULA",
         "note": "Alternate ending.",
         "optional": false,
-        "description_cn": "如果站队与杰廉: 击败瑟濂在寻罪者废墟. 她掉落魔女套装并辉石克里斯. 杰廉奖励你。",
+        "description_cn": "如果站在杰廉一方：在寻妖废墟击败瑟濂，她掉落魔女套装和瑟濂的辉石。",
         "note_cn": "替代结局。"
       },
       {
@@ -2029,8 +2036,8 @@
         "zone": "RAYA_LUCARIA",
         "note": "The transformation happens after reloading. Loot her set from her body.",
         "optional": false,
-        "description_cn": "在站队与瑟濂, 她成为新领袖的雷亚卢卡利亚. 可以购买所有她的魔法. 最终, 她转化进入创星魔女 (的面对)。",
-        "note_cn": "转化发生在重新加载. 拾取她的套装从她的尸体。"
+        "description_cn": "如果站在瑟濂一方，她成为雷亚卢卡利亚的新领导者，你可以向她购买强力魔法。然而，她最终会变成创魔女（球状）。",
+        "note_cn": "重新加载后会触发转化，从她的身体上拾取套装。"
       }
     ],
     "rewards": [
@@ -2070,7 +2077,7 @@
         "zone": "LIMGRAVE",
         "note": "He is under the broken bridge near the Murkwater Cave entrance.",
         "optional": false,
-        "description_cn": "寻找尤拉下方废墟附近雾水海岸 (宁姆格福). 他警告你关于涅利乌斯。",
+        "description_cn": "在蒙流海岸附近的废墟下找到尤拉，他警告你关于涅利乌斯的事。",
         "note_cn": "他下方破损大桥附近雾水洞窟入口。"
       },
       {
@@ -2079,8 +2086,8 @@
         "zone": "LIMGRAVE",
         "note": "If you defeat Nerijus alone, Yura still acknowledges you.",
         "optional": false,
-        "description_cn": "当涅利乌斯入侵附近雾水洞窟, 尤拉作为召唤标记. 召唤他帮助击败涅利乌斯。",
-        "note_cn": "如果击败涅利乌斯独自, 尤拉仍然承认你。"
+        "description_cn": "涅利乌斯在蒙流洞窟附近入侵时，尤拉作为可召唤标记出现，召唤他协助击败涅利乌斯。",
+        "note_cn": "涅利乌斯入侵时召唤尤拉，他会自然协助你。"
       },
       {
         "id": 3,
@@ -2096,7 +2103,7 @@
         "zone": "LIURNIA",
         "note": "He is on a hill near the lake.",
         "optional": false,
-        "description_cn": "前往主要学院大门赐福在利耶尼亚. 尤拉 (入侵作为艾琉诺拉伪装?)—实际, 寻找尤拉附近画家的破屋在西部利耶尼亚。",
+        "description_cn": "前往利耶尼亚的「学院正门口」赐福，尤拉早已不在了。实际上，在利耶尼亚北部找到艾琉诺拉。",
         "note_cn": "他在附近湖。"
       },
       {
@@ -2105,7 +2112,7 @@
         "zone": "ALTUS",
         "note": null,
         "optional": false,
-        "description_cn": "寻找尤拉在玛丽卡第二教堂亚坛高原. 他受伤。"
+        "description_cn": "在亚坛高原的玛莉卡第二教堂找到尤拉，他受了伤。"
       },
       {
         "id": 6,
@@ -2113,7 +2120,7 @@
         "zone": "ALTUS",
         "note": "Speak to Shabriri's eye to get the Frenzied Flame info.",
         "optional": false,
-        "description_cn": "在重新加载, 尤拉有消失. 他的长牙是地上附近. 夏玻利利出现在他的地点。",
+        "description_cn": "重新加载后，尤拉已消失，他的长牙掉在地上。夏玻利利出现在他的位置。",
         "note_cn": "与夏玻利利的眼获得癫火火焰信息。"
       },
       {
@@ -2122,7 +2129,7 @@
         "zone": "ALTUS",
         "note": "Shabriri is Yura's body possessed by the Frenzied Flame.",
         "optional": false,
-        "description_cn": "任一向上长牙 (尤拉的太刀) 并离开, 或与夏玻利利. 夏玻利利请求你继承癫火火焰。",
+        "description_cn": "捡起长牙（尤拉的太刀）后离开，或与夏玻利利对话。夏玻利利占据了他的身体。",
         "note_cn": "夏玻利利是尤拉的尸体附身通过癫火火焰。"
       },
       {
@@ -2131,7 +2138,7 @@
         "zone": "ALTUS",
         "note": "Eleonora drops Eleonora's Poleblade.",
         "optional": false,
-        "description_cn": "寻找艾琉诺拉入侵在玛丽卡第二教堂 (她作为红标记). 击败她的. 可以不召唤尤拉。",
+        "description_cn": "在玛莉卡第二教堂找到艾琉诺拉的入侵（红色标记），击败她。你也可以召唤尤拉协助。",
         "note_cn": "艾琉诺拉掉落艾琉诺拉的双头薙刀。"
       }
     ],
@@ -2169,7 +2176,7 @@
         "note": "Jarburg is in the northeastern part of Liurnia, on a cliff overlooking the lake.",
         "optional": false,
         "description_cn": "在利耶尼亚 (雾峡谷附近利耶尼亚湖岸赐福)找到壶村。重复对话至对话与所有。",
-        "note_cn": "壶村是在东北部分的利耶尼亚, 悬崖眺望湖。"
+        "note_cn": "他会在利耶尼亚西部的某个位置出现，注意不要错过。"
       },
       {
         "id": 2,
@@ -2177,7 +2184,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "对话小壶重复并对话至重复. 他对话关于想亚历山大。"
+        "description_cn": "与小壶反复对话至重复，他谈及想去火山官邸。"
       },
       {
         "id": 3,
@@ -2185,7 +2192,7 @@
         "zone": "LIURNIA",
         "note": "Return after step 3 (Redmane Castle) and step 6 (Seethewater).",
         "optional": false,
-        "description_cn": "进度亚历山大的支线. 每个时间你帮助亚历山大, 返回告诉小壶故事。",
+        "description_cn": "推进亚历山大支线。每次帮助亚历山大后，回去把小壶的事告诉他。",
         "note_cn": "返回在步骤 3 (红狮子城) 并步骤 6 (沸滚河)。"
       },
       {
@@ -2194,7 +2201,7 @@
         "zone": "LIURNIA",
         "note": "Jarburg is being attacked.",
         "optional": false,
-        "description_cn": "在亚历山大的死亡法姆·亚兹拉, 返回壶村. 重新加载区域。",
+        "description_cn": "亚历山大在法姆·亚兹拉去世后，回到壶村。重新加载区域。",
         "note_cn": "壶村是攻击。"
       },
       {
@@ -2203,7 +2210,7 @@
         "zone": "LIURNIA",
         "note": "Only the larger jars attack.",
         "optional": false,
-        "description_cn": "击败入侵 (敌对敌人). 保护村庄。",
+        "description_cn": "击败入侵的壶敌人，保护村庄。",
         "note_cn": "仅更大攻击。"
       },
       {
@@ -2212,7 +2219,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "对话小壶. 他但决定. 他会给你同伴护符。"
+        "description_cn": "与小壶对话，他悲伤但坚定，给你伙伴壶护符。"
       },
       {
         "id": 7,
@@ -2220,7 +2227,7 @@
         "zone": "LIURNIA",
         "note": "Diallos dies defending Jarburg.",
         "optional": false,
-        "description_cn": "重新加载区域. 拾取迪亚罗斯的套装从位置迪亚罗斯死去 (附近喷泉)。",
+        "description_cn": "重新加载区域，在狄亚罗斯死去的地方（喷泉附近）拾取狄亚罗斯套装。",
         "note_cn": "迪亚罗斯死去防御壶村。"
       }
     ],
@@ -2257,7 +2264,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "与迪亚罗斯在圆桌厅堂. 他对话关于他的搜索他的仆人拉妮亚。"
+        "description_cn": "在圆桌厅堂遇见狄亚罗斯，他自我介绍。"
       },
       {
         "id": 2,
@@ -2265,7 +2272,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": true,
-        "description_cn": "返回在进度. 他提及他的去利耶尼亚搜索。"
+        "description_cn": "在圆桌厅堂与狄亚罗斯对话，他提到火山官邸。"
       },
       {
         "id": 3,
@@ -2273,7 +2280,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "在利耶尼亚, 坐附近路径找到迪亚罗斯学院门前镇。重复对话至对话。"
+        "description_cn": "前往壶村，发现狄亚罗斯在那里保护小壶们。与他对话。"
       },
       {
         "id": 4,
@@ -2281,7 +2288,7 @@
         "zone": "VOLCANO_MANOR",
         "note": "Diallos joins the Manor voluntarily.",
         "optional": false,
-        "description_cn": "加入火山官邸. 与迪亚罗斯 (他同伴叛律者)。",
+        "description_cn": "推进亚历山大支线，狄亚罗斯的对话会变化。",
         "note_cn": "迪亚罗斯加入官邸自愿。"
       },
       {
@@ -2290,7 +2297,7 @@
         "zone": "VOLCANO_MANOR",
         "note": null,
         "optional": false,
-        "description_cn": "完成第一火山官邸暗杀 (击杀旧骑士伊斯特万). 迪亚罗斯是印象深刻。"
+        "description_cn": "击败入侵的壶敌人后，狄亚罗斯已牺牲。从他的尸体旁拾取狄亚罗斯套装。"
       },
       {
         "id": 6,
@@ -2298,7 +2305,7 @@
         "zone": "VOLCANO_MANOR",
         "note": null,
         "optional": false,
-        "description_cn": "与迪亚罗斯在官邸. 他离开, 说他有找到他的目的。"
+        "description_cn": "在火山官邸遇见狄亚罗斯，他离开了，说他找到了自己的目的。"
       },
       {
         "id": 7,
@@ -2306,7 +2313,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "前往壶村在利耶尼亚. 找到迪亚罗斯 , 活和平使用。"
+        "description_cn": "前往利耶尼亚地下，找到狄亚罗斯并给火山官邸的信。"
       },
       {
         "id": 8,
@@ -2314,7 +2321,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "在亚历山大的死亡, 返回壶村. 迪亚罗斯死去防御村庄从攻击。"
+        "description_cn": "完成火山官邸任务后，回到壶村，狄亚罗斯已死去，在壶村守卫。"
       },
       {
         "id": 9,
@@ -2354,8 +2361,8 @@
         "zone": "DRAGONBARROW",
         "note": "Take the teleporter behind the Third Church of Marika, or ride through Caelid.",
         "optional": false,
-        "description_cn": "寻找野兽神殿在龙墓, 盖利德 (东北角落). 与古兰格。",
-        "note_cn": "拿取传送点后面玛丽卡第三教堂, 或穿过盖利德。"
+        "description_cn": "在盖利德的龙墓（东北角）找到野兽神殿，与古兰格对话。",
+        "note_cn": "要到达野兽神殿，要么从龙墓的传送陷阱过去，要么穿越盖利德峡谷。"
       },
       {
         "id": 2,
@@ -2363,7 +2370,7 @@
         "zone": "DRAGONBARROW",
         "note": null,
         "optional": false,
-        "description_cn": "古兰格告诉你他可以气味死根在你. 提交他死根. 他会给你野兽眼并爪祷告。"
+        "description_cn": "古兰格说他能闻到你身上死亡根的气息。提交一个死亡根，他会给你野兽爪击作为奖励。"
       },
       {
         "id": 3,
@@ -2379,7 +2386,7 @@
         "zone": "DRAGONBARROW",
         "note": null,
         "optional": false,
-        "description_cn": "提交死根 #2: 奖励—兽投石 (祷告) + 1x 古龙岩锻造石 (如果提交足够)。"
+        "description_cn": "提交第三个死亡根：奖励野兽活力祷告。"
       },
       {
         "id": 5,
@@ -2387,7 +2394,7 @@
         "zone": "DRAGONBARROW",
         "note": null,
         "optional": false,
-        "description_cn": "提交死根 #3: 奖励—野兽体质 + 野兽爪 2。"
+        "description_cn": "提交第二/第四/第五至第九个死亡根：继续获得奖励。"
       },
       {
         "id": 6,
@@ -2395,8 +2402,8 @@
         "zone": "DRAGONBARROW",
         "note": "Do NOT kill him. He will surrender.",
         "optional": false,
-        "description_cn": "提交死根 #4: 奖励—古兰格成为敌对. 对抗他直到他安抚向下 (减少血量 ~50%). 他返回他的。",
-        "note_cn": "不要击杀他. 他会投降。"
+        "description_cn": "提交第4个死亡根：古兰格变得具有攻击性。与他战斗直到他冷静下来（造成约50%血量伤害），然后对话至重复。",
+        "note_cn": "不要杀死他，他会投降。"
       },
       {
         "id": 7,
@@ -2404,7 +2411,7 @@
         "zone": "DRAGONBARROW",
         "note": null,
         "optional": false,
-        "description_cn": "在安抚他, 提交死根 #5: 奖励—石的古兰格 (祷告)。"
+        "description_cn": "在法姆·亚兹拉，提交第5个死亡根：获得古兰格的岩石祷告（石块）。"
       },
       {
         "id": 8,
@@ -2429,7 +2436,7 @@
         "zone": "DRAGONBARROW",
         "note": "Gurranq is revealed to be Maliketh.",
         "optional": false,
-        "description_cn": "在击败玛利喀斯法姆·亚兹拉, 古兰格消失从野兽神殿。",
+        "description_cn": "在逐渐崩毁的法姆·亚兹拉击败野兽祭司，古兰格最终消失于野兽神殿。",
         "note_cn": "古兰格是揭示玛利喀斯。"
       }
     ],
@@ -2470,7 +2477,7 @@
         "zone": "STORMVEIL",
         "note": "She is huddled in the corner.",
         "optional": false,
-        "description_cn": "在史东薇尔城, 暗房间过去城墙塔赐福 (房间与多死亡尸体)找到罗德莉卡。",
+        "description_cn": "在史东薇尔城，从断崖赐福旁边的房间（有许多活着尸体的房间）找到罗德莉卡。",
         "note_cn": "他蜷缩在角落。"
       },
       {
@@ -2487,7 +2494,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "回到圆桌厅堂在铁匠修古找到罗德莉卡。与她的。"
+        "description_cn": "回到圆桌厅堂，在铁匠修古处找到罗德莉卡。与她对话。"
       },
       {
         "id": 4,
@@ -2495,7 +2502,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "对话铁匠修古关于罗德莉卡. 他请求你交付信息她的。"
+        "description_cn": "与铁匠修古谈论罗德莉卡。他请你帮忙传话给她。"
       },
       {
         "id": 5,
@@ -2503,7 +2510,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "交付修古的信息罗德莉卡. 重新加载区域。"
+        "description_cn": "将修古的口信告诉罗德莉卡。重新加载区域。"
       },
       {
         "id": 6,
@@ -2511,7 +2518,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": false,
-        "description_cn": "与罗德莉卡再次. 她同意成为灵魂调灵. 她移动到房间对面修古。"
+        "description_cn": "再次与罗德莉卡对话。她同意成为调灵师，搬到铁匠修古旁边。"
       },
       {
         "id": 7,
@@ -2519,7 +2526,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "She needs Glovewort to upgrade.",
         "optional": false,
-        "description_cn": "在圆桌厅堂获得暗 (-蒙葛特), 罗德莉卡可以强化你的骨灰 +10. 对话至重复。",
+        "description_cn": "圆桌厅堂变暗后（击败蒙葛特之后），罗德莉卡可以将你的骨灰强化至+10。对话至重复。",
         "note_cn": "她需要灵依铃兰强化。"
       },
       {
@@ -2528,7 +2535,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": null,
         "optional": true,
-        "description_cn": "寻找 \"罗德莉卡的灵魂套装\" 在史东薇尔城如果错过之前, 或她给予你最终。"
+        "description_cn": "如果之前在史东薇尔城错过了「罗德莉卡的灵魂套装」，可以回去找，或者她最终也会给你。"
       }
     ],
     "rewards": [
@@ -2564,7 +2571,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "遇见菈雅在利耶尼亚, 亭北的拉斯基亚废墟 (附近湖岸). 他请求帮助取回她的项链。"
+        "description_cn": "在利耶尼亚，拉斯卡废墟以北的凉亭遇见菈雅，她请你帮她取回被偷的项链。"
       },
       {
         "id": 2,
@@ -2572,8 +2579,8 @@
         "zone": "LIURNIA",
         "note": "Boggart is boiling prawns near the lakeside.",
         "optional": false,
-        "description_cn": "项链曾是偷走通过大虾哥博格特. 购买项链从博格特 1000 卢恩, 或击杀他。",
-        "note_cn": "博格特是沸滚虾附近湖边。"
+        "description_cn": "项链被流氓博格特偷走。从博格特处以1000卢恩购回，或直接杀死他。",
+        "note_cn": "购买是最简单的办法，但如果你杀了他也能得到项链。"
       },
       {
         "id": 3,
@@ -2581,7 +2588,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "返回项链菈雅. 她奖励你并给予你 \"火山官邸邀请\" 道具。"
+        "description_cn": "将项链还给菈雅，她感谢你并给你「火山官邸的邀请函」。"
       },
       {
         "id": 4,
@@ -2606,7 +2613,8 @@
         "zone": "VOLCANO_MANOR",
         "note": null,
         "optional": false,
-        "description_cn": "与菈雅在她的房间火山官邸 (第一门在右楼上). 对话至重复。"
+        "description_cn": "与菈雅在她的房间火山官邸 (第一门在右楼上). 对话至重复。",
+        "note_cn": "她变成蛇形后仍然可以对话。"
       },
       {
         "id": 7,
@@ -2615,7 +2623,7 @@
         "note": "The target depends on the letter you receive.",
         "optional": false,
         "description_cn": "获得你的第一暗杀信从塔妮丝. 击败旧骑士伊斯特万或大角特拉格斯。",
-        "note_cn": "目标取决于在信你获得。"
+        "note_cn": "两个目标都可以在任何顺序完成。"
       },
       {
         "id": 8,
@@ -2623,7 +2631,7 @@
         "zone": "VOLCANO_MANOR",
         "note": null,
         "optional": false,
-        "description_cn": "返回塔妮丝. 与菈雅再次. 她会给你 \"舞者响板\" 作为感谢。"
+        "description_cn": "回到塔妮丝处，再次与菈雅对话，她给你「舞娘的打击乐器」作为感谢。"
       },
       {
         "id": 9,
@@ -2639,8 +2647,8 @@
         "zone": "VOLCANO_MANOR",
         "note": "The wall is at the end of the drawing room, behind the paintings.",
         "optional": false,
-        "description_cn": "塔妮丝给予你 \"画-房间钥匙\". 探索隐藏路径后面幻影墙在画房间。",
-        "note_cn": "墙是在结局的画房间, 后面画作。"
+        "description_cn": "塔妮丝给你「会客厅钥匙」，探索幻影墙后的秘密通道到隐藏房间。",
+        "note_cn": "幻影墙在大厅壁炉后面。"
       },
       {
         "id": 11,
@@ -2656,7 +2664,8 @@
         "zone": "MOUNT_GELMIR",
         "note": null,
         "optional": false,
-        "description_cn": "与菈雅在艾格蕾教堂. 她揭示她的真实形态 (蛇混合). 接受她的无论。"
+        "description_cn": "与菈雅在艾格蕾教堂. 她揭示她的真实形态 (蛇混合). 接受她的无论。",
+        "note_cn": "接受她的真实身份不影响其他任务。"
       },
       {
         "id": 13,
@@ -2664,7 +2673,7 @@
         "zone": "MOUNT_GELMIR",
         "note": null,
         "optional": false,
-        "description_cn": "击败拉卡德, 王的亵渎. 回到火山官邸。"
+        "description_cn": "击败「亵渎君王」拉卡德，回到火山官邸。"
       },
       {
         "id": 14,
@@ -2673,7 +2682,7 @@
         "note": "She gives you her set if you exhaust all dialogue.",
         "optional": false,
         "description_cn": "与塔妮丝在拉卡德的竞技场. 他进食他的留. 重复对话至对话。",
-        "note_cn": "她会给你她的套装如果对话至重复。"
+        "note_cn": "再次加载后她仍在原地。"
       },
       {
         "id": 15,
@@ -2681,7 +2690,7 @@
         "zone": "MOUNT_GELMIR",
         "note": "Rya can be given the \"Tonic of Forgetfulness\" from a previous step.",
         "optional": false,
-        "description_cn": "如果击杀塔妮丝, 可以拾取她的套装. 如果让她的 , 她留在竞技场. 菈雅消失或离开官邸。",
+        "description_cn": "如果杀死塔妮丝，可以拾取她的套装。如果放过她，她会留在竞技场。菈雅消失离开火山官邸。",
         "note_cn": "菈雅可以给予过 \"药水的遗忘\" 从前一个步骤。"
       }
     ],
@@ -2726,8 +2735,8 @@
         "zone": "STORMVEIL",
         "note": "If you refuse his offer, you can enter through the cliffside path.",
         "optional": false,
-        "description_cn": "遇见葛托克在主要大门的史东薇尔城. 他提交打开大门你 (价格, 或如果恐吓他)。",
-        "note_cn": "如果拒绝他的提交, 可以进入穿过悬崖边路径。"
+        "description_cn": "在史东薇尔城正门遇见葛托克，他提议帮你开门（有代价——他会偷你的卢恩）。",
+        "note_cn": "他会在你每次在城内死亡时偷走30%的卢恩。"
       },
       {
         "id": 2,
@@ -2735,7 +2744,7 @@
         "zone": "STORMVEIL",
         "note": "You can kill Gostoc to stop this, but it ends his quest.",
         "optional": false,
-        "description_cn": "进入穿过主要大门葛托克跟随你. 如果死亡在城, 他偷 30% 的你的掉落卢恩。",
+        "description_cn": "从正门进入，葛托克跟着你。如果你在城内死亡，他会偷走你30%的卢恩。",
         "note_cn": "可以击杀葛托克这个但结局他的支线。"
       },
       {
@@ -2744,7 +2753,8 @@
         "zone": "STORMVEIL",
         "note": null,
         "optional": false,
-        "description_cn": "在击败葛瑞克, 葛托克出现附近隐蔽牢房赐福或在王座房间. 与他。"
+        "description_cn": "击败接肢葛瑞克后，葛托克出现在偏僻牢房赐福附近或门卫处。与他对话。",
+        "note_cn": "在你击杀葛瑞克后他才出现。"
       },
       {
         "id": 4,
@@ -2752,8 +2762,8 @@
         "zone": "STORMVEIL",
         "note": "He sells up to 3 Ancient Dragon Smithing Stones.",
         "optional": false,
-        "description_cn": "进度涅斐丽/肯尼斯/葛托克王座房间支线. 在涅斐丽成为统治者, 葛托克成为商人出售古龙锻造。",
-        "note_cn": "他出售直到 3 古龙锻造。"
+        "description_cn": "推进涅斐丽/肯尼斯/葛托克的王座室支线。涅斐丽成为统治者后，葛托克成为史东薇尔城的商人。",
+        "note_cn": "触发此步之前需要先推进涅斐丽的王座室支线。"
       },
       {
         "id": 5,
@@ -2813,7 +2823,7 @@
         "note": "You MUST rest at the grace first, then walk around.",
         "optional": false,
         "description_cn": "在赐福休息. 恩夏入侵你附近壁炉。",
-        "note_cn": "在赐福休息第一, 然后周围。"
+        "note_cn": "在赐福休息一下，然后搜索周围。"
       },
       {
         "id": 4,
@@ -2852,7 +2862,7 @@
         "zone": "NOKRON",
         "note": "D dies when you enter Nokron.",
         "optional": false,
-        "description_cn": "进度死亡猎人Ｄ 支线, 到达诺克隆恩 (死去自动)。",
+        "description_cn": "在宁姆格福水路边的废墟下找到D，他请求你的帮助。",
         "note_cn": "死去当你进入诺克隆恩。"
       },
       {
@@ -2877,7 +2887,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "He wears the set and thanks you.",
         "optional": false,
-        "description_cn": "如果交给双生套装, 他奖励你并离开. 寻找他之后在墓的巨人区域 (或不, 他离开地之间)。",
+        "description_cn": "如果你把双头剑套装还给D，他感谢你并离开。之后在死王子旁的墓碑处找到他（是的，在他离开之后）。",
         "note_cn": "他穿戴套装并感谢你。"
       },
       {
@@ -2886,7 +2896,7 @@
         "zone": "ROUNDTABLE_HOLD",
         "note": "Alternate ending.",
         "optional": true,
-        "description_cn": "如果拒绝, 他停留敌对. 可以击杀他并拾取双生套装返回。",
+        "description_cn": "如果你拒绝他，他不会采取敌对行动。可以杀死他并拾取双头剑套装。",
         "note_cn": "替代结局。"
       }
     ],
@@ -2927,7 +2937,7 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "瑟廉提交出售魔法. 他也请求你交付药水涅斐丽·露。"
+        "description_cn": "塞尔维斯兜售魔法，他还请你将药水交给涅斐丽·露。"
       },
       {
         "id": 3,
@@ -2935,8 +2945,8 @@
         "zone": "MULTIPLE",
         "note": "Giving to Gideon is safest and does not affect Nepheli.",
         "optional": false,
-        "description_cn": "拿取瑟廉的药水. 你有选择: 交给涅斐丽 (结局她的支线), 或交给基甸 (他处理的)。",
-        "note_cn": "给予基甸是最安全并不影响涅斐丽。"
+        "description_cn": "拿到塞尔维斯的药水，你有选择：给涅斐丽（结束她的支线），或给百智爵士（继续她的支线）。",
+        "note_cn": "将药水交给百智爵士或基甸会保留选项。"
       },
       {
         "id": 4,
@@ -2944,7 +2954,8 @@
         "zone": "LIURNIA",
         "note": null,
         "optional": false,
-        "description_cn": "返回瑟廉. 他提交你 \"瑟廉的介绍\" 了解关于食粪者傀儡。"
+        "description_cn": "回到塞尔维斯处，他提供「塞尔维斯的介绍」以了解食粪者傀儡。",
+        "note_cn": "交出药水后才能获得介绍信。"
       },
       {
         "id": 5,
@@ -2953,7 +2964,7 @@
         "note": "The room contains puppets, including a doll of Ranni.",
         "optional": false,
         "description_cn": "寻找秘密傀儡房间后面书架在瑟廉魔法师塔 (书架揭示)。",
-        "note_cn": "房间包含傀儡, 包括人偶的菈妮。"
+        "note_cn": "食粪者在王城下水道，他的傀儡召唤需要五个咒死温床。"
       },
       {
         "id": 6,
@@ -2961,7 +2972,7 @@
         "zone": "LIURNIA",
         "note": "His body is found at Seluvis's Rise after Ranni leaves.",
         "optional": false,
-        "description_cn": "瑟廉最终死去 (当菈妮离开或在猎杀指头刀刃是交付). 拾取他的套装并铃珠。",
+        "description_cn": "塞尔维斯最终会死去（菈妮离开或交还猎杀指头刀后），从他的尸体上拾取装备和铃珠。",
         "note_cn": "他的尸体是找到在瑟廉魔法师塔菈妮离开。"
       }
     ],
@@ -3009,7 +3020,7 @@
         "zone": "ALTUS",
         "note": null,
         "optional": false,
-        "description_cn": "对话至重复. 他告诉你关于癫火火焰并路径下方王城罗德尔。"
+        "description_cn": "对话至重复，他告诉你关于癫火和罗德尔下方的道路。"
       },
       {
         "id": 3,
@@ -3017,7 +3028,7 @@
         "zone": "CAPITAL",
         "note": null,
         "optional": false,
-        "description_cn": "前进弃置恶兆的地底下方王城罗德尔. 到达被遗弃的大教堂。"
+        "description_cn": "前往罗德尔下方的弃置恶兆的地底，到达癫火封印。"
       },
       {
         "id": 4,
@@ -3025,7 +3036,7 @@
         "zone": "CAPITAL",
         "note": "This locks you into the Frenzied Flame ending.",
         "optional": false,
-        "description_cn": "移除所有套装并打开门三指. 继承癫火火焰。",
+        "description_cn": "脱掉所有装备，打开癫火封印的门，继承癫火。",
         "note_cn": "这个锁住你在癫火火焰结局。"
       },
       {
@@ -3076,7 +3087,7 @@
         "zone": "CAELID",
         "note": null,
         "optional": false,
-        "description_cn": "遇见高瑞在他的小屋盖利德 (南的熏火墙赐福). 他请求你寻找纯净金针。"
+        "description_cn": "在盖利德即将熄灭的城墙赐福南边的小屋遇见盖里，他请你寻找纯金针。"
       },
       {
         "id": 2,
@@ -3084,7 +3095,7 @@
         "zone": "CAELID",
         "note": "He offers to repair it.",
         "optional": false,
-        "description_cn": "取回纯净金针从教堂的瘟疫. 返回高瑞。",
+        "description_cn": "从病村教堂取回纯金针，回到盖里处。",
         "note_cn": "他提交修复。"
       },
       {
@@ -3101,7 +3112,7 @@
         "zone": "CAELID",
         "note": null,
         "optional": false,
-        "description_cn": "返回高瑞修复针. 交给米莉森。"
+        "description_cn": "回到盖里处获取修复好的金针，交给米莉森。"
       },
       {
         "id": 5,
@@ -3109,7 +3120,7 @@
         "zone": "CAELID",
         "note": "He sells various pest incantations.",
         "optional": false,
-        "description_cn": "高瑞给予你祷告并继续检查在米莉森的进度。",
+        "description_cn": "盖里会感谢你并揭示米莉森的真实身份。",
         "note_cn": "他出售各个祷告。"
       },
       {
@@ -3161,7 +3172,7 @@
         "zone": "SCADU_ALTUS",
         "note": "She is the main quest NPC guiding you through the DLC.",
         "optional": false,
-        "description_cn": "寻找蕾妲在高路十字标记赐福幽影亚坛 (北的恩希斯城). 对话至重复。",
+        "description_cn": "在幽影亚坛的高路十字赐福（恩希斯城以北）找到蕾妲。对话至重复。",
         "note_cn": "他主要支线 NPC 引导你穿过 DLC。"
       },
       {
@@ -3170,7 +3181,7 @@
         "zone": "CASTLE_ENSIS",
         "note": "Summoning her is optional but progresses her quest.",
         "optional": true,
-        "description_cn": "推进恩希斯城. 蕾妲的召唤标记出现在之前最终首领的恩希斯城 (蕾菈娜, 双月亮骑士)。",
+        "description_cn": "推进恩希斯城，蕾妲的召唤标记出现在最终首领战之前（恩希斯城，双月骑士）。",
         "note_cn": "召唤她的是可选但推进她的支线。"
       },
       {
@@ -3179,7 +3190,7 @@
         "zone": "SCADU_ALTUS",
         "note": null,
         "optional": false,
-        "description_cn": "遇见蕾妲在 \"高路十字标记\" 再次恩希斯城. 她对话关于其他追随者: 角人并弗蕾亚。"
+        "description_cn": "恩希斯城后在「高路十字」再次遇见蕾妲，她谈论追猎者：角人和他的同伴。"
       },
       {
         "id": 5,
@@ -3187,8 +3198,8 @@
         "zone": "DLC_MULTIPLE",
         "note": "Key locations: Three-Path Cross, Main Gate Cross, Highroad Cross.",
         "optional": false,
-        "description_cn": "遇见蕾妲在各个 \"十字标记\" 地点整个 DLC. 重复对话至对话每个遇到。",
-        "note_cn": "钥匙位置: 三路十字标记, 正门十字标记, 高路十字标记。"
+        "description_cn": "在DLC各处的「十字」地点遇见蕾妲，每次对话至重复。",
+        "note_cn": "每次对话内容不同，随DLC进度而变化。"
       },
       {
         "id": 6,
@@ -3196,7 +3207,7 @@
         "zone": "ENIR_ILIM",
         "note": "This is the point of no return for many DLC quests.",
         "optional": false,
-        "description_cn": "在进度过去幽影城 (燃烧封印), 蕾妲聚集其他追随者艾尼尔伊利姆。",
+        "description_cn": "推进到幽影城（燃烧封印树）后，蕾妲召集追随者到安尼尔·伊利姆。",
         "note_cn": "这是点的没有返回多 DLC 支线。"
       },
       {
@@ -3205,7 +3216,7 @@
         "zone": "ENIR_ILIM",
         "note": "This determines who fights with/against you in the final area.",
         "optional": false,
-        "description_cn": "在艾尼尔伊利姆, 选择站蕾妲或反对她的一边召唤标记出现附近首领大门。",
+        "description_cn": "在安尼尔·伊利姆，选择站在蕾妲一边或反对她。召唤标记出现供选择。",
         "note_cn": "这个决定对抗与/ 你在最终区域。"
       },
       {
@@ -3214,8 +3225,8 @@
         "zone": "ENIR_ILIM",
         "note": "Rewards include her armor set and items from each defeated follower.",
         "optional": false,
-        "description_cn": "击败蕾妲并她的盟友如果反对她的, 或帮助她的击败敌对 NPCs. 最终战斗涉及多个 NPCs。",
-        "note_cn": "奖励包括她的套装套装并道具从每个击败追随者。"
+        "description_cn": "如果与蕾妲对立，击败她和她的盟友；如果帮助她，抵御敌对NPC。该战斗涉及多个NPC。",
+        "note_cn": "在安尼尔·伊利姆的最终战。"
       }
     ],
     "rewards": [
@@ -3249,7 +3260,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "He is sitting near the cross.",
         "optional": false,
-        "description_cn": "遇见角人在三路十字标记赐福墓地平原. 对话至重复。",
+        "description_cn": "在墓地平原的三路十字赐福遇见角人。对话至重复。",
         "note_cn": "他坐附近十字标记。"
       },
       {
@@ -3259,7 +3270,7 @@
         "note": "Summon him for the boss fight.",
         "optional": false,
         "description_cn": "进度穿过塔之镇贝瑞特. 角人的召唤标记出现在之前首领 (神圣野兽舞狮子)。",
-        "note_cn": "召唤他首领对抗。"
+        "note_cn": "他的召唤标记在地上，金色。"
       },
       {
         "id": 3,
@@ -3267,7 +3278,8 @@
         "zone": "GRAVESITE_PLAIN",
         "note": null,
         "optional": false,
-        "description_cn": "与角人在 \"三路十字标记\" 贝瑞特. 他对话关于他的仇杀。"
+        "description_cn": "在贝鲁特后在「三路十字」与角人对话，他谈及他的复仇。",
+        "note_cn": "他站在贝鲁特的某个房间里。"
       },
       {
         "id": 4,
@@ -3275,7 +3287,7 @@
         "zone": "DLC_MULTIPLE",
         "note": "He moves as you progress.",
         "optional": false,
-        "description_cn": "遇见角人在各个位置整个 DLC. 他经常附近十字标记。",
+        "description_cn": "在DLC各处可以遇见角人，他经常出现在十字标识附近。",
         "note_cn": "他移动到作为你进度。"
       },
       {
@@ -3284,7 +3296,7 @@
         "zone": "ENIR_ILIM",
         "note": "There are separate summon signs.",
         "optional": false,
-        "description_cn": "在幽影城, 角人的命运是蕾妲. 艾尼尔伊利姆, 选择帮助角人或蕾妲。",
+        "description_cn": "完成幽影城后，角人的命运与蕾妲相连。在安尼尔·伊利姆，选择支持角人或蕾妲。",
         "note_cn": "是独立召唤标记。"
       },
       {
@@ -3293,8 +3305,8 @@
         "zone": "ENIR_ILIM",
         "note": "Each choice yields different rewards.",
         "optional": false,
-        "description_cn": "如果站在角人一边对抗蕾妲并她的忠诚追随者. 如果站蕾妲一边对抗角人。",
-        "note_cn": "每个选择产出不同奖励。"
+        "description_cn": "如果站在角人一方，对抗蕾妲和她的忠实追随者。如果站在蕾妲一方，对抗角人。",
+        "note_cn": "双方都有多名NPC参战。"
       },
       {
         "id": 7,
@@ -3302,7 +3314,7 @@
         "zone": "ENIR_ILIM",
         "note": null,
         "optional": false,
-        "description_cn": "完成最终对峙. 角人奖励你与他的套装并武器如果他存活。"
+        "description_cn": "完成最终对峙。如果角人存活，他会奖励你他的套装和武器。"
       }
     ],
     "rewards": [
@@ -3338,8 +3350,8 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "She is near the cross, opposite Hornsent.",
         "optional": false,
-        "description_cn": "遇见弗蕾亚在三路十字标记赐福墓地平原. 对话至重复。",
-        "note_cn": "他附近十字标记, 对面角人。"
+        "description_cn": "在墓地平原的三路十字赐福遇见弗蕾亚。对话至重复。",
+        "note_cn": "在三路十字处，不会错过。"
       },
       {
         "id": 2,
@@ -3347,7 +3359,7 @@
         "zone": "DLC_MULTIPLE",
         "note": null,
         "optional": false,
-        "description_cn": "与弗蕾亚在各个十字标记地点. 她对话关于拉塔恩并她的过去。"
+        "description_cn": "在各个十字标识地点与弗蕾亚对话，她谈论拉塔恩和她的过去。"
       },
       {
         "id": 3,
@@ -3355,7 +3367,7 @@
         "zone": "DLC_MULTIPLE",
         "note": "This is a pivotal moment that affects the final confrontation.",
         "optional": false,
-        "description_cn": "寻找 \"信弗蕾亚\" 从安帕赫 (从他的支线). 交付弗蕾亚。",
+        "description_cn": "从安帕赫处找到「写给弗蕾亚的信」（从他的支线获取），转交给弗蕾亚。",
         "note_cn": "这是关键时刻那个影响最终对峙。"
       },
       {
@@ -3364,8 +3376,8 @@
         "zone": "ENIR_ILIM",
         "note": "If you don't deliver the letter, she automatically sides with Leda.",
         "optional": false,
-        "description_cn": "在交付信, 弗蕾亚重新考虑她的效忠. 她可能站或蕾妲在艾尼尔伊利姆一边。",
-        "note_cn": "如果 ' 交付信, 她自动站队与蕾妲。"
+        "description_cn": "交信后，弗蕾亚重新考虑她的效忠。她可能站在你这边，也可能站在蕾妲一方。",
+        "note_cn": "交信后，她可以站在你这边对抗蕾妲。"
       },
       {
         "id": 5,
@@ -3373,7 +3385,7 @@
         "zone": "ENIR_ILIM",
         "note": "Her armor set can be looted if she falls.",
         "optional": false,
-        "description_cn": "在艾尼尔伊利姆, 弗蕾亚加入站队的冲突. 击败或饶恕她的。",
+        "description_cn": "在安尼尔·伊利姆，弗蕾亚加入冲突的一方。击败她或饶恕她。",
         "note_cn": "她的套装套装可以拾取如果她坠落。"
       }
     ],
@@ -3436,7 +3448,7 @@
         "zone": "BELURAT",
         "note": null,
         "optional": false,
-        "description_cn": "安帕赫研究卷轴. 他请求你交付信弗蕾亚 (如果有的已经)。"
+        "description_cn": "在墓地平原搜索安帕赫的尸体，找到写给弗蕾亚的信（如果还没找到）。"
       },
       {
         "id": 5,
@@ -3453,8 +3465,8 @@
         "zone": "ENIR_ILIM",
         "note": "If not progressed, his sign is replaced by Bloody Knight Nataan's.",
         "optional": false,
-        "description_cn": "进度艾尼尔伊利姆. 安帕赫的召唤标记出现在如果完成他的支线. 他对抗沿着站队你蕾妲的势力。",
-        "note_cn": "如果不推进, 他的标记是替换通过血骑士纳塔恩。"
+        "description_cn": "在安尼尔·伊利姆，安帕赫的召唤标记出现，取决于你之前的支线选择。与他对话，选择站在他这边还是蕾妲一方。",
+        "note_cn": "如果推进过快，他的剧情会被跳过，到达鲜血王子区域后。"
       },
       {
         "id": 7,
@@ -3462,7 +3474,7 @@
         "zone": "ENIR_ILIM",
         "note": null,
         "optional": false,
-        "description_cn": "如果安帕赫存活艾尼尔伊利姆冲突, 可以找到他之后并获取他的最终奖励。"
+        "description_cn": "完成安尼尔·伊利姆的冲突后，找到安帕赫的尸体并获取他的最终奖励。"
       }
     ],
     "rewards": [
@@ -3498,7 +3510,7 @@
         "zone": "BELURAT",
         "note": "Buy items to progress his dialogue.",
         "optional": false,
-        "description_cn": "遇见穆尔在正门十字标记赐福 (外部贝瑞特). 他出售各个货物。",
+        "description_cn": "在正门十字赐福（贝鲁特城外）遇见穆尔，他出售各种物品。",
         "note_cn": "购买道具进度他的对话。"
       },
       {
@@ -3507,7 +3519,7 @@
         "zone": "BELURAT",
         "note": null,
         "optional": false,
-        "description_cn": "对话至重复. 他对话关于觅食后裔并他的在群。"
+        "description_cn": "对话至重复，他谈论采集者族群和他的角色。"
       },
       {
         "id": 3,
@@ -3515,7 +3527,7 @@
         "zone": "DLC_MULTIPLE",
         "note": null,
         "optional": true,
-        "description_cn": "前往深渊森林或青蓝海岸. 寻找觅食后裔 NPCs 互动与穆尔的道具。"
+        "description_cn": "前往深蓝森林或蓝海岸，找到采集者族群的NPC和穆尔的物品。"
       },
       {
         "id": 4,
@@ -3523,7 +3535,8 @@
         "zone": "BELURAT",
         "note": null,
         "optional": false,
-        "description_cn": "返回穆尔定期. 他的对话变化基于在 DLC 进度。"
+        "description_cn": "定期回到穆尔处，他的对话随DLC进度而变化。",
+        "note_cn": "他会在不同进度时出售新商品。"
       },
       {
         "id": 5,
@@ -3531,8 +3544,8 @@
         "zone": "ENIR_ILIM",
         "note": "He asks you a question about his purpose.",
         "optional": false,
-        "description_cn": "在燃烧的封印 , 穆尔是冲突关于他的忠诚. 与他艾尼尔伊利姆。",
-        "note_cn": "他请求你问题关于他的目的。"
+        "description_cn": "封印树燃烧后，穆尔在忠诚问题上感到矛盾。与他对话帮助他做出抉择。",
+        "note_cn": "让他感到悲伤或离开取决于你的选择。"
       },
       {
         "id": 6,
@@ -3540,8 +3553,8 @@
         "zone": "ENIR_ILIM",
         "note": "If he dies, you can loot his bell bearing and armor.",
         "optional": false,
-        "description_cn": "你的回答决定他的命运. 如果他应该 /冲突, 他最终死去. 如果 \" ' \" 并城他去, 他存活。",
-        "note_cn": "如果他死去, 可以拾取他的铃珠并套装。"
+        "description_cn": "你的回答决定他的命运。如果你说他应该感到伤心/矛盾，他会离开。如果你说无所谓，他会留下。",
+        "note_cn": "如果他离开，可以拾取他的铃珠和装备。"
       }
     ],
     "rewards": [
@@ -3605,7 +3618,7 @@
         "zone": "STONE_COFFIN",
         "note": "She is at the bottom of the fissure.",
         "optional": false,
-        "description_cn": "在深紫花园找到圣托莉娜。与她的同时她睡眠。",
+        "description_cn": "在深紫花园找到圣托莉娜，在她睡眠时与她对话。",
         "note_cn": "他在底部的裂隙。"
       },
       {
@@ -3614,7 +3627,8 @@
         "zone": "GRAVESITE_PLAIN",
         "note": null,
         "optional": false,
-        "description_cn": "返回休里耶并告诉他关于圣托莉娜. 他会给你特殊道具并请求你去返回。"
+        "description_cn": "返回休里耶并告诉他关于圣托莉娜. 他会给你特殊道具并请求你去返回。",
+        "note_cn": "该物品与「睡眠」主题相关。"
       },
       {
         "id": 6,
@@ -3630,7 +3644,7 @@
         "zone": "ENIR_ILIM",
         "note": "He fights on your side.",
         "optional": false,
-        "description_cn": "在封印是烧毁, 休里耶移动到艾尼尔伊利姆. 他的召唤标记出现最终战斗。",
+        "description_cn": "封印树燃烧后，蒂奥里耶移动到安尼尔·伊利姆，他的召唤标记出现在最终战斗前。",
         "note_cn": "他对抗在你的站队。"
       },
       {
@@ -3639,7 +3653,7 @@
         "zone": "ENIR_ILIM",
         "note": null,
         "optional": false,
-        "description_cn": "对话休里耶在最终战斗. 他揭示什么他了解并给予你最终奖励。"
+        "description_cn": "在最终战后与蒂奥里耶对话，他会告诉你他所了解的一切，并给你最终奖励。"
       }
     ],
     "rewards": [
@@ -3681,7 +3695,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "Exhaust his dialogue about Bayle.",
         "optional": false,
-        "description_cn": "遇见埃贡在巨柱路标赐福墓地平原. 他在地上, 受伤。",
+        "description_cn": "在墓地平原的柱路路标赐福遇见伊贡，他躺在地上，受了伤。",
         "note_cn": "对话至重复关于贝勒。"
       },
       {
@@ -3690,7 +3704,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "The Dragon Pit is south of the grace.",
         "optional": false,
-        "description_cn": "前往龙坑在墓地平原. 穿过穿过并击败首领 (古龙)。",
+        "description_cn": "前往墓地平原的龙坑，穿过龙坑击败古龙（人形敌人）。",
         "note_cn": "龙坑是南的赐福。"
       },
       {
@@ -3699,7 +3713,7 @@
         "zone": "JAGGED_PEAK",
         "note": null,
         "optional": false,
-        "description_cn": "出口龙坑到达尖刺山. 埃贡到达在他的并可以对话过。"
+        "description_cn": "离开龙坑到达尖刺山，伊贡自行到达，可以对话。"
       },
       {
         "id": 4,
@@ -3707,7 +3721,7 @@
         "zone": "JAGGED_PEAK",
         "note": null,
         "optional": false,
-        "description_cn": "推进尖刺山. 寻找埃贡在二位置沿着路径, 每个时间休息并对话。"
+        "description_cn": "推进尖刺山，在路径上的两个位置找到伊贡，每个位置有新的信息和对话。"
       },
       {
         "id": 5,
@@ -3715,7 +3729,7 @@
         "zone": "JAGGED_PEAK",
         "note": "Igon MUST be summoned to complete his quest.",
         "optional": false,
-        "description_cn": "之前贝勒首领竞技场, 埃贡的召唤标记是可用. 召唤他对抗贝勒恐惧。",
+        "description_cn": "在狂龙贝勒的首领战场地前，有伊贡的召唤标记。召唤他一起对抗狂龙贝勒。",
         "note_cn": "埃贡必须召唤完成他的支线。"
       },
       {
@@ -3724,8 +3738,8 @@
         "zone": "JAGGED_PEAK",
         "note": "After the fight, speak to Igon one last time.",
         "optional": false,
-        "description_cn": "击败贝勒与埃贡. 他扮演关键在对抗并喊贝勒期间战斗。",
-        "note_cn": "在对抗, 与埃贡最后时间。"
+        "description_cn": "与伊贡一起击败贝勒，他在战斗中扮演关键角色，会向贝勒叫喊。",
+        "note_cn": "在对战中，给伊贡一些时间。"
       },
       {
         "id": 7,
@@ -3733,7 +3747,7 @@
         "zone": "JAGGED_PEAK",
         "note": null,
         "optional": false,
-        "description_cn": "埃贡关口在他的复仇是完成. 拾取他的套装套装并武器从他的尸体附近竞技场。"
+        "description_cn": "伊贡在复仇完成后去世，在他的尸体附近收集其铠甲套装和武器。"
       }
     ],
     "rewards": [
@@ -3782,7 +3796,7 @@
         "zone": "SCADU_ALTUS",
         "note": "The gesture can be found from a corpse in the area.",
         "optional": false,
-        "description_cn": "使用 \"干叶\" 动作在前方的他 (找到别处 DLC, 或在废墟)。",
+        "description_cn": "使用「落叶」动作与丹恩互动（在DLC中获取，位于某个区域）。",
         "note_cn": "动作可以找到从尸体在区域。"
       },
       {
@@ -3791,7 +3805,7 @@
         "zone": "SCADU_ALTUS",
         "note": null,
         "optional": false,
-        "description_cn": "在动作, 丹恩承认你但留沉默. 他会给你 \"干叶武艺\" 格斗武器。"
+        "description_cn": "在战斗中，丹恩测试你但保持沉默。战胜他获得「落叶丹恩的铃珠」。"
       },
       {
         "id": 4,
@@ -3807,7 +3821,7 @@
         "zone": "ENIR_ILIM",
         "note": "He is a formidable opponent.",
         "optional": false,
-        "description_cn": "在艾尼尔伊利姆, 丹恩加入最终对峙. 他对抗沿着站队蕾妲如果反对她的。",
+        "description_cn": "在安尼尔·伊利姆，丹恩参与最终对峙。你可以与他对战或站在他一边。",
         "note_cn": "他强大对手。"
       },
       {
@@ -3850,7 +3864,7 @@
         "zone": "MANUS_METYR",
         "note": "The Cathedral is at the end of a long path.",
         "optional": false,
-        "description_cn": "找到尤弥尔在大教堂的马努斯·美缇尔大教堂 (西南的幽影亚坛, 过去青蓝海岸)。",
+        "description_cn": "在玛努斯·塞利斯的大教堂找到约弥（位于幽影亚塔恩，赐福附近）。",
         "note_cn": "大教堂是在结局的长路径。"
       },
       {
@@ -3859,7 +3873,7 @@
         "zone": "MANUS_METYR",
         "note": null,
         "optional": false,
-        "description_cn": "重复对话至尤弥尔的对话. 他对话关于指并给予你 \"指头遗迹\" 钥匙。"
+        "description_cn": "与约弥对话至重复，他谈论手指并给你「指头遗迹」钥匙。"
       },
       {
         "id": 3,
@@ -3875,7 +3889,7 @@
         "zone": "MANUS_METYR",
         "note": null,
         "optional": false,
-        "description_cn": "返回尤弥尔. 报告什么你 . 他会给你 \"深爱星尘\" 护符。"
+        "description_cn": "回到约弥处报告你的见闻，他给你「挚爱星尘」护符。"
       },
       {
         "id": 5,
@@ -3884,7 +3898,7 @@
         "note": "Jolan only appears after speaking to Ymir first.",
         "optional": false,
         "description_cn": "对话黑夜骑士约兰在大教堂 (她倚靠墙内部). 对话至重复。",
-        "note_cn": "约兰仅出现在对话尤弥尔第一。"
+        "note_cn": "约兰靠在墙边，全身暗色刺客装束。"
       },
       {
         "id": 6,
@@ -3892,7 +3906,8 @@
         "zone": "DLC_MULTIPLE",
         "note": null,
         "optional": false,
-        "description_cn": "前往第二指头遗迹 (位于别处在 DLC). 互动再次使用废墟。"
+        "description_cn": "前往第二指头遗迹 (位于别处在 DLC). 互动再次使用废墟。",
+        "note_cn": "第二个指头废墟在幽影亚坛某处。"
       },
       {
         "id": 7,
@@ -3900,7 +3915,7 @@
         "zone": "MANUS_METYR",
         "note": null,
         "optional": false,
-        "description_cn": "返回尤弥尔. 他揭示更多关于美缇尔, 母亲的指. 他会给你特殊祷告。"
+        "description_cn": "回到约弥处，他揭示更多关于「母亲之手」梅瑟莫的信息，给你「母亲之手」祷告。"
       },
       {
         "id": 8,
@@ -3908,7 +3923,7 @@
         "zone": "MANUS_METYR",
         "note": "This is a challenging boss fight.",
         "optional": false,
-        "description_cn": "前往最终指头遗迹深下方大教堂. 击败首领 (美缇尔, 母亲的指)。",
+        "description_cn": "前往大教堂深处最后的指头遗迹，击败首领（「母亲之手」梅瑟莫）。",
         "note_cn": "这是挑战首领对抗。"
       },
       {
@@ -3917,7 +3932,7 @@
         "zone": "MANUS_METYR",
         "note": "He uses finger sorceries against you.",
         "optional": false,
-        "description_cn": "返回尤弥尔最后时间. 他有离去从启示. 对抗并击败他。",
+        "description_cn": "最后一次回到约弥处，他在启示中陷入疯狂，战斗并击败他。",
         "note_cn": "他使用指头魔法你。"
       },
       {
@@ -3926,8 +3941,8 @@
         "zone": "MANUS_METYR",
         "note": "Your choice determines the reward.",
         "optional": false,
-        "description_cn": "在尤弥尔的死亡, 与约兰. 她现作为新目的. 可以任一对抗她的或拿取她的作为骨灰。",
-        "note_cn": "你的选择决定奖励。"
+        "description_cn": "约弥死后，与约兰对话。她有了新的目标。你可以与她战斗或让她化为灰烬。",
+        "note_cn": "约兰可能会成为可召唤的帮手。"
       }
     ],
     "rewards": [
@@ -3967,7 +3982,7 @@
         "zone": "BELURAT",
         "note": "Exhaust his dialogue about Messmer.",
         "optional": false,
-        "description_cn": "在房间附近入口找到昆兰塔之镇贝瑞特. 他站。",
+        "description_cn": "在塔之镇贝鲁特找到昆林，他站在入口附近的一个房间里。",
         "note_cn": "对话至重复关于梅瑟莫。"
       },
       {
@@ -3976,7 +3991,7 @@
         "zone": "BELURAT",
         "note": null,
         "optional": false,
-        "description_cn": "击败神圣野兽舞狮子在贝瑞特. 返回与昆兰。"
+        "description_cn": "击败贝鲁特的「神兽舞狮」，回去与昆林对话。"
       },
       {
         "id": 3,
@@ -3984,7 +3999,7 @@
         "zone": "SHADOW_KEEP",
         "note": null,
         "optional": true,
-        "description_cn": "在幽影亚坛, 取决于进度)找到昆兰幽影城 (或别处。"
+        "description_cn": "在幽影亚塔恩（取决于选择）找到昆兰的铃珠（大教堂区域）。"
       },
       {
         "id": 4,
@@ -3992,8 +4007,8 @@
         "zone": "DLC_MULTIPLE",
         "note": "The interaction depends on your choices.",
         "optional": false,
-        "description_cn": "昆兰入侵你在具体位置 (或提交召唤标记). 击败或帮助他他的内部冲突。",
-        "note_cn": "互动取决于在你的选择。"
+        "description_cn": "昆林在特定位置入侵你（或提供召唤标记），击败或饶恕他取决于你的选择。",
+        "note_cn": "取决于你之前的选项，他的立场有所不同。"
       },
       {
         "id": 5,
@@ -4001,7 +4016,8 @@
         "zone": "DLC_MULTIPLE",
         "note": null,
         "optional": false,
-        "description_cn": "如果帮助他真相, 昆兰给予你他的火焰祷告并成为商人。"
+        "description_cn": "在最终对峙中，如果你之前帮助了他，昆兰加入你的阵营并成为盟友。",
+        "note_cn": "如果他成为友方，会在最终战提供帮助。"
       },
       {
         "id": 6,
@@ -4009,7 +4025,7 @@
         "zone": "DLC_MULTIPLE",
         "note": "Alternate ending.",
         "optional": true,
-        "description_cn": "如果反对他, 他对抗你作为入侵者. 击杀他掉落他的铃珠并套装。",
+        "description_cn": "如果你与他为敌，他以入侵者的身份战斗，杀死他获得铃珠和装备。",
         "note_cn": "替代结局。"
       }
     ],
@@ -4071,7 +4087,7 @@
         "zone": "BELURAT",
         "note": null,
         "optional": true,
-        "description_cn": "在具体事件 (击败主要首领梅瑟莫), 返回她的评论。"
+        "description_cn": "在某个关键事件（比如在保管库看到梅瑟莫之后）后，与角人老妪对话。"
       },
       {
         "id": 5,
@@ -4112,8 +4128,8 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "She is kneeling at the altar.",
         "optional": false,
-        "description_cn": "寻找龙飨女巫在龙飨大祭坛 (南的龙坑出口)。",
-        "note_cn": "他跪在祭坛。"
+        "description_cn": "在龙飨大祭坛（龙坑出口南边）找到龙飨女巫。",
+        "note_cn": "她跪在祭坛前。"
       },
       {
         "id": 2,
@@ -4121,7 +4137,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": null,
         "optional": false,
-        "description_cn": "对话至重复. 她告诉你关于心的龙并大龙飨。"
+        "description_cn": "对话至重复，她告诉你关于龙心和伟大龙飨的事。"
       },
       {
         "id": 3,
@@ -4129,8 +4145,8 @@
         "zone": "DLC_MULTIPLE",
         "note": "Key dragon bosses: Ancient Dragon, Bayle, etc.",
         "optional": false,
-        "description_cn": "击败龙首领在 DLC. 带来龙心女巫。",
-        "note_cn": "钥匙龙首领: 古龙, 贝勒,。"
+        "description_cn": "击败DLC中的龙首领，将龙心带给女巫。",
+        "note_cn": "主要龙首领：古龙、贝勒等。"
       },
       {
         "id": 4,
@@ -4138,7 +4154,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": null,
         "optional": false,
-        "description_cn": "提交龙心她的. 她给予你更强龙祷告。"
+        "description_cn": "向她献上龙心，她会授予你更强的龙祷告。"
       },
       {
         "id": 5,
@@ -4146,7 +4162,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "This is the Dragon Transformation.",
         "optional": false,
-        "description_cn": "在提交足够心, 她揭示秘密的龙形态. 他可以转化你进入方面的龙。",
+        "description_cn": "提交足够多的龙心后，她揭示龙形态的秘密。她可以将你转化为龙。",
         "note_cn": "这是龙转化。"
       },
       {
@@ -4155,7 +4171,7 @@
         "zone": "GRAVESITE_PLAIN",
         "note": "You receive the Dragon Form incantation.",
         "optional": false,
-        "description_cn": "完成龙转化仪式. 女巫完成她的并可能离开或保持。",
+        "description_cn": "完成龙转化仪式，女巫完成使命后可能离开或留下。",
         "note_cn": "你获得龙形态祷告。"
       }
     ],
@@ -4209,7 +4225,8 @@
         "zone": "STONE_COFFIN",
         "note": null,
         "optional": false,
-        "description_cn": "到达深紫花园在底部的裂隙. 花园找到圣托莉娜睡眠。"
+        "description_cn": "到达深紫花园在底部的裂隙. 花园找到圣托莉娜睡眠。",
+        "note_cn": "圣托莉娜不会主动攻击，可以安全对话。"
       },
       {
         "id": 4,
@@ -4217,7 +4234,7 @@
         "zone": "STONE_COFFIN",
         "note": null,
         "optional": false,
-        "description_cn": "对话圣托莉娜. 她对话在她的睡眠关于米凯拉, 她的其他半, 并他曾废弃。"
+        "description_cn": "与圣托莉娜对话，她在睡梦中谈论米凯拉、她的另一半，以及她要放弃的东西。"
       },
       {
         "id": 5,
@@ -4225,7 +4242,7 @@
         "zone": "STONE_COFFIN",
         "note": null,
         "optional": true,
-        "description_cn": "离开然后返回在制作进度 DLC. 与她的再次更多对话。"
+        "description_cn": "离开后再回来（推进DLC进度后），再次与她对话获得更多内容。"
       },
       {
         "id": 6,
@@ -4234,7 +4251,7 @@
         "note": "She also gives you the \"St. Trina's Smile\" talisman or similar.",
         "optional": false,
         "description_cn": "重复对话至所有她的对话穿过多个探访. 她揭示关键背景关于米凯拉的。",
-        "note_cn": "她也给予你 \"圣托莉娜的微笑\" 护符或类似。"
+        "note_cn": "需要多次进出地图来刷新对话。"
       },
       {
         "id": 7,
@@ -4242,8 +4259,8 @@
         "zone": "STONE_COFFIN",
         "note": "Her fate is tied to Miquella's.",
         "optional": false,
-        "description_cn": "在 DLC 故事是完成, 返回圣托莉娜最后时间. 她可能有最终信息。",
-        "note_cn": "她的命运是米凯拉的。"
+        "description_cn": "DLC故事完成后，最后一次回到圣托莉娜处，她可能有最终的信息。",
+        "note_cn": "这是最后一个对话机会。"
       }
     ],
     "rewards": [

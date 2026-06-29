@@ -10,6 +10,8 @@ import { renderArmorSetsList, renderArmorSetDetail } from './pages/armor-sets.js
 import { renderInfoPage } from './pages/info-items.js';
 import { renderNpcList } from './pages/npcs.js';
 import { renderNpcDetail } from './pages/npc-detail.js';
+import { renderBossList } from './pages/bosses.js';
+import { renderBossDetail } from './pages/boss-detail.js';
 import { renderUpgradeCalc } from './pages/upgrade-calc.js';
 import { renderBuildPlanner } from './pages/build-planner.js';
 import { renderItemCompare } from './pages/item-compare.js';
@@ -76,6 +78,10 @@ async function init() {
   // NPC pages
   registerRoute('/npcs', (container, params) => renderNpcList(container, params));
   registerRoute('/npcs/:id', (container, params) => renderNpcDetail(container, params));
+
+  // Boss pages
+  registerRoute('/bosses', (container, params) => renderBossList(container, params));
+  registerRoute('/bosses/:id', (container, params) => renderBossDetail(container, params));
 
   // New feature pages
   registerRoute('/info', (container, params) => renderInfoPage(container, params));

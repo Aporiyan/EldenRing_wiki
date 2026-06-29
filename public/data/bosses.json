@@ -1,0 +1,1804 @@
+{
+  "Abductor Virgins": {
+    "id": "17f695abef9l0i1ujzrup5y0z7rw6",
+    "name": "Abductor Virgins",
+    "name_cn": "劫持者处女",
+    "image": null,
+    "region": "Mount Gelmir",
+    "location": "Volcano Manor",
+    "description": "Deadly mechanical constructs who wield massive blades.",
+    "description_cn": "致命的机械构造体，挥舞着巨大的刀片。",
+    "drops": [
+      "拷问烛台"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "火山官邸"
+  },
+  "Alecto, Black Knife Ringleader": {
+    "id": "17f69b4ba0al0i1uk6s98t1nbtxunt",
+    "name": "Alecto, Black Knife Ringleader",
+    "name_cn": "黑刀之首亚勒托",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b4ba0al0i1uk6s98t1nbtxunt.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Ringleader's Evergoal, Liurnia of the Lakes",
+    "description": "Remarkably agile and aggressive warrior. Dangerous even for those with shield coverage...",
+    "description_cn": "异常敏捷且凶猛的战士。即使持有盾牌也极为危险……",
+    "drops": [
+      "“黑刀”狄希"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "头目的封印监牢"
+  },
+  "Alabaster Lord": {
+    "id": "17f69b85929l0i1ukc4l2up7yp9v0i",
+    "name": "Alabaster Lord",
+    "name_cn": "白王",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b85929l0i1ukc4l2up7yp9v0i.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Royal Grave Evergaol, Liurnia of the Lakes",
+    "description": "An Evergaol prisoner wielding a vicious sword and the void with murderous intent.",
+    "description_cn": "白王，操控重力术的星之遗民，使用重力刀。",
+    "drops": [
+      "陨石"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "王室封印监牢"
+  },
+  "Adan, Thief Of Fire": {
+    "id": "17f69a3ca37l0i1ukd1lq14ctafbk",
+    "name": "Adan, Thief Of Fire",
+    "name_cn": "火焰盗贼亚当",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a3ca37l0i1ukd1lq14ctafbk.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Malefactor's Evergaol",
+    "description": "An evergaol prisoner and former battle mage, Adan wields a spiked flail and uses stolen knowledge of fire magic to great effect.",
+    "description_cn": "盗火亚坦，偷走火焰的恶徒，使用火焰祷告战斗。",
+    "drops": [
+      "恶神火焰"
+    ],
+    "healthPoints": "2200",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "恶兵的封印监牢"
+  },
+  "Ancient Dragon Lansseax": {
+    "id": "17f69a63610l0i1ukyx7xgx6vf0zoa",
+    "name": "Ancient Dragon Lansseax",
+    "name_cn": "古龙兰斯桑克斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a63610l0i1ukyx7xgx6vf0zoa.png",
+    "region": "Altus Plateau",
+    "location": "Altus Plateau",
+    "description": "Lansseax was the sister of Fortissax. It is said that she took the from of a human to commune with the knights as a priestess of the ancient dragon cult.",
+    "description_cn": "古龙兰斯桑克斯，能够化为人形，掌握着古龙的雷电之力。",
+    "drops": [
+      "兰斯桑克斯的刀"
+    ],
+    "healthPoints": "9087",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "亚坛高原"
+  },
+  "Ancestor Spirit": {
+    "id": "17f69590896l0i1ul0hnmor8iyf9xd",
+    "name": "Ancestor Spirit",
+    "name_cn": "祖灵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69590896l0i1ul0hnmor8iyf9xd.png",
+    "region": "Limgrave",
+    "location": "Siofra River",
+    "description": "A glowing spirit that takes the form of a large deer, making it a menacing threat when charging at targets.",
+    "description_cn": "以巨大雄鹿形态出现的灵体，冲锋时极具威胁。",
+    "drops": [
+      "祖灵之民的骨灰"
+    ],
+    "healthPoints": "2200",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "希芙拉河"
+  },
+  "Ancient Hero Of Zamor": {
+    "id": "17f69878c4al0i1ul0i7dsfou8igrk",
+    "name": "Ancient Hero Of Zamor",
+    "name_cn": "萨米尔的古代英雄",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69878c4al0i1ul0i7dsfou8igrk.png",
+    "region": "Weeping Peninsula",
+    "location": "Weeping Evergaol, Giant-Conquering Hero's Grave",
+    "description": "Noticeably agile, frost-made creature suceptible to magic attacks.",
+    "description_cn": "萨米尔古英雄，身披冰霜的古老战士，操控暴风雪。",
+    "drops": [
+      "拉达冈的烙印",
+      "萨米尔弯刀",
+      "萨米尔面具",
+      "萨米尔铠甲",
+      "萨米尔腕套",
+      "萨米尔绑腿"
+    ],
+    "healthPoints": "2200",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "啜泣封印监牢、击败巨人的英雄墓地"
+  },
+  "Beast Clergyman": {
+    "id": "17f697240ecl0i1ul21nevug9wq54e",
+    "name": "Beast Clergyman",
+    "name_cn": "野兽祭司",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697240ecl0i1ul21nevug9wq54e.png",
+    "region": "Caelid",
+    "location": "Crumbling Farum Azula",
+    "description": "Temporarily overtaken by their bestial rage, the Beast Clergyman attacks ferociously, throwing rocks and themselves at their foes. Calm their aggression and return them to their senses.",
+    "description_cn": "野兽神职人员，守护着死者的死亡之痕。",
+    "drops": [],
+    "healthPoints": "2200",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+  },
+  "Astel, Stars Of Darkness": {
+    "id": "17f69bcfd7dl0i1ul502rklvi8tx62",
+    "name": "Astel, Stars Of Darkness",
+    "name_cn": "黑暗弃子艾丝缇",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bcfd7dl0i1ul502rklvi8tx62.png",
+    "region": "Consecrated Snowfield",
+    "location": "Yelough Anix Tunnel in Consecrated Snowfield",
+    "description": "A hostile, massive Dragon-Fly creature. Menacing and extremely powerful.",
+    "description_cn": "黑暗弃星艾丝缇，与自然诞生的艾丝缇相似的另一只星之异形。",
+    "drops": [
+      "艾丝缇陨石"
+    ],
+    "healthPoints": "25,376",
+    "is_dlc": false,
+    "region_cn": "化圣雪原",
+    "location_cn": "耶洛克尼斯坑道（化圣雪原）"
+  },
+  "Beast Of Farum Azula": {
+    "id": "17f69d4387al0i1ulpqqumwqw05j3c",
+    "name": "Beast Of Farum Azula",
+    "name_cn": "法姆·亚兹拉的野兽",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d4387al0i1ulpqqumwqw05j3c.png",
+    "region": "Limgrave",
+    "location": "Groveside Cave",
+    "description": "Underground-living creature found at Groveside Cave",
+    "description_cn": "法姆·亚兹拉的野兽，受野兽祭祀驱使的兽类灵体。",
+    "drops": [
+      "火龙徽护符"
+    ],
+    "healthPoints": "1960",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "林洞"
+  },
+  "Beastman Of Farum Azula": {
+    "id": "17f69d7fe72l0i1ultk418yedh25s7",
+    "name": "Beastman Of Farum Azula",
+    "name_cn": "法姆·亚兹拉的兽人",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d7fe72l0i1ultk418yedh25s7.png",
+    "region": "Dragonbarrow",
+    "location": "Groveside Cave, Dragonbarrow Cave",
+    "description": "The beasts of Groveside Cave rally around the prowess of the Beastman of Farum Azula",
+    "description_cn": "法姆·亚兹拉的兽人，手持武器的远古兽人。",
+    "drops": [
+      "火龙徽护符",
+      "火龙徽护符+2"
+    ],
+    "healthPoints": "1,960",
+    "is_dlc": false,
+    "region_cn": "龙墓",
+    "location_cn": "林洞、龙墓洞窟"
+  },
+  "Bell Bearing Hunter": {
+    "id": "17f69c4aacel0i1uluegh15idblimv",
+    "name": "Bell Bearing Hunter",
+    "name_cn": "铃珠猎人",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c4aacel0i1uluegh15idblimv.png",
+    "region": "Dragonbarrow",
+    "location": "Warmaster's Shack, Northern Stormhill, Church of Vows, East Liurnia, Hermit Merchant's Shack, Leyndell Royal Captial, Dragonbarrow, North Caelid",
+    "description": "Menacing and slow-paced, it wields a large, red-glowing sword and a shield combined with a full body armor and a chilling cape.",
+    "description_cn": "手持猩红发光巨剑与盾牌的骇人战士，动作缓慢而充满压迫感。",
+    "drops": [
+      "兽骨贩子的铃珠"
+    ],
+    "healthPoints": "6000 Runes, Meat Peddler's Bell Bearing",
+    "is_dlc": false,
+    "region_cn": "龙墓",
+    "location_cn": "战帅破屋、结缘教堂等多地点"
+  },
+  "Black Blade Kindred": {
+    "id": "17f69a61779l0i1ulv0a3ru8iy0zh5",
+    "name": "Black Blade Kindred",
+    "name_cn": "黑剑眷属",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a61779l0i1ulv0a3ru8iy0zh5.png",
+    "region": "Dragonbarrow",
+    "location": "Caelid, Forbidden Lands",
+    "description": "Imposing Gargoyle wielding a massive armament",
+    "description_cn": "黑剑眷属，镇守神授塔入口的巨型石像守卫。",
+    "drops": [
+      "石像鬼黑剑",
+      "石像鬼黑戟",
+      "石像鬼黑斧",
+      "石像鬼黑双头剑"
+    ],
+    "healthPoints": "12,500",
+    "is_dlc": false,
+    "region_cn": "龙墓",
+    "location_cn": "盖利德、禁域"
+  },
+  "Black Knife Assassin": {
+    "id": "17f69bd3c06l0i1ulx2jxbiogta1i",
+    "name": "Black Knife Assassin",
+    "name_cn": "黑刀刺客",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bd3c06l0i1ulx2jxbiogta1i.png",
+    "region": "Limgrave",
+    "location": "Deathtouched Catacombs, Black Knife CatacombsSage's Cave",
+    "description": "Relentless and agile dark figures carrying a",
+    "description_cn": "黑刀刺客，使用消逝之力的秘密刺客，动作迅捷。",
+    "drops": [
+      "染红凶刀",
+      "染蓝凶刀",
+      "隐身面纱",
+      "黑刀"
+    ],
+    "healthPoints": "2750",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "死亡触碰地下墓地、黑刀地下墓地、贤者洞窟"
+  },
+  "Bloodhound Knight Darriwil": {
+    "id": "17f69637e92l0i1um8wqsflgk3i9yr",
+    "name": "Bloodhound Knight Darriwil",
+    "name_cn": "猎犬骑士达瑞威尔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69637e92l0i1um8wqsflgk3i9yr.png",
+    "region": "Limgrave",
+    "location": "Limgrave, Forlon Hound Evergaol",
+    "description": "The merciless bloodhounds attack with grace and agility, never backing down or giving a moment's rest.",
+    "description_cn": "猎犬骑士达瑞威尔，背叛主人的迅捷剑士。",
+    "drops": [
+      "猎犬长牙"
+    ],
+    "healthPoints": "14,792",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "宁姆格福·猎犬封印监牢"
+  },
+  "Burial Tree Watchdog": {
+    "id": "17f697f48d5l0i1umdbu7v5phffgq",
+    "name": "Burial Tree Watchdog",
+    "name_cn": "墓地看门犬",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f48d5l0i1umdbu7v5phffgq.png",
+    "region": "Limgrave",
+    "location": "Limgrave, Stormfoot Catacombs",
+    "description": "A large feline-hound looking guardian that serves as a \"Watchdog\"for the Burial Tree of the Stormfoot Catacombs.",
+    "description_cn": "黄金树看门犬，守护地下墓地的石像犬首领。",
+    "drops": [
+      "战灰：辉剑圆阵"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "宁姆格福·风暴脚跟地下墓地"
+  },
+  "Cleanrot Knight": {
+    "id": "17f69563d15l0i1umhb4am3xzuib3g",
+    "name": "Cleanrot Knight",
+    "name_cn": "纯洁骑士",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69563d15l0i1umhb4am3xzuib3g.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Stillwater Cave, Liurnia of the Lakes",
+    "description": "Powerful, dexterous Knight capable of distanced, very rapid attacks. Its spear and sword are a threat to any light-armored fighter.",
+    "description_cn": "纯净金骑士，侍奉米凯拉的圣树骑士，即便身体腐败仍在战斗。",
+    "drops": [
+      "带翼剑徽章",
+      "尊腐骑士剑"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "静水洞窟"
+  },
+  "Borealis The Freezing Fog": {
+    "id": "17f69d6ca41l0i1umlxg0j36mhrnzr",
+    "name": "Borealis The Freezing Fog",
+    "name_cn": "冰雾北极兽",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d6ca41l0i1umlxg0j36mhrnzr.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Mountaintops of the Giants",
+    "description": "Frost Dragon guarding the frozen lake of Mountaintop of Giants, emits a permanent blizzard.",
+    "description_cn": "冰雾猛龙波瑞亚利斯，能喷吐极寒冰雾。",
+    "drops": [
+      "龙心脏"
+    ],
+    "healthPoints": "11,100",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "巨人山顶"
+  },
+  "Commander Niall": {
+    "id": "17f698b7d2fl0i1umtkf7cu5a21hdw",
+    "name": "Commander Niall",
+    "name_cn": "司令官尼尔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698b7d2fl0i1umtkf7cu5a21hdw.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Mountaintops of the Giants",
+    "description": "Commander Niall is a tall and built knight with a peg leg, clad in heavy armor, wielding a halberd that doubles as a battle standard. He is accompanied by two Spectral Banished Knights, one equipped with dual swords and the other equipped with a sword and shield.",
+    "description_cn": "指挥官尼尔，镇守索尔城的残身将军，能召唤两名骑士夹击。",
+    "drops": [
+      "老将的义足"
+    ],
+    "healthPoints": "16,000",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "巨人山顶"
+  },
+  "Commander O'neil": {
+    "id": "17f69562d87l0i1umxu2qwle86ai8q",
+    "name": "Commander O'neil",
+    "name_cn": "司令官欧尼尔",
+    "image": null,
+    "region": "Caelid",
+    "location": "Caelid",
+    "description": "A large and imposing human commander who wields a halberd that doubles as a battle standard, rousing his spirit minions to battle with unquenchable fervor.",
+    "description_cn": "指挥官奥尼尔，艾奥尼亚沼泽中徘徊的将军，可召唤随从。",
+    "drops": [
+      "老将的军旗",
+      "纯净金针"
+    ],
+    "healthPoints": "11,400",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "盖利德"
+  },
+  "Crucible Knight Ordovis": {
+    "id": "17f699b0755l0i1un48m87fngquaw",
+    "name": "Crucible Knight Ordovis",
+    "name_cn": "熔炉骑士奥陶琵斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699b0755l0i1un48m87fngquaw.png",
+    "region": "Altus Plateau",
+    "location": "Auriza Hero's Grave",
+    "description": "Large, heavy and fully armored. With the ability to materialize fiery wings and attack from above. Attacks with the huge power of Ordivis's Greatsword and a Greatshield. Slow, but extremely tough and highly dangerous.",
+    "description_cn": "熔炉骑士奥陶琵斯，双人组合的领袖，使用大剑与长矛。",
+    "drops": [
+      "奥陶琵斯大剑",
+      "熔炉斧形盔",
+      "熔炉斧形铠",
+      "熔炉臂甲",
+      "熔炉腿甲"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "亚雷萨英雄墓地"
+  },
+  "Crystalians": {
+    "id": "17f695b37c1l0i1ungf7vjojqaf4zp",
+    "name": "Crystalians",
+    "name_cn": "结晶人",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695b37c1l0i1ungf7vjojqaf4zp.png",
+    "region": "Altus Plateau",
+    "location": "Academy Crystal Cave, Altus Tunnel",
+    "description": "Crystal energy in the form of a human with devastating power.",
+    "description_cn": "结晶人，由纯粹结晶构成的生命体，坚硬外壳难以击破。",
+    "drops": [
+      "飞散结晶",
+      "灵依矿工的铃珠(2)",
+      "锻造矿工的铃珠(1)",
+      "奔放结晶"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "学院结晶洞窟、亚坛坑道"
+  },
+  "Deathbird": {
+    "id": "17f69e151d8l0i1uo19hl8r6l0snmo",
+    "name": "Deathbird",
+    "name_cn": "死之鸟",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e151d8l0i1uo19hl8r6l0snmo.png",
+    "region": "Limgrave",
+    "location": "Limgrave, Weeping Peninsula, Liurnia of the Lakes",
+    "description": "A bipedal bird with arms and a bird skull for a head and is found in various locations",
+    "description_cn": "死之鸟，夜空中降临的不祥之鸟，以死亡之火焚烧敌人。",
+    "drops": [
+      "蓝羽七刃剑",
+      "牺牲之斧",
+      "红羽七刃剑"
+    ],
+    "healthPoints": "2750",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "宁姆格福、啜泣半岛、利耶尼亚"
+  },
+  "Decaying Ekzykes": {
+    "id": "17f69bcc1cdl0i1uoai2hm5tcbuhh2",
+    "name": "Decaying Ekzykes",
+    "name_cn": "腐败化身埃克孜克斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bcc1cdl0i1uoai2hm5tcbuhh2.png",
+    "region": "Caelid",
+    "location": "Caelid",
+    "description": "A pale white dragon — its scales blighted by the same scarlet rot that plagues the region of Caelid. It silently waits along the southern highway, awaiting unsuspecting travelers to fall prey to its deathly onslaught.",
+    "description_cn": "腐败化身艾格基斯，因猩红腐败而严重腐蚀的恶龙。",
+    "drops": [
+      "龙心脏"
+    ],
+    "healthPoints": "23,731",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "盖利德"
+  },
+  "Demi-human Chief": {
+    "id": "17f6961da46l0i1uoh7hemoben3dtg",
+    "name": "Demi-human Chief",
+    "name_cn": "亚人首领",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6961da46l0i1uoh7hemoben3dtg.png",
+    "region": "Limgrave",
+    "location": "Coastal Cave",
+    "description": "The darkness of Coastal Cave hides a den of those who may look almost human, but are certainly not.",
+    "description_cn": "亚人首领，统率亚人群体的强壮头目。",
+    "drops": [
+      "裁缝工具",
+      "缝衣针"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "海岸洞窟"
+  },
+  "Demi-human Queen Maggie": {
+    "id": "17f69559137l0i1uoqf3qzndh0901t",
+    "name": "Demi-human Queen Maggie",
+    "name_cn": "亚人女王玛姬",
+    "image": null,
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "Sovereign Demi-Human creature roaming the lands of Mt. Gelmir",
+    "description_cn": "亚人女王玛姬，体型庞大的亚人女王。",
+    "drops": [
+      "记忆石",
+      "黄金卢恩[1]"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Divine Bridge Golem": {
+    "id": "17f69518792l0i1up7fr7vzvqcmzf",
+    "name": "Divine Bridge Golem",
+    "name_cn": "神授桥魔像",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69518792l0i1up7fr7vzvqcmzf.png",
+    "region": "Altus Plateau",
+    "location": "Lyendell, Royal Capital",
+    "description": "Enormously large and lethargic Golem that slowly storms into battle when it becomes aware of your presence.",
+    "description_cn": "神授桥上的看守魔像，持有巨大的弓箭。",
+    "drops": [],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "王城罗德尔"
+  },
+  "Demi-human Queen Margot": {
+    "id": "17f69b39c43l0i1up7iq7q4lvvgyc",
+    "name": "Demi-human Queen Margot",
+    "name_cn": "亚人女王玛戈特",
+    "image": null,
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "Sovereign Demi-Human creature concealed within isolated caves.",
+    "description_cn": "亚人女王玛格特，号令亚人的女性君主。",
+    "drops": [
+      "壶大炮"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Draconic Tree Sentinel": {
+    "id": "17f69625d6el0i1upqw478c5kvsjv3",
+    "name": "Draconic Tree Sentinel",
+    "name_cn": "龙装大树守卫",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69625d6el0i1upqw478c5kvsjv3.png",
+    "region": "Altus Plateau",
+    "location": "Capital Outskirts Crumbling Farum Azula",
+    "description": "Massive knight clad in golden armor atop a giant horse.",
+    "description_cn": "龙装树哨兵，身穿龙甲的精英树哨兵。",
+    "drops": [
+      "大龙爪",
+      "龙爪盾"
+    ],
+    "healthPoints": "8,398",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "王城郊外、法姆·亚兹拉"
+  },
+  "Dragonkin Soldier": {
+    "id": "17f69de1071l0i1uprrms3umg3rug",
+    "name": "Dragonkin Soldier",
+    "name_cn": "龙人士兵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69de1071l0i1uprrms3umg3rug.png",
+    "region": "Limgrave",
+    "location": "Siofra River, Lake of Rot",
+    "description": "A large, hostile humanoid creature awaken from its drowse straight into battle.",
+    "description_cn": "龙人士兵，远古时代仿照古龙制作的人造士兵。",
+    "drops": [
+      "龙戟"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "希芙拉河、腐败湖"
+  },
+  "Cemetery Shade": {
+    "id": "17f69b43b78l0i1upyrupf0wna8q7a",
+    "name": "Cemetery Shade",
+    "name_cn": "墓地影子",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b43b78l0i1upyrupf0wna8q7a.png",
+    "region": "Caelid",
+    "location": "Tombsward Catacombs, Black Knife Catacombs,Caelid Catacombs,",
+    "description": "Amorphous and shadowy being belonging to the catacombs",
+    "description_cn": "隐藏在墓地阴影中的幽魂，使用双刀发动快速攻击。",
+    "drops": [
+      "“无头骑士”露缇尔",
+      "双贤魔法师的骨灰",
+      "腐败眷属的骨灰"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "巡礼教堂地下墓地、黑刀地下墓地、盖利德地下墓地"
+  },
+  "Crucible Knight": {
+    "id": "17f69a6fae3l0i1uq63au7m71cs8mh",
+    "name": "Crucible Knight",
+    "name_cn": "熔炉骑士",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a6fae3l0i1uq63au7m71cs8mh.png",
+    "region": "Altus Plateau",
+    "location": "Stormhill Evergaol,, Stormveil Castle,, Auriza Hero's Grave",
+    "description": "A formidable, dexterous fighter skilled in melee combat.",
+    "description_cn": "熔炉骑士，侍奉黄金一族的古老骑士，掌握熔炉百相之力。",
+    "drops": [
+      "熔炉百相之尾",
+      "熔炉百相之角"
+    ],
+    "healthPoints": "Stormhill Evergaol:, 2750",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "风暴封印监牢、史东薇尔城、亚雷萨英雄墓地"
+  },
+  "Dragonkin Soldier Of Nokstella": {
+    "id": "17f699200d2l0i1uqbs9w1ijmp2ner",
+    "name": "Dragonkin Soldier Of Nokstella",
+    "name_cn": "诺克史黛拉的龙人士兵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699200d2l0i1uqbs9w1ijmp2ner.png",
+    "region": "Limgrave",
+    "location": "Ainsel River",
+    "description": "Huge humanoid-like creature located at the underground caves of Uhl Palace Ruins",
+    "description_cn": "诺克史黛拉的龙人士兵，持戟的古老造物。",
+    "drops": [
+      "冰雷枪"
+    ],
+    "healthPoints": "≈4372",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "安瑟尔河"
+  },
+  "Dragonlord Placidusax": {
+    "id": "17f69bf3366l0i1uqds10qc8exqn1ik",
+    "name": "Dragonlord Placidusax",
+    "name_cn": "龙王普拉顿桑克斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bf3366l0i1uqds10qc8exqn1ik.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Crumbling Farum Azula",
+    "description": "A massive in size, two-headed dragon capable of immense acts of annihilation.",
+    "description_cn": "龙王普拉顿桑克斯，曾经的艾尔登之王，坐镇时间尽头。",
+    "drops": [
+      "龙王的追忆"
+    ],
+    "healthPoints": "≈26651",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+  },
+  "Elden Beast": {
+    "id": "17f699dadfbl0i1uqmgi50oii11eaj",
+    "name": "Elden Beast",
+    "name_cn": "艾尔登之兽",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699dadfbl0i1uqmgi50oii11eaj.png",
+    "region": "Altus Plateau",
+    "location": "Elden Throne",
+    "description": "It is said that long ago, the Greater Will sent a golden star bearing a beast into the Lands Between, which would later become the Elden Ring.",
+    "description_cn": "艾尔登之兽，黄金律法的具现化形态，艾尔登之王背后的真正力量。",
+    "drops": [
+      "艾尔登的追忆"
+    ],
+    "healthPoints": "26,880 (GOD)",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "艾尔登王座"
+  },
+  "Elemer Of The Briar": {
+    "id": "17f695cb903l0i1uqqf40ik8th6wqw",
+    "name": "Elemer Of The Briar",
+    "name_cn": "荆棘艾尔默",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695cb903l0i1uqqf40ik8th6wqw.png",
+    "region": "Altus Plateau",
+    "location": "The Shaded Castle",
+    "description": "Wielding the stolen sword from the Marais family, Elemer of the Briar stands at the top of the castle waiting.",
+    "description_cn": "荆棘艾尔默，手持「玛雷家行刑剑」的凶残剑士。",
+    "drops": [
+      "玛雷家行刑剑",
+      "铁棘大盾"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "日荫城"
+  },
+  "Esgar, Priest Of Blood": {
+    "id": "17f69579c3dl0i1uqxt6ul73e103ur",
+    "name": "Esgar, Priest Of Blood",
+    "name_cn": "鲜血祭司艾斯加",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69579c3dl0i1uqxt6ul73e103ur.png",
+    "region": "Altus Plateau",
+    "location": "Leyndell, Royal Capital",
+    "description": "A highly aggressive humanoid priest",
+    "description_cn": "鲜血祭司艾斯加，侍奉鲜血君王的祭司。",
+    "drops": [
+      "鲜血君王的欢愉"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "王城罗德尔"
+  },
+  "Erdtree Avatar": {
+    "id": "17f6969fb51l0i1ur3o74ppc7h3gl5",
+    "name": "Erdtree Avatar",
+    "name_cn": "黄金树化身",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6969fb51l0i1ur3o74ppc7h3gl5.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Minor Erdtree (Weeping Peninsula), Minor Erdtree (Liurnia Southwest), Minor Erdtree (Liurnia Northeast), Minor Erdtree (Caelid), Minor Erdtree (Mountaintops East)",
+    "description": "A large headless create which resembles a tree stump.",
+    "description_cn": "黄金树化身，守护黄金树的树灵化身。",
+    "drops": [
+      "珍珠泡状露滴",
+      "涌红结晶露滴",
+      "蓝结晶露滴",
+      "爆裂结晶露滴",
+      "带圣破露滴",
+      "带雷破露滴",
+      "带魔力破露滴",
+      "涌绿结晶露滴",
+      "带火破露滴",
+      "红泡状露滴"
+    ],
+    "healthPoints": "14,992",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "小黄金树（多地点）"
+  },
+  "Fallingstar Beast": {
+    "id": "17f69aae933l0i1urbz9zyz3jjvhjf",
+    "name": "Fallingstar Beast",
+    "name_cn": "坠星兽",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6969fb51l0i1ur3o74ppc7h3gl5.png",
+    "region": "Caelid",
+    "location": "Sellia Crystal Tunnel, Caelid, Altus Plateau",
+    "description": "A massive quadruped with a long spiky tail and a head reminiscent of a centipede's, with massive mandibles protruding from its face. It behaves much like a bull and appears to have seismic powers, allowing it to control the earth within its chamber.",
+    "description_cn": "坠星兽，从天而降的星之野兽，以重力为武器。",
+    "drops": [
+      "灵依矿工的铃珠(1)",
+      "锻造石(7) ×5",
+      "灵依锻造石(6)",
+      "重力石碎块 ×4"
+    ],
+    "healthPoints": "≈8000",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "瑟利亚结晶坑道"
+  },
+  "Fell Twins": {
+    "id": "17f69c5a361l0i1urf5b4r5s5cf125",
+    "name": "Fell Twins",
+    "name_cn": "堕落双子",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c5a361l0i1urf5b4r5s5cf125.png",
+    "region": "Altus Plateau",
+    "location": "Capital Outskirts",
+    "description": "Two bulky ogre-like creatures fighting side by side with red-hot armament",
+    "description_cn": "凶兆双子，下水道中的恶兆双胞胎。",
+    "drops": [
+      "恶兆猎人罗洛"
+    ],
+    "healthPoints": "15,664",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "王城郊外"
+  },
+  "Fia's Champions": {
+    "id": "17f695d42c3l0i1uriibjok1ydfodg",
+    "name": "Fia's Champions",
+    "name_cn": "菲雅的英雄",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695d42c3l0i1uriibjok1ydfodg.png",
+    "region": "Limgrave",
+    "location": "Deeproot Depths",
+    "description": "Five invaders summoned in an endurance combat in three waves.",
+    "description_cn": "菲雅的英雄们，被死王子召唤而来的各路英雄灵体。",
+    "drops": [
+      "菲雅烟雾"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "深根底层"
+  },
+  "Flying Dragon Agheel": {
+    "id": "17f69725115l0i1urx3t47u0gfs43",
+    "name": "Flying Dragon Agheel",
+    "name_cn": "飞龙亚基尔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69725115l0i1urx3t47u0gfs43.png",
+    "region": "Limgrave",
+    "location": "Limgrave, Dragon-Burnt Ruins",
+    "description": "A feared-by-most massive dragon located within the Dragon-Burnt Ruins in Limgrave",
+    "description_cn": "飞龙亚基尔，盘旋于宁姆格福沼泽的火焰飞龙。",
+    "drops": [
+      "龙心脏"
+    ],
+    "healthPoints": "≈3200",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "宁姆格福·龙息废墟"
+  },
+  "Fire Giant": {
+    "id": "17f69ba1aa7l0i1us08w3dodkoeju",
+    "name": "Fire Giant",
+    "name_cn": "火焰巨人",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ba1aa7l0i1us08w3dodkoeju.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Mountaintops of the Giants",
+    "description": "Upon realizing the flames of their forge would never die, Queen Marika, marked him with a curse. \"O trifling giant, mayest thou tend thy, flame for eternity.",
+    "description_cn": "火焰巨人，守护巨人山顶火焰大锅的远古巨人。",
+    "drops": [
+      "火焰巨人的追忆"
+    ],
+    "healthPoints": "126,720",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "巨人山顶"
+  },
+  "Flying Dragon Greyll": {
+    "id": "17f69846e66l0i1us1stxjbqloi1z",
+    "name": "Flying Dragon Greyll",
+    "name_cn": "飞龙格瑞尔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69846e66l0i1us1stxjbqloi1z.png",
+    "region": "Caelid",
+    "location": "Caelid",
+    "description": "A large grey dragon, Flying Dragon Greyll patrols the bridge breathing fire and flying down on those trying to cross.",
+    "description_cn": "飞龙格利尔，龙墓大桥附近的巨大飞龙。",
+    "drops": [
+      "龙心脏"
+    ],
+    "healthPoints": "11,628 Greater Foe",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "盖利德"
+  },
+  "Frenzied Duelist": {
+    "id": "17f696b2a70l0i1us26mtvbp7p85",
+    "name": "Frenzied Duelist",
+    "name_cn": "癫狂斗士",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696b2a70l0i1us26mtvbp7p85.png",
+    "region": "Caelid",
+    "location": "Gaol Cave",
+    "description": "A humanoid with heavy armor and a massive axe.",
+    "description_cn": "癫火斗士，被癫火吞噬的疯狂战士。",
+    "drops": [
+      "腐烂长生者的骨灰"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "监狱洞窟"
+  },
+  "God-devouring Serpent": {
+    "id": "17f699fafc0l0i1usmk2s2oybvx44a",
+    "name": "God-devouring Serpent",
+    "name_cn": "噬神大蛇",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699fafc0l0i1usmk2s2oybvx44a.png",
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "A massive, menacing reptile that poses a remarkable threat.",
+    "description_cn": "噬神大蛇，火山官邸深处的大蛇，吞噬神明的异形。",
+    "drops": [],
+    "healthPoints": "≈30439",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Glintstone Dragon Smarag": {
+    "id": "17f6953dec4l0i1uso41jlanmo9c4v",
+    "name": "Glintstone Dragon Smarag",
+    "name_cn": "辉石龙史马拉格",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6953dec4l0i1uso41jlanmo9c4v.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Liurnia of the Lakes",
+    "description": "A fearsome magic dragon with crystalized magic stone for scales. Jealously guards the entrance to the Academy's Crystal Cave.",
+    "description_cn": "辉石龙斯马拉格，在学院门前徘徊的辉石龙，守护着学院入口。",
+    "drops": [
+      "龙心脏"
+    ],
+    "healthPoints": "6,100",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "利耶尼亚"
+  },
+  "Glintstone Dragon Adula": {
+    "id": "17f695d390el0i1usszzihpctlfb2",
+    "name": "Glintstone Dragon Adula",
+    "name_cn": "辉石龙亚杜拉",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695d390el0i1usszzihpctlfb2.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Liurnia of The Lakes",
+    "description": "A powerful and devastating dragon, a menace for all type of fighters.",
+    "description_cn": "辉石龙亚杜拉，侍奉卡利亚王室的古龙。",
+    "drops": [
+      "亚杜拉的月光剑",
+      "龙心脏 ×3"
+    ],
+    "healthPoints": "≈11550",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "利耶尼亚"
+  },
+  "Godefroy The Grafted": {
+    "id": "17f69c4aefal0i1usvodp9osviy7v",
+    "name": "Godefroy The Grafted",
+    "name_cn": "接肢葛孚亚",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c4aefal0i1usvodp9osviy7v.png",
+    "region": "Altus Plateau",
+    "location": "Golden Lineage Evergaol",
+    "description": "A member of Godrick the Grafted's family imprisoned by the Dragon Knight during the War of the Shattering.",
+    "description_cn": "\"接肢\"葛孚罗，与葛瑞克同源的另一只接肢贵族，被囚禁在封印监牢中。",
+    "drops": [
+      "葛孚雷的肖像"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "黄金一族的封印监牢"
+  },
+  "Godfrey, First Elden Lord (hoarah Loux)": {
+    "id": "17f69a82a2el0i1uta5rxvqv53g7e",
+    "name": "Godfrey, First Elden Lord (hoarah Loux)",
+    "name_cn": "初始艾尔登之王葛孚雷（荷莱·露）",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a82a2el0i1uta5rxvqv53g7e.png",
+    "region": "Altus Plateau",
+    "location": "Leyndell, Capital of Ash",
+    "description": "I've given thee courtesy enough. Now I fight as Hoarah Loux. Warrior!",
+    "description_cn": "初代艾尔登之王葛弗雷／战士荷莱·露，褪去王号后的真正姿态。",
+    "drops": [
+      "荷莱·露的追忆"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "灰城罗德尔"
+  },
+  "Godfrey, First Elden Lord (golden Shade)": {
+    "id": "17f697d2396l0i1utcv9km3qxcnt6m",
+    "name": "Godfrey, First Elden Lord (golden Shade)",
+    "name_cn": "初始艾尔登之王葛孚雷（黄金幻影）",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697d2396l0i1utcv9km3qxcnt6m.png",
+    "region": "Altus Plateau",
+    "location": "Leyndell, Royal Capital",
+    "description": "Physical form of Godfrey, First Elden Lord",
+    "description_cn": "初代艾尔登之王葛弗雷（黄金幻影），守护王城的虚像。",
+    "drops": [
+      "护符皮袋"
+    ],
+    "healthPoints": "≈7099",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "王城罗德尔"
+  },
+  "Godrick The Grafted": {
+    "id": "17f6953f0d5l0i1uthl5j30bc50wdo",
+    "name": "Godrick The Grafted",
+    "name_cn": "接肢葛瑞克",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6953f0d5l0i1uthl5j30bc50wdo.png",
+    "region": "Limgrave",
+    "location": "Stormveil Castle",
+    "description": "Godrick the Grafted is the ruler of Stormveil Castle, wielding a large golden axe. He has grafted many arms on his body, a symbol of power to all those who might try to depose him.",
+    "description_cn": "\"接肢\"葛瑞克，史东薇尔城的统治者，挥舞巨大金斧，身上接合了众多肢体。",
+    "drops": [
+      "接肢的追忆",
+      "葛瑞克的大卢恩"
+    ],
+    "healthPoints": "6080",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "史东薇尔城"
+  },
+  "Godskin Apostle": {
+    "id": "17f69c1bc31l0i1utrgxwhdp1csdis",
+    "name": "Godskin Apostle",
+    "name_cn": "神皮使徒",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c1bc31l0i1utrgxwhdp1csdis.png",
+    "region": "Caelid",
+    "location": "Spiritcaller's Cave",
+    "description": "The apostles, one said to serve Destined Death, are wielders of the god-slaying black flame. But after their defeat by Maliketh, the Black Blade, the source of their power was sealed away.",
+    "description_cn": "神皮使徒，侍奉「黑焰」的使徒之一，拥有延展的身体。",
+    "drops": [
+      "神皮襁褓",
+      "黑焰仪式"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "唤灵洞窟"
+  },
+  "Godskin Apostle And Godskin Noble": {
+    "id": "17f69c68871l0i1utx4r38kpdj1yil",
+    "name": "Godskin Apostle And Godskin Noble",
+    "name_cn": "神皮使徒与神皮贵族",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c68871l0i1utx4r38kpdj1yil.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Spiritcaller Cave, Mountaintops of the Giants",
+    "description": "They are found in their spirit forms, spawned by the opportunist Spirit-Caller Snail.",
+    "description_cn": "神皮使徒与神皮贵族，双重黑焰的致命组合。",
+    "drops": [
+      "神皮襁褓",
+      "黑焰仪式"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "唤灵洞窟（巨人山顶）"
+  },
+  "Death Rite Bird": {
+    "id": "17f69e15137l0i1uu7e0w9qynlhveh",
+    "name": "Death Rite Bird",
+    "name_cn": "死仪鸟",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e15137l0i1uu7e0w9qynlhveh.png",
+    "region": "Mountaintops of the Giants",
+    "location": "Mountaintops of the Giants",
+    "description": "Immense bird skeleton with crow-like features. Rushes to battle from above while wielding a giant spear.",
+    "description_cn": "死亡仪式鸟，在死之迷路中徘徊的幽火之鸟，散布死亡之雾。",
+    "drops": [
+      "死亡仪式矛",
+      "死亡勾棒"
+    ],
+    "healthPoints": "≈2750",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "巨人山顶"
+  },
+  "Godskin Noble": {
+    "id": "17f69814439l0i1uuifby3b0bn9gs",
+    "name": "Godskin Noble",
+    "name_cn": "神皮贵族",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69814439l0i1uuifby3b0bn9gs.png",
+    "region": "Mount Gelmir",
+    "location": "Spiritcaller's Cave,Volcano Manor,",
+    "description": "The most aggresive of the Godskin.",
+    "description_cn": "神皮贵族，身体臃肿却动作敏捷，使用刺锤与黑焰。",
+    "drops": [
+      "神皮襁褓",
+      "黑焰仪式",
+      "神皮缝针",
+      "贵族气场"
+    ],
+    "healthPoints": "≈10,000",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "唤灵洞窟、火山官邸"
+  },
+  "Grafted Scion": {
+    "id": "17f69bf253bl0i1uuma3733w2zwodm",
+    "name": "Grafted Scion",
+    "name_cn": "接肢贵族后裔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bf253bl0i1uuma3733w2zwodm.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Tutorial Area",
+    "description": "An amorphous blob that wields two swords and a shield, and appears to be grafted with multiple arms.",
+    "description_cn": "接肢贵族，初始受难之敌，持有双刀或盾矛。",
+    "drops": [
+      "泪滴幼体",
+      "仪式直剑",
+      "兽纹黄金盾"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "教学区域"
+  },
+  "Great Wyrm Theodorix": {
+    "id": "17f695140e9l0i1uuu2pjzqqsbskl",
+    "name": "Great Wyrm Theodorix",
+    "name_cn": "大土龙西奥多利克斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695140e9l0i1uuu2pjzqqsbskl.png",
+    "region": "Mountaintops of the Giants",
+    "location": "North of Albinauric Rise in Mountaintops of the Giants",
+    "description": "A dragon wyrm with immense power.",
+    "description_cn": "大土龙席欧多利克斯，与熔岩土龙同源的巨型龙种。",
+    "drops": [
+      "龙心脏 ×3"
+    ],
+    "healthPoints": "≈35,000",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "白面具塔北方（巨人山顶）"
+  },
+  "Hoarah Loux, Warrior": {
+    "id": "17f695022a1l0i1uv9aohy5ip9yh9f",
+    "name": "Hoarah Loux, Warrior",
+    "name_cn": "战士荷莱·露",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695022a1l0i1uv9aohy5ip9yh9f.png",
+    "region": "Altus Plateau",
+    "location": "Leyndell, Ashen Capital.",
+    "description": "Chieftain of the Badland Warriors.",
+    "description_cn": "\"战士\"荷莱·露，褪去艾尔登之王身份后的纯粹战士姿态。",
+    "drops": [
+      "荷莱·露的追忆"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "灰城罗德尔"
+  },
+  "Kindred Of Rot": {
+    "id": "17f69a5abc3l0i1uvfn18gmmqaf8jvj",
+    "name": "Kindred Of Rot",
+    "name_cn": "腐败眷属",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a5abc3l0i1uvfn18gmmqaf8jvj.png",
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "Large, prawn-like creatures skilled at melee combat. Its Pest's Glaive poses a menace when wielded by these agile beings.",
+    "description_cn": "腐败眷属，侍奉猩红腐败的虫型生物。",
+    "drops": [
+      "腐败眷属的欢愉"
+    ],
+    "healthPoints": "≈4000",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Guardian Golem": {
+    "id": "17f69cbe6cbl0i1uvgek1x2hoimz99",
+    "name": "Guardian Golem",
+    "name_cn": "守护魔像",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cbe6cbl0i1uvgek1x2hoimz99.png",
+    "region": "Limgrave",
+    "location": "Highroad Cave",
+    "description": "The Guardian Golem, magical constructs that has been cut and chiseled from stone. It is the sole guardian of the Highroad Cave who holds a precious item.",
+    "description_cn": "守护者魔像，古代工匠制作的机关巨人。",
+    "drops": [
+      "蓝色舞娘"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "大道洞窟"
+  },
+  "Godskin Duo": {
+    "id": "17f698b6791l0i1uvgjwlxwarfpe7a",
+    "name": "Godskin Duo",
+    "name_cn": "神皮双人组",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698b6791l0i1uvgjwlxwarfpe7a.png",
+    "region": "Altus Plateau",
+    "location": "Crumbling Farum Azula",
+    "description": "A complementing pair of creatures extremely well versed in dual-battling. These beings achieve an exceptionally balance in combat, resulting in a devastating synergy.",
+    "description_cn": "神皮双人组，使徒与贵族联手作战。",
+    "drops": [
+      "锻造石矿工的铃珠【４】",
+      "战灰：黑焰漩涡"
+    ],
+    "healthPoints": "≈24,000",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+  },
+  "Leonine Misbegotten": {
+    "id": "17f69644c82l0i1uw7sqlk2v4b6bfg",
+    "name": "Leonine Misbegotten",
+    "name_cn": "狮子混种",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69644c82l0i1uw7sqlk2v4b6bfg.png",
+    "region": "Weeping Peninsula",
+    "location": "Castle Morne, Weeping Peninsula",
+    "description": "Aggressive and feral, the Misbegotten sees nothing but rage",
+    "description_cn": "狮子混种，半狮半人的混种战士，在摩恩城顶端挥舞大刀。",
+    "drops": [
+      "剑骸大剑"
+    ],
+    "healthPoints": "14,272",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "摩恩城（啜泣半岛）"
+  },
+  "Lichdragon Fortissax": {
+    "id": "17f699223e7l0i1uwcol7wflmcgajb",
+    "name": "Lichdragon Fortissax",
+    "name_cn": "死龙弗尔桑克斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699223e7l0i1uwcol7wflmcgajb.png",
+    "region": "Limgrave",
+    "location": "Deeproot Depths",
+    "description": "Massive four winged black dragon with the ability to wield lightning.",
+    "description_cn": "死龙弗尔桑克斯，被死亡卢恩侵蚀的古龙，守护死王子的沉睡。",
+    "drops": [
+      "死龙的追忆"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "深根底层"
+  },
+  "Mad Pumpkin Head": {
+    "id": "17f69a078e0l0i1uwdp4xqjq6cpbxl",
+    "name": "Mad Pumpkin Head",
+    "name_cn": "发狂南瓜头",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a078e0l0i1uwdp4xqjq6cpbxl.png",
+    "region": "Limgrave",
+    "location": "Waypoint Ruins, Limgrave, Caelem Ruins, Caelid",
+    "description": "A huge ogre-looking creature that has a large pumpkin helmet worn on its head. It wields a massive flail and seems to be guarding something or someone against intruders.",
+    "description_cn": "发狂南瓜头，戴着巨大南瓜头盔的狂战士。",
+    "drops": [],
+    "healthPoints": "≈10,500",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "驿站街遗迹、盖尔坑道废墟"
+  },
+  "Magma Wyrm": {
+    "id": "17f69bfa759l0i1uwfa0yrdvzcov1i",
+    "name": "Magma Wyrm",
+    "name_cn": "熔岩土龙",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bfa759l0i1uwfa0yrdvzcov1i.png",
+    "region": "Caelid",
+    "location": "Gael Tunnel",
+    "description": "A large lesser dragon with bronze-colored scales covering its body. Magma Wyrms inhabit deep cave systems and volcanos, thriving within lava-flooded environments.",
+    "description_cn": "熔岩土龙，被龙飨诅咒侵蚀而成的熔岩巨兽。",
+    "drops": [
+      "龙心脏",
+      "名刀月隐"
+    ],
+    "healthPoints": "7000",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "盖尔坑道"
+  },
+  "Lion Guardian": {
+    "id": "17f696318a4l0i1uwi4cr4u43opdj5",
+    "name": "Lion Guardian",
+    "name_cn": "狮子守卫",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696318a4l0i1uwi4cr4u43opdj5.png",
+    "region": "Limgrave",
+    "location": "Stormveil Castle",
+    "description": "The Lion Guardian of Stormveil has been coerced into service by cruel means",
+    "description_cn": "狮子守护者，镇守神兽塔的巨大狮像，暴怒而迅猛。",
+    "drops": [],
+    "healthPoints": "≈2350",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "史东薇尔城"
+  },
+  "Malenia, Blade Of Miquella": {
+    "id": "17f69a48308l0i1ux3rigvv37tx84f",
+    "name": "Malenia, Blade Of Miquella",
+    "name_cn": "米凯拉的锋刃玛莲妮亚",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a48308l0i1ux3rigvv37tx84f.png",
+    "region": "Consecrated Snowfield",
+    "location": "Elphael, Brace of the Haligtree",
+    "description": "...Heed my words. I am Malenia. Blade of Miquella. And I have never known defeat.",
+    "description_cn": "\"米凯拉的锋刃\"玛莲妮亚，从未败北的女武神。",
+    "drops": [
+      "玛莲妮亚的大卢恩（使用后）",
+      "腐败女神的追忆"
+    ],
+    "healthPoints": "≈26,128",
+    "is_dlc": false,
+    "region_cn": "化圣雪原",
+    "location_cn": "圣树分支艾布雷菲尔"
+  },
+  "Maliketh, The Black Blade": {
+    "id": "17f69dbf58cl0i1ux7vft8wsk6ejbb",
+    "name": "Maliketh, The Black Blade",
+    "name_cn": "黑剑玛利喀斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69dbf58cl0i1ux7vft8wsk6ejbb.png",
+    "region": "Altus Plateau",
+    "location": "Crumbling Farum Azula",
+    "description": "O, Death. Become my blade once more.",
+    "description_cn": "\"黑剑\"玛利喀斯，死亡卢恩的持有者，兽爪与黑剑的化身。",
+    "drops": [
+      "黑剑的追忆"
+    ],
+    "healthPoints": "≈10620",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+  },
+  "Miranda The Blighted Bloom": {
+    "id": "17f699a40dfl0i1ux9v66kv7dyxcqx",
+    "name": "Miranda The Blighted Bloom",
+    "name_cn": "腐败花米兰达",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699a40dfl0i1ux9v66kv7dyxcqx.png",
+    "region": "Weeping Peninsula",
+    "location": "Weeping Peninsula: Tombsward Cave, Altus Plains: Perfumer's Grotto",
+    "description": "A giant poison flower that is deadlier than it looks.",
+    "description_cn": "腐败开花米兰达，巨大的米兰达花变异体。",
+    "drops": [
+      "绿琥珀链坠",
+      "恶兆猎人大柴刀"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "啜泣半岛归树洞窟、亚坛平原调香师洞窟"
+  },
+  "Mimic Tear": {
+    "id": "17f69e11c75l0i1uxa6gb2wpb12ipb",
+    "name": "Mimic Tear",
+    "name_cn": "仿身泪滴",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e11c75l0i1uxa6gb2wpb12ipb.png",
+    "region": "Limgrave",
+    "location": "Nokron, Eternal City",
+    "description": "An eccentric being capable of taking a comprehensive shape of its adversary, ranging from body features to armament.",
+    "description_cn": "仿身泪滴，完美复制挑战者的姿态与能力。",
+    "drops": [
+      "泪滴幼体 ×2",
+      "银色泪滴面具"
+    ],
+    "healthPoints": "≈19,536",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "永恒之城诺克隆恩"
+  },
+  "Misbegotten Crusader": {
+    "id": "17f698a5648l0i1uxs5sk4eq7dy3vh",
+    "name": "Misbegotten Crusader",
+    "name_cn": "混种圣骑士",
+    "image": null,
+    "region": "Mountaintops of the Giants",
+    "location": "Cave of the Forlorn in Mountaintops of the Giants",
+    "description": "The Lord of Frenzied Flame.",
+    "description_cn": "混种圣骑士，手持圣树大剑的混种精英。",
+    "drops": [
+      "黄金律法大剑"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "巨人山顶",
+    "location_cn": "离世洞窟（巨人山顶）"
+  },
+  "Mohg, Lord Of Blood": {
+    "id": "17f697f4363l0i1uy2tk9e7g2jqcu",
+    "name": "Mohg, Lord Of Blood",
+    "name_cn": "鲜血君王蒙格",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f4363l0i1uy2tk9e7g2jqcu.png",
+    "region": "Limgrave",
+    "location": "Mohgwyn Palace",
+    "description": "Welcome, honored guest. To the birthplace of our Dynasty!",
+    "description_cn": "鲜血君王蒙格，蒙格温王朝的主人，操纵诅咒之血。",
+    "drops": [
+      "蒙格的大卢恩（使用后）",
+      "鲜血君王的追忆"
+    ],
+    "healthPoints": "≈38,848",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "蒙格温王朝"
+  },
+  "Mohg, The Omen": {
+    "id": "17f69a3b2f2l0i1uy2usy0fea155ms",
+    "name": "Mohg, The Omen",
+    "name_cn": "恶兆蒙格",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f4363l0i1uy2tk9e7g2jqcu.png",
+    "region": "Altus Plateau",
+    "location": "Subterranean Shunning-Grounds",
+    "description": "The Lord of Frenzied Flame",
+    "description_cn": "恶兆蒙格，下水道深处的恶兆之子。",
+    "drops": [
+      "血焰爪痕"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "下水道"
+  },
+  "Magma Wyrm Makar": {
+    "id": "17f69d3101al0i1uyefex03ulrqazi",
+    "name": "Magma Wyrm Makar",
+    "name_cn": "熔岩土龙马卡",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d3101al0i1uyefex03ulrqazi.png",
+    "region": "Altus Plateau",
+    "location": "Ruin-Strewn Precipice",
+    "description": "Aggressive Fire Wyrm guarding the entrance to Altus Plains from any who attempt to bypass the lift",
+    "description_cn": "熔岩土龙马卡尔，古遗迹断崖深处的熔岩巨兽。",
+    "drops": [
+      "土龙鳞剑",
+      "龙心脏"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "古遗迹断崖"
+  },
+  "Necromancer Garris": {
+    "id": "17f69d237f0l0i1uytr06ed4gz92qdj",
+    "name": "Necromancer Garris",
+    "name_cn": "死灵法师加里斯",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d237f0l0i1uytr06ed4gz92qdj.png",
+    "region": "Altus Plateau",
+    "location": "Sage's Cave, Altus Plateau",
+    "description": "A humanoid necromancer draped in a red cloth. Efficient in the death sorceries.",
+    "description_cn": "死灵法师加里斯，操纵骷髅的邪恶术士。",
+    "drops": [
+      "家人头连枷"
+    ],
+    "healthPoints": "Field Boss",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "贤者洞窟（亚坛高原）"
+  },
+  "Nox Swordstress & Nox Priest": {
+    "id": "17f6963b02cl0i1uyzthmeyyq45wna",
+    "name": "Nox Swordstress & Nox Priest",
+    "name_cn": "诺克斯剑士与诺克斯祭司",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6963b02cl0i1uyzthmeyyq45wna.png",
+    "region": "Caelid",
+    "location": "Sellia, Town of Sorcery, Caelid",
+    "description": "A duo of warriors comprised of the female Swordstress, who uses a sword with a whip-like function to attack at medium range and a male Priest who uses spells from afar.",
+    "description_cn": "诺克斯剑士与诺克斯祭司，永恒之城的双人组合。",
+    "drops": [
+      "诺克斯流体剑"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "瑟利亚镇"
+  },
+  "Night's Cavalry": {
+    "id": "17f69a6c3fcl0i1uyzw7a7ssn0qlpp",
+    "name": "Night's Cavalry",
+    "name_cn": "黑夜骑兵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a6c3fcl0i1uyzw7a7ssn0qlpp.png",
+    "region": "Limgrave",
+    "location": "Many",
+    "description": "Imposing knight figure atop a dark steed, wielding a large flail or halberd.",
+    "description_cn": "黑夜骑兵，在夜间大道上巡逻的冷傲骑士。",
+    "drops": [
+      "战灰：连击",
+      "战灰：铁壁盾防",
+      "战灰：冰枪",
+      "战灰：双吻毒蛾",
+      "战灰：幻影共击",
+      "战灰：猎犬步法",
+      "黑夜骑兵套装"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "多个地点"
+  },
+  "Omenkiller": {
+    "id": "17f69a1be26l0i1uz1kl2dyuibof4d",
+    "name": "Omenkiller",
+    "name_cn": "恶兆杀手",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a1be26l0i1uz1kl2dyuibof4d.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Village of the Albinaurics, Volcano Manor, Perfumer's Grotto",
+    "description": "An omninous figure wielding two serrated swords.",
+    "description_cn": "恶兆猎人，专门猎杀恶兆之子的猎手。",
+    "drops": [
+      "熔炉瘤护符",
+      "恶兆猎人大柴刀"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "白金村、火山官邸、调香师洞窟"
+  },
+  "Onyx Lord": {
+    "id": "17f69a36cf8l0i1uz6gmzy0dr777k",
+    "name": "Onyx Lord",
+    "name_cn": "黑王",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a36cf8l0i1uz6gmzy0dr777k.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Sealed Tunnel, Royal Grave Evergaol",
+    "description": "The Onyx Lords, who had skin of stone, were called lords in reverential fear of their destructive power.",
+    "description_cn": "黑王，操纵重力术的星之遗民。",
+    "drops": [
+      "黑王大剑"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "封印坑道、王室封印监牢"
+  },
+  "Perfumer Tricia": {
+    "id": "17f699438b8l0i1uze1493a9h5ipk3",
+    "name": "Perfumer Tricia",
+    "name_cn": "调香师特里西娅",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699438b8l0i1uze1493a9h5ipk3.png",
+    "region": "Mount Gelmir",
+    "location": "Unsightly Catacombs, Mt. Gelmir",
+    "description": "A long range spellcaster complemented by an armored, short-distance warrior.",
+    "description_cn": "调香师特里西娅，使用治愈香气的友好调香师。",
+    "drops": [],
+    "healthPoints": "≈1024",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "丑陋地下墓地"
+  },
+  "Putrid Grave Warden Duelist": {
+    "id": "17f699ad704l0i1uzmqfup4jxyto7",
+    "name": "Putrid Grave Warden Duelist",
+    "name_cn": "腐败墓室守卫斗士",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699ad704l0i1uzmqfup4jxyto7.png",
+    "region": "Consecrated Snowfield",
+    "location": "Consecrated Snowfield Catacombs, Consecrated Snowfield.",
+    "description": "Grave Wardens protect the secrets of the ancients, but the corruption of the land has affected them too",
+    "description_cn": "腐败墓地守卫斗士，被腐蚀侵蚀的古老斗士。",
+    "drops": [
+      "大朵墓地铃兰",
+      "腐败守墓斗篷"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "化圣雪原",
+    "location_cn": "化圣雪原地下墓地"
+  },
+  "Pumpkin Head": {
+    "id": "17f697e343bl0i1uznxx67p026exqf",
+    "name": "Pumpkin Head",
+    "name_cn": "南瓜头",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697e343bl0i1uznxx67p026exqf.png",
+    "region": "Weeping Peninsula",
+    "location": "Castle Morne, Weeping Peninsula",
+    "description": "The breaking disrupted the flora and fauna of the region. Some took a rather intense liking to the larger plants that emerged",
+    "description_cn": "南瓜头士兵，戴着厚重南瓜头盔的精英士兵。",
+    "drops": [
+      "南瓜头盔",
+      "神殿石"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "摩恩城（啜泣半岛）"
+  },
+  "Putrid Tree Spirit": {
+    "id": "17f69cfaee3l0i1uzongoyxg1dptid",
+    "name": "Putrid Tree Spirit",
+    "name_cn": "腐败树灵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cfaee3l0i1uzongoyxg1dptid.png",
+    "region": "Caelid",
+    "location": "War-Dead Catacombs",
+    "description": "A blood-rotted tree that has found life despite the death that consumes it.",
+    "description_cn": "腐败树灵，被猩红腐败扭曲的树灵。",
+    "drops": [
+      "红狮子骑士奥加骨灰",
+      "黄金种子"
+    ],
+    "healthPoints": "≈18091",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "死亡战争地下墓地"
+  },
+  "Radagon Of The Golden Order": {
+    "id": "17f69bc8bd6l0i1v03619u4s9j9ql",
+    "name": "Radagon Of The Golden Order",
+    "name_cn": "黄金律法拉达冈",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bc8bd6l0i1v03619u4s9j9ql.png",
+    "region": "Altus Plateau",
+    "location": "Elden Throne",
+    "description": "Lord Radagon was a great champion, possessed of flowing red locks. He came to these lands at the head of a great golden host, when he met Lady Rennala in battle. He soon repented his territorial transgressions though, and became husband to the Carian Queen. However. When Godfrey, first Elden Lord, was hounded from the Lands Between, Radagon left Rennala to return to the Erdtree Capital, becoming Queen Marika's second husband and King Consort. Taking the title... of second Elden Lord.",
+    "description_cn": "黄金律法拉达冈，艾尔登之王的另一半，持有艾尔登之兽的力量。",
+    "drops": [],
+    "healthPoints": "≈13339",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "艾尔登王座"
+  },
+  "Red Wolf Of Radagon": {
+    "id": "17f6992c3e3l0i1v0af3d14p4dcgzx",
+    "name": "Red Wolf Of Radagon",
+    "name_cn": "拉达冈的红狼",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6992c3e3l0i1v0af3d14p4dcgzx.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Raya Lucaria Academy, Liurnia of the Lakes",
+    "description": "Fierce guardian and protector of its master, even when it has long left.",
+    "description_cn": "拉达冈的红狼，雷亚卢卡利亚学院图书馆的守卫。",
+    "drops": [
+      "记忆石"
+    ],
+    "healthPoints": "≈2204",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "雷亚卢卡利亚学院"
+  },
+  "Red Wolf Of The Champion": {
+    "id": "17f69cf967fl0i1v0cmt73nix34p0c",
+    "name": "Red Wolf Of The Champion",
+    "name_cn": "英雄红狼",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cf967fl0i1v0cmt73nix34p0c.png",
+    "region": "Mount Gelmir",
+    "location": "Gelmir Hero's Grave",
+    "description": "A ferocious red wolf with large fangs and blistering speed.",
+    "description_cn": "勇士的红狼，更为凶悍的变种。",
+    "drops": [
+      "“猎犬骑士”弗罗"
+    ],
+    "healthPoints": "≈3238",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔英雄墓地"
+  },
+  "Regal Ancestor Spirit": {
+    "id": "17f69ae5092l0i1v0k714w3s2jz8tj",
+    "name": "Regal Ancestor Spirit",
+    "name_cn": "祖灵之王",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ae5092l0i1v0k714w3s2jz8tj.png",
+    "region": "Limgrave",
+    "location": "Nokron, Eternal City",
+    "description": "A spirit glowing in pale blue light, suspended in the air and taking the shape of a huge deer.",
+    "description_cn": "祖灵之王，幽光森林中的王者灵体。",
+    "drops": [
+      "祖灵之王的追忆"
+    ],
+    "healthPoints": "≈6301",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "永恒之城诺克隆恩"
+  },
+  "Royal Knight Loretta": {
+    "id": "17f69b19e80l0i1v0x2eima4yhdbd",
+    "name": "Royal Knight Loretta",
+    "name_cn": "骑士罗蕾塔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b19e80l0i1v0x2eima4yhdbd.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Caria Manor",
+    "description": "The eternal guardian of Caria Manor fervently defends her domain atop the Royal Moongazing Grounds. Loretta uses her greatbow to rain destruction on all who would dare approach the estate grounds.",
+    "description_cn": "卡利亚骑士罗蕾塔，卡利亚城寨上层的守卫者。",
+    "drops": [
+      "罗蕾塔的大弓",
+      "战灰：罗蕾塔的斩击"
+    ],
+    "healthPoints": "≈4214",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "卡利亚城寨"
+  },
+  "Royal Revenant": {
+    "id": "17f69de0562l0i1v105zzs817wea9m",
+    "name": "Royal Revenant",
+    "name_cn": "王室幽灵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69de0562l0i1v105zzs817wea9m.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Kingsrealm Ruins, Liurnia of the Lakes",
+    "description": "An obscene and disturbing abomination, blend of a spider-like creature and human limbs resulting in a quite resourceful fighter at close range.",
+    "description_cn": "王室幽魂，无数手臂的扭曲怪物，来自冥界的复仇者。",
+    "drops": [],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "王室领地废墟"
+  },
+  "Runebear": {
+    "id": "17f699179aal0i1v13n497m1yhps2s",
+    "name": "Runebear",
+    "name_cn": "符文熊",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699179aal0i1v13n497m1yhps2s.png",
+    "region": "Weeping Peninsula",
+    "location": "Earthbore Cave, Weeping Peninsula",
+    "description": "Ferocious, robust creature that's huge in size and remarkably agressive.",
+    "description_cn": "符文熊，力大无穷的巨型灰熊。",
+    "drops": [
+      "魔力龙徽护符"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "地道洞窟（啜泣半岛）"
+  },
+  "Rykard, Lord Of Blasphemy": {
+    "id": "17f696d979al0i1v1775oof02bi8oh",
+    "name": "Rykard, Lord Of Blasphemy",
+    "name_cn": "亵渎君王拉卡德",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696d979al0i1v1775oof02bi8oh.png",
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "Join the Serpent King, as family... Together, we will devour the very gods!",
+    "description_cn": "亵渎君王拉卡德，与大蛇融为一体的火山官邸主人。",
+    "drops": [
+      "拉卡德的大卢恩（使用后）",
+      "亵渎君王的追忆"
+    ],
+    "healthPoints": "1000000",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Scaly Misbegotten": {
+    "id": "17f698d3cc6l0i1v18wptud2du5ts",
+    "name": "Scaly Misbegotten",
+    "name_cn": "鳞片混种",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698d3cc6l0i1v18wptud2du5ts.png",
+    "region": "Weeping Peninsula",
+    "location": "Morne Tunnel",
+    "description": "A troll like scavenger with an insatiable taste for blood.",
+    "description_cn": "鳞片混种，半人半龙血脉的混种战士。",
+    "drops": [
+      "锈蚀船锚"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "啜泣半岛",
+    "location_cn": "摩恩坑道"
+  },
+  "Sir Gideon Ofnir, The All-knowing": {
+    "id": "17f69ca8b2al0i1v1pg987jdl4cd68",
+    "name": "Sir Gideon Ofnir, The All-knowing",
+    "name_cn": "全知者基甸·奥夫尼尔",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ca8b2al0i1v1pg987jdl4cd68.png",
+    "region": "Altus Plateau",
+    "location": "Leyndell, Capital of Ash",
+    "description": "Sir Gideon Ofnir, now far from the books and immersed in battle.",
+    "description_cn": "全知者基甸·奥夫尼尔，圆桌厅堂的领主，知晓一切秘密的学者。",
+    "drops": [
+      "百智头盔",
+      "百智铠甲",
+      "百智臂甲",
+      "百智腿甲",
+      "百智权杖"
+    ],
+    "healthPoints": "≈6226",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "灰城罗德尔"
+  },
+  "Soldier Of Godrick": {
+    "id": "17f6982dbf7l0i1v1r3i4p5cy7kvcs",
+    "name": "Soldier Of Godrick",
+    "name_cn": "葛瑞克的士兵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6982dbf7l0i1v1r3i4p5cy7kvcs.png",
+    "region": "Limgrave",
+    "location": "Stranded Graveyard",
+    "description": "An esteemed high rank soldier, who wields a massive sword and wears his armor proudly.",
+    "description_cn": "「葛瑞克的士兵」，精英士兵，手持巨剑身穿重甲。",
+    "drops": [],
+    "healthPoints": "≈10,464",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "漂流墓地"
+  },
+  "Spirit-caller Snail": {
+    "id": "17f6987c932l0i1v1t55h6j6fm1l83",
+    "name": "Spirit-caller Snail",
+    "name_cn": "唤灵蜗牛",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6987c932l0i1v1t55h6j6fm1l83.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Road's End CatacombsSpiritcaller's Cave",
+    "description": "The ultimate Spiritcaller.",
+    "description_cn": "唤灵蜗牛，躲在暗处召唤灵体的神秘生物。",
+    "drops": [
+      "辉石魔法师的骨灰",
+      "锻造石矿工的铃珠【４】",
+      "战灰：黑焰漩涡"
+    ],
+    "healthPoints": "≈2200",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "道路尽头地下墓地、唤灵洞窟"
+  },
+  "Starscourge Radahn": {
+    "id": "17f69dc74fdl0i1v1wz3qrzn19aps8",
+    "name": "Starscourge Radahn",
+    "name_cn": "碎星拉塔恩",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69dc74fdl0i1v1wz3qrzn19aps8.png",
+    "region": "Caelid",
+    "location": "Caelid",
+    "description": "General Radahn is cursed ever to wander. Eaten from the inside, by Malenia's scarlet rot, his Wits are long gone. Now he gathers the corpses of former friends and foes alike, gorging on them, like a dog.",
+    "description_cn": "\"碎星\"拉塔恩，拉达冈与蕾娜菈之子，手持巨剑屹立于盖利德战场。",
+    "drops": [
+      "碎星的大卢恩",
+      "\"碎星\"追忆"
+    ],
+    "healthPoints": "≈25,856",
+    "is_dlc": false,
+    "region_cn": "盖利德",
+    "location_cn": "盖利德"
+  },
+  "Tibia Mariner": {
+    "id": "17f6968dcfal0i1v1y8dnaop27j5qg",
+    "name": "Tibia Mariner",
+    "name_cn": "船骸水手",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6968dcfal0i1v1y8dnaop27j5qg.png",
+    "region": "Liurnia of the Lakes",
+    "location": "Summonwater Village, Liurnia of The Lakes, Wyndham Ruins",
+    "description": "Tibia Mariner is a spectral sailor capable of calling forth the aid of undead Skeleton creatures and is mainly found at northeast Summonwater Village in Limgrave, near the limits with Caelir. This is an optional boss as players must not defeat it in order to advance to the Legacy Dungeon.",
+    "description_cn": "船之骷髅，驾驶幽灵船的死亡摆渡人。",
+    "drops": [
+      "死根",
+      "枯瘦民兵的骨灰",
+      "枯瘦山贼的骨灰",
+      "提比亚的唤声"
+    ],
+    "healthPoints": "≈2750",
+    "is_dlc": false,
+    "region_cn": "利耶尼亚",
+    "location_cn": "唤水村、温达姆废墟"
+  },
+  "Ulcerated Tree Spirit": {
+    "id": "17f69621aadl0i1v2f5fkvee5z6719",
+    "name": "Ulcerated Tree Spirit",
+    "name_cn": "腐败树灵",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69621aadl0i1v2f5fkvee5z6719.png",
+    "region": "Mount Gelmir",
+    "location": "Mt. Gelmir",
+    "description": "A corrupted and deformed tree that lurks in Mt. Gelmir.",
+    "description_cn": "腐败树灵，被侵蚀扭曲的黄金树根化身。",
+    "drops": [
+      "铅化硬露滴",
+      "蓝秘密露滴"
+    ],
+    "healthPoints": "≈17,428",
+    "is_dlc": false,
+    "region_cn": "格密尔火山",
+    "location_cn": "格密尔火山"
+  },
+  "Valiant Gargoyle": {
+    "id": "17f697500cal0i1v2hh14qewvbrwrn",
+    "name": "Valiant Gargoyle",
+    "name_cn": "英雄石像鬼",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697500cal0i1v2hh14qewvbrwrn.png",
+    "region": "Limgrave",
+    "location": "Siofra Aqueduct",
+    "description": "Just like the wielder, the missing parts have been mended with corpse wax; a patchwork of champions.",
+    "description_cn": "英勇石像鬼，守护深根底层的双持石像鬼。",
+    "drops": [
+      "石像鬼大剑",
+      "石像鬼双头剑"
+    ],
+    "healthPoints": "≈9,120",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "希芙拉导水渠"
+  },
+  "Wormface": {
+    "id": "17f696a35c3l0i1v2k2s30hlu2y50j",
+    "name": "Wormface",
+    "name_cn": "蠕脸",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697500cal0i1v2hh14qewvbrwrn.png",
+    "region": "Altus Plateau",
+    "location": "Minor Erdtree (Altus Plateau)",
+    "description": "A ghastly blood rotted tree with the face of a hundred worms.",
+    "description_cn": "蠕脸怪，长满蛆虫面孔的扭曲怪物。",
+    "drops": [
+      "漫红结晶露滴",
+      "斑斓硬露滴"
+    ],
+    "healthPoints": "未知",
+    "is_dlc": false,
+    "region_cn": "亚坛高原",
+    "location_cn": "小黄金树（亚坛高原）"
+  },
+  "Tree Sentinel": {
+    "id": "17f6992d42bl0i1v2mmti9t0qkl5yj",
+    "name": "Tree Sentinel",
+    "name_cn": "大树守卫",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6992d42bl0i1v2mmti9t0qkl5yj.png",
+    "region": "Limgrave",
+    "location": "Limgrave road",
+    "description": "The heavily armored and highly decorated sentinel protects the tree. Who would dare oppose him?",
+    "description_cn": "树哨兵，守护黄金树大道的重装骑士。",
+    "drops": [
+      "黄金戟",
+      "黄金树大盾",
+      "英雄卢恩[1]"
+    ],
+    "healthPoints": "≈1954",
+    "is_dlc": false,
+    "region_cn": "宁姆格福",
+    "location_cn": "宁姆格福大道"
+  }
+}
