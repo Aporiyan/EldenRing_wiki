@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+/data/
+public/data_backup/
+*.sp_consumption_rate
+*.weight
+.tmp_*
+temp_*
+tmp_*

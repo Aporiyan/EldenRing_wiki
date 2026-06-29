@@ -1,0 +1,179 @@
+{
+ "绿秘密露滴": {
+  "id": 2011000,
+  "name": "绿秘密露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，所有精力的消耗都归零。",
+   "短暂时间后，效果会消失。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5000,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "涌红枯露滴": {
+  "id": 2011010,
+  "name": "涌红枯露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能缓慢恢复周围我方人物的血量。",
+   "对自身没有恢复效果。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5001,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "夺红破露滴": {
+  "id": 2011020,
+  "name": "夺红破露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能透过攻击恢复血量。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5002,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "夺蓝破露滴": {
+  "id": 2011030,
+  "name": "夺蓝破露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能透过攻击恢复专注值。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5003,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "油光露滴": {
+  "id": 2011040,
+  "name": "油光露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能喷散油汗，",
+   "让周围敌人浑身油污。",
+   "当敌人浑身油污时，",
+   "能提升给予对方的火属性伤害。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5004,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "吸血破露滴": {
+  "id": 2011050,
+  "name": "吸血破露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能提升攻击力，",
+   "但持续减少血量。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5005,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "铃兰结晶露滴": {
+  "id": 2011060,
+  "name": "铃兰结晶露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能提升灵魂的攻击力。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5006,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ },
+ "反弹硬露滴": {
+  "id": 2011070,
+  "name": "反弹硬露滴",
+  "summary": "幽影树的树液飞散后，",
+  "description": [
+   "幽影树的树液飞散后，",
+   "在燃炉魔像的底部汇流聚集，",
+   "历时悠久形成的结晶露滴。",
+   "加入“灵药圣杯瓶”调配后，",
+   "一定时间内，能强化瞬间防御的能力。",
+   "仅限摆出防御架式的瞬间，",
+   "能提升减伤率与防御强度。",
+   "在上述情况成功防御时，能强化防御反击。"
+  ],
+  "is_tradable": true,
+  "price_sold": 0,
+  "rarity": "Common",
+  "icon": 5007,
+  "max_held": 999,
+  "max_stored": 999,
+  "category": "Crystal Tear",
+  "remarks": [],
+  "is_dlc": true
+ }
+}
