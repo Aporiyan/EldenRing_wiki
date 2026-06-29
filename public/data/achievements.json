@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "name": "艾尔登法环",
+    "name_en": "Elden Ring",
+    "type": "白金",
+    "condition": "获得所有奖杯",
+    "icon": "🏆"
+  },
+  {
+    "id": 2,
+    "name": "传说中的武器",
+    "name_en": "Legendary Armaments",
+    "type": "收集",
+    "condition": "获得所有传说中的武器",
+    "icon": "⚔"
+  },
+  {
+    "id": 3,
+    "name": "传说中的骨灰",
+    "name_en": "Legendary Ashen Remains",
+    "type": "收集",
+    "condition": "获得所有传说中的骨灰",
+    "icon": "👻"
+  },
+  {
+    "id": 4,
+    "name": "传说中的魔法、祷告",
+    "name_en": "Legendary Sorceries and Incantations",
+    "type": "收集",
+    "condition": "获得所有传说中的魔法和祷告",
+    "icon": "✨"
+  },
+  {
+    "id": 5,
+    "name": "传说中的护符",
+    "name_en": "Legendary Talismans",
+    "type": "收集",
+    "condition": "获得所有传说中的护符",
+    "icon": "◇"
+  },
+  {
+    "id": 6,
+    "name": "「接肢」葛瑞克",
+    "name_en": "Godrick the Grafted",
+    "type": "追忆",
+    "condition": "击败「接肢」葛瑞克",
+    "icon": "👹"
+  },
+  {
+    "id": 7,
+    "name": "满月女王蕾娜菈",
+    "name_en": "Rennala, Queen of the Full Moon",
+    "type": "追忆",
+    "condition": "击败满月女王蕾娜菈",
+    "icon": "👹"
+  },
+  {
+    "id": 8,
+    "name": "「碎星」拉塔恩",
+    "name_en": "Starscourge Radahn",
+    "type": "追忆",
+    "condition": "击败「碎星」拉塔恩",
+    "icon": "👹"
+  },
+  {
+    "id": 9,
+    "name": "亵渎君王拉卡德",
+    "name_en": "Rykard, Lord of Blasphemy",
+    "type": "追忆",
+    "condition": "击败亵渎君王拉卡德",
+    "icon": "👹"
+  },
+  {
+    "id": 10,
+    "name": "恶兆王蒙葛特",
+    "name_en": "Morgott, the Omen King",
+    "type": "追忆",
+    "condition": "击败恶兆王蒙葛特",
+    "icon": "👹"
+  },
+  {
+    "id": 11,
+    "name": "火焰巨人",
+    "name_en": "Fire Giant",
+    "type": "追忆",
+    "condition": "击败火焰巨人",
+    "icon": "👹"
+  },
+  {
+    "id": 12,
+    "name": "龙装大树守卫",
+    "name_en": "Draconic Tree Sentinel",
+    "type": "追忆",
+    "condition": "击败龙装大树守卫",
+    "icon": "👹"
+  },
+  {
+    "id": 13,
+    "name": "「恶兆妖鬼」玛尔基特",
+    "name_en": "Margit, the Fell Omen",
+    "type": "追忆",
+    "condition": "击败「恶兆妖鬼」玛尔基特",
+    "icon": "👹"
+  },
+  {
+    "id": 14,
+    "name": "「黑剑」玛利喀斯",
+    "name_en": "Maliketh, the Black Blade",
+    "type": "追忆",
+    "condition": "击败「黑剑」玛利喀斯",
+    "icon": "👹"
+  },
+  {
+    "id": 15,
+    "name": "战士荷莱·露",
+    "name_en": "Hoarah Loux, the Warrior",
+    "type": "追忆",
+    "condition": "击败战士荷莱·露",
+    "icon": "👹"
+  },
+  {
+    "id": 16,
+    "name": "「米凯拉的锋刃」玛莲妮亚",
+    "name_en": "Malenia, Blade of Miquella",
+    "type": "追忆",
+    "condition": "击败「米凯拉的锋刃」玛莲妮亚",
+    "icon": "👹"
+  },
+  {
+    "id": 17,
+    "name": "「碎星」的追忆",
+    "name_en": "Remembrance of the Starscourge",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「碎星」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 18,
+    "name": "「亵渎君王」的追忆",
+    "name_en": "Remembrance of the Blasphemous",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「亵渎君王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 19,
+    "name": "「黑剑」的追忆",
+    "name_en": "Remembrance of the Black Blade",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「黑剑」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 20,
+    "name": "「女武神」的追忆",
+    "name_en": "Remembrance of the Rot Goddess",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「女武神」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 21,
+    "name": "艾尔登之王",
+    "name_en": "Elden Lord",
+    "type": "结局",
+    "condition": "达成结局「艾尔登之王」",
+    "icon": "👑"
+  },
+  {
+    "id": 22,
+    "name": "星星时代",
+    "name_en": "The Age of the Stars",
+    "type": "结局",
+    "condition": "达成结局「星星时代」",
+    "icon": "⭐"
+  },
+  {
+    "id": 23,
+    "name": "癫火之王",
+    "name_en": "Lord of the Frenzied Flame",
+    "type": "结局",
+    "condition": "达成结局「癫火之王」",
+    "icon": "🔥"
+  },
+  {
+    "id": 24,
+    "name": "「大卢恩」",
+    "name_en": "Great Rune",
+    "type": "流程",
+    "condition": "首次激活大卢恩",
+    "icon": "🔶"
+  },
+  {
+    "id": 25,
+    "name": "圆桌厅堂",
+    "name_en": "Roundtable Hold",
+    "type": "流程",
+    "condition": "抵达圆桌厅堂",
+    "icon": "🏛"
+  },
+  {
+    "id": 26,
+    "name": "「大赐福」",
+    "name_en": "Table of Lost Grace",
+    "type": "流程",
+    "condition": "抵达大赐福",
+    "icon": "🕯"
+  },
+  {
+    "id": 27,
+    "name": "「魔法师」",
+    "name_en": "Sorcerer",
+    "type": "支线",
+    "condition": "学习魔法师瑟濂的全部魔法",
+    "icon": "🎓"
+  },
+  {
+    "id": 28,
+    "name": "「祷告」",
+    "name_en": "Incantation",
+    "type": "支线",
+    "condition": "学习柯林的全部祷告",
+    "icon": "📖"
+  },
+  {
+    "id": 29,
+    "name": "「仿身泪滴」",
+    "name_en": "Mimic Tear",
+    "type": "流程",
+    "condition": "获得仿身泪滴的骨灰",
+    "icon": "🫂"
+  },
+  {
+    "id": 30,
+    "name": "军师伊吉",
+    "name_en": "Iji the Master Smith",
+    "type": "流程",
+    "condition": "将任意武器强化至满级",
+    "icon": "🔨"
+  },
+  {
+    "id": 31,
+    "name": "「魔法师」的追忆",
+    "name_en": "Remembrance of the Full Moon Queen",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「满月女王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 32,
+    "name": "「火焰巨人的追忆」",
+    "name_en": "Remembrance of the Fire Giant",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「火焰巨人」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 33,
+    "name": "「葛弗雷」的追忆",
+    "name_en": "Remembrance of Hoarah Loux",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「初代王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 34,
+    "name": "「龙王」的追忆",
+    "name_en": "Remembrance of the Dragonlord",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「龙王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 35,
+    "name": "「死龙」的追忆",
+    "name_en": "Remembrance of the Lichdragon",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「死龙」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 36,
+    "name": "「鲜血君王」的追忆",
+    "name_en": "Remembrance of the Blood Lord",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「鲜血君王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 37,
+    "name": "「祖灵之王」的追忆",
+    "name_en": "Remembrance of the Regal Ancestor",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「祖灵之王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 38,
+    "name": "「艾尔登之王」的追忆",
+    "name_en": "Elden Remembrance",
+    "type": "追忆",
+    "condition": "通过解指恩雅获得「艾尔登之王」的追忆的武器",
+    "icon": "🔮"
+  },
+  {
+    "id": 39,
+    "name": "「战士」",
+    "name_en": "Warrior",
+    "type": "支线",
+    "condition": "完成战士涅斐丽·露的支线",
+    "icon": "⚔"
+  },
+  {
+    "id": 40,
+    "name": "「骑士」",
+    "name_en": "Knight",
+    "type": "支线",
+    "condition": "完成骑士贝纳尔的支线",
+    "icon": "🛡"
+  },
+  {
+    "id": 41,
+    "name": "「智者」",
+    "name_en": "Sage",
+    "type": "支线",
+    "condition": "完成魔法师瑟濂的支线",
+    "icon": "🧙"
+  },
+  {
+    "id": 42,
+    "name": "「英雄」",
+    "name_en": "Hero",
+    "type": "支线",
+    "condition": "获得所有传说级护符、武器、骨灰、魔法与祷告",
+    "icon": "🌟"
+  }
+]

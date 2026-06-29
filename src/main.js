@@ -15,6 +15,10 @@ import { renderBossDetail } from './pages/boss-detail.js';
 import { renderUpgradeCalc } from './pages/upgrade-calc.js';
 import { renderBuildPlanner } from './pages/build-planner.js';
 import { renderItemCompare } from './pages/item-compare.js';
+import { renderAchievements } from './pages/achievements.js';
+import { renderAffinityCompare } from './pages/affinity-compare.js';
+import { renderDataCharts } from './pages/charts.js';
+import { renderRecipes } from './pages/recipes.js';
 
 async function init() {
   const content = document.getElementById('content-area');
@@ -82,6 +86,18 @@ async function init() {
   // Boss pages
   registerRoute('/bosses', (container, params) => renderBossList(container, params));
   registerRoute('/bosses/:id', (container, params) => renderBossDetail(container, params));
+
+  // Achievements
+  registerRoute('/achievements', (container, params) => renderAchievements(container, params));
+
+  // Affinity compare
+  registerRoute('/affinities', (container, params) => renderAffinityCompare(container, params));
+
+  // Data charts
+  registerRoute('/charts', (container, params) => renderDataCharts(container, params));
+
+  // Recipes (crafting)
+  registerRoute('/recipes', (container, params) => renderRecipes(container, params));
 
   // New feature pages
   registerRoute('/info', (container, params) => renderInfoPage(container, params));

@@ -1,0 +1,423 @@
+{
+  "Nomadic Warrior's Cookbook [1]": {
+    "name_cn": "流浪战士的制作笔记【１】",
+    "recipes": [
+      "Bone Arrow",
+      "Bone Arrow (Fletched)",
+      "Bone Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [3]": {
+    "name_cn": "流浪战士的制作笔记【３】",
+    "recipes": [
+      "Pickled Turtle Neck",
+      "Poisonbone Arrow",
+      "Poisonbone Arrow (Fletched)",
+      "Poisonbone Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [6]": {
+    "name_cn": "流浪战士的制作笔记【６】",
+    "recipes": [
+      "Blood Grease",
+      "Drawstring Blood Grease",
+      "Bloodbone Arrow",
+      "Bloodbone Arrow (Fletched)",
+      "Bloodbone Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [10]": {
+    "name_cn": "流浪战士的制作笔记【１０】",
+    "recipes": [
+      "Stormwing Bone Arrow"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [7]": {
+    "name_cn": "流浪战士的制作笔记【７】",
+    "recipes": [
+      "Soft Cotton",
+      "Stanching Boluses",
+      "Rainbow Stone Arrow"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [12]": {
+    "name_cn": "流浪战士的制作笔记【１２】",
+    "recipes": [
+      "Cursed-Blood Pot"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [19]": {
+    "name_cn": "流浪战士的制作笔记【１９】",
+    "recipes": [
+      "Sweet Raisin",
+      "Warming Stone"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [13]": {
+    "name_cn": "流浪战士的制作笔记【１３】",
+    "recipes": [
+      "Bone Great Arrow",
+      "Bone Great Arrow (Fletched)",
+      "Bone Ballista Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [23]": {
+    "name_cn": "流浪战士的制作笔记【２３】",
+    "recipes": [
+      "Frozen Raisin",
+      "Clarifying Cured Meat",
+      "Clarifying White Cured Meat"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [17]": {
+    "name_cn": "流浪战士的制作笔记【１７】",
+    "recipes": [
+      "Soap",
+      "Oil Pot",
+      "Roped Oil Pot"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [2]": {
+    "name_cn": "流浪战士的制作笔记【２】",
+    "recipes": [
+      "Glowstone",
+      "Invigorating Cured Meat",
+      "Invigorating White Cured Meat"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [21]": {
+    "name_cn": "流浪战士的制作笔记【２１】",
+    "recipes": [
+      "Alluring Pot"
+    ]
+  },
+  "Missionary's Cookbook [6]": {
+    "name_cn": "传道士的制作笔记【６】",
+    "recipes": [
+      "Holyproof Dried Liver"
+    ]
+  },
+  "Armorer's Cookbook [1]": {
+    "name_cn": "武器工匠的制作笔记【１】",
+    "recipes": [
+      "Fire Grease",
+      "Drawstring Fire Grease",
+      "Fireproof Dried Liver"
+    ]
+  },
+  "Armorer's Cookbook [2]": {
+    "name_cn": "武器工匠的制作笔记【２】",
+    "recipes": [
+      "Firebone Arrow",
+      "Firebone Arrow (Fletched)",
+      "Firebone Bolt",
+      "Neutralizing Boluses"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [11]": {
+    "name_cn": "流浪战士的制作笔记【１１】",
+    "recipes": [
+      "Crystal Dart",
+      "Spellproof Dried Liver",
+      "Shattershard Arrow"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [20]": {
+    "name_cn": "流浪战士的制作笔记【２０】",
+    "recipes": [
+      "Volcano Pot",
+      "Roped Volcano Pot"
+    ]
+  },
+  "Armorer's Cookbook [7]": {
+    "name_cn": "武器工匠的制作笔记【７】",
+    "recipes": [
+      "Giantsflame Fire Pot"
+    ]
+  },
+  "Armorer's Cookbook [4]": {
+    "name_cn": "武器工匠的制作笔记【４】",
+    "recipes": [
+      "Redmane Fire Pot"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [18]": {
+    "name_cn": "流浪战士的制作笔记【１８】",
+    "recipes": [
+      "Dappled Cured Meat",
+      "Dappled White Cured Meat"
+    ]
+  },
+  "Armorer's Cookbook [3]": {
+    "name_cn": "武器工匠的制作笔记【３】",
+    "recipes": [
+      "Exalted Flesh"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [16]": {
+    "name_cn": "流浪战士的制作笔记【１６】",
+    "recipes": [
+      "Thawfrost Boluses",
+      "Stimulating Boluses"
+    ]
+  },
+  "Armorer's Cookbook [6]": {
+    "name_cn": "武器工匠的制作笔记【６】",
+    "recipes": [
+      "Preserving Boluses"
+    ]
+  },
+  "Armorer's Cookbook [5]": {
+    "name_cn": "武器工匠的制作笔记【５】",
+    "recipes": [
+      "Immunizing Cured Meat",
+      "Immunizing White Cured Meat"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [4]": {
+    "name_cn": "辉石工匠的制作笔记【４】",
+    "recipes": [
+      "Magic Pot",
+      "Roped Magic Pot",
+      "Shield Grease"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [1]": {
+    "name_cn": "辉石工匠的制作笔记【１】",
+    "recipes": [
+      "Cuckoo Glintstone"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [5]": {
+    "name_cn": "辉石工匠的制作笔记【５】",
+    "recipes": [
+      "Magic Grease",
+      "Drawstring Magic Grease",
+      "Magicbone Arrow",
+      "Magicbone Arrow (Fletched)",
+      "Magicbone Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [9]": {
+    "name_cn": "流浪战士的制作笔记【９】",
+    "recipes": [
+      "Rancor Pot"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [8]": {
+    "name_cn": "辉石工匠的制作笔记【８】",
+    "recipes": [
+      "Academy Magic Pot"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [2]": {
+    "name_cn": "辉石工匠的制作笔记【２】",
+    "recipes": [
+      "Freezing Grease"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [6]": {
+    "name_cn": "辉石工匠的制作笔记【６】",
+    "recipes": [
+      "Freezing Pot"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [7]": {
+    "name_cn": "辉石工匠的制作笔记【７】",
+    "recipes": [
+      "Coldbone Arrow",
+      "Coldbone Arrow (Fletched)",
+      "Coldbone Bolt"
+    ]
+  },
+  "Glintstone Craftsman's Cookbook [3]": {
+    "name_cn": "辉石工匠的制作笔记【３】",
+    "recipes": [
+      "Albinauric Pot"
+    ]
+  },
+  "Missionary's Cookbook [2]": {
+    "name_cn": "传道士的制作笔记【２】",
+    "recipes": [
+      "Scriptstone",
+      "Grace Mimic",
+      "Gold-Pickled Fowl Foot"
+    ]
+  },
+  "Missionary's Cookbook [1]": {
+    "name_cn": "传道士的制作笔记【１】",
+    "recipes": [
+      "Holy Water Pot",
+      "Roped Holy Water Pot"
+    ]
+  },
+  "Missionary's Cookbook [5]": {
+    "name_cn": "传道士的制作笔记【５】",
+    "recipes": [
+      "Sacred Order Pot"
+    ]
+  },
+  "Missionary's Cookbook [4]": {
+    "name_cn": "传道士的制作笔记【４】",
+    "recipes": [
+      "Holy Grease",
+      "Drawstring Holy Grease",
+      "Haligbone Arrow",
+      "Haligbone Arrow (Fletched)",
+      "Haligbone Bolt"
+    ]
+  },
+  "Missionary's Cookbook [3]": {
+    "name_cn": "传道士的制作笔记【３】",
+    "recipes": [
+      "Silver-Pickled Fowl Foot"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [4]": {
+    "name_cn": "流浪战士的制作笔记【４】",
+    "recipes": [
+      "Fetid Pot",
+      "Roped Fetid Pot"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [5]": {
+    "name_cn": "流浪战士的制作笔记【５】",
+    "recipes": [
+      "Beastlure Pot"
+    ]
+  },
+  "Perfumer's Cookbook [1]": {
+    "name_cn": "调香师的制作笔记【１】",
+    "recipes": [
+      "Spark Aromatic",
+      "Uplifting Aromatic"
+    ]
+  },
+  "Perfumer's Cookbook [2]": {
+    "name_cn": "调香师的制作笔记【２】",
+    "recipes": [
+      "Poison Spraymist",
+      "Bloodboil Aromatic"
+    ]
+  },
+  "Perfumer's Cookbook [3]": {
+    "name_cn": "调香师的制作笔记【３】",
+    "recipes": [
+      "Ironjar Aromatic"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [14]": {
+    "name_cn": "流浪战士的制作笔记【１４】",
+    "recipes": [
+      "Poison Pot",
+      "Roped Poison Pot",
+      "Poisonbone Dart"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [8]": {
+    "name_cn": "流浪战士的制作笔记【８】",
+    "recipes": [
+      "Poison Grease",
+      "Drawstring Poison Grease"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [22]": {
+    "name_cn": "流浪战士的制作笔记【２２】",
+    "recipes": [
+      "Rot Pot",
+      "Rot Grease",
+      "Drawstring Rot Grease"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [15]": {
+    "name_cn": "流浪战士的制作笔记【１５】",
+    "recipes": [
+      "Rotbone Arrow",
+      "Rotbone Arrow (Fletched)",
+      "Rotbone Bolt"
+    ]
+  },
+  "Nomadic Warrior's Cookbook [24]": {
+    "name_cn": "流浪战士的制作笔记【２４】",
+    "recipes": [
+      "Swarm Pot",
+      "Roped Fly Pot"
+    ]
+  },
+  "Perfumer's Cookbook [4]": {
+    "name_cn": "调香师的制作笔记【４】",
+    "recipes": [
+      "Acid Spraymist"
+    ]
+  },
+  "Ancient Dragon Apostle's Cookbook [1]": {
+    "name_cn": "古龙信徒的制作笔记【１】",
+    "recipes": [
+      "Lightning Grease",
+      "Drawstring Lightning Grease",
+      "Lightningbone Arrow",
+      "Lightningbone Arrow (Fletched)",
+      "Lightningbone Bolt"
+    ]
+  },
+  "Ancient Dragon Apostle's Cookbook [2]": {
+    "name_cn": "古龙信徒的制作笔记【２】",
+    "recipes": [
+      "Lightning Pot",
+      "Roped Lightning Pot"
+    ]
+  },
+  "Ancient Dragon Apostle's Cookbook [4]": {
+    "name_cn": "古龙信徒的制作笔记【４】",
+    "recipes": [
+      "Ancient Dragonbolt Pot",
+      "Lightningproof Dried Liver"
+    ]
+  },
+  "Ancient Dragon Apostle's Cookbook [3]": {
+    "name_cn": "古龙信徒的制作笔记【３】",
+    "recipes": [
+      "Dragonwound Grease"
+    ]
+  },
+  "Fevor's Cookbook [1]": {
+    "name_cn": "法力斯的制作笔记【１】",
+    "recipes": [
+      "Sleep Pot"
+    ]
+  },
+  "Fevor's Cookbook [3]": {
+    "name_cn": "法力斯的制作笔记【３】",
+    "recipes": [
+      "Bewitching Branch"
+    ]
+  },
+  "Fevor's Cookbook [2]": {
+    "name_cn": "法力斯的制作笔记【２】",
+    "recipes": [
+      "Soporific Grease",
+      "Drawstring Soporific Grease",
+      "Sleepbone Arrow",
+      "Sleepbone Arrow (Fletched)",
+      "Sleepbone Bolt"
+    ]
+  },
+  "Missionary's Cookbook [7]": {
+    "name_cn": "传道士的制作笔记【７】",
+    "recipes": [
+      "Rejuvenating Boluses"
+    ]
+  },
+  "Frenzied's Cookbook [1]": {
+    "name_cn": "罹病者的制作笔记【１】",
+    "recipes": [
+      "Clarifying Boluses"
+    ]
+  },
+  "Frenzied's Cookbook [2]": {
+    "name_cn": "罹病者的制作笔记【２】",
+    "recipes": [
+      "Frenzyflame Stone"
+    ]
+  }
+}

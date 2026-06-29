@@ -1,5 +1,8 @@
 import { getItem, getUpgradeInfo, scalingGrade, translateName, ATTR_CN, getLocations, getItemImageUrl } from '../store.js';
 
+const DMG_CN = { physical: '物理', magic: '魔力', fire: '火', lightning: '雷', holy: '圣' };
+const DMG_COLORS = { physical: '#c9a84c', magic: '#7a8fc9', fire: '#d4743a', lightning: '#8ad4c9', holy: '#d4c97a' };
+
 
 const WEP_CAT_CN = {
   Dagger: '匕首', 'Straight Sword': '直剑', Greatsword: '大剑',
@@ -113,10 +116,62 @@ export function createDetailPage(key, title) {
           ${renderSkill(item)}
         </div>
         ${upgradeInfo ? renderUpgradeTable(upgradeInfo, upgradeInfo.isSomber) : ''}
+        ${renderChartSection(item, upgradeInfo)}
         ${renderLocations(item)}
         ${renderRemarks(item)}
         ${renderConflicts(item)}
       </div>`;
+
+    if (upgradeInfo) {
+      (async () => {
+        const chartEl = container.querySelector('#dchart-canvas');
+        const toggleEls = container.querySelectorAll('[data-dchart]');
+        if (!chartEl) return;
+        const info = getUpgradeInfo(item);
+        const allLevels = info.calcAllLevels();
+        const maxLvl = info.maxLevel;
+        const dmgKeys = ['physical','magic','fire','lightning','holy'].filter(k => allLevels[maxLvl]?.damage?.[k] > 0);
+        if (!dmgKeys.length) return;
+        let chartMode = 'curve';
+
+        async function drawChart() {
+          const { drawLineChart, drawBarChart } = await import('../charts.js');
+          if (chartMode === 'curve') {
+            drawLineChart(chartEl, null, {
+              title: '各属性伤害 · 强化等级',
+              yLabel: '伤害',
+              xLabels: allLevels.map((_, i) => `+${i}`),
+              datasets: dmgKeys.map(k => ({
+                label: DMG_CN[k], color: DMG_COLORS[k],
+                values: allLevels.map(l => l.damage?.[k] || 0),
+              })),
+            });
+          } else {
+            drawBarChart(chartEl, null, {
+              title: `+0 vs +${maxLvl}`,
+              yLabel: '伤害',
+              labels: dmgKeys.map(k => DMG_CN[k]),
+              groups: dmgKeys.map(k => ({
+                values: [allLevels[0].damage?.[k] || 0, allLevels[maxLvl].damage?.[k] || 0]
+              })),
+              colors: ['rgba(201,168,76,0.4)', '#c9a84c'],
+              legend: ['+0', `+${maxLvl}`],
+            });
+          }
+        }
+
+        toggleEls.forEach(btn => {
+          btn.addEventListener('click', () => {
+            toggleEls.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            chartMode = btn.dataset.dchart;
+            requestAnimationFrame(drawChart);
+          });
+        });
+
+        requestAnimationFrame(drawChart);
+      })();
+    }
 
     if (hasDetailImage) {
       (async () => {
@@ -319,6 +374,28 @@ function renderUpgradeTable(info, isSomber) {
           <thead><tr><th>强化</th>${dmgHeaders}${staHeader}${scaHeaders}</tr></thead>
           <tbody>${rows}</tbody>
         </table>
+      </div>
+    </div>`;
+}
+
+function renderChartSection(item, info) {
+  if (!info) return '';
+  const allLevels = info.calcAllLevels();
+  const maxLvl = info.maxLevel;
+  const dmgKeys = ['physical','magic','fire','lightning','holy'].filter(k => allLevels[maxLvl]?.damage?.[k] > 0);
+  if (!dmgKeys.length) return '';
+  return `
+    <div class="stat-block" style="margin-top:12px">
+      <div class="stat-block-title">伤害曲线</div>
+      <div style="display:flex;gap:8px;margin-bottom:8px;">
+        <button class="tag-filter-btn active" data-dchart="curve">强化曲线</button>
+        <button class="tag-filter-btn" data-dchart="compare">+0 vs +${maxLvl}</button>
+      </div>
+      <div style="padding:0;">
+        <canvas id="dchart-canvas" style="width:100%;height:200px;"></canvas>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px;">
+        ${dmgKeys.map(k => `<span style="display:flex;align-items:center;gap:4px;font-size:0.75rem;color:var(--text-muted);"><span style="width:8px;height:8px;border-radius:2px;background:${DMG_COLORS[k]};display:inline-block;"></span>${DMG_CN[k]}</span>`).join('')}
       </div>
     </div>`;
 }

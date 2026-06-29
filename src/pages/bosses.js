@@ -99,6 +99,7 @@ export async function renderBossList(container, params) {
               <div class="item-card-name">${name}</div>
               <div style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">${boss.region_cn || boss.region}${boss.location_cn ? ' · ' + boss.location_cn : boss.location ? ' · ' + boss.location : ''}</div>
               <div style="display:flex;gap:4px;margin-top:6px;flex-wrap:wrap;">
+                ${boss.is_dlc ? '<span class="item-card-tag" style="font-size:0.65rem;padding:1px 6px;background:#2a5a3a;color:#fff;">DLC</span>' : ''}
                 ${tags.map(t => `<span class="item-card-tag" style="font-size:0.65rem;padding:1px 6px;${TAG_COLOR[t]}">${t}</span>`).join('')}
               </div>
             </div>

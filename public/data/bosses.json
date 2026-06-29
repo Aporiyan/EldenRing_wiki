@@ -11,13 +11,14 @@
     "drops": [
       "拷问烛台"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,900",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "火山官邸",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗斩击弱打击 | 属性:弱魔力"
   },
   "Alecto, Black Knife Ringleader": {
     "id": "17f69b4ba0al0i1uk6s98t1nbtxunt",
@@ -31,13 +32,14 @@
     "drops": [
       "“黑刀”狄希"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "7,500",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "头目的封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全中等弱打击 | 属性:抗圣 | 异常:中冻伤"
   },
   "Alabaster Lord": {
     "id": "17f69b85929l0i1ukc4l2up7yp9v0i",
@@ -51,13 +53,14 @@
     "drops": [
       "陨石"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "2,800",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "王室封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Adan, Thief Of Fire": {
     "id": "17f69a3ca37l0i1ukd1lq14ctafbk",
@@ -71,13 +74,14 @@
     "drops": [
       "恶神火焰"
     ],
-    "healthPoints": "2200",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "恶兵的封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:抗火 | 异常:中出血冻伤"
   },
   "Ancient Dragon Lansseax": {
     "id": "17f69a63610l0i1ukyx7xgx6vf0zoa",
@@ -91,13 +95,14 @@
     "drops": [
       "兰斯桑克斯的刀"
     ],
-    "healthPoints": "9087",
+    "healthPoints": "9,087",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "亚坛高原",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺打击"
   },
   "Ancestor Spirit": {
     "id": "17f69590896l0i1ul0hnmor8iyf9xd",
@@ -111,13 +116,14 @@
     "drops": [
       "祖灵之民的骨灰"
     ],
-    "healthPoints": "2200",
+    "healthPoints": "4,656",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "希芙拉河",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱火"
   },
   "Ancient Hero Of Zamor": {
     "id": "17f69878c4al0i1ul0i7dsfou8igrk",
@@ -136,13 +142,14 @@
       "萨米尔腕套",
       "萨米尔绑腿"
     ],
-    "healthPoints": "2200",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
     "location_cn": "啜泣封印监牢、击败巨人的英雄墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱火雷 | 异常:低中毒腐败出血冻伤"
   },
   "Beast Clergyman": {
     "id": "17f697240ecl0i1ul21nevug9wq54e",
@@ -154,13 +161,14 @@
     "description": "Temporarily overtaken by their bestial rage, the Beast Clergyman attacks ferociously, throwing rocks and themselves at their foes. Calm their aggression and return them to their senses.",
     "description_cn": "野兽神职人员，守护着死者的死亡之痕。",
     "drops": [],
-    "healthPoints": "2200",
+    "healthPoints": "2,458",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "逐渐崩毁的法姆·亚兹拉",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击"
   },
   "Astel, Stars Of Darkness": {
     "id": "17f69bcfd7dl0i1ul502rklvi8tx62",
@@ -180,7 +188,8 @@
     "location_cn": "耶洛克尼斯坑道（化圣雪原）",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:全中性 | 异常:中出血冻伤"
   },
   "Beast Of Farum Azula": {
     "id": "17f69d4387al0i1ulpqqumwqw05j3c",
@@ -194,13 +203,14 @@
     "drops": [
       "火龙徽护符"
     ],
-    "healthPoints": "1960",
+    "healthPoints": "1,960",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "林洞",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力雷 | 异常:中出血腐败"
   },
   "Beastman Of Farum Azula": {
     "id": "17f69d7fe72l0i1ultk418yedh25s7",
@@ -221,7 +231,8 @@
     "location_cn": "林洞、龙墓洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱火 | 异常:低中毒腐败冻伤"
   },
   "Bell Bearing Hunter": {
     "id": "17f69c4aacel0i1uluegh15idblimv",
@@ -235,13 +246,14 @@
     "drops": [
       "兽骨贩子的铃珠"
     ],
-    "healthPoints": "6000 Runes, Meat Peddler's Bell Bearing",
+    "healthPoints": "6,000",
     "is_dlc": false,
     "region_cn": "龙墓",
     "location_cn": "战帅破屋、结缘教堂等多地点",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "异常:中中毒腐败出血冻伤"
   },
   "Black Blade Kindred": {
     "id": "17f69a61779l0i1ulv0a3ru8iy0zh5",
@@ -264,7 +276,8 @@
     "location_cn": "盖利德、禁域",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:抗圣"
   },
   "Black Knife Assassin": {
     "id": "17f69bd3c06l0i1ulx2jxbiogta1i",
@@ -281,13 +294,14 @@
       "隐身面纱",
       "黑刀"
     ],
-    "healthPoints": "2750",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "死亡触碰地下墓地、黑刀地下墓地、贤者洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:中出血"
   },
   "Bloodhound Knight Darriwil": {
     "id": "17f69637e92l0i1um8wqsflgk3i9yr",
@@ -307,7 +321,8 @@
     "location_cn": "宁姆格福·猎犬封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱雷 | 异常:中中毒腐败出血冻伤"
   },
   "Burial Tree Watchdog": {
     "id": "17f697f48d5l0i1umdbu7v5phffgq",
@@ -321,13 +336,14 @@
     "drops": [
       "战灰：辉剑圆阵"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,271",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "宁姆格福·风暴脚跟地下墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗斩击弱打击 | 属性:弱魔力 | 异常:抗出血中毒腐败"
   },
   "Cleanrot Knight": {
     "id": "17f69563d15l0i1umhb4am3xzuib3g",
@@ -342,13 +358,14 @@
       "带翼剑徽章",
       "尊腐骑士剑"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "4,006",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "静水洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力火 | 异常:抗腐败"
   },
   "Borealis The Freezing Fog": {
     "id": "17f69d6ca41l0i1umlxg0j36mhrnzr",
@@ -368,7 +385,8 @@
     "location_cn": "巨人山顶",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺打击"
   },
   "Commander Niall": {
     "id": "17f698b7d2fl0i1umtkf7cu5a21hdw",
@@ -388,7 +406,8 @@
     "location_cn": "巨人山顶",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Commander O'neil": {
     "id": "17f69562d87l0i1umxu2qwle86ai8q",
@@ -409,7 +428,8 @@
     "location_cn": "盖利德",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Crucible Knight Ordovis": {
     "id": "17f699b0755l0i1un48m87fngquaw",
@@ -427,13 +447,14 @@
       "熔炉臂甲",
       "熔炉腿甲"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "11,066",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "亚雷萨英雄墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:抗火雷 | 异常:中中毒腐败冻伤"
   },
   "Crystalians": {
     "id": "17f695b37c1l0i1ungf7vjojqaf4zp",
@@ -450,13 +471,14 @@
       "锻造矿工的铃珠(1)",
       "奔放结晶"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,400",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "学院结晶洞窟、亚坛坑道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击（打击破甲后大幅增伤）"
   },
   "Deathbird": {
     "id": "17f69e151d8l0i1uo19hl8r6l0snmo",
@@ -472,13 +494,14 @@
       "牺牲之斧",
       "红羽七刃剑"
     ],
-    "healthPoints": "2750",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "宁姆格福、啜泣半岛、利耶尼亚",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱圣 | 异常:中腐败"
   },
   "Decaying Ekzykes": {
     "id": "17f69bcc1cdl0i1uoai2hm5tcbuhh2",
@@ -498,7 +521,8 @@
     "location_cn": "盖利德",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱雷 | 异常:低冻伤"
   },
   "Demi-human Chief": {
     "id": "17f6961da46l0i1uoh7hemoben3dtg",
@@ -513,13 +537,14 @@
       "裁缝工具",
       "缝衣针"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "1,398",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "海岸洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全弱 | 属性:全弱"
   },
   "Demi-human Queen Maggie": {
     "id": "17f69559137l0i1uoqf3qzndh0901t",
@@ -534,13 +559,14 @@
       "记忆石",
       "黄金卢恩[1]"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 异常:低出血中毒"
   },
   "Divine Bridge Golem": {
     "id": "17f69518792l0i1up7fr7vzvqcmzf",
@@ -552,13 +578,14 @@
     "description": "Enormously large and lethargic Golem that slowly storms into battle when it becomes aware of your presence.",
     "description_cn": "神授桥上的看守魔像，持有巨大的弓箭。",
     "drops": [],
-    "healthPoints": "未知",
+    "healthPoints": "4,000",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "王城罗德尔",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗打击 | 属性:弱魔力 | 异常:免疫所有"
   },
   "Demi-human Queen Margot": {
     "id": "17f69b39c43l0i1up7iq7q4lvvgyc",
@@ -572,13 +599,14 @@
     "drops": [
       "壶大炮"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,500",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 异常:低出血中毒"
   },
   "Draconic Tree Sentinel": {
     "id": "17f69625d6el0i1upqw478c5kvsjv3",
@@ -599,7 +627,8 @@
     "location_cn": "王城郊外、法姆·亚兹拉",
     "tags": [
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:抗标准打击突刺 | 属性:抗魔神圣 | 异常:中中毒腐败出血冻伤"
   },
   "Dragonkin Soldier": {
     "id": "17f69de1071l0i1uprrms3umg3rug",
@@ -613,13 +642,14 @@
     "drops": [
       "龙戟"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,760",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "希芙拉河、腐败湖",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:弱雷"
   },
   "Cemetery Shade": {
     "id": "17f69b43b78l0i1upyrupf0wna8q7a",
@@ -635,13 +665,14 @@
       "双贤魔法师的骨灰",
       "腐败眷属的骨灰"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "1,756",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "巡礼教堂地下墓地、黑刀地下墓地、盖利德地下墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:弱圣"
   },
   "Crucible Knight": {
     "id": "17f69a6fae3l0i1uq63au7m71cs8mh",
@@ -656,13 +687,14 @@
       "熔炉百相之尾",
       "熔炉百相之角"
     ],
-    "healthPoints": "Stormhill Evergaol:, 2750",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "风暴封印监牢、史东薇尔城、亚雷萨英雄墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:中中毒腐败出血冻伤"
   },
   "Dragonkin Soldier Of Nokstella": {
     "id": "17f699200d2l0i1uqbs9w1ijmp2ner",
@@ -676,13 +708,14 @@
     "drops": [
       "冰雷枪"
     ],
-    "healthPoints": "≈4372",
+    "healthPoints": "4,372",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "安瑟尔河",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "属性:弱雷"
   },
   "Dragonlord Placidusax": {
     "id": "17f69bf3366l0i1uqds10qc8exqn1ik",
@@ -696,14 +729,15 @@
     "drops": [
       "龙王的追忆"
     ],
-    "healthPoints": "≈26651",
+    "healthPoints": "26,651",
     "is_dlc": false,
     "region_cn": "巨人山顶",
     "location_cn": "逐渐崩毁的法姆·亚兹拉",
     "tags": [
       "追忆",
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺打击 | 属性:抗雷"
   },
   "Elden Beast": {
     "id": "17f699dadfbl0i1uqmgi50oii11eaj",
@@ -717,14 +751,15 @@
     "drops": [
       "艾尔登的追忆"
     ],
-    "healthPoints": "26,880 (GOD)",
+    "healthPoints": "22,115",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "艾尔登王座",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:抗魔力火雷圣"
   },
   "Elemer Of The Briar": {
     "id": "17f695cb903l0i1uqqf40ik8th6wqw",
@@ -739,13 +774,14 @@
       "玛雷家行刑剑",
       "铁棘大盾"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "12,674",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "日荫城",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:中中毒腐败出血冻伤"
   },
   "Esgar, Priest Of Blood": {
     "id": "17f69579c3dl0i1uqxt6ul73e103ur",
@@ -759,13 +795,14 @@
     "drops": [
       "鲜血君王的欢愉"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "7,500",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "王城罗德尔",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:全中性"
   },
   "Erdtree Avatar": {
     "id": "17f6969fb51l0i1ur3o74ppc7h3gl5",
@@ -794,7 +831,8 @@
     "location_cn": "小黄金树（多地点）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱火 | 异常:低冻伤"
   },
   "Fallingstar Beast": {
     "id": "17f69aae933l0i1urbz9zyz3jjvhjf",
@@ -811,13 +849,14 @@
       "灵依锻造石(6)",
       "重力石碎块 ×4"
     ],
-    "healthPoints": "≈8000",
+    "healthPoints": "8,000",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "瑟利亚结晶坑道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Fell Twins": {
     "id": "17f69c5a361l0i1urf5b4r5s5cf125",
@@ -837,7 +876,8 @@
     "location_cn": "王城郊外",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:中出血"
   },
   "Fia's Champions": {
     "id": "17f695d42c3l0i1uriibjok1ydfodg",
@@ -851,13 +891,14 @@
     "drops": [
       "菲雅烟雾"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "7,450",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "深根底层",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱圣 | 异常:中出血冻伤"
   },
   "Flying Dragon Agheel": {
     "id": "17f69725115l0i1urx3t47u0gfs43",
@@ -871,13 +912,14 @@
     "drops": [
       "龙心脏"
     ],
-    "healthPoints": "≈3200",
+    "healthPoints": "3,200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "宁姆格福·龙息废墟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗突刺 | 异常:中中毒腐败出血冻伤"
   },
   "Fire Giant": {
     "id": "17f69ba1aa7l0i1us08w3dodkoeju",
@@ -898,7 +940,8 @@
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:抗圣、极抗火 | 异常:全抗"
   },
   "Flying Dragon Greyll": {
     "id": "17f69846e66l0i1us1stxjbqloi1z",
@@ -912,13 +955,14 @@
     "drops": [
       "龙心脏"
     ],
-    "healthPoints": "11,628 Greater Foe",
+    "healthPoints": "11,628",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "盖利德",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗突刺 | 异常:中中毒腐败出血冻伤"
   },
   "Frenzied Duelist": {
     "id": "17f696b2a70l0i1us26mtvbp7p85",
@@ -932,13 +976,14 @@
     "drops": [
       "腐烂长生者的骨灰"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "5,228",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "监狱洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:低中毒腐败出血"
   },
   "God-devouring Serpent": {
     "id": "17f699fafc0l0i1usmk2s2oybvx44a",
@@ -950,13 +995,14 @@
     "description": "A massive, menacing reptile that poses a remarkable threat.",
     "description_cn": "噬神大蛇，火山官邸深处的大蛇，吞噬神明的异形。",
     "drops": [],
-    "healthPoints": "≈30439",
+    "healthPoints": "30,439",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱雷 | 异常:中出血冻伤"
   },
   "Glintstone Dragon Smarag": {
     "id": "17f6953dec4l0i1uso41jlanmo9c4v",
@@ -976,7 +1022,8 @@
     "location_cn": "利耶尼亚",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力"
   },
   "Glintstone Dragon Adula": {
     "id": "17f695d390el0i1usszzihpctlfb2",
@@ -991,13 +1038,14 @@
       "亚杜拉的月光剑",
       "龙心脏 ×3"
     ],
-    "healthPoints": "≈11550",
+    "healthPoints": "11,550",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "利耶尼亚",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力"
   },
   "Godefroy The Grafted": {
     "id": "17f69c4aefal0i1usvodp9osviy7v",
@@ -1011,13 +1059,14 @@
     "drops": [
       "葛孚雷的肖像"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "14,588",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "黄金一族的封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全中等 | 属性:抗魔力火 | 异常:中中毒腐败出血冻伤"
   },
   "Godfrey, First Elden Lord (hoarah Loux)": {
     "id": "17f69a82a2el0i1uta5rxvqv53g7e",
@@ -1031,14 +1080,15 @@
     "drops": [
       "荷莱·露的追忆"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "14,428",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "灰城罗德尔",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:抗圣"
   },
   "Godfrey, First Elden Lord (golden Shade)": {
     "id": "17f697d2396l0i1utcv9km3qxcnt6m",
@@ -1052,13 +1102,14 @@
     "drops": [
       "护符皮袋"
     ],
-    "healthPoints": "≈7099",
+    "healthPoints": "7,099",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "王城罗德尔",
     "tags": [
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:抗圣"
   },
   "Godrick The Grafted": {
     "id": "17f6953f0d5l0i1uthl5j30bc50wdo",
@@ -1073,14 +1124,15 @@
       "接肢的追忆",
       "葛瑞克的大卢恩"
     ],
-    "healthPoints": "6080",
+    "healthPoints": "6,080",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "史东薇尔城",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:抗魔力火雷 | 异常:中中毒腐败出血冻伤"
   },
   "Godskin Apostle": {
     "id": "17f69c1bc31l0i1utrgxwhdp1csdis",
@@ -1095,13 +1147,14 @@
       "神皮襁褓",
       "黑焰仪式"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "14,167",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "唤灵洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱圣"
   },
   "Godskin Apostle And Godskin Noble": {
     "id": "17f69c68871l0i1utx4r38kpdj1yil",
@@ -1116,13 +1169,14 @@
       "神皮襁褓",
       "黑焰仪式"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "28,176",
     "is_dlc": false,
     "region_cn": "巨人山顶",
     "location_cn": "唤灵洞窟（巨人山顶）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱圣 | 异常:中出血冻伤"
   },
   "Death Rite Bird": {
     "id": "17f69e15137l0i1uu7e0w9qynlhveh",
@@ -1137,13 +1191,14 @@
       "死亡仪式矛",
       "死亡勾棒"
     ],
-    "healthPoints": "≈2750",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "巨人山顶",
     "location_cn": "巨人山顶",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱圣 | 异常:抗出血中毒腐败"
   },
   "Godskin Noble": {
     "id": "17f69814439l0i1uuifby3b0bn9gs",
@@ -1160,13 +1215,14 @@
       "神皮缝针",
       "贵族气场"
     ],
-    "healthPoints": "≈10,000",
+    "healthPoints": "14,009",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "唤灵洞窟、火山官邸",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱圣"
   },
   "Grafted Scion": {
     "id": "17f69bf253bl0i1uuma3733w2zwodm",
@@ -1182,13 +1238,14 @@
       "仪式直剑",
       "兽纹黄金盾"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "1,470",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "教学区域",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:全抗"
   },
   "Great Wyrm Theodorix": {
     "id": "17f695140e9l0i1uuu2pjzqqsbskl",
@@ -1202,13 +1259,14 @@
     "drops": [
       "龙心脏 ×3"
     ],
-    "healthPoints": "≈35,000",
+    "healthPoints": "35,000",
     "is_dlc": false,
     "region_cn": "巨人山顶",
     "location_cn": "白面具塔北方（巨人山顶）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱魔力"
   },
   "Hoarah Loux, Warrior": {
     "id": "17f695022a1l0i1uv9aohy5ip9yh9f",
@@ -1222,14 +1280,15 @@
     "drops": [
       "荷莱·露的追忆"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "13,010",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "灰城罗德尔",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:抗圣"
   },
   "Kindred Of Rot": {
     "id": "17f69a5abc3l0i1uvfn18gmmqaf8jvj",
@@ -1243,13 +1302,14 @@
     "drops": [
       "腐败眷属的欢愉"
     ],
-    "healthPoints": "≈4000",
+    "healthPoints": "4,000",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:低腐败"
   },
   "Guardian Golem": {
     "id": "17f69cbe6cbl0i1uvgek1x2hoimz99",
@@ -1263,13 +1323,14 @@
     "drops": [
       "蓝色舞娘"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "5,965",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "大道洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗打击 | 属性:抗魔力"
   },
   "Godskin Duo": {
     "id": "17f698b6791l0i1uvgjwlxwarfpe7a",
@@ -1284,13 +1345,14 @@
       "锻造石矿工的铃珠【４】",
       "战灰：黑焰漩涡"
     ],
-    "healthPoints": "≈24,000",
+    "healthPoints": "24,000",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "逐渐崩毁的法姆·亚兹拉",
     "tags": [
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:抗圣"
   },
   "Leonine Misbegotten": {
     "id": "17f69644c82l0i1uw7sqlk2v4b6bfg",
@@ -1310,7 +1372,8 @@
     "location_cn": "摩恩城（啜泣半岛）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗斩击 | 属性:抗火雷 | 异常:中中毒腐败出血冻伤"
   },
   "Lichdragon Fortissax": {
     "id": "17f699223e7l0i1uwcol7wflmcgajb",
@@ -1324,14 +1387,15 @@
     "drops": [
       "死龙的追忆"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "29,730",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "深根底层",
     "tags": [
       "追忆",
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:极抗雷圣"
   },
   "Mad Pumpkin Head": {
     "id": "17f69a078e0l0i1uwdp4xqjq6cpbxl",
@@ -1343,13 +1407,14 @@
     "description": "A huge ogre-looking creature that has a large pumpkin helmet worn on its head. It wields a massive flail and seems to be guarding something or someone against intruders.",
     "description_cn": "发狂南瓜头，戴着巨大南瓜头盔的狂战士。",
     "drops": [],
-    "healthPoints": "≈10,500",
+    "healthPoints": "10,500",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "驿站街遗迹、盖尔坑道废墟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱雷 | 异常:中中毒腐败出血"
   },
   "Magma Wyrm": {
     "id": "17f69bfa759l0i1uwfa0yrdvzcov1i",
@@ -1364,13 +1429,14 @@
       "龙心脏",
       "名刀月隐"
     ],
-    "healthPoints": "7000",
+    "healthPoints": "7,000",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "盖尔坑道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱魔力"
   },
   "Lion Guardian": {
     "id": "17f696318a4l0i1uwi4cr4u43opdj5",
@@ -1382,13 +1448,14 @@
     "description": "The Lion Guardian of Stormveil has been coerced into service by cruel means",
     "description_cn": "狮子守护者，镇守神兽塔的巨大狮像，暴怒而迅猛。",
     "drops": [],
-    "healthPoints": "≈2350",
+    "healthPoints": "2,350",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "史东薇尔城",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 异常:中出血中毒"
   },
   "Malenia, Blade Of Miquella": {
     "id": "17f69a48308l0i1ux3rigvv37tx84f",
@@ -1403,14 +1470,15 @@
       "玛莲妮亚的大卢恩（使用后）",
       "腐败女神的追忆"
     ],
-    "healthPoints": "≈26,128",
+    "healthPoints": "33,251",
     "is_dlc": false,
     "region_cn": "化圣雪原",
     "location_cn": "圣树分支艾布雷菲尔",
     "tags": [
       "追忆",
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 异常:低冻伤（出血无效）"
   },
   "Maliketh, The Black Blade": {
     "id": "17f69dbf58cl0i1ux7vft8wsk6ejbb",
@@ -1424,14 +1492,15 @@
     "drops": [
       "黑剑的追忆"
     ],
-    "healthPoints": "≈10620",
+    "healthPoints": "10,620",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "逐渐崩毁的法姆·亚兹拉",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:抗圣"
   },
   "Miranda The Blighted Bloom": {
     "id": "17f699a40dfl0i1ux9v66kv7dyxcqx",
@@ -1446,13 +1515,14 @@
       "绿琥珀链坠",
       "恶兆猎人大柴刀"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "3,497",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
     "location_cn": "啜泣半岛归树洞窟、亚坛平原调香师洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击打击 | 属性:弱火 | 异常:低冻伤"
   },
   "Mimic Tear": {
     "id": "17f69e11c75l0i1uxa6gb2wpb12ipb",
@@ -1467,13 +1537,14 @@
       "泪滴幼体 ×2",
       "银色泪滴面具"
     ],
-    "healthPoints": "≈19,536",
+    "healthPoints": "19,536",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "永恒之城诺克隆恩",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Misbegotten Crusader": {
     "id": "17f698a5648l0i1uxs5sk4eq7dy3vh",
@@ -1487,13 +1558,14 @@
     "drops": [
       "黄金律法大剑"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "6,187",
     "is_dlc": false,
     "region_cn": "巨人山顶",
     "location_cn": "离世洞窟（巨人山顶）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗斩击弱打击 | 属性:抗圣 | 异常:中出血中毒冻伤"
   },
   "Mohg, Lord Of Blood": {
     "id": "17f697f4363l0i1uy2tk9e7g2jqcu",
@@ -1508,14 +1580,15 @@
       "蒙格的大卢恩（使用后）",
       "鲜血君王的追忆"
     ],
-    "healthPoints": "≈38,848",
+    "healthPoints": "18,459",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "蒙格温王朝",
     "tags": [
       "追忆",
       "隐藏"
-    ]
+    ],
+    "weaknesses": "属性:弱突刺 | 异常:抗出血（出血无效）"
   },
   "Mohg, The Omen": {
     "id": "17f69a3b2f2l0i1uy2usy0fea155ms",
@@ -1529,13 +1602,14 @@
     "drops": [
       "血焰爪痕"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "5,266",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "下水道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力雷 | 异常:抗出血"
   },
   "Magma Wyrm Makar": {
     "id": "17f69d3101al0i1uyefex03ulrqazi",
@@ -1550,13 +1624,14 @@
       "土龙鳞剑",
       "龙心脏"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "8,184",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "古遗迹断崖",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱魔力 | 异常:中出血冻伤"
   },
   "Necromancer Garris": {
     "id": "17f69d237f0l0i1uytr06ed4gz92qdj",
@@ -1570,13 +1645,14 @@
     "drops": [
       "家人头连枷"
     ],
-    "healthPoints": "Field Boss",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "贤者洞窟（亚坛高原）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全弱 | 属性:弱圣 | 异常:低出血中毒"
   },
   "Nox Swordstress & Nox Priest": {
     "id": "17f6963b02cl0i1uyzthmeyyq45wna",
@@ -1590,13 +1666,14 @@
     "drops": [
       "诺克斯流体剑"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "4,230",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "瑟利亚镇",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Night's Cavalry": {
     "id": "17f69a6c3fcl0i1uyzw7a7ssn0qlpp",
@@ -1616,13 +1693,14 @@
       "战灰：猎犬步法",
       "黑夜骑兵套装"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "多个地点",
     "tags": [
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:抗突刺 | 属性:抗雷 | 异常:中中毒腐败出血冻伤"
   },
   "Omenkiller": {
     "id": "17f69a1be26l0i1uz1kl2dyuibof4d",
@@ -1637,13 +1715,14 @@
       "熔炉瘤护符",
       "恶兆猎人大柴刀"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "6,446",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "白金村、火山官邸、调香师洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Onyx Lord": {
     "id": "17f69a36cf8l0i1uz6gmzy0dr777k",
@@ -1657,13 +1736,14 @@
     "drops": [
       "黑王大剑"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "4,712",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "封印坑道、王室封印监牢",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击"
   },
   "Perfumer Tricia": {
     "id": "17f699438b8l0i1uze1493a9h5ipk3",
@@ -1675,13 +1755,14 @@
     "description": "A long range spellcaster complemented by an armored, short-distance warrior.",
     "description_cn": "调香师特里西娅，使用治愈香气的友好调香师。",
     "drops": [],
-    "healthPoints": "≈1024",
+    "healthPoints": "1,530",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "丑陋地下墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "异常:低出血中毒"
   },
   "Putrid Grave Warden Duelist": {
     "id": "17f699ad704l0i1uzmqfup4jxyto7",
@@ -1696,13 +1777,14 @@
       "大朵墓地铃兰",
       "腐败守墓斗篷"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "6,431",
     "is_dlc": false,
     "region_cn": "化圣雪原",
     "location_cn": "化圣雪原地下墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 异常:中中毒腐败"
   },
   "Pumpkin Head": {
     "id": "17f697e343bl0i1uznxx67p026exqf",
@@ -1717,13 +1799,14 @@
       "南瓜头盔",
       "神殿石"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "4,500",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
     "location_cn": "摩恩城（啜泣半岛）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱雷 | 异常:中出血中毒腐败"
   },
   "Putrid Tree Spirit": {
     "id": "17f69cfaee3l0i1uzongoyxg1dptid",
@@ -1738,13 +1821,14 @@
       "红狮子骑士奥加骨灰",
       "黄金种子"
     ],
-    "healthPoints": "≈18091",
+    "healthPoints": "18,091",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "死亡战争地下墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:弱火 | 异常:低冻伤"
   },
   "Radagon Of The Golden Order": {
     "id": "17f69bc8bd6l0i1v03619u4s9j9ql",
@@ -1756,14 +1840,15 @@
     "description": "Lord Radagon was a great champion, possessed of flowing red locks. He came to these lands at the head of a great golden host, when he met Lady Rennala in battle. He soon repented his territorial transgressions though, and became husband to the Carian Queen. However. When Godfrey, first Elden Lord, was hounded from the Lands Between, Radagon left Rennala to return to the Erdtree Capital, becoming Queen Marika's second husband and King Consort. Taking the title... of second Elden Lord.",
     "description_cn": "黄金律法拉达冈，艾尔登之王的另一半，持有艾尔登之兽的力量。",
     "drops": [],
-    "healthPoints": "≈13339",
+    "healthPoints": "14,967",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "艾尔登王座",
     "tags": [
       "追忆",
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:极抗圣"
   },
   "Red Wolf Of Radagon": {
     "id": "17f6992c3e3l0i1v0af3d14p4dcgzx",
@@ -1777,13 +1862,14 @@
     "drops": [
       "记忆石"
     ],
-    "healthPoints": "≈2204",
+    "healthPoints": "2,204",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "雷亚卢卡利亚学院",
     "tags": [
       "主线"
-    ]
+    ],
+    "weaknesses": "属性:弱雷"
   },
   "Red Wolf Of The Champion": {
     "id": "17f69cf967fl0i1v0cmt73nix34p0c",
@@ -1797,13 +1883,14 @@
     "drops": [
       "“猎犬骑士”弗罗"
     ],
-    "healthPoints": "≈3238",
+    "healthPoints": "3,238",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔英雄墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:弱雷"
   },
   "Regal Ancestor Spirit": {
     "id": "17f69ae5092l0i1v0k714w3s2jz8tj",
@@ -1817,14 +1904,15 @@
     "drops": [
       "祖灵之王的追忆"
     ],
-    "healthPoints": "≈6301",
+    "healthPoints": "12,468",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "永恒之城诺克隆恩",
     "tags": [
       "追忆",
       "隐藏"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱火圣"
   },
   "Royal Knight Loretta": {
     "id": "17f69b19e80l0i1v0x2eima4yhdbd",
@@ -1839,13 +1927,14 @@
       "罗蕾塔的大弓",
       "战灰：罗蕾塔的斩击"
     ],
-    "healthPoints": "≈4214",
+    "healthPoints": "4,214",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "卡利亚城寨",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:弱魔力"
   },
   "Royal Revenant": {
     "id": "17f69de0562l0i1v105zzs817wea9m",
@@ -1857,13 +1946,14 @@
     "description": "An obscene and disturbing abomination, blend of a spider-like creature and human limbs resulting in a quite resourceful fighter at close range.",
     "description_cn": "王室幽魂，无数手臂的扭曲怪物，来自冥界的复仇者。",
     "drops": [],
-    "healthPoints": "≈2200",
+    "healthPoints": "3,800",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "王室领地废墟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:弱圣（圣水大伤害）"
   },
   "Runebear": {
     "id": "17f699179aal0i1v13n497m1yhps2s",
@@ -1877,13 +1967,14 @@
     "drops": [
       "魔力龙徽护符"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "5,362",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
     "location_cn": "地道洞窟（啜泣半岛）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱火 | 异常:中中毒腐败出血冻伤"
   },
   "Rykard, Lord Of Blasphemy": {
     "id": "17f696d979al0i1v1775oof02bi8oh",
@@ -1898,13 +1989,14 @@
       "拉卡德的大卢恩（使用后）",
       "亵渎君王的追忆"
     ],
-    "healthPoints": "1000000",
+    "healthPoints": "50,806",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "追忆"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱雷"
   },
   "Scaly Misbegotten": {
     "id": "17f698d3cc6l0i1v18wptud2du5ts",
@@ -1918,13 +2010,14 @@
     "drops": [
       "锈蚀船锚"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
     "location_cn": "摩恩坑道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱火 | 异常:低中毒腐败出血冻伤"
   },
   "Sir Gideon Ofnir, The All-knowing": {
     "id": "17f69ca8b2al0i1v1pg987jdl4cd68",
@@ -1942,13 +2035,14 @@
       "百智腿甲",
       "百智权杖"
     ],
-    "healthPoints": "≈6226",
+    "healthPoints": "6,226",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "灰城罗德尔",
     "tags": [
       "主线"
-    ]
+    ],
+    "weaknesses": "物理:全弱"
   },
   "Soldier Of Godrick": {
     "id": "17f6982dbf7l0i1v1r3i4p5cy7kvcs",
@@ -1960,13 +2054,14 @@
     "description": "An esteemed high rank soldier, who wields a massive sword and wears his armor proudly.",
     "description_cn": "「葛瑞克的士兵」，精英士兵，手持巨剑身穿重甲。",
     "drops": [],
-    "healthPoints": "≈10,464",
+    "healthPoints": "417",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "漂流墓地",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱雷 | 异常:低中毒腐败出血冻伤"
   },
   "Spirit-caller Snail": {
     "id": "17f6987c932l0i1v1t55h6j6fm1l83",
@@ -1982,13 +2077,14 @@
       "锻造石矿工的铃珠【４】",
       "战灰：黑焰漩涡"
     ],
-    "healthPoints": "≈2200",
+    "healthPoints": "2,200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "道路尽头地下墓地、唤灵洞窟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全弱"
   },
   "Starscourge Radahn": {
     "id": "17f69dc74fdl0i1v1wz3qrzn19aps8",
@@ -2003,13 +2099,14 @@
       "碎星的大卢恩",
       "\"碎星\"追忆"
     ],
-    "healthPoints": "≈25,856",
+    "healthPoints": "9,572",
     "is_dlc": false,
     "region_cn": "盖利德",
     "location_cn": "盖利德",
     "tags": [
       "追忆"
-    ]
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:抗魔力 | 异常:中中毒出血冻伤"
   },
   "Tibia Mariner": {
     "id": "17f6968dcfal0i1v1y8dnaop27j5qg",
@@ -2026,13 +2123,14 @@
       "枯瘦山贼的骨灰",
       "提比亚的唤声"
     ],
-    "healthPoints": "≈2750",
+    "healthPoints": "2,750",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
     "location_cn": "唤水村、温达姆废墟",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱圣 | 异常:中腐败"
   },
   "Ulcerated Tree Spirit": {
     "id": "17f69621aadl0i1v2f5fkvee5z6719",
@@ -2047,13 +2145,14 @@
       "铅化硬露滴",
       "蓝秘密露滴"
     ],
-    "healthPoints": "≈17,428",
+    "healthPoints": "17,428",
     "is_dlc": false,
     "region_cn": "格密尔火山",
     "location_cn": "格密尔火山",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:全中性 | 属性:弱火 | 异常:低冻伤"
   },
   "Valiant Gargoyle": {
     "id": "17f697500cal0i1v2hh14qewvbrwrn",
@@ -2068,13 +2167,14 @@
       "石像鬼大剑",
       "石像鬼双头剑"
     ],
-    "healthPoints": "≈9,120",
+    "healthPoints": "9,120",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "希芙拉导水渠",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "属性:抗圣"
   },
   "Wormface": {
     "id": "17f696a35c3l0i1v2k2s30hlu2y50j",
@@ -2089,13 +2189,14 @@
       "漫红结晶露滴",
       "斑斓硬露滴"
     ],
-    "healthPoints": "未知",
+    "healthPoints": "12,399",
     "is_dlc": false,
     "region_cn": "亚坛高原",
     "location_cn": "小黄金树（亚坛高原）",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱火 | 异常:低腐败"
   },
   "Tree Sentinel": {
     "id": "17f6992d42bl0i1v2mmti9t0qkl5yj",
@@ -2111,12 +2212,432 @@
       "黄金树大盾",
       "英雄卢恩[1]"
     ],
-    "healthPoints": "≈1954",
+    "healthPoints": "1,954",
     "is_dlc": false,
     "region_cn": "宁姆格福",
     "location_cn": "宁姆格福大道",
     "tags": [
       "普通"
-    ]
+    ],
+    "weaknesses": "物理:抗标准打击突刺 | 属性:全中性 | 异常:中中毒腐败出血冻伤"
+  },
+  "Divine Beast Dancing Lion": {
+    "id": "dlcmqz1x7qxwatlp8",
+    "name": "Divine Beast Dancing Lion",
+    "name_cn": "神兽舞狮",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Belurat, Tower Settlement",
+    "description": "A divine beast that dances with storm and lightning, guarding the tower settlement of Belurat.",
+    "description_cn": "在贝尔拉特塔镇顶端起舞的神兽，驾驭风暴与雷电。",
+    "drops": [
+      "神兽舞狮的追忆",
+      "神兽头"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "塔之镇贝尔拉特",
+    "tags": [
+      "追忆"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力雷 | 异常:中出血冻伤"
+  },
+  "Rellana, Twin Moon Knight": {
+    "id": "dlcmqz1x7qx5jxmm2",
+    "name": "Rellana, Twin Moon Knight",
+    "name_cn": "双月骑士蕾菈娜",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Castle Ensis",
+    "description": "A Carian knight wielding twin moon blades, guardian of Castle Ensis.",
+    "description_cn": "卡利亚的双月骑士，守卫恩希斯城的剑术大师。",
+    "drops": [
+      "双月骑士的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "恩希斯城",
+    "tags": [
+      "追忆"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力雷 | 异常:中出血冻伤"
+  },
+  "Putrescent Knight": {
+    "id": "dlcmqz1x7qx3fzo7m",
+    "name": "Putrescent Knight",
+    "name_cn": "腐败骑士",
+    "image": null,
+    "region": "Cerulean Coast",
+    "location": "Stone Coffin Fissure",
+    "description": "A knight consumed by rot, riding a putrid steed in the depths of the fissure.",
+    "description_cn": "被腐败吞噬的骑士，骑着腐败战马盘踞在裂隙深处。",
+    "drops": [
+      "腐败的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "青蓝海岸",
+    "location_cn": "石棺裂隙",
+    "tags": [
+      "追忆"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱火 | 异常:抗腐败"
+  },
+  "Messmer the Impaler": {
+    "id": "dlcmqz1x7qx6gcqga",
+    "name": "Messmer the Impaler",
+    "name_cn": "穿刺者梅瑟莫",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Shadow Keep",
+    "description": "The Impaler, son of Marika, wielding a serpent spear and abyssal flame within the Shadow Keep.",
+    "description_cn": "玛莉卡之子，手持蛇矛与深渊火焰的穿刺者，镇守幽影城深处。",
+    "drops": [
+      "穿刺者的追忆",
+      "梅瑟莫的余火"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "幽影城",
+    "tags": [
+      "追忆",
+      "主线"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力雷 | 异常:中出血冻伤"
+  },
+  "Romina, Saint of the Bud": {
+    "id": "dlcmqz1x7qxmce0xl",
+    "name": "Romina, Saint of the Bud",
+    "name_cn": "花之圣女罗米娜",
+    "image": null,
+    "region": "Ancient Ruins of Rauh",
+    "location": "Church of the Bud",
+    "description": "A saint who became one with the scarlet bud, wielding rot and flame in equal measure.",
+    "description_cn": "与绯红花蕾融为一体的圣女，同时操纵腐败与火焰。",
+    "drops": [
+      "花之圣女的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "劳赫古遗迹",
+    "location_cn": "花蕾教堂",
+    "tags": [
+      "追忆",
+      "主线"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱火 | 异常:抗腐败"
+  },
+  "Commander Gaius": {
+    "id": "dlcmqz1x7qx8ilohb",
+    "name": "Commander Gaius",
+    "name_cn": "指挥官盖乌斯",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Shadow Keep, Back Gate",
+    "description": "A former commander of the Scadu forces, riding a giant boar wielding gravity magic.",
+    "description_cn": "幽影军的前指挥官，骑乘巨猪，操纵重力魔法。",
+    "drops": [
+      "野猪骑士的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "幽影城后门",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力 | 异常:中出血冻伤"
+  },
+  "Midra, Lord of Frenzied Flame": {
+    "id": "dlcmqz1x7qxtzfmby",
+    "name": "Midra, Lord of Frenzied Flame",
+    "name_cn": "癫火之王米德拉",
+    "image": null,
+    "region": "Abyssal Woods",
+    "location": "Midra's Manse",
+    "description": "A lord consumed by the frenzied flame, now an embodiment of pure chaos deep within the Abyssal Woods.",
+    "description_cn": "被癫火吞噬的领主，在深渊森林深处化身为纯粹的混沌。",
+    "drops": [
+      "癫火之王的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "深渊森林",
+    "location_cn": "米德拉宅邸",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力雷 | 异常:抗所有异常"
+  },
+  "Metyr, Mother of Fingers": {
+    "id": "dlcmqz1x7qx2mqk9z",
+    "name": "Metyr, Mother of Fingers",
+    "name_cn": "指母梅提尔",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Cathedral of Manus Metyr",
+    "description": "The mother of fingers, a cosmic entity found beneath the Cathedral of Manus Metyr.",
+    "description_cn": "双指的母体，位于梅提尔指尖教堂地下的宇宙级存在。",
+    "drops": [
+      "指母的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "梅提尔指尖教堂",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱魔力火 | 异常:抗出血中毒"
+  },
+  "Scadutree Avatar": {
+    "id": "dlcmqz1x7qxeozrs6",
+    "name": "Scadutree Avatar",
+    "name_cn": "影树化身",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Scadutree Base",
+    "description": "An avatar of the Scadutree, wielding holy light and shadow thorns.",
+    "description_cn": "幽影树的化身，操纵圣光与影刺。",
+    "drops": [
+      "影树向日葵的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "影树根部",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱火 | 异常:中冻伤"
+  },
+  "Promised Consort Radahn": {
+    "id": "dlcmqz1x7qx9osg32",
+    "name": "Promised Consort Radahn",
+    "name_cn": "约定之王拉塔恩",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Enir-Ilim, Divine Gate",
+    "description": "Radahn, resurrected and empowered by Miquella as his promised consort, wielding holy and gravitational powers.",
+    "description_cn": "被米凯拉复活并赐福的拉塔恩，作为约定之王操纵圣光与重力。",
+    "drops": [
+      "神与王的追忆"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "艾尼尔·伊利姆神门",
+    "tags": [
+      "追忆",
+      "主线"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力雷 | 异常:抗出血中毒腐败"
+  },
+  "Golden Hippopotamus": {
+    "id": "dlcmqz1x7qx1hnsv8",
+    "name": "Golden Hippopotamus",
+    "name_cn": "黄金河马",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Shadow Keep, Main Gate",
+    "description": "A massive golden hippopotamus guarding the main gate of the Shadow Keep.",
+    "description_cn": "守护幽影城正门的巨大金色河马。",
+    "drops": [
+      "黄金河马的凝脂"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "幽影城正门",
+    "tags": [
+      "普通",
+      "主线"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱火 | 异常:中出血冻伤"
+  },
+  "Bayle the Dread": {
+    "id": "dlcmqz1x7qxly9kx2",
+    "name": "Bayle the Dread",
+    "name_cn": "恐惧之龙拜尔",
+    "image": null,
+    "region": "Jagged Peak",
+    "location": "Jagged Peak Summit",
+    "description": "A dread dragon of immense power, covered in lightning and ancient runes, dwelling at the peak of Jagged Peak.",
+    "description_cn": "远古巨龙拜尔，布满闪电与古代符文，盘踞在尖刺山巅峰。",
+    "drops": [
+      "拜尔的心脏",
+      "龙心×5"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "尖刺山",
+    "location_cn": "尖刺山顶",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱魔力 | 异常:中出血腐败"
+  },
+  "Blackgaol Knight": {
+    "id": "dlcmqz1x7qx9anxjz",
+    "name": "Blackgaol Knight",
+    "name_cn": "黑牢骑士",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Western Nameless Mausoleum",
+    "description": "A mysterious knight in black armor guarding the nameless mausoleum.",
+    "description_cn": "守护无名灵庙的神秘黑甲骑士。",
+    "drops": [
+      "黑牢骑士套装"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "西部无名灵庙",
+    "tags": [
+      "普通"
+    ],
+    "weaknesses": "物理:全中等 | 属性:弱魔力 | 异常:中出血冻伤"
+  },
+  "Ghostflame Dragon": {
+    "id": "dlcmqz1x7qxkfulh3",
+    "name": "Ghostflame Dragon",
+    "name_cn": "鬼焰龙",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Gravesite Plain Lake",
+    "description": "A spectral dragon wreathed in ghostflame, roaming the lakes of Gravesite Plain.",
+    "description_cn": "被鬼火缠绕的灵体龙，在墓地平原的湖畔徘徊。",
+    "drops": [
+      "龙心",
+      "鬼焰"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "墓地平原湖畔",
+    "tags": [
+      "普通"
+    ],
+    "weaknesses": "物理:弱突刺 | 属性:弱魔力圣 | 异常:中出血冻伤"
+  },
+  "Jori, Elder Inquisitor": {
+    "id": "dlcmqz1x7qxmdg179",
+    "name": "Jori, Elder Inquisitor",
+    "name_cn": "老审判官约里",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Darklight Catacombs",
+    "description": "An ancient inquisitor wielding darklight magic in the depths of the catacombs.",
+    "description_cn": "在地下墓地深处操纵暗光的古代审判官。",
+    "drops": [
+      "审判官的法杖"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "暗光地下墓地",
+    "tags": [
+      "普通",
+      "隐藏"
+    ],
+    "weaknesses": "物理:全弱 | 属性:弱圣 | 异常:中出血冻伤"
+  },
+  "Rakshasa": {
+    "id": "dlcmqz1x7qxpqh7sy",
+    "name": "Rakshasa",
+    "name_cn": "罗刹",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Eastern Nameless Mausoleum",
+    "description": "A demonic warrior wielding a massive great katana.",
+    "description_cn": "挥舞巨大太刀的鬼面战士。",
+    "drops": [
+      "罗刹的大刀",
+      "罗刹套装"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "东部无名灵庙",
+    "tags": [
+      "普通",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱雷 | 异常:中出血"
+  },
+  "Dryleaf Dane": {
+    "id": "dlcmqz1x7qxbr2tbl",
+    "name": "Dryleaf Dane",
+    "name_cn": "枯叶丹恩",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Moorth Ruins",
+    "description": "A martial artist using hand-to-hand combat techniques among the ruins.",
+    "description_cn": "在废墟中使用徒手格斗术的武僧。",
+    "drops": [
+      "枯叶拳套",
+      "丹恩的帽子"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "莫斯废墟",
+    "tags": [
+      "普通",
+      "隐藏"
+    ],
+    "weaknesses": "物理:全弱 | 属性:弱魔力 | 异常:中出血冻伤"
+  },
+  "Ralva the Great Red Bear": {
+    "id": "dlcmqz1x7qxak7sid",
+    "name": "Ralva the Great Red Bear",
+    "name_cn": "大红熊拉尔瓦",
+    "image": null,
+    "region": "Scadu Altus",
+    "location": "Rauh Ravine",
+    "description": "An enormous red-furred bear of terrifying strength.",
+    "description_cn": "体型惊人的红色巨熊，力大无穷。",
+    "drops": [
+      "拉尔瓦的毛皮"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "幽影亚坛",
+    "location_cn": "劳赫峡谷",
+    "tags": [
+      "普通",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱斩击 | 属性:弱火 | 异常:中中毒出血"
+  },
+  "Lamenter": {
+    "id": "dlcmqz1x7qx4a3rnx",
+    "name": "Lamenter",
+    "name_cn": "哀悼者",
+    "image": null,
+    "region": "Gravesite Plain",
+    "location": "Lamenter's Gaol",
+    "description": "A weeping, multi-limbed creature trapped in the gaol, wailing in eternal sorrow.",
+    "description_cn": "被囚禁在牢狱中的多臂哭泣怪物，发出永恒的悲鸣。",
+    "drops": [
+      "哀悼者面具"
+    ],
+    "healthPoints": "",
+    "is_dlc": true,
+    "region_cn": "墓地平原",
+    "location_cn": "哀悼者之牢",
+    "tags": [
+      "普通",
+      "隐藏"
+    ],
+    "weaknesses": "物理:弱打击 | 属性:弱圣 | 异常:中出血"
   }
 }
