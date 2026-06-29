@@ -6,6 +6,6 @@ echo ====================================
 echo.
 echo 正在启动服务器...
 echo.
-npx vite preview --port 3000 --open
+npx vite --port 3000 --open
 echo.
 pause

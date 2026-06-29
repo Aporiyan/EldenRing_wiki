@@ -1112,6 +1112,107 @@ body {
   .content-area { padding: 16px; }
 }
 
+/* Info items: uniform card height + ellipsis */
+.info-card {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.info-card .item-card-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info-card-body {
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.info-card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+/* Info modal */
+.info-modal {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  max-width: 620px;
+  width: 92%;
+  max-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 16px 56px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+.info-modal-head {
+  padding: 16px 22px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-tertiary);
+  flex-shrink: 0;
+}
+
+.info-modal-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+}
+
+.info-modal-body {
+  padding: 22px 24px;
+  overflow-y: auto;
+  flex: 1;
+  background: var(--bg-card);
+}
+
+.info-modal-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Info lang toggle labels */
+.info-lang-label {
+  font-size: 0.8rem;
+  transition: color 0.2s;
+}
+
+.info-toggle-track {
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.info-toggle-knob {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 1px;
+  transition: left 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
 /* Content fade-in animation */
 .content-area {
   animation: fadeIn 0.25s ease;
@@ -1243,3 +1344,107 @@ body {
 }
 .bp-chip:hover { border-color: var(--accent-gold-dim); color: var(--text-primary); }
 .bp-chip.on { background: var(--accent-gold-dim); color: #000; border-color: var(--accent-gold-dim); font-weight: 600; }
+
+/* ===== NPC Module ===== */
+.npc-card .item-card-header {
+  gap: 12px;
+}
+.npc-card-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--bg-tertiary);
+  border: 2px solid var(--border-color);
+}
+.npc-card-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.npc-card-avatar-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--text-muted);
+}
+.npc-card-location {
+  font-size: 0.78rem;
+  color: var(--accent-gold);
+  margin-bottom: 4px;
+}
+.npc-card-quote {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.quest-step {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.quest-step:last-child { border-bottom: none; }
+.quest-step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.quest-step-optional .quest-step-num {
+  background: var(--text-muted);
+  opacity: 0.6;
+}
+.quest-step-body {
+  flex: 1;
+  min-width: 0;
+}
+.quest-step-text {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+.quest-step-meta {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+.quest-step-zone {
+  font-size: 0.7rem;
+  color: var(--accent-blue);
+  font-weight: 500;
+}
+.quest-step-optional-tag {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  padding: 0 6px;
+  border-radius: 4px;
+}
+.quest-step-required-tag {
+  font-size: 0.65rem;
+  color: var(--accent-green);
+  background: rgba(76,168,76,0.1);
+  padding: 0 6px;
+  border-radius: 4px;
+}
+.quest-step-note {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  padding: 6px 10px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+}

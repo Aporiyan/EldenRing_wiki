@@ -52,6 +52,11 @@ export function renderHome(container) {
           <div class="home-category-count">${cat.count} 件</div>
         </a>
       `).join('')}
+      <a href="#/npcs" class="home-category-card" style="opacity:0.9">
+        <div class="home-category-icon">👤</div>
+        <div class="home-category-name">NPC</div>
+        <div class="home-category-count">45+ 名</div>
+      </a>
     </div>
   `;
 

@@ -8,6 +8,8 @@ import { renderItemsPage, renderItemsCategory, renderItemsTabGroup } from './pag
 import { renderSearchResults } from './pages/search.js';
 import { renderArmorSetsList, renderArmorSetDetail } from './pages/armor-sets.js';
 import { renderInfoPage } from './pages/info-items.js';
+import { renderNpcList } from './pages/npcs.js';
+import { renderNpcDetail } from './pages/npc-detail.js';
 import { renderUpgradeCalc } from './pages/upgrade-calc.js';
 import { renderBuildPlanner } from './pages/build-planner.js';
 import { renderItemCompare } from './pages/item-compare.js';
@@ -70,6 +72,10 @@ async function init() {
   registerRoute('/keys/:id', createDetailPage('keys', '钥匙'));
   registerRoute('/crafting-materials/:id', createDetailPage('crafting-materials', '制作材料'));
   registerRoute('/bolstering-materials/:id', createDetailPage('bolstering-materials', '强化材料'));
+
+  // NPC pages
+  registerRoute('/npcs', (container, params) => renderNpcList(container, params));
+  registerRoute('/npcs/:id', (container, params) => renderNpcDetail(container, params));
 
   // New feature pages
   registerRoute('/info', (container, params) => renderInfoPage(container, params));

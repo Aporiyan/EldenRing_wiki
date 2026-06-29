@@ -1,0 +1,4270 @@
+{
+  "bernahl": {
+    "name": "Knight Bernahl",
+    "description": "Proud knight become recusant..",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight_bernahl_npcs_elden_ring_wiki_guide.jpg",
+      "alt": null
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Knight+Bernahl",
+    "rewards": [
+      "Blasphemous Claw",
+      "Raging Wolf Set"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Join the [Volcano Manor](https://eldenring.wiki.fextralife.com/Volcano+Manor) family and complete two assassinations for them.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "description_cn": "加入火山官邸家族，为他们完成两次暗杀。"
+      },
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Speak to Bernahl to recieve the [Letter to Bernahl](https://eldenring.wiki.fextralife.com/Letter+to+Bernahl).",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "description_cn": "与贝尔纳尔对话，获得「写给贝尔纳尔的信」。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Fight Vagram the Raging Wolf together with Bernahl after which you will receive the Raging Wolf Set.",
+        "zone": "LEYNDELL",
+        "note": "Vagram the Raging Wolf can be found in Leyndell after interacting with a red invasion sign.",
+        "description_cn": "与贝尔纳尔一同击败「狂狼」瓦格拉姆，获得狂狼套装。",
+        "note_cn": "在罗德尔与红色入侵标记互动可以找到「狂狼」瓦格拉姆。"
+      },
+      {
+        "id": 5,
+        "optional": false,
+        "description": "Defeat Rykard, Lord of Blasphemy, return to Bernahl, and exhaust his dialog.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "description_cn": "击败「亵渎君王」拉卡德，回到贝尔纳尔处对话至重复。"
+      },
+      {
+        "id": 6,
+        "optional": true,
+        "description": "Summon Bernahl as a cooperator against the [Godskin Duo](https://eldenring.wiki.fextralife.com/Godskin+Duo).",
+        "zone": "FARUM_AZULA",
+        "note": null,
+        "description_cn": "在法姆·亚兹拉召唤贝尔纳尔协助对抗神皮双人组。"
+      },
+      {
+        "id": 7,
+        "optional": false,
+        "description": "Defeat Bernahl who invades you on your way to the boss arena in Farum Azula.",
+        "zone": "FARUM_AZULA",
+        "note": null,
+        "description_cn": "在法姆·亚兹拉前往首领战途中入侵的贝尔纳尔。"
+      }
+    ],
+    "failureConditions": [
+      "\"Defeating [Rykard",
+      "Lord of Blasphemy"
+    ],
+    "description_cn": "骄傲的骑士成为叛律者，接受火山官邸的暗杀委托。",
+    "rewards_cn": [
+      "亵渎兽爪",
+      "狂狼套装"
+    ],
+    "failureConditions_cn": [
+      "在击败「亵渎君王」拉卡德之前没有完成贝尔纳尔的支线。"
+    ],
+    "name_cn": "贝纳尔"
+  },
+  "blaidd": {
+    "name": "Blaidd the Half-Wolf",
+    "description": "When wandering near the [Mistwood Ruins](https://eldenring.wiki.fextralife.com/Mistwood+Ruins) you will hear a wolf howling.",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blaidd-wolfman-location2-npc-elden-ring-wiki-300px-min.jpeg",
+      "alt": "Blaidd the Half-Wolf"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Blaidd",
+    "rewards": [
+      "Somber Smithing Stone [2]"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "When wandering near the [Mistwood Ruins](https://eldenring.wiki.fextralife.com/Mistwood+Ruins) you will hear a wolf howling.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "在雾林废墟附近徘徊时会听到狼的嚎叫声。"
+      },
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Return to [Kalé](https://eldenring.wiki.fextralife.com/Merchant+Kal%C3%A9) at the Curch of Elleh and ask him about the howling.",
+        "zone": "LIMGRAVE",
+        "note": "This is where you will learn the Finger Snap Gesture.",
+        "description_cn": "回到艾雷教堂找咖列询问嚎叫的事。",
+        "note_cn": "这是你学会弹指动作的地方。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Return to the Mistwood Ruins and use the Finger Snap Gesture near the high tower to summon Blaidd.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "回到雾林废墟，在高塔附近使用弹指动作召唤布莱泽。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Talk to Blaidd at the Mistwood Ruins to learn that he is looking for a man named Darriwil.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "与雾林废墟的布莱泽对话，得知他在寻找一个叫达瑞威尔的人。"
+      },
+      {
+        "id": 5,
+        "optional": true,
+        "description": "Either summon Blaidd for the fight against [Darriwil](https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Darriwil) at the [Forlorn Hound Evergoal](https://eldenring.wiki.fextralife.com/Forlorn+Hound+Evergaol) or talk to him after defeating Darriwil.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "在无主猎犬封印监牢中召唤布莱泽协助对抗达瑞威尔，或击败达瑞威尔后与他对话。"
+      },
+      {
+        "id": 7,
+        "optional": true,
+        "description": "Meet Iji and let him know Blaidd sent you.",
+        "zone": "LIURNIA",
+        "note": "You will now be able to buy the Carian Filigreed Crest from Iji.",
+        "description_cn": "见到伊吉并告诉他布莱泽派你来的。",
+        "note_cn": "现在可以从伊吉处购买卡利亚徽章。"
+      },
+      {
+        "id": 9,
+        "optional": false,
+        "description": "Meet Blaidd in Siofra River and exhaust his dialog.",
+        "zone": "SIOFRA_RIVER",
+        "note": null,
+        "description_cn": "在希芙拉河见到布莱泽并对话至重复。"
+      },
+      {
+        "id": 12,
+        "optional": false,
+        "description": "Report your findings back to Blaidd in Siofra River after which he will request you participate in a festival at [Redmane Castle](https://eldenring.wiki.fextralife.com/Redmane+Castle).",
+        "zone": "SIOFRA_RIVER",
+        "note": null,
+        "description_cn": "将发现告知希芙拉河的布莱泽，他会请求你参加红狮子城的祭典。"
+      },
+      {
+        "id": 13,
+        "optional": false,
+        "description": "After defeating Radahn speak with Blaidd near the Wailing Dunes site of grace.",
+        "zone": "CAELID",
+        "note": null,
+        "description_cn": "击败拉塔恩后，在漠北驿站附近的赐福与布莱泽对话。"
+      }
+    ],
+    "failureConditions": [],
+    "description_cn": "在雾林废墟附近徘徊时，会听到狼的嚎叫声。",
+    "rewards_cn": [
+      "失色锻造石[2]"
+    ],
+    "failureConditions_cn": [],
+    "name_cn": "布莱泽"
+  },
+  "boc": {
+    "name": "Boc the Seamster",
+    "description": "Just a Demi-Human looking for some love..",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/boc_npcs_elden_ring_wiki_guide_300px.jpg",
+      "alt": "Boc in Limgrave"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Boc+the+Seamster",
+    "rewards": [
+      "Gesture [My Lord]",
+      "Mushroom"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Free Boc from his tree form.",
+        "zone": "LIMGRAVE",
+        "note": "He can be found south of the [Agheel Lake North grace](https://eldenring.wiki.fextralife.com/Interactive+Map?id=10&code=mapA) and will yell out if you are close.",
+        "description_cn": "把柏克从树形态解放出来。",
+        "note_cn": "他可以在亚基尔湖北方赐福南边找到，靠近时会听到叫喊声。"
+      },
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Talk to Boc at the [Coastal Cave](https://eldenring.wiki.fextralife.com/Coastal+Cave).",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "在海岸洞窟与柏克对话。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Defeat the boss of the Coastal Cave and return to Boc to give him his sewing tools.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "description_cn": "击败海岸洞窟的首领，回到柏克处给他缝衣针。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Collect the [Gold Sewing Needle](https://eldenring.wiki.fextralife.com/Gold+Sewing+Needle) from the [Church of Vows](https://eldenring.wiki.fextralife.com/Church+of+Vows).",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "从结缘教堂获取金缝衣针。"
+      },
+      {
+        "id": 5,
+        "optional": false,
+        "description": "Purchase any of the alterable boss armors from [Enia](https://eldenring.wiki.fextralife.com/Enia).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "description_cn": "从恩雅处购买任意可修改的首领铠甲。"
+      },
+      {
+        "id": 6,
+        "optional": false,
+        "description": "Visit Boc at any of the sites of grace mentioned in the notes of this step and give him the Gold Sewing Needle.",
+        "zone": "MULTIPLE",
+        "note": "Boc can be found at any of these sites of grace:\\n- Lake Facing Cliffs\\n- East Raya Lucaria Gate\\n- Altus Highway Junction\\n- East Capital Rampart\\n\\nYou have now unlocked the ability to alter legendary garments.",
+        "description_cn": "在步骤注明的任意赐福点找到柏克，将金缝衣针交给他。",
+        "note_cn": "柏克可以在以下赐福点找到：- 湖旁断崖\n- 雷亚卢卡利亚东门\n- 亚坛高速公路岔道\n- 东侧王城城墙你现在已解锁修改传说装备的能力。"
+      },
+      {
+        "id": 7,
+        "optional": false,
+        "description": "Talk to Boc and he will express his wish to be reborn.",
+        "zone": "MULTIPLE",
+        "note": null,
+        "description_cn": "与柏克对话，他会表达想要重生的愿望。"
+      }
+    ],
+    "failureConditions": [],
+    "description_cn": "一个渴望被爱的亚人裁缝。",
+    "rewards_cn": [
+      "动作「我的王啊」",
+      "蘑菇"
+    ],
+    "failureConditions_cn": [],
+    "name_cn": "柏克"
+  },
+  "boggart": {
+    "name": "Blackguard Big Boggart",
+    "description": "Boggart sells the best boiled prawn in the Lands Between!",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blackguard-npc-elden-ring-wiki-guide.jpg",
+      "alt": "Boggart boiling prawns"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart",
+    "rewards": [
+      "Boiled Crabs",
+      "Iron Ball"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Talk to Rya in a pavilion north of the [Laskyar Ruins](https://eldenring.wiki.fextralife.com/Laskyar+Ruins), exhaust her dialog and promise to retrieve her necklace from the thief.",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "在拉斯卡废墟以北的凉亭与菈雅对话至重复，承诺从小偷处取回项链。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Buy Boiled Prawns from Boggart to befriend him.",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "向博格特购买煮虾来与他交朋友。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Find Boggart in the Leyndell moat and exhaust his dialog until he mentions that the [Dung Eater](https://eldenring.wiki.fextralife.com/Dung+Eater) is lurking nearby.",
+        "zone": "LEYNDELL",
+        "note": null,
+        "description_cn": "在王城护城河找到博格特，对话至重复，直到他提到食粪者就附近。"
+      },
+      {
+        "id": 5,
+        "optional": false,
+        "description": "Reload the area and interact with the now wounded Boggart.",
+        "zone": "LEYNDELL",
+        "note": "This interaction will trigger an invasion by the Dung Eater.",
+        "description_cn": "重新加载区域，与受伤的博格特互动。",
+        "note_cn": "这次互动会触发食粪者的入侵。"
+      }
+    ],
+    "failureConditions": [
+      "\"Reaching [Volcano Manor"
+    ],
+    "description_cn": "博格特售卖交界地最好吃的煮虾！",
+    "rewards_cn": [
+      "煮螃蟹",
+      "铁球"
+    ],
+    "failureConditions_cn": [
+      "到达火山官邸。"
+    ],
+    "name_cn": "博格特"
+  },
+  "corhyn": {
+    "name": "Brother Corhyn",
+    "description": "Help Brother Corhyn find his hero; the almighty Goldmask.",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/brother_corhyn_npcs_elden_ring_wiki_guide.jpg",
+      "alt": "Brother Corhyn in the Roundtable Hold"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Brother+Corhyn",
+    "rewards": [
+      "Gold Waistwrap"
+    ],
+    "steps": [
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Speak with Corhyn after reaching the [Altus Plateau](https://eldenring.wiki.fextralife.com/Altus+Plateau), he will tell you he is going on a journey to find the [Goldmask](https://eldenring.wiki.fextralife.com/Goldmask).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "description_cn": "到达亚坛高原后与柯林对话，他会说要踏上寻找金面具的旅程。"
+      },
+      {
+        "id": 3,
+        "optional": true,
+        "description": "After resting Corhyn will be standing on the road north of the Altus Highway Junction Site of Grace.",
+        "zone": "ALTUS",
+        "note": null,
+        "description_cn": "休息后柯林会站在亚坛高原岔路北边的路上。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Interact with Goldmask. He will be standing on the broken bridge on the north side of Altus Plateau.",
+        "zone": "ALTUS",
+        "note": null,
+        "description_cn": "与金面具互动，他在亚坛高原北侧的断桥上。"
+      },
+      {
+        "id": 5,
+        "optional": false,
+        "description": "Return to Corhyn and exhaust his dialog and reload the area.",
+        "zone": "ALTUS",
+        "note": null,
+        "description_cn": "回到柯林处对话至重复，然后重新加载区域。"
+      },
+      {
+        "id": 6,
+        "optional": false,
+        "description": "Go to Corhyn, who will be standing next to Goldmask, and exhaust his dialog.",
+        "zone": "ALTUS",
+        "note": null,
+        "description_cn": "去找站在金面具旁边的柯林，对话至重复。"
+      },
+      {
+        "id": 8,
+        "optional": false,
+        "description": "Procure the incantation [Law of Regression](https://eldenring.wiki.fextralife.com/Law+of+Regression).",
+        "zone": "LEYNDELL",
+        "note": null,
+        "description_cn": "获取祷告「回归性原理」。"
+      },
+      {
+        "id": 9,
+        "optional": false,
+        "description": "Head west from [Erdtree Sanctuary grace](https://eldenring.wiki.fextralife.com/Sites+of+Grace) until you see a white message saying \"Regression\". Cast Law of Regression while standing on the message and facing the statue. Read the new message that appreas.",
+        "zone": "LEYNDELL",
+        "note": null,
+        "description_cn": "从黄金树大教堂赐福向西走，找到写着\"回归\"的白色讯息，站在讯息上面朝雕像释放回归性原理，阅读出现的新讯息。"
+      },
+      {
+        "id": 12,
+        "optional": false,
+        "description": "Kill Fire Giant on the Mountain of the Giants.",
+        "zone": "MOUNTAINTOP",
+        "note": null,
+        "description_cn": "在巨人山顶击杀火焰巨人。"
+      },
+      {
+        "id": 13,
+        "optional": false,
+        "description": "Kill Beast Clergyman in Crumbling Farum Azula.",
+        "zone": "FARUM_AZULA",
+        "note": null,
+        "description_cn": "在逐渐崩毁的法姆·亚兹拉击杀野兽祭司。"
+      },
+      {
+        "id": 14,
+        "optional": false,
+        "description": "After killing both Fire Giant and Beast Clergyman Corhyn can be found at Capital of Ash grace.",
+        "zone": "LEYNDELL_ASHEN",
+        "note": null,
+        "description_cn": "击杀火焰巨人和野兽祭司后，柯林可在灰灭王城赐福找到。"
+      },
+      {
+        "id": 15,
+        "optional": false,
+        "description": "Find Goldmask at the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary Site of Grace. He will give you the [Mending Rune of Perfect Order](https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order).",
+        "zone": "LEYNDELL_ASHEN",
+        "note": "Reload the area after receiving the Rune from Goldmask to be able to loot his set from his corpse.",
+        "description_cn": "在斗技场悬崖底部找到金面具，面对黄金树大教堂赐福的西侧。他会给你完美律法的修复卢恩。",
+        "note_cn": "从金面具处获取符文后重新加载区域，可以从他的尸体上拾取套装。"
+      },
+      {
+        "id": 16,
+        "optional": false,
+        "description": "Find Corhyn near the base of the giant spiral spear. Exhaust his dialogue.",
+        "zone": "LEYNDELL_ASHEN",
+        "note": "Reloading the area after exhausting his dialogue to be able to loot his corpse.",
+        "description_cn": "在巨大的螺旋枪底部找到柯林，对话至重复。",
+        "note_cn": "对话至重复后重新加载区域，可以拾取他的尸体。"
+      }
+    ],
+    "failureConditions": [
+      "Progressing through Crumbling Farum Azula when Corhyn has not reached Stargazers Ruins yet will fail this quest."
+    ],
+    "description_cn": "帮助柯林寻找他的英雄——伟大的金面具。",
+    "rewards_cn": [
+      "金腰布"
+    ],
+    "failureConditions_cn": [
+      "在柯林尚未到达观星者废墟时推进法姆·亚兹拉会导致任务失败。"
+    ],
+    "name_cn": "柯林"
+  },
+  "d_hunter": {
+    "name": "D, Hunter of the Dead",
+    "description": "A tale of two souls and ones penchant for Weeding Deathroot.",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/d-hunter-of-the-dead-npc-elden-ring-wiki-guide.jpg",
+      "alt": "D, Hunter of the Dead in Limgrave"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/D,+Hunter+of+the+Dead",
+    "rewards": [
+      "Twinned Set"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": true,
+        "description": "Find D to the west of [Summonwater Village](https://eldenring.wiki.fextralife.com/Summonwater+Village) to the side of the path.",
+        "zone": "LIMGRAVE",
+        "note": "If you defeat Godrick or the Red Wolf of Radagon before talking to D in Limgrave, he can be found at Roundtable Hold.",
+        "description_cn": "在召水村以西的路边找到。",
+        "note_cn": "如果在与宁姆格福的对话之前击败了葛瑞克或拉达冈的红狼，他会圆桌厅堂出现。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Visit [Gurranq](https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman) at the [Bestial Sanctum](https://eldenring.wiki.fextralife.com/Bestial+Sanctum) in Caelid.",
+        "zone": "CAELID",
+        "note": null,
+        "description_cn": "去盖利德的野兽神殿拜访古兰格。"
+      },
+      {
+        "id": 4,
+        "optional": true,
+        "description": "After speaking to Gurranq you will be able to buy incantations from D.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "description_cn": "与古兰格对话后，可以从处购买祷告。"
+      }
+    ],
+    "failureConditions": [
+      "D dies when you reach Farum Azula"
+    ],
+    "description_cn": "一对双胞胎与根除死根的故事。",
+    "rewards_cn": [
+      "双胞胎套装"
+    ],
+    "failureConditions_cn": [
+      "到达法姆·亚兹拉时会死亡。"
+    ],
+    "name_cn": "死亡窥视者Ｄ"
+  },
+  "gideon": {
+    "name": "Gideon Ofnir",
+    "description": "Visit Roundtable Hold.",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gidron-ofnir-roundtable-hold-npc-elden-ring-wiki-300px2-min.jpeg",
+      "alt": "Gideon in his office"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Gideon+Ofnir",
+    "rewards": [
+      "Law of Causality"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Visit Roundtable Hold.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "description_cn": "前往圆桌厅堂。"
+      },
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Obtain a Great Rune.",
+        "zone": "LANDS_BETWEEN",
+        "note": null,
+        "description_cn": "获得一个大卢恩。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Kill [Morgott the Omen King](https://eldenring.wiki.fextralife.com/Morgott+the+Omen+King).",
+        "zone": "LEYNDELL",
+        "note": null,
+        "description_cn": "击杀「恶兆王」蒙葛特。"
+      },
+      {
+        "id": 5,
+        "optional": true,
+        "description": "Discover [Mohgwyn Dynasty Mausoleum](https://eldenring.wiki.fextralife.com/Mohgwyn+Dynasty+Mausoleum) and speak with Gideon.",
+        "zone": "MOHGWYN_PALACE",
+        "note": null,
+        "description_cn": "发现蒙格温王朝，与基甸对话。"
+      },
+      {
+        "id": 6,
+        "optional": true,
+        "description": "Kill [Mogh, Lord of Blood](https://eldenring.wiki.fextralife.com/Mohg,+Lord+of+Blood) and speak with Gideon.",
+        "zone": "MOHGWYN_PALACE",
+        "note": "This rewards the Law of Causality incantation.",
+        "description_cn": "击杀「鲜血君王」蒙格，与基甸对话。",
+        "note_cn": "奖励因果性原理祷告。"
+      },
+      {
+        "id": 8,
+        "optional": true,
+        "description": "Kill [Malenia, Blade of Miquella](https://eldenring.wiki.fextralife.com/Malenia,+Blade+of+Miquella) and speak with Gideon.",
+        "zone": "HALIGTREE",
+        "note": null,
+        "description_cn": "击杀「米凯拉的锋刃」玛莲妮亚，与基甸对话。"
+      }
+    ],
+    "failureConditions": [
+      "Killing [Maliketh",
+      "The Black Blade"
+    ],
+    "description_cn": "前往圆桌厅堂。",
+    "rewards_cn": [
+      "因果性原理"
+    ],
+    "failureConditions_cn": [
+      "击杀「黑剑」玛利喀斯。"
+    ],
+    "name_cn": "基甸"
+  },
+  "irina": {
+    "name": "Irina",
+    "description": "You will find the blind and bloodied Irina after she fled a rebellion at Castle Morne. Help her deliver a letter to her father.",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/irina_npcs_elden_ring_wiki_guide.jpg",
+      "alt": "Irina resting on a rock"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Irina",
+    "rewards": [
+      "Sacrifical Twig",
+      "Shabriri Grape"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Talk to Irina at the [Weeping Peninsula](https://eldenring.wiki.fextralife.com/Weeping+Peninsula) end of the [Bridge of Sacrifice](https://eldenring.wiki.fextralife.com/Bridge+of+Sacrifice).",
+        "zone": "WEEPING_PENINSULA",
+        "note": "She will ask you to deliver a letter to her father in [Castle Morne](https://eldenring.wiki.fextralife.com/Castle+Morne) at the southern tip of the Weeping Peninsula.",
+        "description_cn": "在啜泣半岛牺牲大桥的尽头与伊蕾娜对话。",
+        "note_cn": "她会请求你送信给她在摩恩城的父亲。"
+      },
+      {
+        "id": 3,
+        "optional": true,
+        "description": "Return to Irina to find an [Iron Cleaver](https://eldenring.wiki.fextralife.com/Iron+Cleaver) embedded in the ground next to her.",
+        "zone": "WEEPING_PENINSULA",
+        "note": null,
+        "description_cn": "回到伊蕾娜处，在她身旁的地上发现一把嵌进去的铁斧。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Defeat the [Leonine Misbegotten](https://eldenring.wiki.fextralife.com/Leonine+Misbegotten) and retrieve the [Grafted Blade Greatsword](https://eldenring.wiki.fextralife.com/Grafted+Blade+Greatsword).",
+        "zone": "WEEPING_PENINSULA",
+        "note": "If Edgar is still alive, return to him for some dialog. After this he will return to Irina.",
+        "description_cn": "击败「狮子混种」，获取「嫁接大剑」。",
+        "note_cn": "如果艾德格还活着，回去与他对话。之后他会回到伊蕾娜身边。"
+      },
+      {
+        "id": 5,
+        "optional": false,
+        "description": "Return to Irina to find Edgar there with her. Talk to Edgar to progress the quest.",
+        "zone": "WEEPING_PENINSULA",
+        "note": null,
+        "description_cn": "回到伊蕾娜处，发现艾德格也在那里。与艾德格对话推进支线。"
+      },
+      {
+        "id": 6,
+        "optional": false,
+        "description": "Defeat the [Edgar the Revenger](https://eldenring.wiki.fextralife.com/Edgar+the+Revenger) invader.",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "击败入侵NPC「复仇者艾德格」。"
+      }
+    ],
+    "failureConditions": [],
+    "description_cn": "你会在摩恩城叛乱后遇到失明流血的伊蕾娜。帮她送信给父亲。",
+    "rewards_cn": [
+      "牺牲树枝",
+      "夏玻利利葡萄"
+    ],
+    "failureConditions_cn": [],
+    "name_cn": "伊蕾娜"
+  },
+  "latenna": {
+    "name": "Latenna",
+    "description": "Speak to [Albus](https://eldenring.wiki.fextralife.com/Albus) and aquire the [Haligtree Secret Medallion (Right)](https://eldenring.wiki.fextralife.com/Haligtree+Secret+Medallion+(Right)).",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/latenna-npc-elden-ring-wiki-guide.jpg",
+      "alt": "Latenna and her wolf Lobo"
+    },
+    "link": "https://eldenring.wiki.fextralife.com/Latenna",
+    "rewards": [
+      "Latenna the Albinauric",
+      "Somber Ancient Dragon Smithing Stone"
+    ],
+    "steps": [
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Speak to [Albus](https://eldenring.wiki.fextralife.com/Albus) and aquire the [Haligtree Secret Medallion (Right)](https://eldenring.wiki.fextralife.com/Haligtree+Secret+Medallion+(Right)).",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "与阿尔布斯对话，获取圣树秘密符节（右）。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Return and speak to Latenna.",
+        "zone": "LIURNIA",
+        "note": null,
+        "description_cn": "回去与勒缇娜对话。"
+      }
+    ],
+    "failureConditions": [
+      "Obtaining both pieces of the Haligtree Secret Medallion ([Left"
+    ],
+    "description_cn": "与阿尔布斯对话，获取圣树秘密符节（右）。",
+    "rewards_cn": [
+      "白金之子勒缇娜",
+      "失色古龙岩锻造石"
+    ],
+    "failureConditions_cn": [
+      "获取圣树秘密符节的两个部分（左和右）。"
+    ],
+    "name_cn": "勒缇娜"
+  },
+  "alexander": {
+    "name": "Iron Fist Alexander",
+    "description": "Alexander has set out to become a mighty warrior.. he might need some help getting there.",
+    "link": "https://eldenring.wiki.fextralife.com/Iron+Fist+Alexander",
+    "image": {
+      "src": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/alexander_npc_elden_ring_wiki_guide_300px.jpg",
+      "alt": "Alexander stuck in a hole"
+    },
+    "rewards": [
+      "Gesture [Triumphant Delight]",
+      "Jar [Helmet]",
+      "Warrior Jar Shard",
+      "Shard of Alexander",
+      "Alexander's Innards"
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "optional": false,
+        "description": "Find Alexander in Northern Stormhill and help him out.",
+        "zone": "LIMGRAVE",
+        "note": "You will have to hit him from the back in order to free him from his predicament.",
+        "description_cn": "在史东薇尔城北部找到亚历山大，帮他脱困。",
+        "note_cn": "你需要从背后攻击他才能帮他脱困。"
+      },
+      {
+        "id": 2,
+        "optional": false,
+        "description": "Find Alexander in Gael Tunnel.",
+        "zone": "CAELID",
+        "note": null,
+        "description_cn": "在盖尔坑道找到亚历山大。"
+      },
+      {
+        "id": 3,
+        "optional": false,
+        "description": "Talk to Alexander at Redmane Castle.",
+        "zone": "CAELID",
+        "note": null,
+        "description_cn": "在红狮子城与亚历山大对话。"
+      },
+      {
+        "id": 4,
+        "optional": false,
+        "description": "Talk to Alexander at Radahn's grace after defeating Radahn and exhaust all of his dialog.",
+        "zone": "CAELID",
+        "note": null,
+        "description_cn": "击败拉塔恩后，在拉塔恩的赐福处与亚历山大对话至重复。"
+      },
+      {
+        "id": 5,
+        "optional": true,
+        "description": "Find Alexander south of the Carian Study Hall and help him out.",
+        "zone": "LIURNIA",
+        "note": "Throw an Oil Pot or Roped Oil Pot at him to make him \"slippery\".",
+        "description_cn": "在卡利亚书斋南边找到亚历山大，帮他脱困。",
+        "note_cn": "向他投掷油壶或绳结油壶可以让他变\"滑\"。"
+      },
+      {
+        "id": 6,
+        "optional": false,
+        "description": "Find Alexander bathing in the lava at Seethewater Terminus under the lavafall.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "description_cn": "在沸滚河终点找到泡岩浆里的亚历山大。"
+      },
+      {
+        "id": 7,
+        "optional": true,
+        "description": "Summon Alexander to help you kill the Fire Giant at Mountaintop of the Giants.",
+        "zone": "MOUNTAINTOP",
+        "note": null,
+        "description_cn": "召唤亚历山大协助击杀巨人山顶的火焰巨人。"
+      },
+      {
+        "id": 8,
+        "optional": false,
+        "description": "Fight and defeat Alexander at his request in Crumbling Farum Azula.",
+        "zone": "FARUM_AZULA",
+        "note": null,
+        "description_cn": "在逐渐崩毁的法姆·亚兹拉应亚历山大的请求与他战斗并击败他。"
+      }
+    ],
+    "failureConditions": [
+      "Failing to do the first step of Alexander's quest will lock you of of completing the questline. Alexander will be locked to Radahn's arena."
+    ],
+    "description_cn": "亚历山大立志成为强大的战士……他可能需要一些帮助。",
+    "rewards_cn": [
+      "动作「欢欣雀跃」",
+      "壶头盔",
+      "战士壶碎片",
+      "亚历山大的碎片",
+      "亚历山大的内脏"
+    ],
+    "failureConditions_cn": [
+      "未能完成亚历山大第一步任务将无法完成整个支线。亚历山大将被锁在拉塔恩的竞技场。"
+    ],
+    "name_cn": "亚历山大"
+  },
+  "ranni": {
+    "name": "Ranni the Witch",
+    "name_cn": "魔女菈妮",
+    "description": "Help Ranni the Witch fulfill her destiny and usher in the Age of Stars. One of the longest and most intricate questlines in Elden Ring.",
+    "description_cn": "帮助魔女菈妮实现她的命运，迎来群星时代。艾尔登法环中最长且最复杂的支线之一。",
+    "image": null,
+    "link": "",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Talk to Ranni at Ranni's Rise in Liurnia after reaching Altus Plateau OR defeating Radahn. She asks you to seek out the hidden treasure of Nokron.",
+        "zone": "LIURNIA",
+        "note": "Ranni's Rise requires you to have progressed Blaidd's questline partway, OR reached Altus Plateau, OR defeated Radahn.",
+        "optional": false,
+        "description_cn": "与菈妮在菈妮魔法师塔利耶尼亚在到达亚坛高原或击败拉塔恩. 她请求你寻找出隐藏宝藏的诺克隆恩。",
+        "note_cn": "菈妮魔法师塔需要你有推进布莱泽的支线途中, 或到达亚坛高原, 或击败拉塔恩。"
+      },
+      {
+        "id": 2,
+        "description": "Speak to Blaidd, Seluvis, and Iji (advisors outside Ranni's Rise) to learn about Ranni's plan.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": true,
+        "description_cn": "与布莱泽, 瑟廉, 并伊吉 (顾问外部菈妮魔法师塔) 了解关于菈妮的。"
+      },
+      {
+        "id": 3,
+        "description": "Return to Ranni and accept service. She gives you the Carian Inverted Statue.",
+        "zone": "LIURNIA",
+        "note": "This unlocks the Carian Study Hall.",
+        "optional": false,
+        "description_cn": "返回菈妮并接受效劳. 她会给你卡利亚倒转雕像。",
+        "note_cn": "这会解锁卡利亚书斋。"
+      },
+      {
+        "id": 4,
+        "description": "Use the Carian Inverted Statue at the Carian Study Hall to reach the Divine Tower of Liurnia. Retrieve the Cursemark of Death from the top.",
+        "zone": "LIURNIA",
+        "note": "The Divine Tower is only accessible after inverting the Study Hall.",
+        "optional": false,
+        "description_cn": "使用卡利亚倒转雕像在卡利亚书斋到达利耶尼亚神授塔. 取回死亡咒痕的死亡从顶部。",
+        "note_cn": "神圣塔是仅可到达在倒转研究大厅。"
+      },
+      {
+        "id": 5,
+        "description": "Travel to Nokron, Eternal City (accessed via the crater after Radahn's defeat). Reach the Night's Sacred Ground and loot the Fingerslayer Blade from the chest.",
+        "zone": "NOKRON",
+        "note": "Use the Mimic Tear boss arena to find the path down to Night's Sacred Ground.",
+        "optional": false,
+        "description_cn": "前往诺克隆恩 (进入经由陨石坑在拉塔恩的击败) 到达黑夜神域并拾取猎杀指头刀刃从宝箱。",
+        "note_cn": "使用仿身泪滴首领竞技场寻找路径向下黑夜神域。"
+      },
+      {
+        "id": 6,
+        "description": "Return the Fingerslayer Blade to Ranni. She rewards you with the Carian Regal Scepter (if you have it) and the Dark Moon Ring. She then departs.",
+        "zone": "LIURNIA",
+        "note": "Rest at the site of grace and talk to Ranni again if she doesn't reward you.",
+        "optional": false,
+        "description_cn": "返回猎杀指头刀刃菈妮. 她奖励你使用卡利亚王权杖 (如果有) 并暗月亮戒指. 她然后离开。",
+        "note_cn": "休息在赐福并与菈妮再次如果她 ' 奖励你。"
+      },
+      {
+        "id": 7,
+        "description": "Speak to Seluvis (if alive) or read Seluvis's hidden notes in his secret chamber behind the bookshelf. This reveals information about Ranni's fate.",
+        "zone": "LIURNIA",
+        "note": "Optional lore step.",
+        "optional": true,
+        "description_cn": "与瑟廉 (如果活着) 或阅读瑟廉的隐藏不在他的秘密房间后面书架. 这个揭示情报关于菈妮的命运。",
+        "note_cn": "可选背景步骤。"
+      },
+      {
+        "id": 8,
+        "description": "Find the Miniature Ranni doll at Ainsel River Main grace. Rest at grace and talk to the doll repeatedly until she responds (you may need to rest 2-3 times).",
+        "zone": "AINSEL_RIVER",
+        "note": "You must exhaust the dialogue by selecting \"Talk to doll\" each time you rest.",
+        "optional": false,
+        "description_cn": "寻找细小菈妮人偶在安瑟尔河主要赐福. 赐福休息并与人偶重复直到她回应 (可以需要休息 2-3 时间)。",
+        "note_cn": "必须重复对话至对话通过选择 \"与人偶\" 每个时间你休息。"
+      },
+      {
+        "id": 9,
+        "description": "Proceed through Ainsel River, defeat the Dragonkin Soldier of Nokstella, and enter Lake of Rot.",
+        "zone": "AINSEL_RIVER",
+        "note": null,
+        "optional": false,
+        "description_cn": "前进穿过安瑟尔河, 击败龙人士兵的诺克史黛拉, 并进入腐败湖。"
+      },
+      {
+        "id": 10,
+        "description": "Cross the Lake of Rot, defeat the Goddess of Rot boss, and open the gates to the Grand Cloister.",
+        "zone": "LAKE_OF_ROT",
+        "note": "Use the pillar platforms to avoid Rot buildup.",
+        "optional": false,
+        "description_cn": "十字标记腐败湖, 击败女神的腐败首领, 并打开大门大回廊。",
+        "note_cn": "使用柱平台避免腐败积累。"
+      },
+      {
+        "id": 11,
+        "description": "Navigate the Grand Cloister and find the coffin that takes you to the Astel, Naturalborn of the Void boss arena. Defeat Astel.",
+        "zone": "LAKE_OF_ROT",
+        "note": "Astel is a mandatory boss for Ranni's questline.",
+        "optional": false,
+        "description_cn": "穿过大回廊并寻找棺材那个拿取你艾斯缇, 天生的虚空首领竞技场. 击败艾斯缇。",
+        "note_cn": "艾斯缇是强制首领菈妮的支线。"
+      },
+      {
+        "id": 12,
+        "description": "After Astel, enter the Moonlight Altar plateau. Head to the Cathedral of Manus Celes and find Ranni next to the destroyed tower. Give her the Dark Moon Ring.",
+        "zone": "CONSECRATED_SNOWFIELD",
+        "note": "Ranni will be kneeling where Rennala once was.",
+        "optional": false,
+        "description_cn": "在艾斯缇, 进入月光祭坛高原. 头部玛努斯·塞利斯大教堂并找到菈妮下一步毁坏塔. 交给她的暗月亮戒指。",
+        "note_cn": "菈妮跪位置蕾娜菈一次曾是。"
+      },
+      {
+        "id": 13,
+        "description": "Exhaust Ranni's dialogue. She gives you the Dark Moon Greatsword and thanks you. Rest at the grace and reload to find her summon sign.",
+        "zone": "CONSECRATED_SNOWFIELD",
+        "note": "The summon sign for Ranni appears near the tower. Use it to be summoned.",
+        "optional": false,
+        "description_cn": "重复对话至菈妮的对话. 她会给你暗月亮大剑并感谢在赐福休息并重新加载寻找她的召唤标记。",
+        "note_cn": "召唤标记菈妮出现在附近塔. 使用召唤。"
+      },
+      {
+        "id": 14,
+        "description": "Defeat the Glintstone Dragon Adula on the Moonlight Altar (if not already done).",
+        "zone": "CONSECRATED_SNOWFIELD",
+        "note": "Adula guards the path. Rewards Adula's Moonblade sorcery.",
+        "optional": true,
+        "description_cn": "击败辉石龙亚杜拉在月光祭坛 (如果不已经)。",
+        "note_cn": "亚杜拉守卫路径. 奖励亚杜拉的月光剑魔法。"
+      }
+    ],
+    "rewards": [
+      "Dark Moon Greatsword",
+      "Carian Regal Scepter",
+      "Adula's Moonblade (sorcery)",
+      "Ranni's Dark Moon (sorcery) from completing",
+      "Age of Stars ending"
+    ],
+    "rewards_cn": [
+      "暗月大剑",
+      "卡利亚权杖",
+      "亚杜拉的月光剑（魔法）",
+      "菈妮的暗月（魔法）",
+      "达成「群星时代」结局"
+    ],
+    "failureConditions": [
+      "Giving Ranni the Fingerslayer Blade before clearing Caria Manor and meeting Blaidd",
+      "Killing Blaidd prematurely",
+      "Using Seluvis's Potion on Nepheli Loux (locks Seluvis quest but not Ranni's)"
+    ],
+    "failureConditions_cn": [
+      "在清理卡利亚城寨和见到布莱泽之前将猎杀指头刀交给菈妮。",
+      "提前杀死布莱泽。",
+      "将瑟濂的药水交给涅斐丽·露（不影响菈妮线，但锁瑟濂线）。"
+    ]
+  },
+  "fia": {
+    "name": "Fia",
+    "name_cn": "菲雅",
+    "description": "The Deathbed Companion seeks to create a new undead order. Help her gather the Cursemark of Death and face the champions of the Roundtable.",
+    "description_cn": "死眠少女寻求创造新的不死秩序。帮她收集死亡咒痕并面对圆桌的勇士们。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Fia in Roundtable Hold. Accept her hug to receive the Weathered Dagger (and a debuff that reduces max HP).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "The Weathered Dagger is key item. Use Baldachin's Blessing from inventory to remove the HP debuff.",
+        "optional": false,
+        "description_cn": "与菲雅在圆桌厅堂. 接受她的获得风化匕首 (并减益那个减少血量)。",
+        "note_cn": "风化匕首是关键道具. 使用华贵恩惠从背包移除血量减益。"
+      },
+      {
+        "id": 2,
+        "description": "Give the Weathered Dagger to D, Hunter of the Dead. Reload the area and speak to Fia again.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "D can be found in the Roundtable Hold near the blacksmith.",
+        "optional": false,
+        "description_cn": "交给风化匕首死亡猎人Ｄ. 重新加载区域并与菲雅再次。",
+        "note_cn": "位于圆桌厅堂附近铁匠。"
+      },
+      {
+        "id": 3,
+        "description": "After D dies (triggered by reaching Nokron), find Fia crying in her room. Exhaust her dialogue.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "D dies automatically when you enter Nokron via Radahn's crater.",
+        "optional": false,
+        "description_cn": "在死去 (触发方式：到达诺克隆恩), 寻找菲雅哭泣她的房间. 对话至重复。",
+        "note_cn": "死去自动当你进入诺克隆恩经由拉塔恩的陨石坑。"
+      },
+      {
+        "id": 4,
+        "description": "Travel to Deeproot Depths. Navigate from the Siofra Aqueduct or via the Valiant Gargoyles boss fight.",
+        "zone": "DEEPROOT",
+        "note": "Accessible either via the coffin after Valiant Gargoyles in Siofra, or via the sewers under Leyndell.",
+        "optional": false,
+        "description_cn": "前往深根底层穿过从希芙拉水道或经由英勇石像鬼首领对抗。",
+        "note_cn": "可到达任一经由棺材在英勇石像鬼希芙拉, 或经由下水道下方王城罗德尔。"
+      },
+      {
+        "id": 5,
+        "description": "Find Fia in Deeproot Depths, surrounded by her champions. Speak to her. She asks you to bring the Cursemark of Death.",
+        "zone": "DEEPROOT",
+        "note": "She is located near the \"Across the Roots\" site of grace.",
+        "optional": false,
+        "description_cn": "寻找菲雅在深根底层, 包围通过她的勇士. 与她的. 她请求你带来死亡咒痕的死亡。",
+        "note_cn": "她位于附近 \"穿过根\" 赐福。"
+      },
+      {
+        "id": 6,
+        "description": "Retrieve the Cursemark of Death from the Divine Tower of Liurnia (top floor, body of Godwyn).",
+        "zone": "LIURNIA",
+        "note": "Accessible via the Carian Study Hall inversion, or separately.",
+        "optional": false,
+        "description_cn": "取回死亡咒痕的死亡从利耶尼亚神授塔 (顶部楼层, 尸体的葛德文)。",
+        "note_cn": "可到达经由卡利亚书斋倒转, 或独立。"
+      },
+      {
+        "id": 7,
+        "description": "Return to Fia and give her the Cursemark of Death. Rest at the grace and come back.",
+        "zone": "DEEPROOT",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回菲雅并交给她的死亡咒痕的在赐福休息并来返回。"
+      },
+      {
+        "id": 8,
+        "description": "Defeat Fia's Champions (NPC invasion squad consisting of Lionel, Roy, etc.).",
+        "zone": "DEEPROOT",
+        "note": "You need to rest at grace first, then Fia's champions will invade.",
+        "optional": false,
+        "description_cn": "击败菲雅的勇士 (NPC 入侵小队包含的莱昂内尔, 罗伊, .)。",
+        "note_cn": "在赐福休息第一, 然后菲雅的勇士会入侵。"
+      },
+      {
+        "id": 9,
+        "description": "Speak to Fia lying down. Receive the Baleful Shadow summon sign and complete the final step.",
+        "zone": "DEEPROOT",
+        "note": "Fia will ask you to hold her.",
+        "optional": false,
+        "description_cn": "与菲雅躺向下. 获得灾厄幽影召唤标记并完成最终步骤。",
+        "note_cn": "菲雅请求你厅堂她的。"
+      },
+      {
+        "id": 10,
+        "description": "Defeat Lichdragon Fortissax (accessed by speaking to Fia while she sleeps).",
+        "zone": "DEEPROOT",
+        "note": "You enter Fia's dream to fight Fortissax.",
+        "optional": false,
+        "description_cn": "击败死龙弗尔·桑克斯 (进入通过对话菲雅同时她睡眠)。",
+        "note_cn": "你进入菲雅的梦对抗弗尔·桑克斯。"
+      },
+      {
+        "id": 11,
+        "description": "After Fortissax, respawn at the grace and loot Fia's set and the Mending Rune of the Death-Prince from her body.",
+        "zone": "DEEPROOT",
+        "note": null,
+        "optional": false,
+        "description_cn": "在弗尔·桑克斯, 重生赐福并拾取菲雅的套装并修复卢恩的死亡-王子从她的尸体。"
+      }
+    ],
+    "rewards": [
+      "Mending Rune of the Death-Prince",
+      "Fia's Set (armor)",
+      "Baldachin's Blessing (consumable)",
+      "Radahn's Great Rune reward path item"
+    ],
+    "rewards_cn": [
+      "死亡王子的修复卢恩",
+      "菲雅的套装",
+      "祝福巴尔达钦（消耗品）",
+      "解锁相关道具"
+    ],
+    "failureConditions": [
+      "Giving the Cursemark of Death to Fia before starting her dialogue",
+      "Killing Fia in Deeproot Depths before defeating Fortissax",
+      "Progressing to Maliketh before completing Fia's quest"
+    ],
+    "failureConditions_cn": [
+      "在开始菲雅对话之前将死亡咒痕给她。",
+      "在击败死龙弗尔·桑克斯之前杀死深根底层的菲雅。",
+      "在完成菲雅支线之前推进到玛利喀斯。"
+    ]
+  },
+  "dung_eater": {
+    "name": "Dung Eater",
+    "name_cn": "食粪者",
+    "description": "The Dung Eater seeks to curse the world with his Omen Seedbed curses. Help or hinder his plan to defile the Elden Ring.",
+    "description_cn": "食粪者试图用恶兆种子床的诅咒玷污世界。帮助或阻止他污染艾尔登法环的计划。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Dung Eater in Roundtable Hold (he appears in the room with a table, opposite side from Fia).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "He appears after obtaining a Great Rune from a Shardbearer.",
+        "optional": false,
+        "description_cn": "对话食粪者在圆桌厅堂 (他出现在房间与桌子, 对面站队从菲雅)。",
+        "note_cn": "他出现在获取大卢恩从碎片君王。"
+      },
+      {
+        "id": 2,
+        "description": "Purchase the \"Staunching Boluses\" recipe or bring some to the Dung Eater. He asks you to bring Seedbed Curses.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "He also requires a key item to progress.",
+        "optional": false,
+        "description_cn": "购买 \"止血药丸\" 配方或带来一些食粪者. 他请求你带来温床诅咒。",
+        "note_cn": "他也需要关键道具进度。"
+      },
+      {
+        "id": 3,
+        "description": "Find the first Seedbed Curse: from the NPC invader Dung Eater in the outer moat of Leyndell (near the Capital Rampart grace).",
+        "zone": "CAPITAL",
+        "note": "Defeat the invading Dung Eater to get the first curse.",
+        "optional": false,
+        "description_cn": "寻找第一温床诅咒: 从 NPC 入侵者食粪者在外部护城河的王城罗德尔 (附近王城城墙赐福)。",
+        "note_cn": "击败入侵食粪者获得第一诅咒。"
+      },
+      {
+        "id": 4,
+        "description": "Find the second Seedbed Curse: in the sewer gaol under Leyndell (accessed via the well in the Capital outskirts).",
+        "zone": "CAPITAL",
+        "note": "In the room where you find the \"Seedbed Curse\" item on a body.",
+        "optional": false,
+        "description_cn": "寻找第二温床诅咒: 在下水道监狱下方王城罗德尔 (进入经由井王城外围)。",
+        "note_cn": "在房间位置你寻找 \"温床诅咒\" 道具尸体。"
+      },
+      {
+        "id": 5,
+        "description": "Find the third Seedbed Curse: in the Fortified Manor in Leyndell, first floor near a corpse.",
+        "zone": "CAPITAL",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找第三温床诅咒: 在要塞官邸王城罗德尔, 第一楼层附近尸体。"
+      },
+      {
+        "id": 6,
+        "description": "Find the fourth Seedbed Curse: on a corpse in the northeast area of the Mountaintop of the Giants, near the Guarding Guardian's Garrison.",
+        "zone": "MOUNTAINTOP",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找第四温床在一具尸体上东北区域的巨人山顶, 附近守卫守护者驻屯地。"
+      },
+      {
+        "id": 7,
+        "description": "Find the fifth Seedbed Curse: on a corpse in the Consecrated Snowfield, south of the Apostate Derelict.",
+        "zone": "CONSECRATED_SNOWFIELD",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找第五温床在一具尸体上化圣雪原, 南的叛教废弃。"
+      },
+      {
+        "id": 8,
+        "description": "Bring five Seedbed Curses to the Dung Eater at Roundtable Hold, or find his real body in the Subterranean Shunning-Grounds (Leyndell sewers) and use the Seedbed Curses on him directly.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Direct interaction with his real body in the sewers unlocks his puppet summon.",
+        "optional": false,
+        "description_cn": "带来五温床诅咒食粪者在圆桌厅堂, 或寻找他的真实尸体弃置恶兆的地底 (王城罗德尔下水道) 并使用温床诅咒在他直接。",
+        "note_cn": "直接互动与他的真实尸体在下水道解锁他的傀儡召唤。"
+      },
+      {
+        "id": 9,
+        "description": "Reload the area. Dung Eater will leave Roundtable Hold. Find his invasion sign near the Baleful Shadow area in the Capital of Ash.",
+        "zone": "LEYNDELL_ASHEN",
+        "note": null,
+        "optional": false,
+        "description_cn": "重新加载区域. 食粪者会离开圆桌厅堂. 寻找他的入侵标记附近灾厄幽影区域在灰灭王城。"
+      },
+      {
+        "id": 10,
+        "description": "Defeat Dung Eater as an invader and loot the Mending Rune of the Fell Curse from his body.",
+        "zone": "LEYNDELL_ASHEN",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败食粪者作为入侵者并拾取修复卢恩的恶诅咒从他的尸体。"
+      }
+    ],
+    "rewards": [
+      "Mending Rune of the Fell Curse",
+      "Dung Eater puppet (if using Seluvis route)",
+      "Omen Set (armor from his corpse)",
+      "Sword of Milos (greatsword)"
+    ],
+    "rewards_cn": [
+      "败亡诅咒的修复卢恩",
+      "食粪者傀儡（如果走瑟濂路线）",
+      "恶兆套装",
+      "米洛斯的剑"
+    ],
+    "failureConditions": [
+      "Defeating Maliketh before obtaining 5 Seedbed Curses",
+      "Starting the \"Seluvis's Potion\" quest for Dung Eater locks alternate path"
+    ],
+    "failureConditions_cn": [
+      "在收集5个种子床诅咒之前击败玛利喀斯。",
+      "对食粪者使用瑟濂的药水会锁定另一条路线。"
+    ]
+  },
+  "millicent": {
+    "name": "Millicent",
+    "name_cn": "米莉森",
+    "description": "A young woman afflicted by the Scarlet Rot seeks a cure. Help her find her true self and confront her past.",
+    "description_cn": "一位被猩红腐败折磨的年轻女子寻求治愈。帮助她找到真正的自我，面对她的过去。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Gowry in his shack in Caelid, south of the Smoldering Wall grace. He asks you to find a needle for Millicent.",
+        "zone": "CAELID",
+        "note": "Gowry appears as a merchant. Exhaust all dialogue.",
+        "optional": false,
+        "description_cn": "与高瑞在他的小屋盖利德, 南的熏火墙赐福. 他请求你寻找针米莉森。",
+        "note_cn": "高瑞作为商人. 对话至重复。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Church of the Plague in Caelid (just north of Sellia). Find the Unalloyed Gold Needle on the corpse near the church entrance.",
+        "zone": "CAELID",
+        "note": "You must defeat the Cleanrot Knights outside the church.",
+        "optional": false,
+        "description_cn": "前往瘟疫教堂在盖利德 (就北的瑟利亚). 寻找纯净金针尸体附近教堂入口。",
+        "note_cn": "必须击败清洁骑士外部教堂。"
+      },
+      {
+        "id": 3,
+        "description": "Return to Gowry and give him the needle. He says he needs to repair it at the Ritual Site in Sellia.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回高瑞并交给他针. 他说他需要修复在仪式地点瑟利亚。"
+      },
+      {
+        "id": 4,
+        "description": "Go to the Sellia Hideaway (behind a bookshelf in Sellia, unlocked by torching the three flame towers). Defeat the Nox Swordstress duo inside to access the ritual site.",
+        "zone": "CAELID",
+        "note": "The hidden path opens after lighting all three braziers in Sellia, Town of Sorcery.",
+        "optional": false,
+        "description_cn": "去瑟利亚藏身处 (后面书架在瑟利亚, 解锁通过点燃三火焰塔). 击败诺克斯剑士双人内部进入仪式地点。",
+        "note_cn": "隐藏路径打开在点燃所有三火盆瑟利亚魔法镇。"
+      },
+      {
+        "id": 5,
+        "description": "Return to Gowry and receive the repaired Unalloyed Gold Needle.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回高瑞并获得修复纯净金针。"
+      },
+      {
+        "id": 6,
+        "description": "Give the needle to Millicent (she appears north of the Erdtree Gazing Hill grace). Exhaust her dialogue.",
+        "zone": "ALTUS",
+        "note": "Millicent is on the path near the Dominula, Windmill Village area in Altus.",
+        "optional": false,
+        "description_cn": "交给针米莉森 (她出现在北的黄金树凝视山丘赐福). 对话至重复。",
+        "note_cn": "米莉森是在路径附近风车, 风车村庄区域亚坛。"
+      },
+      {
+        "id": 7,
+        "description": "Reload the area. Millicent moves to a new location: the Windmill Village grace near the Shaded Castle. Speak to her again.",
+        "zone": "ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "重新加载区域. 米莉森移动到新位置: 风车村庄赐福附近阴影城堡. 与她的再次。"
+      },
+      {
+        "id": 8,
+        "description": "Reload again. Millicent moves to the Mountaintops of the Giants. Find her near the Ancient Snow Valley Ruins grace.",
+        "zone": "MOUNTAINTOP",
+        "note": null,
+        "optional": false,
+        "description_cn": "重新加载再次. 米莉森移动到山顶进入的巨人. 寻找她的附近古雪山谷废墟赐福。"
+      },
+      {
+        "id": 9,
+        "description": "Travel to the Haligtree. Find Millicent near the Prayer Room grace. Exhaust her dialogue.",
+        "zone": "HALIGTREE",
+        "note": "She is located in the inner section of Elphael.",
+        "optional": false,
+        "description_cn": "前往圣树. 在祈祷房间赐福找到米莉森。对话至重复。",
+        "note_cn": "她位于在内部区域的艾布雷菲尔。"
+      },
+      {
+        "id": 10,
+        "description": "Choose: Help Millicent defeat her sisters (Gowry's request) OR betray Millicent and help the sisters kill her. The decision determines your reward.",
+        "zone": "HALIGTREE",
+        "note": "The summon signs are near the Drainage Channel grace in Elphael.",
+        "optional": false,
+        "description_cn": "选择: 帮助米莉森击败她的姐妹(高瑞的请求)或背叛米莉森并帮助众姐妹击杀她的。决定决定你的奖励。",
+        "note_cn": "召唤标记是附近排水水道赐福在艾布雷菲尔。"
+      },
+      {
+        "id": 11,
+        "description": "If you helped Millicent: defeat her sisters with her. She dies and leaves you the Rotten Winged Sword Insignia. If you betrayed her: loot Millicent's Prosthesis from her body.",
+        "zone": "HALIGTREE",
+        "note": "Gowry dies if you help Millicent. He leaves his bell bearing.",
+        "optional": false,
+        "description_cn": "如果帮助米莉森: 击败她的姐妹和她一起. 她死去并离开你腐烂翼剑徽章. 如果背叛她的: 拾取米莉森的义手从她的尸体。",
+        "note_cn": "高瑞死去如果帮助米莉森.他留下他的铃珠。"
+      }
+    ],
+    "rewards": [
+      "Rotten Winged Sword Insignia (talisman)",
+      "Millicent's Prosthesis (talisman)",
+      "Unalloyed Gold Needle (used for Malenia's flower)",
+      "Gowry's Bell Bearing",
+      "Miquella's Needle (for Frenzied Flame ending reversal, requires killing Malenia first)"
+    ],
+    "rewards_cn": [
+      "腐败翼剑徽章（护符）",
+      "米莉森的义手（护符）",
+      "纯净金针（用于玛莲妮亚的花朵）",
+      "高瑞的铃珠",
+      "米凯拉的针（可逆转癫火结局）"
+    ],
+    "failureConditions": [
+      "Killing Malenia before completing Millicent questline",
+      "Killing Gowry before giving him the Unalloyed Gold Needle",
+      "Failing to light all three braziers in Sellia before progressing too far"
+    ],
+    "failureConditions_cn": [
+      "在完成米莉森支线之前杀死玛莲妮亚。",
+      "在将纯净金针交给高瑞之前杀死高瑞。",
+      "在推进太远之前未点燃瑟利亚的三个火盆。"
+    ]
+  },
+  "nepheli": {
+    "name": "Nepheli Loux",
+    "name_cn": "涅斐丽·露",
+    "description": "A fierce warrior and adopted daughter of Gideon Ofnir. Help her find her purpose and claim her destiny in Limgrave.",
+    "description_cn": "基甸·奥夫尼尔的养女，一位勇猛的战士。帮助她找到自己的使命，在宁姆格福掌握自己的命运。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Nepheli in the Roundtable Hold after entering the hold for the first time.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与涅斐丽在圆桌厅堂进入厅堂第一时间。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Village of the Albinaurics in Liurnia. Find Nepheli there and speak to her.",
+        "zone": "LIURNIA",
+        "note": "She is near the entrance to the village, past the wolf packs.",
+        "optional": false,
+        "description_cn": "前往村庄的白金在利耶尼亚. 找到涅斐丽并与她的。",
+        "note_cn": "他附近入口村庄, 过去包含。"
+      },
+      {
+        "id": 3,
+        "description": "Defeat the Omenkiller boss at the Village of the Albinaurics. Speak to Nepheli again after the fight.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败恶兆杀手首领在村庄的白金. 与涅斐丽再次对抗。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Roundtable Hold. Speak to Gideon about Nepheli, then speak to Nepheli.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Gideon is in his study.",
+        "optional": false,
+        "description_cn": "回到圆桌厅堂与基甸关于涅斐丽, 然后与涅斐丽。",
+        "note_cn": "基甸是在他的研究。"
+      },
+      {
+        "id": 5,
+        "description": "Give Nepheli the Stormhawk King ashes (found on a corpse at the top of Chapel of Anticipation, accessed via the Four Belfries portal in Liurnia).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "The Stormhawk King is located on the same chapel where you start the game.",
+        "optional": false,
+        "description_cn": "给予涅斐丽风暴鹰王灰在一具尸体上顶部的小教堂的候王, 进入经由四钟楼传送门在利耶尼亚)。",
+        "note_cn": "风暴鹰王位于在相同小教堂位置你开始。"
+      },
+      {
+        "id": 6,
+        "description": "Travel to Kenneth Haight near the Third Church of Marika in Limgrave. Accept his quest to liberate Fort Haight.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": false,
+        "description_cn": "前往肯尼斯·海德附近玛丽卡第三教堂在宁姆格福接受他的支线解放海德要塞。"
+      },
+      {
+        "id": 7,
+        "description": "Clear Fort Haight: defeat Godrick soldiers and the mini-boss knight. Return to Kenneth and inform him.",
+        "zone": "LIMGRAVE",
+        "note": "The Fort is east of the Mistwood.",
+        "optional": false,
+        "description_cn": "清理海德要塞: 击败葛瑞克士兵并 -首领骑士返回肯尼斯并告知他。",
+        "note_cn": "要塞是东的雾林。"
+      },
+      {
+        "id": 8,
+        "description": "Speak to Gatekeeper Gostoc at Stormveil Castle. Make sure to complete his interactions (do not kill him).",
+        "zone": "STORMVEIL",
+        "note": "Gostoc can be found near the main gate, then throughout the castle.",
+        "optional": false,
+        "description_cn": "对话门卫葛托克在史东薇尔城. 确保完成他的互动 (不要击杀他)。",
+        "note_cn": "葛托克可以找到附近主要大门, 然后整个城。"
+      },
+      {
+        "id": 9,
+        "description": "After defeating Godrick and reloading the area, find Nepheli, Kenneth, and Gostoc together at the Stormveil throne room. Exhaust all dialogue.",
+        "zone": "STORMVEIL",
+        "note": "You may need to rest at the gate and back at the Secluded Cell grace.",
+        "optional": false,
+        "description_cn": "在击败葛瑞克并重新加载区域, 找到涅斐丽, 肯尼斯, 并葛托克一起史东薇尔城王座房间. 对话至重复。",
+        "note_cn": "可以需要休息在大门并返回隐蔽牢房赐福。"
+      },
+      {
+        "id": 10,
+        "description": "Rest at the grace and return. Nepheli is now ruler of Stormveil. She rewards you with the Arsenal Charm and becomes a merchant.",
+        "zone": "STORMVEIL",
+        "note": "She sells Smithing Stones.",
+        "optional": false,
+        "description_cn": "在赐福休息然后返回. 涅斐丽是现统治者的史东薇尔城. 她奖励你使用武具护符并成为商人。",
+        "note_cn": "她出售锻造。"
+      }
+    ],
+    "rewards": [
+      "Arsenal Charm (talisman, increases equip load)",
+      "Ancient Dragon Smithing Stone (from Nepheli)",
+      "Smithing Stone shop from Nepheli"
+    ],
+    "rewards_cn": [
+      "负重护符",
+      "古龙岩锻造石",
+      "涅斐丽的锻造石商店"
+    ],
+    "failureConditions": [
+      "Killing Gostoc at Stormveil Castle",
+      "Giving Seluvis's Potion to Nepheli (locks her quest)",
+      "Killing Kenneth Haight",
+      "Progressing too far without returning to Stormveil"
+    ],
+    "failureConditions_cn": [
+      "在史东薇尔城杀死葛托克。",
+      "将瑟濂的药水交给涅斐丽（锁定她的支线）。",
+      "杀死肯尼斯·海德。",
+      "推进太远未返回史东薇尔城。"
+    ]
+  },
+  "patches": {
+    "name": "Patches",
+    "name_cn": "帕奇",
+    "description": "The treacherous Patches returns. Kick him, trust him, or trick him — as always, the choice is yours.",
+    "description_cn": "诡计多端的帕奇又回来了。踢他、信任他、还是骗他——一如既往，选择在你。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Patches in Murkwater Cave (Limgrave, near the Murkwater Coast grace). Enter the cave and approach him.",
+        "zone": "LIMGRAVE",
+        "note": "Patches will ambush you when you try to open the chest.",
+        "optional": false,
+        "description_cn": "在雾水洞窟 (宁姆格福, 附近雾水海岸赐福)找到帕奇。进入洞窟并接近他。",
+        "note_cn": "帕奇会埋伏你当你打开宝箱。"
+      },
+      {
+        "id": 2,
+        "description": "Fight Patches until he surrenders. Choose to spare him (do not deliver the finishing blow).",
+        "zone": "LIMGRAVE",
+        "note": "If you kill him, his quest ends.",
+        "optional": false,
+        "description_cn": "对抗帕奇直到他投降选择饶恕他 (不要交付结束)。",
+        "note_cn": "如果击杀他, 他的支线结局。"
+      },
+      {
+        "id": 3,
+        "description": "Speak to Patches and exhaust his dialogue. He opens a shop and sells the \"Patches' Crouch\" gesture.",
+        "zone": "LIMGRAVE",
+        "note": "Buy the gesture and important items from him.",
+        "optional": false,
+        "description_cn": "与帕奇并对话至重复. 他打开并出售 \"帕奇的下蹲\" 动作。",
+        "note_cn": "购买动作并重要道具从他。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Murkwater Cave after some progress (or rest and reload). Patches may have moved.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": true,
+        "description_cn": "回到雾水洞窟在一些进度 (或休息并重新加载) 帕奇可能有移动到。"
+      },
+      {
+        "id": 5,
+        "description": "Find Patches at the Shaded Castle in Altus Plateau. He is disguised as a merchant. Exhaust his dialogue.",
+        "zone": "ALTUS",
+        "note": "He is in the courtyard of Shaded Castle, near the poison swamp.",
+        "optional": false,
+        "description_cn": "在亚坛高原找到帕奇阴影城堡。他伪装作为商人. 对话至重复。",
+        "note_cn": "他在庭院的阴影城堡, 附近毒沼泽。"
+      },
+      {
+        "id": 6,
+        "description": "Find Patches at the Mountaintops of the Giants, near the Guardian's Garrison grace.",
+        "zone": "MOUNTAINTOP",
+        "note": "He is on a cliff-edge, pretending to be a merchant.",
+        "optional": false,
+        "description_cn": "在守护者驻屯地赐福找到巨人山顶。",
+        "note_cn": "他在悬崖-, 假装商人。"
+      },
+      {
+        "id": 7,
+        "description": "Return to Murkwater Cave one final time. Patches has left behind the \"Patches Set\" and \"Spear +7\" as his legacy. He has gone on a journey.",
+        "zone": "LIMGRAVE",
+        "note": "This is the end of his quest. Loot his equipment from the cave.",
+        "optional": false,
+        "description_cn": "回到雾水洞窟最终时间帕奇有左后面 \"帕奇套装\" 并 \"矛 +7\" 作为他的遗产. 他有离去在旅程。",
+        "note_cn": "这是结局的他的支线. 拾取他的装备从洞窟。"
+      }
+    ],
+    "rewards": [
+      "Patches' Set (armor)",
+      "Spear +7",
+      "Gesture: Patches' Crouch",
+      "Margit's Shackle (bought from Patches)",
+      "Various consumables from his shop"
+    ],
+    "rewards_cn": [
+      "帕奇套装",
+      "矛+7",
+      "动作：帕奇蹲下",
+      "玛尔基特的镣铐",
+      "商店中的各种消耗品"
+    ],
+    "failureConditions": [
+      "Killing Patches in Murkwater Cave",
+      "Killing Patches at Shaded Castle"
+    ],
+    "failureConditions_cn": [
+      "在雾水洞窟杀死帕奇。",
+      "在阴影城堡杀死帕奇。"
+    ]
+  },
+  "varre": {
+    "name": "White-faced Varré",
+    "name_cn": "白面具梵雷",
+    "description": "A servant of the Lord of Blood who tests Tarnished for worthiness. Accept his invitation to join the Bloody Fingers and gain passage to Mohgwyn Palace.",
+    "description_cn": "鲜血君王的仆人，测试褪色者的资格。接受他的邀请加入血指，获得通往蒙格温王朝的道路。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Varré at the First Step grace in Limgrave. Exhaust his dialogue.",
+        "zone": "LIMGRAVE",
+        "note": "He is the first NPC you encounter after the tutorial.",
+        "optional": false,
+        "description_cn": "与梵雷 在初始引导赐福宁姆格福. 对话至重复。",
+        "note_cn": "他第一 NPC 你遇到在教程。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Roundtable Hold for the first time (after resting at the Gatefront grace or gaining a level). Return to speak to Varré again.",
+        "zone": "LIMGRAVE",
+        "note": "He comments on the Hold.",
+        "optional": false,
+        "description_cn": "前往圆桌厅堂第一时间 (在休息门前赐福或获得层). 返回与梵雷 再次。",
+        "note_cn": "他评论在厅堂。"
+      },
+      {
+        "id": 3,
+        "description": "Exhaust Varré's dialogue again. He gives you a \"Lord of Blood's Favor\" and asks you to soak it in the blood of a Maiden.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": false,
+        "description_cn": "重复对话至梵雷' 对话再次. 他会给你 \"王的血的恩惠\" 并请求你在血的女巫。"
+      },
+      {
+        "id": 4,
+        "description": "Use the Festering Bloody Finger (given by Varré) to invade three other worlds successfully, OR find the dead Maiden at the Church of Inhibition in Liurnia to soak the Favor.",
+        "zone": "MULTIPLE",
+        "note": "The Church of Inhibition is west of the Bellum Highway in Liurnia.",
+        "optional": false,
+        "description_cn": "使用恶臭血指头 (给予过通过梵雷) 入侵三其他世界成功, 或寻找死亡女巫在镇静教堂利耶尼亚恩惠。",
+        "note_cn": "镇静教堂是西的彼鲁姆大道在利耶尼亚。"
+      },
+      {
+        "id": 5,
+        "description": "Return to Varré. He rewards you with the \"Bloody Finger\" (infinite use invasion item) and a cloth to wipe the blood.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回梵雷. 他奖励你使用 \"血指头\" (无限使用入侵道具) 并布血。"
+      },
+      {
+        "id": 6,
+        "description": "Varré gives you the \"Pureblood Knight's Medal\". Use it from your inventory to teleport to Mohgwyn Palace.",
+        "zone": "LIMGRAVE",
+        "note": "This is a key teleport item. Do NOT discard it.",
+        "optional": false,
+        "description_cn": "梵雷 给予你 \"纯血骑士的徽章\". 使用从你的背包传送蒙格温王朝。",
+        "note_cn": "这是钥匙传送道具. 不要丢弃。"
+      },
+      {
+        "id": 7,
+        "description": "Speak to Varré in Mohgwyn Dynasty Mausoleum (near the Dynasty Mausoleum grace). Exhaust his dialogue.",
+        "zone": "MOHGWYN_PALACE",
+        "note": null,
+        "optional": false,
+        "description_cn": "与梵雷 在蒙格温王朝王朝灵庙 (附近王朝灵庙赐福). 对话至重复。"
+      },
+      {
+        "id": 8,
+        "description": "Defeat Mohg, Lord of Blood. Return to Varré's location (he may have moved).",
+        "zone": "MOHGWYN_PALACE",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败蒙格, 王的血. 返回梵雷' 位置 (他可能有移动到)。"
+      },
+      {
+        "id": 9,
+        "description": "If you defeat Mohg before finishing the quest, you can still complete steps by visiting Varré at the Mohgwyn Palace grace.",
+        "zone": "MOHGWYN_PALACE",
+        "note": "Varré becomes hostile if you kill Mohg before getting his medal.",
+        "optional": false,
+        "description_cn": "如果击败蒙格之前结束支线, 可以仍然完成步骤通过访问梵雷 在蒙格温王朝赐福。",
+        "note_cn": "梵雷 成为敌对如果击杀蒙格之前获得他的徽章。"
+      },
+      {
+        "id": 10,
+        "description": "Kill or spare Varré at the end of the questline. He drops the War Surgeon Set and his Bell Bearing if killed.",
+        "zone": "MOHGWYN_PALACE",
+        "note": "Optional: you can keep him alive as a merchant.",
+        "optional": true,
+        "description_cn": "击杀或饶恕梵雷 在结局的支线. 他掉落战争外科医生套装并他的铃珠如果击杀。",
+        "note_cn": "可选: 可以城他活着作为商人。"
+      }
+    ],
+    "rewards": [
+      "Bloody Finger (infinite use invasion item)",
+      "Pureblood Knight's Medal (teleport to Mohgwyn)",
+      "Lord of Blood's Exultation (talisman) from Mohg fight",
+      "War Surgeon Set (if killed)",
+      "Bell Bearing"
+    ],
+    "rewards_cn": [
+      "血指（无限次入侵道具）",
+      "纯血骑士勋章（传送至蒙格温王朝）",
+      "鲜血君王的欢愉（护符）",
+      "战外科医生套装（如果杀死）",
+      "铃珠"
+    ],
+    "failureConditions": [
+      "Killing Varré before obtaining the Pureblood Knight's Medal",
+      "Killing Mohg before receiving the medal (locks teleport option)"
+    ],
+    "failureConditions_cn": [
+      "在获得纯血骑士勋章之前杀死梵雷。",
+      "在获得勋章之前杀死蒙格。"
+    ]
+  },
+  "thops": {
+    "name": "Thops",
+    "name_cn": "托普斯",
+    "description": "A simple sorcery scholar at the Church of Irith. He seeks a way to pass through the seal of the Academy of Raya Lucaria.",
+    "description_cn": "伊利斯教堂的普通魔法学者。他寻求穿越雷亚卢卡利亚学院封印的方法。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Thops at the Church of Irith in Liurnia. Exhaust his dialogue about the Academy seal.",
+        "zone": "LIURNIA",
+        "note": "He is south of the Lake-Facing Cliffs grace.",
+        "optional": false,
+        "description_cn": "与托普斯在伊利斯教堂利耶尼亚. 对话至重复关于学院。",
+        "note_cn": "他南的湖畔断崖赐福。"
+      },
+      {
+        "id": 2,
+        "description": "Learn the \"Thops' Barrier\" sorcery from him. You can buy it for 1000 runes.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "了解 \"托普斯的屏障\" 魔法从他. 可以购买 1000 卢恩。"
+      },
+      {
+        "id": 3,
+        "description": "Find the Academy Glintstone Key in Liurnia (one is west of the Raya Lucaria gate on a corpse guarded by a giant ball).",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找学院辉石钥匙在利耶尼亚 (是西的雷亚卢卡利亚大门一具尸体上守卫通过巨人)。"
+      },
+      {
+        "id": 4,
+        "description": "Enter the Academy of Raya Lucaria through the main gate. Unlock the seal.",
+        "zone": "RAYA_LUCARIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "进入雷亚卢卡利亚学院穿过主要大门. 解锁。"
+      },
+      {
+        "id": 5,
+        "description": "Return to Thops and tell him you entered the Academy. He gives you a \"Glintstone Key\" and asks you to deliver something.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回托普斯并告诉他你进入学院. 他会给你 \"辉石钥匙\" 并请求你交付某物。"
+      },
+      {
+        "id": 6,
+        "description": "Progress through the Academy. After defeating Red Wolf of Radagon, find the \"Academy Glintstone Key\" in the debate hall.",
+        "zone": "RAYA_LUCARIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "推进学院. 在击败红狼的拉达冈, 寻找 \"学院辉石钥匙\" 讨论大厅。"
+      },
+      {
+        "id": 7,
+        "description": "Visit the classroom in the Academy (past the Debate Parlor). Find the \"Thops's Key\" item on a corpse.",
+        "zone": "RAYA_LUCARIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "访问教室在学院 (过去讨论室). 寻找 \"托普斯的钥匙\" 道具一具尸体上。"
+      },
+      {
+        "id": 8,
+        "description": "Continue to the church where the school classroom is. On a corpse near the sealed door, find Thops's Bell Bearing and his set.",
+        "zone": "RAYA_LUCARIA",
+        "note": "Thops dies here. His body is found at the church.",
+        "optional": false,
+        "description_cn": "继续教堂位置学派教室在一具尸体上附近封印门, 找到托普斯的铃珠并他的套装。",
+        "note_cn": "托普斯死去 . 他的尸体是找到在教堂。"
+      },
+      {
+        "id": 9,
+        "description": "Return to the Church of Irith to find Thops's hat and the \"Thops' Barrier\" upgrade path.",
+        "zone": "LIURNIA",
+        "note": "The hat is behind where Thops originally stood.",
+        "optional": false,
+        "description_cn": "返回伊利斯教堂找到托普斯的并 \"托普斯的屏障\" 强化路径。",
+        "note_cn": "是后面位置托普斯最初站。"
+      }
+    ],
+    "rewards": [
+      "Thops' Barrier (sorcery)",
+      "Academy Glintstone Key",
+      "Thops's Bell Bearing",
+      "Thops's Set (armor)",
+      "Somber Smithing Stones"
+    ],
+    "rewards_cn": [
+      "托普斯的力场（魔法）",
+      "学院辉石钥匙",
+      "托普斯的铃珠",
+      "托普斯的套装",
+      "失色锻造石"
+    ],
+    "failureConditions": [
+      "Killing Thops early",
+      "Never returning after entering the Academy"
+    ],
+    "failureConditions_cn": [
+      "提前杀死托普斯。",
+      "进入学院后未返回。"
+    ]
+  },
+  "rogier": {
+    "name": "Sorcerer Rogier",
+    "name_cn": "罗杰尔",
+    "description": "A veteran sorcerer scarred by his encounter with Deathroot. Help him unravel the mystery of the Black Knife plot.",
+    "description_cn": "一位饱经风霜的魔法师，因遭遇死根而伤痕累累。帮助他揭开黑刀阴谋之谜。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Rogier at Stormveil Castle, on a balcony near the Rampart Tower grace. Exhaust his dialogue.",
+        "zone": "STORMVEIL",
+        "note": "He is before the area where you fight the Banished Knight.",
+        "optional": false,
+        "description_cn": "在城墙塔赐福找到罗杰尔史东薇尔城, 在阳台。对话至重复。",
+        "note_cn": "他之前区域位置你对抗放逐骑士。"
+      },
+      {
+        "id": 2,
+        "description": "Defeat Godrick the Grafted. Rogier moves to Roundtable Hold.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "He appears in the Roundtable Hold near the fireplace.",
+        "optional": false,
+        "description_cn": "击败葛瑞克接肢. 罗杰尔移动到圆桌厅堂。",
+        "note_cn": "他出现在圆桌厅堂附近壁炉。"
+      },
+      {
+        "id": 3,
+        "description": "Speak to Rogier in Roundtable Hold. He asks you to find the Black Knife Print and the Cursemark of Death.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与罗杰尔在圆桌厅堂. 他请求你寻找黑匕首印记并死亡咒痕的死亡。"
+      },
+      {
+        "id": 4,
+        "description": "Travel to Nokron, Eternal City. In the Night's Sacred Ground area, find the Black Knife Print on a corpse near a false Night Maiden.",
+        "zone": "NOKRON",
+        "note": "It's on a body near the gargoyle that shoots projectiles.",
+        "optional": false,
+        "description_cn": "前往诺克隆恩在黑夜神域区域, 寻找黑匕首印记一具尸体上附近假黑夜女巫。",
+        "note_cn": "' 在尸体附近石像鬼那个射击弹射物。"
+      },
+      {
+        "id": 5,
+        "description": "Return the Black Knife Print to Rogier. He examines it and tells you about Ranni's involvement with the Night of Black Knives.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回黑匕首印记罗杰尔. 他检查并告诉你关于菈妮的参与使用黑夜的黑匕首。"
+      },
+      {
+        "id": 6,
+        "description": "Speak to Rogier again after resting. He directs you to Ranni's Rise.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与罗杰尔再次在休息. 他直接你菈妮魔法师塔。"
+      },
+      {
+        "id": 7,
+        "description": "Progress Ranni's questline. When Ranni departs (after giving her the Fingerslayer Blade), return to Rogier.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Rogier is dying.",
+        "optional": false,
+        "description_cn": "进度菈妮的支线. 当菈妮离开 (在给予她的猎杀指头刀刃), 返回罗杰尔。",
+        "note_cn": "罗杰尔是濒死。"
+      },
+      {
+        "id": 8,
+        "description": "Exhaust Rogier's dialogue. He gives you his Rapier +8 before passing away. Find his set and Bell Bearing on his body.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Loot his armor set from where he sat.",
+        "optional": false,
+        "description_cn": "重复对话至罗杰尔的对话. 他会给你他的细剑 +8 之前关口 . 寻找他的套装并铃珠在他的尸体。",
+        "note_cn": "拾取他的套装套装从位置他。"
+      }
+    ],
+    "rewards": [
+      "Rogier's Rapier +8",
+      "Rogier's Set (armor)",
+      "Rogier's Bell Bearing",
+      "Black Knife Print information",
+      "Glintstone Pebble Ash of War"
+    ],
+    "rewards_cn": [
+      "罗杰尔刺剑+8",
+      "罗杰尔的套装",
+      "罗杰尔的铃珠",
+      "黑刀烙印信息",
+      "辉石魔砾战灰"
+    ],
+    "failureConditions": [
+      "Killing Rogier at Stormveil",
+      "Killing Ranni before showing the Black Knife Print to Rogier (locks his dialogue)"
+    ],
+    "failureConditions_cn": [
+      "在史东薇尔城杀死罗杰尔。",
+      "在将黑刀烙印给罗杰尔之前杀死菈妮。"
+    ]
+  },
+  "hyetta": {
+    "name": "Hyetta",
+    "name_cn": "海妲",
+    "description": "A blind woman guided by the Frenzied Flame. Help her gather the Shabriri Grapes and become the maiden of the Three Fingers.",
+    "description_cn": "一位被癫火引导的盲女。帮助她收集夏玻利利葡萄，成为三指的巫女。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Hyetta at the Lake-Facing Cliffs grace in Liurnia. She asks for a Shabriri Grape.",
+        "zone": "LIURNIA",
+        "note": "She appears after you've met Yura near Murkwater and progressed his questline, or after you've inherited the Frenzied Flame.",
+        "optional": false,
+        "description_cn": "遇见海妲在湖畔断崖赐福利耶尼亚. 他请求夏玻利利葡萄。",
+        "note_cn": "她出现在你的尤拉附近黑水并推进他的支线, 或在你的继承癫火火焰。"
+      },
+      {
+        "id": 2,
+        "description": "Obtain the Shabriri Grape from the body of the NPC invader at the Gate Town Bridge (north of the Lake-Facing Cliffs). OR loot from Yura's body after he dies.",
+        "zone": "LIURNIA",
+        "note": "The invader drops the first grape.",
+        "optional": false,
+        "description_cn": "获取夏玻利利葡萄从尸体的 NPC 入侵者在大门镇大桥 (北的湖畔断崖). 或拾取从尤拉的尸体他死去。",
+        "note_cn": "入侵者掉落第一葡萄。"
+      },
+      {
+        "id": 3,
+        "description": "Give the Shabriri Grape to Hyetta. Reload the area. She moves to a new spot near the Purified Ruins in Liurnia.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "交给夏玻利利葡萄海妲. 重新加载区域. 她移动到新附近净化废墟在利耶尼亚。"
+      },
+      {
+        "id": 4,
+        "description": "Find a second Shabriri Grape at the Purified Ruins (chest underground). Give it to Hyetta.",
+        "zone": "LIURNIA",
+        "note": "The chest is through the illusory floor in the ruins.",
+        "optional": false,
+        "description_cn": "寻找第二夏玻利利葡萄在净化废墟 (宝箱地下). 交给海妲。",
+        "note_cn": "宝箱是穿过幻影楼层在废墟。"
+      },
+      {
+        "id": 5,
+        "description": "Reload. Hyetta moves to the Bellum Church in northern Liurnia. Speak to her.",
+        "zone": "LIURNIA",
+        "note": "She is near the Church of Vows.",
+        "optional": false,
+        "description_cn": "重新加载. 海妲移动到彼鲁姆教堂在北部利耶尼亚. 与她的。",
+        "note_cn": "他附近教堂的誓言。"
+      },
+      {
+        "id": 6,
+        "description": "Find the third Shabriri Grape on the body of Edgar the Revenger (the invader who appears after Irina questline). Give it to Hyetta.",
+        "zone": "LIURNIA",
+        "note": "Edgar invades near the Revenger's Shack after his daughter's death.",
+        "optional": false,
+        "description_cn": "寻找第三夏玻利利葡萄在尸体的艾德格复仇 (入侵者出现在伊蕾娜支线). 交给海妲。",
+        "note_cn": "艾德格入侵附近复仇小屋在他的女儿死亡。"
+      },
+      {
+        "id": 7,
+        "description": "Reload. Hyetta moves to the Gate of the Frenzied Flame (at the bottom of the Subterranean Shunning-Grounds in Leyndell sewers).",
+        "zone": "CAPITAL",
+        "note": "This is after the Cathedral of the Forsaken.",
+        "optional": false,
+        "description_cn": "重新加载. 海妲移动到大门的癫火火焰 (在底部的弃置恶兆的地底王城罗德尔下水道)。",
+        "note_cn": "这是在被遗弃的大教堂。"
+      },
+      {
+        "id": 8,
+        "description": "Remove all armor and approach the door to the Three Fingers to inherit the Frenzied Flame. Hyetta guides you.",
+        "zone": "CAPITAL",
+        "note": "You must be naked to enter the door.",
+        "optional": false,
+        "description_cn": "移除所有套装并接近门三指继承癫火火焰. 海妲引导你。",
+        "note_cn": "必须赤裸进入门。"
+      },
+      {
+        "id": 9,
+        "description": "After inheriting the Frenzied Flame, speak to Hyetta. She reveals her true nature and becomes the maiden of the Frenzied Flame.",
+        "zone": "CAPITAL",
+        "note": "This locks you into the Frenzied Flame ending unless you use Miquella's Needle.",
+        "optional": false,
+        "description_cn": "在继承癫火火焰, 与海妲. 她揭示她的真实本质并成为女巫的癫火火焰。",
+        "note_cn": "这个锁住你在癫火火焰结局除非你使用米凯拉的针。"
+      }
+    ],
+    "rewards": [
+      "Frenzied Flame Seal",
+      "Inheriting the Frenzied Flame (required for Frenzied Flame ending)",
+      "Howl of Shabriri (incantation)",
+      "Various Frenzied Flame incantations"
+    ],
+    "rewards_cn": [
+      "癫火印记",
+      "继承癫火（癫火结局必要条件）",
+      "夏玻利利的嘶吼（祷告）",
+      "各种癫火祷告"
+    ],
+    "failureConditions": [
+      "Killing Hyetta or failing to give her grapes as she moves",
+      "Defeating the Fire Giant before completing the Frenzied Flame quest locks you out of inheriting it"
+    ],
+    "failureConditions_cn": [
+      "杀死海妲或未能在她移动时给她葡萄。",
+      "在完成癫火任务之前击败火焰巨人会导致无法继承癫火。"
+    ]
+  },
+  "sellen": {
+    "name": "Sorceress Sellen",
+    "name_cn": "魔法师瑟濂",
+    "description": "A formidable sorceress exiled from Raya Lucaria. Help her reclaim her rightful place as the leader of the Academy, or betray her to her rival.",
+    "description_cn": "一位被雷亚卢卡利亚驱逐的强大魔法师。帮助她夺回学院领导者的地位，或者背叛她给她的对手。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Sellen in Limgrave, in a ruined building just north of the Waypoint Ruins cellar. Speak to her and learn sorceries.",
+        "zone": "LIMGRAVE",
+        "note": "She is east of Agheel Lake.",
+        "optional": false,
+        "description_cn": "在宁姆格福, 废墟建筑就北的驿站街遗迹地下室找到瑟濂。与她的并了解魔法。",
+        "note_cn": "他东的亚基尔湖。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Witchbane Ruins in Weeping Peninsula (southwest Limgrave). Find Sellen's real body imprisoned in the cellar.",
+        "zone": "WEEPING_PENINSULA",
+        "note": "This is needed later for the quest.",
+        "optional": false,
+        "description_cn": "前往寻罪者废墟在啜泣半岛 (西南宁姆格福). 地下室找到瑟濂的真实尸体囚禁。",
+        "note_cn": "这是需要之后支线。"
+      },
+      {
+        "id": 3,
+        "description": "Travel to Sellia, Town of Sorcery in Caelid. Find the hidden cellar with Sellen's primal glintstone.",
+        "zone": "CAELID",
+        "note": "Behind an illusory floor in Sellia.",
+        "optional": false,
+        "description_cn": "前往瑟利亚魔法镇在盖利德寻找隐藏地下室与瑟濂的原始辉石。",
+        "note_cn": "后面幻影楼层在瑟利亚。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Sellen in Limgrave and tell her about the primal glintstone. She asks you to bring it to her.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回瑟濂在宁姆格福并告诉她的关于原始辉石. 她请求你带来她的。"
+      },
+      {
+        "id": 5,
+        "description": "Go to the hidden cellar in Sellia and retrieve Sellen's primal glintstone. Give it to her.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "去隐藏地下室在瑟利亚并取回瑟濂的原始辉石. 交给她的。"
+      },
+      {
+        "id": 6,
+        "description": "Sellen tells you about her rival, Jerren. She needs you to help her reclaim the Academy. Choose to side with Sellen or Jerren.",
+        "zone": "LIMGRAVE",
+        "note": "This is the branching point.",
+        "optional": false,
+        "description_cn": "瑟濂告诉你关于她的竞争对手, 杰廉. 她需要你帮助她的夺回学院. 选择站在瑟濂或杰廉一边。",
+        "note_cn": "这是分支点。"
+      },
+      {
+        "id": 7,
+        "description": "If siding with Sellen: travel to Redmane Castle in Caelid and speak to Jerren. Trigger the Radahn festival if not already done.",
+        "zone": "CAELID",
+        "note": "After Radahn, Jerren moves.",
+        "optional": false,
+        "description_cn": "如果站队与瑟濂: 前往红狮子城在盖利德并与杰廉触发拉塔恩祭典如果不已经。",
+        "note_cn": "在拉塔恩, 杰廉移动到。"
+      },
+      {
+        "id": 8,
+        "description": "Find Jerren at the Witchbane Ruins in Weeping Peninsula (he is hunting Sellen). Kill Jerren.",
+        "zone": "WEEPING_PENINSULA",
+        "note": "This completes the task for Sellen.",
+        "optional": false,
+        "description_cn": "在啜泣半岛 (他猎杀瑟濂)找到杰廉寻罪者废墟。击杀杰廉。",
+        "note_cn": "这个完成瑟濂。"
+      },
+      {
+        "id": 9,
+        "description": "Travel to the Grand Library of Raya Lucaria (after defeating Rennala). Sellen's soul is now in a new body. Speak to her.",
+        "zone": "RAYA_LUCARIA",
+        "note": "She is at Rennala's location.",
+        "optional": false,
+        "description_cn": "前往宏大图书馆的雷亚卢卡利亚 (在击败蕾娜菈). 瑟濂的灵魂是现在新尸体. 与她的。",
+        "note_cn": "他在蕾娜菈的位置。"
+      },
+      {
+        "id": 10,
+        "description": "If siding with Jerren: defeat Sellen at the Witchbane Ruins. She drops the Sorceress Set and Glintstone Kris. Jerren rewards you.",
+        "zone": "WEEPING_PENINSULA",
+        "note": "Alternate ending.",
+        "optional": false,
+        "description_cn": "如果站队与杰廉: 击败瑟濂在寻罪者废墟. 她掉落魔女套装并辉石克里斯. 杰廉奖励你。",
+        "note_cn": "替代结局。"
+      },
+      {
+        "id": 11,
+        "description": "After siding with Sellen, she becomes the new leader of Raya Lucaria. You can buy all her sorceries. Eventually, she transforms into a Graven Witch (ball of faces).",
+        "zone": "RAYA_LUCARIA",
+        "note": "The transformation happens after reloading. Loot her set from her body.",
+        "optional": false,
+        "description_cn": "在站队与瑟濂, 她成为新领袖的雷亚卢卡利亚. 可以购买所有她的魔法. 最终, 她转化进入创星魔女 (的面对)。",
+        "note_cn": "转化发生在重新加载. 拾取她的套装从她的尸体。"
+      }
+    ],
+    "rewards": [
+      "Sellen's Set (armor)",
+      "Glintstone Kris (dagger)",
+      "Access to all Sellen sorceries shop",
+      "Jerren's armor set (if siding with Jerren)",
+      "Ancient Dragon Smithing Stone"
+    ],
+    "rewards_cn": [
+      "瑟濂的套装",
+      "辉石克利丝（匕首）",
+      "瑟濂所有魔法的购买权",
+      "杰廉的套装（如果选择杰廉线）",
+      "古龙岩锻造石"
+    ],
+    "failureConditions": [
+      "Killing Sellen before completing her quest",
+      "Killing Jerren before speaking to him at Redmane Castle",
+      "Progressing too far past Maliketh without completing the quest"
+    ],
+    "failureConditions_cn": [
+      "在完成其支线之前杀死瑟濂。",
+      "在红狮子城与杰廉对话之前杀死他。",
+      "推进至玛利喀斯之后未完成此支线。"
+    ]
+  },
+  "yura": {
+    "name": "Bloody Finger Hunter Yura",
+    "name_cn": "血指猎人尤拉",
+    "description": "A hunter of Bloody Finger invaders along the Murkwater River. Help him hunt, or claim his gear after his inevitable demise.",
+    "description_cn": "沿着雾水河猎杀血指入侵者的猎人。帮助他猎杀，或在他不可避免的死亡后获取他的装备。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Yura under the ruins near Murkwater Coast (Limgrave). He warns you about Nerijus.",
+        "zone": "LIMGRAVE",
+        "note": "He is under the broken bridge near the Murkwater Cave entrance.",
+        "optional": false,
+        "description_cn": "寻找尤拉下方废墟附近雾水海岸 (宁姆格福). 他警告你关于涅利乌斯。",
+        "note_cn": "他下方破损大桥附近雾水洞窟入口。"
+      },
+      {
+        "id": 2,
+        "description": "When Nerijus invades near Murkwater Cave, Yura appears as a summon sign. Summon him to help defeat Nerijus.",
+        "zone": "LIMGRAVE",
+        "note": "If you defeat Nerijus alone, Yura still acknowledges you.",
+        "optional": false,
+        "description_cn": "当涅利乌斯入侵附近雾水洞窟, 尤拉作为召唤标记. 召唤他帮助击败涅利乌斯。",
+        "note_cn": "如果击败涅利乌斯独自, 尤拉仍然承认你。"
+      },
+      {
+        "id": 3,
+        "description": "Speak to Yura again under the bridge. He gives you the \"Raptor of the Mists\" Ash of War.",
+        "zone": "LIMGRAVE",
+        "note": null,
+        "optional": false,
+        "description_cn": "与尤拉再次下方大桥. 他会给你 \"猛禽的雾\" 战灰。"
+      },
+      {
+        "id": 4,
+        "description": "Travel to the Main Academy Gate grace in Liurnia. Yura (invading as Eleonora in disguise?) — Actually, find Yura near the Artist's Shack in western Liurnia.",
+        "zone": "LIURNIA",
+        "note": "He is on a hill near the lake.",
+        "optional": false,
+        "description_cn": "前往主要学院大门赐福在利耶尼亚. 尤拉 (入侵作为艾琉诺拉伪装?)—实际, 寻找尤拉附近画家的破屋在西部利耶尼亚。",
+        "note_cn": "他在附近湖。"
+      },
+      {
+        "id": 5,
+        "description": "Find Yura at the Second Church of Marika in Altus Plateau. He is wounded.",
+        "zone": "ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找尤拉在玛丽卡第二教堂亚坛高原. 他受伤。"
+      },
+      {
+        "id": 6,
+        "description": "After reloading, Yura has disappeared. His Nagakiba is on the ground nearby. Shabriri appears in his place.",
+        "zone": "ALTUS",
+        "note": "Speak to Shabriri's eye to get the Frenzied Flame info.",
+        "optional": false,
+        "description_cn": "在重新加载, 尤拉有消失. 他的长牙是地上附近. 夏玻利利出现在他的地点。",
+        "note_cn": "与夏玻利利的眼获得癫火火焰信息。"
+      },
+      {
+        "id": 7,
+        "description": "Either pick up the Nagakiba (Yura's katana) and leave, OR speak to Shabriri. Shabriri asks you to inherit the Frenzied Flame.",
+        "zone": "ALTUS",
+        "note": "Shabriri is Yura's body possessed by the Frenzied Flame.",
+        "optional": false,
+        "description_cn": "任一向上长牙 (尤拉的太刀) 并离开, 或与夏玻利利. 夏玻利利请求你继承癫火火焰。",
+        "note_cn": "夏玻利利是尤拉的尸体附身通过癫火火焰。"
+      },
+      {
+        "id": 8,
+        "description": "Find the Eleonora invasion at the Second Church of Marika (she appears as a red sign). Defeat her. You cannot summon Yura.",
+        "zone": "ALTUS",
+        "note": "Eleonora drops Eleonora's Poleblade.",
+        "optional": false,
+        "description_cn": "寻找艾琉诺拉入侵在玛丽卡第二教堂 (她作为红标记). 击败她的. 可以不召唤尤拉。",
+        "note_cn": "艾琉诺拉掉落艾琉诺拉的双头薙刀。"
+      }
+    ],
+    "rewards": [
+      "Raptor of the Mists (Ash of War)",
+      "Nagakiba (katana)",
+      "Eleonora's Poleblade (twinblade)",
+      "Shabriri's dialogue about Frenzied Flame"
+    ],
+    "rewards_cn": [
+      "雾鸦（战灰）",
+      "长牙（太刀）",
+      "艾琉诺拉的双头薙刀",
+      "夏玻利利的癫火信息"
+    ],
+    "failureConditions": [
+      "Killing Yura before his questline progresses",
+      "Killing Shabriri without exhausting dialogue"
+    ],
+    "failureConditions_cn": [
+      "在尤拉支线推进之前杀死他。",
+      "未对话至重复就杀死夏玻利利。"
+    ]
+  },
+  "jar_bairn": {
+    "name": "Jar-Bairn",
+    "name_cn": "小壶",
+    "description": "A small jar warrior in the peaceful village of Jarburg. Help him train to become a mighty warrior like Alexander.",
+    "description_cn": "壶村中的一个幼小壶战士。帮助他训练成为像亚历山大一样的强大战士。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Jarburg in Liurnia (in the misty ravine near the Liurnia Lake Shore grace). Exhaust dialogue with all jars.",
+        "zone": "LIURNIA",
+        "note": "Jarburg is in the northeastern part of Liurnia, on a cliff overlooking the lake.",
+        "optional": false,
+        "description_cn": "在利耶尼亚 (雾峡谷附近利耶尼亚湖岸赐福)找到壶村。重复对话至对话与所有。",
+        "note_cn": "壶村是在东北部分的利耶尼亚, 悬崖眺望湖。"
+      },
+      {
+        "id": 2,
+        "description": "Speak to Jar-Bairn repeatedly and exhaust all dialogue. He talks about wanting to be like Alexander.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话小壶重复并对话至重复. 他对话关于想亚历山大。"
+      },
+      {
+        "id": 3,
+        "description": "Progress Alexander's questline. Each time you help Alexander, return to tell Jar-Bairn the story.",
+        "zone": "LIURNIA",
+        "note": "Return after step 3 (Redmane Castle) and step 6 (Seethewater).",
+        "optional": false,
+        "description_cn": "进度亚历山大的支线. 每个时间你帮助亚历山大, 返回告诉小壶故事。",
+        "note_cn": "返回在步骤 3 (红狮子城) 并步骤 6 (沸滚河)。"
+      },
+      {
+        "id": 4,
+        "description": "After Alexander's death in Farum Azula, return to Jarburg. Reload the area.",
+        "zone": "LIURNIA",
+        "note": "Jarburg is being attacked.",
+        "optional": false,
+        "description_cn": "在亚历山大的死亡法姆·亚兹拉, 返回壶村. 重新加载区域。",
+        "note_cn": "壶村是攻击。"
+      },
+      {
+        "id": 5,
+        "description": "Defeat the invading jars (hostile jar enemies). Protect the village.",
+        "zone": "LIURNIA",
+        "note": "Only the larger jars attack.",
+        "optional": false,
+        "description_cn": "击败入侵 (敌对敌人). 保护村庄。",
+        "note_cn": "仅更大攻击。"
+      },
+      {
+        "id": 6,
+        "description": "Speak to Jar-Bairn. He is sad but determined. He gives you the companion jar talisman.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话小壶. 他但决定. 他会给你同伴护符。"
+      },
+      {
+        "id": 7,
+        "description": "Reload the area. Loot the Diallos's Set from where Diallos died (near the fountain).",
+        "zone": "LIURNIA",
+        "note": "Diallos dies defending Jarburg.",
+        "optional": false,
+        "description_cn": "重新加载区域. 拾取迪亚罗斯的套装从位置迪亚罗斯死去 (附近喷泉)。",
+        "note_cn": "迪亚罗斯死去防御壶村。"
+      }
+    ],
+    "rewards": [
+      "Companion Jar (talisman, boosts pot throwing damage)",
+      "Diallos's Set (armor)",
+      "Jar-Bairn's gratitude"
+    ],
+    "rewards_cn": [
+      "友好壶（护符，提升壶投掷伤害）",
+      "迪亚罗斯的套装",
+      "小壶的感激"
+    ],
+    "failureConditions": [
+      "Killing Alexander early (locks Jar-Bairn progress)",
+      "Failing to return to Jarburg after Alexander's death",
+      "Killing the jars in Jarburg accidentally"
+    ],
+    "failureConditions_cn": [
+      "提前杀死亚历山大（锁定小壶进度）。",
+      "亚历山大死后未返回壶村。",
+      "误伤壶村的壶。"
+    ]
+  },
+  "diallos": {
+    "name": "Knight Diallos",
+    "name_cn": "骑士迪亚罗斯",
+    "description": "A nobleman seeking purpose. From the Roundtable to Volcano Manor to Jarburg, his journey is one of finding honor.",
+    "description_cn": "一位寻求目标的贵族。从圆桌厅堂到火山官邸再到壶村，他的旅程是寻找荣誉的旅程。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Diallos in Roundtable Hold. He talks about his search for his lost servant Lanya.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与迪亚罗斯在圆桌厅堂. 他对话关于他的搜索他的仆人拉妮亚。"
+      },
+      {
+        "id": 2,
+        "description": "Return after progressing. He mentions he's going to Liurnia to search.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": true,
+        "description_cn": "返回在进度. 他提及他的去利耶尼亚搜索。"
+      },
+      {
+        "id": 3,
+        "description": "Find Diallos at the Academy Gate Town in Liurnia, sitting near the path. Exhaust dialogue.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "在利耶尼亚, 坐附近路径找到迪亚罗斯学院门前镇。重复对话至对话。"
+      },
+      {
+        "id": 4,
+        "description": "Join Volcano Manor. Talk to Diallos there (he is a fellow recusant).",
+        "zone": "VOLCANO_MANOR",
+        "note": "Diallos joins the Manor voluntarily.",
+        "optional": false,
+        "description_cn": "加入火山官邸. 与迪亚罗斯 (他同伴叛律者)。",
+        "note_cn": "迪亚罗斯加入官邸自愿。"
+      },
+      {
+        "id": 5,
+        "description": "Complete the first Volcano Manor assassination (kill Old Knight Istvan). Diallos is impressed.",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "完成第一火山官邸暗杀 (击杀旧骑士伊斯特万). 迪亚罗斯是印象深刻。"
+      },
+      {
+        "id": 6,
+        "description": "Speak to Diallos at the Manor. He leaves, saying he has found his purpose.",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "与迪亚罗斯在官邸. 他离开, 说他有找到他的目的。"
+      },
+      {
+        "id": 7,
+        "description": "Travel to Jarburg in Liurnia. Find Diallos there, living peacefully with the jars.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "前往壶村在利耶尼亚. 找到迪亚罗斯 , 活和平使用。"
+      },
+      {
+        "id": 8,
+        "description": "After Alexander's death, return to Jarburg. Diallos dies defending the jar village from attack.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "在亚历山大的死亡, 返回壶村. 迪亚罗斯死去防御村庄从攻击。"
+      },
+      {
+        "id": 9,
+        "description": "Loot Diallos's Set from his body at the Jarburg fountain.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "拾取迪亚罗斯的套装从他的尸体在壶村喷泉。"
+      }
+    ],
+    "rewards": [
+      "Diallos's Set (armor)",
+      "Diallos's Mask (helm with special effect)"
+    ],
+    "rewards_cn": [
+      "迪亚罗斯的套装",
+      "迪亚罗斯的面具（特殊效果头盔）"
+    ],
+    "failureConditions": [
+      "Killing Diallos before he reaches Jarburg",
+      "Failing to join Volcano Manor before advancing too far"
+    ],
+    "failureConditions_cn": [
+      "在迪亚罗斯到达壶村之前杀死他。",
+      "推进太远而未加入火山官邸。"
+    ]
+  },
+  "gurranq": {
+    "name": "Gurranq, Beast Clergyman",
+    "name_cn": "古兰格（野兽祭司）",
+    "description": "The Beast Clergyman of the Bestial Sanctum hungers for Deathroot. Feed him to uncover his true nature.",
+    "description_cn": "野兽神殿的野兽祭司渴求死根。喂养他以揭开他的真实本性。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find the Bestial Sanctum in Dragonbarrow, Caelid (northeast corner). Speak to Gurranq.",
+        "zone": "DRAGONBARROW",
+        "note": "Take the teleporter behind the Third Church of Marika, or ride through Caelid.",
+        "optional": false,
+        "description_cn": "寻找野兽神殿在龙墓, 盖利德 (东北角落). 与古兰格。",
+        "note_cn": "拿取传送点后面玛丽卡第三教堂, 或穿过盖利德。"
+      },
+      {
+        "id": 2,
+        "description": "Gurranq tells you he can smell Deathroot on you. Offer him a Deathroot. He gives you Beast Eye and Claw incantations.",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "古兰格告诉你他可以气味死根在你. 提交他死根. 他会给你野兽眼并爪祷告。"
+      },
+      {
+        "id": 3,
+        "description": "Offer Deathroot #1: reward — Claw (beast claw incantation) and Beast Eye key item.",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "提交死根 #1: 奖励—爪 (野兽爪祷告) 并野兽眼关键道具。"
+      },
+      {
+        "id": 4,
+        "description": "Offer Deathroot #2: reward — Bestial Sling (incantation) + 1x Ancient Dragon Smithing Stone (if offered enough)",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "提交死根 #2: 奖励—兽投石 (祷告) + 1x 古龙岩锻造石 (如果提交足够)。"
+      },
+      {
+        "id": 5,
+        "description": "Offer Deathroot #3: reward — Beastial Constitution + Beast Claw 2",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "提交死根 #3: 奖励—野兽体质 + 野兽爪 2。"
+      },
+      {
+        "id": 6,
+        "description": "Offer Deathroot #4: reward — Gurranq becomes aggressive. Fight him until he calms down (reduce HP to ~50%). He returns to his spot.",
+        "zone": "DRAGONBARROW",
+        "note": "Do NOT kill him. He will surrender.",
+        "optional": false,
+        "description_cn": "提交死根 #4: 奖励—古兰格成为敌对. 对抗他直到他安抚向下 (减少血量 ~50%). 他返回他的。",
+        "note_cn": "不要击杀他. 他会投降。"
+      },
+      {
+        "id": 7,
+        "description": "After calming him, offer Deathroot #5: reward — Stone of Gurranq (incantation).",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "在安抚他, 提交死根 #5: 奖励—石的古兰格 (祷告)。"
+      },
+      {
+        "id": 8,
+        "description": "Offer Deathroot #6: reward — Beast Claw 3 + Ancient Dragon Smithing Stone.",
+        "zone": "DRAGONBARROW",
+        "note": null,
+        "optional": false,
+        "description_cn": "提交死根 #6: 奖励—野兽爪 3 + 古龙岩锻造石。"
+      },
+      {
+        "id": 9,
+        "description": "Offer Deathroot #7+: no further rewards beyond what you already collected (Ancient Dragon Smithing Stone at milestone).",
+        "zone": "DRAGONBARROW",
+        "note": "There are 9 Deathroot total in the game.",
+        "optional": false,
+        "description_cn": "提交死根 #7+: 没有进一步奖励之外什么你已经收集 (古龙岩锻造石在里程碑)。",
+        "note_cn": "是 9 死根总数在。"
+      },
+      {
+        "id": 10,
+        "description": "After defeating Maliketh in Farum Azula, Gurranq disappears from the Bestial Sanctum.",
+        "zone": "DRAGONBARROW",
+        "note": "Gurranq is revealed to be Maliketh.",
+        "optional": false,
+        "description_cn": "在击败玛利喀斯法姆·亚兹拉, 古兰格消失从野兽神殿。",
+        "note_cn": "古兰格是揭示玛利喀斯。"
+      }
+    ],
+    "rewards": [
+      "Beast Claw (incantation)",
+      "Bestial Sling (incantation)",
+      "Stone of Gurranq (incantation)",
+      "Bestial Constitution (incantation)",
+      "Ancient Dragon Smithing Stone (×2 at milestones)",
+      "Clawmark Seal (talisman like seal)"
+    ],
+    "rewards_cn": [
+      "野兽爪（祷告）",
+      "野兽投石（祷告）",
+      "古兰格的岩石（祷告）",
+      "野兽体魄（祷告）",
+      "古龙岩锻造石×2",
+      "爪痕圣印记"
+    ],
+    "failureConditions": [
+      "Killing Gurranq during the aggressive phase",
+      "Failing to offer all Deathroot before defeating Maliketh"
+    ],
+    "failureConditions_cn": [
+      "在古兰格暴怒阶段杀死他。",
+      "在击败玛利喀斯之前未提交所有死根。"
+    ]
+  },
+  "roderika": {
+    "name": "Roderika",
+    "name_cn": "罗德莉卡",
+    "description": "A young woman who lost her companions. Help her find her calling as a Spirit Tuner at Roundtable Hold.",
+    "description_cn": "一位失去同伴的年轻女子。帮助她在圆桌厅堂找到作为调灵师的使命。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Roderika in Stormveil Castle, in the dark room past the Rampart Tower grace (the room with many dead bodies).",
+        "zone": "STORMVEIL",
+        "note": "She is huddled in the corner.",
+        "optional": false,
+        "description_cn": "在史东薇尔城, 暗房间过去城墙塔赐福 (房间与多死亡尸体)找到罗德莉卡。",
+        "note_cn": "他蜷缩在角落。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust her dialogue. She gives you the \"Golden Seed\" and a keepsake. Tell her to go to Roundtable Hold.",
+        "zone": "STORMVEIL",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复. 她会给你 \"黄金种子\" 并纪念品. 告诉她的去圆桌厅堂。"
+      },
+      {
+        "id": 3,
+        "description": "Return to Roundtable Hold. Find Roderika near the blacksmith Hewg. Speak to her.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "回到圆桌厅堂在铁匠修古找到罗德莉卡。与她的。"
+      },
+      {
+        "id": 4,
+        "description": "Speak to Smithing Master Hewg about Roderika. He asks you to deliver a message to her.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话铁匠修古关于罗德莉卡. 他请求你交付信息她的。"
+      },
+      {
+        "id": 5,
+        "description": "Deliver Hewg's message to Roderika. Reload the area.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "交付修古的信息罗德莉卡. 重新加载区域。"
+      },
+      {
+        "id": 6,
+        "description": "Speak to Roderika again. She agrees to become a Spirit Tuner. She moves to the room opposite Hewg.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与罗德莉卡再次. 她同意成为灵魂调灵. 她移动到房间对面修古。"
+      },
+      {
+        "id": 7,
+        "description": "After the Roundtable Hold gets darker (post-Morgott), Roderika can upgrade your Spirit Ashes to +10. Exhaust all dialogue.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "She needs Glovewort to upgrade.",
+        "optional": false,
+        "description_cn": "在圆桌厅堂获得暗 (-蒙葛特), 罗德莉卡可以强化你的骨灰 +10. 对话至重复。",
+        "note_cn": "她需要灵依铃兰强化。"
+      },
+      {
+        "id": 8,
+        "description": "Find the \"Roderika's Spirit Set\" in Stormveil Castle if you missed it earlier, or she gives it to you eventually.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": true,
+        "description_cn": "寻找 \"罗德莉卡的灵魂套装\" 在史东薇尔城如果错过之前, 或她给予你最终。"
+      }
+    ],
+    "rewards": [
+      "Golden Seed",
+      "Spirit Tuning service (upgrade Spirit Ashes to +10)",
+      "Roderika's gratitude",
+      "Various spirits-related items"
+    ],
+    "rewards_cn": [
+      "黄金种子",
+      "调灵服务（骨灰强化至+10）",
+      "罗德莉卡的感激",
+      "各种骨灰相关道具"
+    ],
+    "failureConditions": [
+      "Killing Roderika in Stormveil",
+      "Failing to talk to her before entering Leyndell (she still appears at Roundtable)"
+    ],
+    "failureConditions_cn": [
+      "在史东薇尔城杀死罗德莉卡。",
+      "在进入王城之前未与她对话（她仍会圆桌出现）。"
+    ]
+  },
+  "rya_tanith": {
+    "name": "Rya / Lady Tanith",
+    "name_cn": "菈雅 / 塔妮丝夫人",
+    "description": "A young woman seeking her mother, and the mysterious lady of Volcano Manor. Accept Tanith's invitation to join the recusants.",
+    "description_cn": "一位寻找母亲的年轻女子和火山官邸的神秘女主人。接受塔妮丝的邀请加入叛律者。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Rya in Liurnia, in the pavilion north of the Laskyar Ruins (near the lake shore). She asks for help retrieving her necklace.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "遇见菈雅在利耶尼亚, 亭北的拉斯基亚废墟 (附近湖岸). 他请求帮助取回她的项链。"
+      },
+      {
+        "id": 2,
+        "description": "The necklace was stolen by Blackguard Big Boggart. Buy the necklace from Boggart for 1000 runes, or kill him.",
+        "zone": "LIURNIA",
+        "note": "Boggart is boiling prawns near the lakeside.",
+        "optional": false,
+        "description_cn": "项链曾是偷走通过大虾哥博格特. 购买项链从博格特 1000 卢恩, 或击杀他。",
+        "note_cn": "博格特是沸滚虾附近湖边。"
+      },
+      {
+        "id": 3,
+        "description": "Return the necklace to Rya. She rewards you and gives you a \"Volcano Manor Invitation\" item.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回项链菈雅. 她奖励你并给予你 \"火山官邸邀请\" 道具。"
+      },
+      {
+        "id": 4,
+        "description": "Travel to Mt. Gelmir. Enter Volcano Manor via the designated path (through the Ruin-Strewn Precipice or via the teleporter).",
+        "zone": "MOUNT_GELMIR",
+        "note": "Use the invitation to join officially.",
+        "optional": false,
+        "description_cn": "前往格密尔火山进入火山官邸经由指定路径 (穿过古遗迹断崖或经由传送点)。",
+        "note_cn": "使用邀请加入正式。"
+      },
+      {
+        "id": 5,
+        "description": "Speak to Lady Tanith in Volcano Manor. She welcomes you as a recusant. Exhaust her dialogue.",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话塔妮丝夫人在火山官邸. 她欢迎你作为叛律者. 对话至重复。"
+      },
+      {
+        "id": 6,
+        "description": "Speak to Rya in her room in Volcano Manor (first door on the right upstairs). Exhaust her dialogue.",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "与菈雅在她的房间火山官邸 (第一门在右楼上). 对话至重复。"
+      },
+      {
+        "id": 7,
+        "description": "Receive your first assassination letter from Tanith. Defeat Old Knight Istvan or the Great Horned Traggoth.",
+        "zone": "VOLCANO_MANOR",
+        "note": "The target depends on the letter you receive.",
+        "optional": false,
+        "description_cn": "获得你的第一暗杀信从塔妮丝. 击败旧骑士伊斯特万或大角特拉格斯。",
+        "note_cn": "目标取决于在信你获得。"
+      },
+      {
+        "id": 8,
+        "description": "Return to Tanith. Speak to Rya again. She gives you a \"Dancer's Castanets\" as thanks.",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回塔妮丝. 与菈雅再次. 她会给你 \"舞者响板\" 作为感谢。"
+      },
+      {
+        "id": 9,
+        "description": "Complete the second assassination (kill Rileigh the Idle or a similar mark).",
+        "zone": "VOLCANO_MANOR",
+        "note": null,
+        "optional": false,
+        "description_cn": "完成第二暗杀 (击杀里雷空闲或类似)。"
+      },
+      {
+        "id": 10,
+        "description": "Tanith gives you the \"Drawing-Room Key\". Explore the hidden path behind the illusory wall in the drawing room.",
+        "zone": "VOLCANO_MANOR",
+        "note": "The wall is at the end of the drawing room, behind the paintings.",
+        "optional": false,
+        "description_cn": "塔妮丝给予你 \"画-房间钥匙\". 探索隐藏路径后面幻影墙在画房间。",
+        "note_cn": "墙是在结局的画房间, 后面画作。"
+      },
+      {
+        "id": 11,
+        "description": "Reach the Temple of Eiglay. Defeat the Godskin Noble boss inside.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "optional": false,
+        "description_cn": "到达艾格蕾教堂. 击败神皮贵族首领内部。"
+      },
+      {
+        "id": 12,
+        "description": "Speak to Rya at the Temple of Eiglay. She reveals her true form (a snake hybrid). Accept her regardless.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "optional": false,
+        "description_cn": "与菈雅在艾格蕾教堂. 她揭示她的真实形态 (蛇混合). 接受她的无论。"
+      },
+      {
+        "id": 13,
+        "description": "Defeat Rykard, Lord of Blasphemy. Return to Volcano Manor.",
+        "zone": "MOUNT_GELMIR",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败拉卡德, 王的亵渎. 回到火山官邸。"
+      },
+      {
+        "id": 14,
+        "description": "Speak to Tanith at Rykard's arena. She is eating his remains. Exhaust dialogue.",
+        "zone": "MOUNT_GELMIR",
+        "note": "She gives you her set if you exhaust all dialogue.",
+        "optional": false,
+        "description_cn": "与塔妮丝在拉卡德的竞技场. 他进食他的留. 重复对话至对话。",
+        "note_cn": "她会给你她的套装如果对话至重复。"
+      },
+      {
+        "id": 15,
+        "description": "If you killed Tanith, you can loot her set. If you let her be, she remains at the arena. Rya disappears or leaves the manor.",
+        "zone": "MOUNT_GELMIR",
+        "note": "Rya can be given the \"Tonic of Forgetfulness\" from a previous step.",
+        "optional": false,
+        "description_cn": "如果击杀塔妮丝, 可以拾取她的套装. 如果让她的 , 她留在竞技场. 菈雅消失或离开官邸。",
+        "note_cn": "菈雅可以给予过 \"药水的遗忘\" 从前一个步骤。"
+      }
+    ],
+    "rewards": [
+      "Volcano Manor Invitation",
+      "Raging Wolf Set (from Bernahl quest)",
+      "Tanith's Set",
+      "Rya's necklace",
+      "Dancer's Castanets",
+      "Access to Rykard boss fight area",
+      "Various incantations and items from the Manor"
+    ],
+    "rewards_cn": [
+      "火山官邸邀请函",
+      "狂狼套装",
+      "塔妮丝的套装",
+      "菈雅的项链",
+      "舞者的响板",
+      "进入亵渎君王拉卡德Boss区域",
+      "官邸中的各种祷告和道具"
+    ],
+    "failureConditions": [
+      "Killing Rykard before joining Volcano Manor (locks the Manor quests)",
+      "Killing Tanith before completing the assassinations",
+      "Killing Rya early"
+    ],
+    "failureConditions_cn": [
+      "在加入火山官邸之前杀死拉卡德（锁定所有官邸任务）。",
+      "在完成暗杀之前杀死塔妮丝。",
+      "提前杀死菈雅。"
+    ]
+  },
+  "gostoc": {
+    "name": "Gatekeeper Gostoc",
+    "name_cn": "门卫葛托克",
+    "description": "A scheming gatekeeper at Stormveil Castle. He steals runes from you when you die inside the castle.",
+    "description_cn": "史东薇尔城的一个狡猾门卫。你在城内死亡时他会偷走你的卢恩。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Gostoc at the main gate of Stormveil Castle. He offers to open the gate for you (for a price, or free if you intimidate him).",
+        "zone": "STORMVEIL",
+        "note": "If you refuse his offer, you can enter through the cliffside path.",
+        "optional": false,
+        "description_cn": "遇见葛托克在主要大门的史东薇尔城. 他提交打开大门你 (价格, 或如果恐吓他)。",
+        "note_cn": "如果拒绝他的提交, 可以进入穿过悬崖边路径。"
+      },
+      {
+        "id": 2,
+        "description": "Enter through the main gate. Gostoc follows you. If you die in the castle, he steals 30% of your dropped runes.",
+        "zone": "STORMVEIL",
+        "note": "You can kill Gostoc to stop this, but it ends his quest.",
+        "optional": false,
+        "description_cn": "进入穿过主要大门葛托克跟随你. 如果死亡在城, 他偷 30% 的你的掉落卢恩。",
+        "note_cn": "可以击杀葛托克这个但结局他的支线。"
+      },
+      {
+        "id": 3,
+        "description": "After defeating Godrick, Gostoc appears near the Secluded Cell grace or in the throne room. Speak to him.",
+        "zone": "STORMVEIL",
+        "note": null,
+        "optional": false,
+        "description_cn": "在击败葛瑞克, 葛托克出现附近隐蔽牢房赐福或在王座房间. 与他。"
+      },
+      {
+        "id": 4,
+        "description": "Progress Nepheli/Kenneth/Gostoc throne room questline. After Nepheli becomes ruler, Gostoc becomes a merchant selling Ancient Dragon Smithing Stones.",
+        "zone": "STORMVEIL",
+        "note": "He sells up to 3 Ancient Dragon Smithing Stones.",
+        "optional": false,
+        "description_cn": "进度涅斐丽/肯尼斯/葛托克王座房间支线. 在涅斐丽成为统治者, 葛托克成为商人出售古龙锻造。",
+        "note_cn": "他出售直到 3 古龙锻造。"
+      },
+      {
+        "id": 5,
+        "description": "If you kill Gostoc after he becomes a merchant, he drops the \"Gostoc's Bell Bearing\" and a unique item.",
+        "zone": "STORMVEIL",
+        "note": "Killing him early locks his shop.",
+        "optional": true,
+        "description_cn": "如果击杀葛托克在他成为商人他掉落 \"葛托克的铃珠\" 并独特道具。",
+        "note_cn": "击杀他早期锁住他的。"
+      }
+    ],
+    "rewards": [
+      "Ancient Dragon Smithing Stones ×3 (bought from Gostoc after throne room ending)",
+      "Gostoc's Bell Bearing",
+      "Various items if killed"
+    ],
+    "rewards_cn": [
+      "古龙岩锻造石×3（从葛托克商店购买）",
+      "葛托克的铃珠",
+      "杀死后掉落的各种道具"
+    ],
+    "failureConditions": [
+      "Killing Gostoc early (locks his shop and Ancient Dragon Smithing Stones)",
+      "Failing to complete Nepheli questline"
+    ],
+    "failureConditions_cn": [
+      "提前杀死葛托克（锁定商店和古龙岩锻造石）。",
+      "未完成涅斐丽支线。"
+    ]
+  },
+  "ensha": {
+    "name": "Ensha of the Royal Remains",
+    "name_cn": "恩夏",
+    "description": "A silent knight serving Gideon Ofnir. He invades you in Roundtable Hold when you have acquired a certain medallion.",
+    "description_cn": "侍奉基甸·奥夫尼尔的沉默骑士。当你获得某个符节时，他会在圆桌厅堂入侵你。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Ensha in Roundtable Hold (he stands guard near Gideon's office). He is silent.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "与恩夏在圆桌厅堂 (他站守卫附近基甸的办公室). 他沉默。"
+      },
+      {
+        "id": 2,
+        "description": "Find the Haligtree Secret Medallion (Right) from Albus in Liurnia (Albus is disguised as a pot).",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找圣树秘密符节 (右) 从阿尔布斯在利耶尼亚 (阿尔布斯是伪装作为)。"
+      },
+      {
+        "id": 3,
+        "description": "Return to Roundtable Hold. Rest at the grace. Ensha invades you near the fireplace.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "You MUST rest at the grace first, then walk around.",
+        "optional": false,
+        "description_cn": "在赐福休息. 恩夏入侵你附近壁炉。",
+        "note_cn": "在赐福休息第一, 然后周围。"
+      },
+      {
+        "id": 4,
+        "description": "Defeat invading Ensha. He drops the \"Royal Remains Set\".",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Gideon comments on Ensha's death.",
+        "optional": false,
+        "description_cn": "击败入侵恩夏. 他掉落 \"王室留在套装\"。",
+        "note_cn": "基甸评论在恩夏的死亡。"
+      }
+    ],
+    "rewards": [
+      "Royal Remains Set (armor)"
+    ],
+    "rewards_cn": [
+      "王骸套装"
+    ],
+    "failureConditions": [
+      "Defeating Maliketh before acquiring the Haligtree Medallion (Right)",
+      "Killing Ensha in combat before his invasion (not possible unless you agro him)"
+    ],
+    "failureConditions_cn": [
+      "在获得圣树秘密符节（右）之前击败玛利喀斯。",
+      "提前攻击恩夏。"
+    ]
+  },
+  "d_beholder": {
+    "name": "D, Beholder of Death",
+    "name_cn": "死亡窥视者Ｄ",
+    "description": "The twin brother of D, Hunter of the Dead. He appears after his brother's death to claim his armor.",
+    "description_cn": "死亡猎人Ｄ的双胞胎兄弟。他在兄弟死后出现，取回他的铠甲。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Progress D, Hunter of the Dead quest, reach Nokron (D dies automatically).",
+        "zone": "NOKRON",
+        "note": "D dies when you enter Nokron.",
+        "optional": false,
+        "description_cn": "进度死亡猎人Ｄ 支线, 到达诺克隆恩 (死去自动)。",
+        "note_cn": "死去当你进入诺克隆恩。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Roundtable Hold. D, Beholder of Death is now standing where D used to be.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "前往圆桌厅堂. 死亡窥视者Ｄ 是现在站位置使用过。"
+      },
+      {
+        "id": 3,
+        "description": "Speak to D, Beholder of Death. He asks for the Twinned Set. Give it to him (or refuse).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话死亡窥视者Ｄ. 他请求双生套装. 交给他 (或拒绝)。"
+      },
+      {
+        "id": 4,
+        "description": "If you give the Twinned Set, he rewards you and leaves. Find him later at the Tomb of the Giants area (or not, he departs the Lands Between).",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "He wears the set and thanks you.",
+        "optional": false,
+        "description_cn": "如果交给双生套装, 他奖励你并离开. 寻找他之后在墓的巨人区域 (或不, 他离开地之间)。",
+        "note_cn": "他穿戴套装并感谢你。"
+      },
+      {
+        "id": 5,
+        "description": "If you refuse, he stays hostile. You can kill him and loot the Twinned Set back.",
+        "zone": "ROUNDTABLE_HOLD",
+        "note": "Alternate ending.",
+        "optional": true,
+        "description_cn": "如果拒绝, 他停留敌对. 可以击杀他并拾取双生套装返回。",
+        "note_cn": "替代结局。"
+      }
+    ],
+    "rewards": [
+      "Prince of Death's Cyst (talisman)",
+      "Twinned Set (if you kept/refused)",
+      "Various blessings"
+    ],
+    "rewards_cn": [
+      "死王子的脓疮（护符）",
+      "双胞胎套装（如果保留/拒绝）",
+      "各种祝福"
+    ],
+    "failureConditions": [
+      "Killing D, Beholder of Death before he asks for the armor"
+    ],
+    "failureConditions_cn": [
+      "在死亡窥视者Ｄ索要铠甲之前杀死他。"
+    ]
+  },
+  "seluvis": {
+    "name": "Preceptor Seluvis",
+    "name_cn": "魔法教授瑟廉",
+    "description": "A scheming sorcerer and advisor to Ranni. He has his own secret agenda involving puppets and potions.",
+    "description_cn": "一位阴险的魔法师，菈妮的顾问。他有着涉及傀儡和药水的秘密计划。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Seluvis at Seluvis's Rise (near Ranni's Rise) after joining Ranni's service.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "与瑟廉在瑟廉魔法师塔 (附近菈妮魔法师塔) 加入菈妮的效劳。"
+      },
+      {
+        "id": 2,
+        "description": "Seluvis offers to sell sorceries. He also asks you to deliver a potion to Nepheli Loux.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "瑟廉提交出售魔法. 他也请求你交付药水涅斐丽·露。"
+      },
+      {
+        "id": 3,
+        "description": "Take Seluvis's Potion. You have a choice: give it to Nepheli (ends her quest), or give it to Gideon (he disposes of it).",
+        "zone": "MULTIPLE",
+        "note": "Giving to Gideon is safest and does not affect Nepheli.",
+        "optional": false,
+        "description_cn": "拿取瑟廉的药水. 你有选择: 交给涅斐丽 (结局她的支线), 或交给基甸 (他处理的)。",
+        "note_cn": "给予基甸是最安全并不影响涅斐丽。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Seluvis. He offers you a \"Seluvis's Introduction\" to learn about the Dung Eater puppet.",
+        "zone": "LIURNIA",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回瑟廉. 他提交你 \"瑟廉的介绍\" 了解关于食粪者傀儡。"
+      },
+      {
+        "id": 5,
+        "description": "Find the secret puppet room behind the bookshelf in Seluvis's Rise (hit the bookshelf to reveal).",
+        "zone": "LIURNIA",
+        "note": "The room contains puppets, including a doll of Ranni.",
+        "optional": false,
+        "description_cn": "寻找秘密傀儡房间后面书架在瑟廉魔法师塔 (书架揭示)。",
+        "note_cn": "房间包含傀儡, 包括人偶的菈妮。"
+      },
+      {
+        "id": 6,
+        "description": "Seluvis eventually dies (when Ranni departs or after the Fingerslayer Blade is delivered). Loot his set and Bell Bearing.",
+        "zone": "LIURNIA",
+        "note": "His body is found at Seluvis's Rise after Ranni leaves.",
+        "optional": false,
+        "description_cn": "瑟廉最终死去 (当菈妮离开或在猎杀指头刀刃是交付). 拾取他的套装并铃珠。",
+        "note_cn": "他的尸体是找到在瑟廉魔法师塔菈妮离开。"
+      }
+    ],
+    "rewards": [
+      "Seluvis's Set (armor)",
+      "Seluvis's Bell Bearing",
+      "Access to puppet summoning (Dung Eater puppet, etc.)",
+      "Various sorceries"
+    ],
+    "rewards_cn": [
+      "瑟廉的套装",
+      "瑟廉的铃珠",
+      "傀儡召唤的权限（食粪者傀儡等）",
+      "各种魔法"
+    ],
+    "failureConditions": [
+      "Killing Seluvis before getting the potion",
+      "Giving the potion to Nepheli (locks her questline)",
+      "Progressing Ranni's quest past the Fingerslayer Blade before doing all Seluvis steps"
+    ],
+    "failureConditions_cn": [
+      "在获得药水之前杀死瑟廉。",
+      "将药水交给涅斐丽（锁定她的支线）。",
+      "在完成瑟廉所有步骤之前将猎杀指头刀交给菈妮。"
+    ]
+  },
+  "shabriri": {
+    "name": "Shabriri",
+    "name_cn": "夏玻利利",
+    "description": "The embodiment of the Frenzied Flame. He possesses Yura's body and guides the Tarnished toward the path of chaos.",
+    "description_cn": "癫火的化身。他寄宿在尤拉的尸体中，引导褪色者走向混沌之路。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Shabriri at the Second Church of Marika in Altus Plateau (after Yura disappears).",
+        "zone": "ALTUS",
+        "note": "He has possessed Yura's body.",
+        "optional": false,
+        "description_cn": "在亚坛高原 (尤拉消失)找到夏玻利利在玛丽卡第二教堂。",
+        "note_cn": "他有附身尤拉的尸体。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust his dialogue. He tells you about the Frenzied Flame and the path beneath Leyndell.",
+        "zone": "ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复. 他告诉你关于癫火火焰并路径下方王城罗德尔。"
+      },
+      {
+        "id": 3,
+        "description": "Proceed to the Subterranean Shunning-Grounds under Leyndell. Reach the Cathedral of the Forsaken.",
+        "zone": "CAPITAL",
+        "note": null,
+        "optional": false,
+        "description_cn": "前进弃置恶兆的地底下方王城罗德尔. 到达被遗弃的大教堂。"
+      },
+      {
+        "id": 4,
+        "description": "Remove all armor and open the door to the Three Fingers. Inherit the Frenzied Flame.",
+        "zone": "CAPITAL",
+        "note": "This locks you into the Frenzied Flame ending.",
+        "optional": false,
+        "description_cn": "移除所有套装并打开门三指. 继承癫火火焰。",
+        "note_cn": "这个锁住你在癫火火焰结局。"
+      },
+      {
+        "id": 5,
+        "description": "Speak to Shabriri again (he may be at the Church of Repose in Mountaintops).",
+        "zone": "ALTUS",
+        "note": null,
+        "optional": true,
+        "description_cn": "与夏玻利利再次 (他可能在教堂的安息山顶进入)。"
+      },
+      {
+        "id": 6,
+        "description": "Shabriri offers you the \"Howl of Shabriri\" incantation and guidance.",
+        "zone": "ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "夏玻利利提交你 \"咆哮的夏玻利利\" 祷告并指引。"
+      }
+    ],
+    "rewards": [
+      "Howl of Shabriri (incantation)",
+      "Frenzied Flame Seal",
+      "Guidance to the Frenzied Flame ending"
+    ],
+    "rewards_cn": [
+      "夏玻利利的嘶吼（祷告）",
+      "癫火印记",
+      "癫火结局指引"
+    ],
+    "failureConditions": [
+      "Killing Shabriri without exhausting dialogue",
+      "Defeating the Fire Giant before inheriting the Frenzied Flame (locks the door)"
+    ],
+    "failureConditions_cn": [
+      "未对话至重复就杀死夏玻利利。",
+      "继承癫火之前击败火焰巨人。"
+    ]
+  },
+  "gowry": {
+    "name": "Gowry",
+    "name_cn": "高瑞",
+    "description": "A merchant in Caelid who cares for Millicent. His true nature is tied to the Scarlet Rot and the pests of Caelid.",
+    "description_cn": "盖利德的一位商人，照顾着米莉森。他的真实本性与猩红腐败和盖利德的虫群有关。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Gowry in his shack in Caelid (south of Smoldering Wall grace). He asks you to find the Unalloyed Gold Needle.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "遇见高瑞在他的小屋盖利德 (南的熏火墙赐福). 他请求你寻找纯净金针。"
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the Unalloyed Gold Needle from the Church of Plague. Return to Gowry.",
+        "zone": "CAELID",
+        "note": "He offers to repair it.",
+        "optional": false,
+        "description_cn": "取回纯净金针从教堂的瘟疫. 返回高瑞。",
+        "note_cn": "他提交修复。"
+      },
+      {
+        "id": 3,
+        "description": "Find the Sellia Hideaway behind the bookshelf. Defeat the Nox Swordstress duo.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "寻找瑟利亚藏身处后面书架. 击败诺克斯剑士双人。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Gowry for the repaired needle. Give it to Millicent.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回高瑞修复针. 交给米莉森。"
+      },
+      {
+        "id": 5,
+        "description": "Gowry gives you incantations and continues to check on Millicent's progress.",
+        "zone": "CAELID",
+        "note": "He sells various pest incantations.",
+        "optional": false,
+        "description_cn": "高瑞给予你祷告并继续检查在米莉森的进度。",
+        "note_cn": "他出售各个祷告。"
+      },
+      {
+        "id": 6,
+        "description": "If you help Millicent defeat her sisters, Gowry dies. Loot his Bell Bearing.",
+        "zone": "CAELID",
+        "note": null,
+        "optional": false,
+        "description_cn": "如果帮助米莉森击败她的姐妹,高瑞死去。拾取他的铃珠。"
+      }
+    ],
+    "rewards": [
+      "Gowry's Bell Bearing",
+      "Various pest incantations (bought from Gowry)",
+      "Unalloyed Gold Needle route item"
+    ],
+    "rewards_cn": [
+      "高瑞的铃珠",
+      "各种虫群祷告",
+      "纯净金针路线道具"
+    ],
+    "failureConditions": [
+      "Killing Gowry before retrieving the Unalloyed Gold Needle",
+      "Giving the needle to Millicent before repairing it"
+    ],
+    "failureConditions_cn": [
+      "在取回纯净金针之前杀死高瑞。",
+      "在修复之前将针交给米莉森。"
+    ]
+  },
+  "leda": {
+    "name": "Needle Knight Leda",
+    "name_cn": "金针骑士蕾妲",
+    "description": "The leader of Miquella's followers. Help her reach Miquella's promised land and decide the fate of her companions.",
+    "description_cn": "米凯拉追随者的领袖。帮助她到达米凯拉承诺的土地，决定她同伴的命运。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Speak to Leda at the Cocoon of the Empyrean (Mohgwyn Palace) before entering the Land of Shadow.",
+        "zone": "MOHGWYN_PALACE",
+        "note": "Touch Miquella's hand to enter the DLC.",
+        "optional": false,
+        "description_cn": "与蕾妲在神人坠眠之茧 (蒙格温王朝) 之前进入幽影之地。",
+        "note_cn": "触碰米凯拉的进入 DLC。"
+      },
+      {
+        "id": 2,
+        "description": "Find Leda at the Highroad Cross grace in Scadu Altus (north of Castle Ensis). Exhaust her dialogue.",
+        "zone": "SCADU_ALTUS",
+        "note": "She is the main quest NPC guiding you through the DLC.",
+        "optional": false,
+        "description_cn": "寻找蕾妲在高路十字标记赐福幽影亚坛 (北的恩希斯城). 对话至重复。",
+        "note_cn": "他主要支线 NPC 引导你穿过 DLC。"
+      },
+      {
+        "id": 3,
+        "description": "Progress through Castle Ensis. Leda's summon sign appears before the final boss of Castle Ensis (Rellana, Twin Moon Knight).",
+        "zone": "CASTLE_ENSIS",
+        "note": "Summoning her is optional but progresses her quest.",
+        "optional": true,
+        "description_cn": "推进恩希斯城. 蕾妲的召唤标记出现在之前最终首领的恩希斯城 (蕾菈娜, 双月亮骑士)。",
+        "note_cn": "召唤她的是可选但推进她的支线。"
+      },
+      {
+        "id": 4,
+        "description": "Meet Leda at the \"Highroad Cross\" again after Castle Ensis. She talks about the other followers: Hornsent and Freyja.",
+        "zone": "SCADU_ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "遇见蕾妲在 \"高路十字标记\" 再次恩希斯城. 她对话关于其他追随者: 角人并弗蕾亚。"
+      },
+      {
+        "id": 5,
+        "description": "Meet Leda at various \"Cross\" sites throughout the DLC. Exhaust dialogue at each encounter.",
+        "zone": "DLC_MULTIPLE",
+        "note": "Key locations: Three-Path Cross, Main Gate Cross, Highroad Cross.",
+        "optional": false,
+        "description_cn": "遇见蕾妲在各个 \"十字标记\" 地点整个 DLC. 重复对话至对话每个遇到。",
+        "note_cn": "钥匙位置: 三路十字标记, 正门十字标记, 高路十字标记。"
+      },
+      {
+        "id": 6,
+        "description": "After progressing past the Shadow Keep (burning the sealing tree), Leda gathers other followers at Enir-Ilim.",
+        "zone": "ENIR_ILIM",
+        "note": "This is the point of no return for many DLC quests.",
+        "optional": false,
+        "description_cn": "在进度过去幽影城 (燃烧封印), 蕾妲聚集其他追随者艾尼尔伊利姆。",
+        "note_cn": "这是点的没有返回多 DLC 支线。"
+      },
+      {
+        "id": 7,
+        "description": "At Enir-Ilim, choose to side with Leda or oppose her. Summon signs appear near the boss gate.",
+        "zone": "ENIR_ILIM",
+        "note": "This determines who fights with/against you in the final area.",
+        "optional": false,
+        "description_cn": "在艾尼尔伊利姆, 选择站蕾妲或反对她的一边召唤标记出现附近首领大门。",
+        "note_cn": "这个决定对抗与/ 你在最终区域。"
+      },
+      {
+        "id": 8,
+        "description": "Defeat Leda and her allies if you oppose her, or help her defeat the hostile NPCs. The final battle involves multiple NPCs.",
+        "zone": "ENIR_ILIM",
+        "note": "Rewards include her armor set and items from each defeated follower.",
+        "optional": false,
+        "description_cn": "击败蕾妲并她的盟友如果反对她的, 或帮助她的击败敌对 NPCs. 最终战斗涉及多个 NPCs。",
+        "note_cn": "奖励包括她的套装套装并道具从每个击败追随者。"
+      }
+    ],
+    "rewards": [
+      "Leda's Set (armor)",
+      "Valkyrie's Prosthesis (talisman)",
+      "Leda's Sword (light greatsword)",
+      "Various follower armors"
+    ],
+    "rewards_cn": [
+      "蕾妲的套装",
+      "女武神的义手（护符）",
+      "蕾妲的剑（轻大剑）",
+      "各种追随者套装"
+    ],
+    "failureConditions": [
+      "Entering Enir-Ilim (burning sealing tree) before completing Leda-related follower dialogues"
+    ],
+    "failureConditions_cn": [
+      "在完成蕾妲相关追随者对话之前点燃封印树进入艾尼尔伊利姆。"
+    ]
+  },
+  "hornsent": {
+    "name": "Hornsent",
+    "name_cn": "角人",
+    "description": "A Hornsent warrior filled with vengeance against the Erdtree civilization. His path crosses with Leda's.",
+    "description_cn": "一个充满对黄金树文明复仇之心的角人战士。他的道路与蕾妲交织。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Hornsent at the Three-Path Cross grace in Gravesite Plain. Exhaust his dialogue.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "He is sitting near the cross.",
+        "optional": false,
+        "description_cn": "遇见角人在三路十字标记赐福墓地平原. 对话至重复。",
+        "note_cn": "他坐附近十字标记。"
+      },
+      {
+        "id": 2,
+        "description": "Progress through Belurat, Tower Settlement. Hornsent's summon sign appears before the boss (Divine Beast Dancing Lion).",
+        "zone": "BELURAT",
+        "note": "Summon him for the boss fight.",
+        "optional": false,
+        "description_cn": "进度穿过塔之镇贝瑞特. 角人的召唤标记出现在之前首领 (神圣野兽舞狮子)。",
+        "note_cn": "召唤他首领对抗。"
+      },
+      {
+        "id": 3,
+        "description": "Speak to Hornsent at the \"Three-Path Cross\" after Belurat. He talks about his vendetta.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "与角人在 \"三路十字标记\" 贝瑞特. 他对话关于他的仇杀。"
+      },
+      {
+        "id": 4,
+        "description": "Meet Hornsent at various locations throughout the DLC. He is often near crosses.",
+        "zone": "DLC_MULTIPLE",
+        "note": "He moves as you progress.",
+        "optional": false,
+        "description_cn": "遇见角人在各个位置整个 DLC. 他经常附近十字标记。",
+        "note_cn": "他移动到作为你进度。"
+      },
+      {
+        "id": 5,
+        "description": "After the Shadow Keep, Hornsent's fate is tied to Leda. At Enir-Ilim, choose to help Hornsent or Leda.",
+        "zone": "ENIR_ILIM",
+        "note": "There are separate summon signs.",
+        "optional": false,
+        "description_cn": "在幽影城, 角人的命运是蕾妲. 艾尼尔伊利姆, 选择帮助角人或蕾妲。",
+        "note_cn": "是独立召唤标记。"
+      },
+      {
+        "id": 6,
+        "description": "If you side with Hornsent, fight Leda and her loyal followers. If you side with Leda, fight Hornsent.",
+        "zone": "ENIR_ILIM",
+        "note": "Each choice yields different rewards.",
+        "optional": false,
+        "description_cn": "如果站在角人一边对抗蕾妲并她的忠诚追随者. 如果站蕾妲一边对抗角人。",
+        "note_cn": "每个选择产出不同奖励。"
+      },
+      {
+        "id": 7,
+        "description": "Complete the final confrontation. Hornsent rewards you with his armor and weapon if he survives.",
+        "zone": "ENIR_ILIM",
+        "note": null,
+        "optional": false,
+        "description_cn": "完成最终对峙. 角人奖励你与他的套装并武器如果他存活。"
+      }
+    ],
+    "rewards": [
+      "Hornsent Set (armor)",
+      "Hornsent's Curved Sword",
+      "Hornsent Incantations",
+      "Various items depending on choices"
+    ],
+    "rewards_cn": [
+      "角人套装",
+      "角人的弯刀",
+      "角人祷告",
+      "不同选择对应的不同道具"
+    ],
+    "failureConditions": [
+      "Killing Hornsent at any point before the Enir-Ilim confrontation",
+      "Entering Enir-Ilim before exhausting his dialogue at the crosses"
+    ],
+    "failureConditions_cn": [
+      "在艾尼尔伊利姆最终对决之前杀死角人。",
+      "在推进至艾尼尔伊利姆之前未完成他的十字标记对话。"
+    ]
+  },
+  "freyja": {
+    "name": "Redmane Freyja",
+    "name_cn": "红狮子弗蕾亚",
+    "description": "A loyal knight who served General Radahn. She follows Miquella hoping to find a new purpose.",
+    "description_cn": "一位效忠拉塔恩将军的忠诚骑士。她追随米凯拉，希望找到新的目标。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Freyja at the Three-Path Cross grace in Gravesite Plain. Exhaust her dialogue.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "She is near the cross, opposite Hornsent.",
+        "optional": false,
+        "description_cn": "遇见弗蕾亚在三路十字标记赐福墓地平原. 对话至重复。",
+        "note_cn": "他附近十字标记, 对面角人。"
+      },
+      {
+        "id": 2,
+        "description": "Speak to Freyja at various cross sites. She talks about Radahn and her past.",
+        "zone": "DLC_MULTIPLE",
+        "note": null,
+        "optional": false,
+        "description_cn": "与弗蕾亚在各个十字标记地点. 她对话关于拉塔恩并她的过去。"
+      },
+      {
+        "id": 3,
+        "description": "Find the \"Letter to Freyja\" from Ansbach (from his quest). Deliver it to Freyja.",
+        "zone": "DLC_MULTIPLE",
+        "note": "This is a pivotal moment that affects the final confrontation.",
+        "optional": false,
+        "description_cn": "寻找 \"信弗蕾亚\" 从安帕赫 (从他的支线). 交付弗蕾亚。",
+        "note_cn": "这是关键时刻那个影响最终对峙。"
+      },
+      {
+        "id": 4,
+        "description": "After delivering the letter, Freyja reconsiders her allegiance. She may side with or against Leda at Enir-Ilim.",
+        "zone": "ENIR_ILIM",
+        "note": "If you don't deliver the letter, she automatically sides with Leda.",
+        "optional": false,
+        "description_cn": "在交付信, 弗蕾亚重新考虑她的效忠. 她可能站或蕾妲在艾尼尔伊利姆一边。",
+        "note_cn": "如果 ' 交付信, 她自动站队与蕾妲。"
+      },
+      {
+        "id": 5,
+        "description": "At Enir-Ilim, Freyja joins one side of the conflict. Defeat or spare her.",
+        "zone": "ENIR_ILIM",
+        "note": "Her armor set can be looted if she falls.",
+        "optional": false,
+        "description_cn": "在艾尼尔伊利姆, 弗蕾亚加入站队的冲突. 击败或饶恕她的。",
+        "note_cn": "她的套装套装可以拾取如果她坠落。"
+      }
+    ],
+    "rewards": [
+      "Freyja's Set (armor)",
+      "Redmane Greatsword",
+      "Lion Greatbow",
+      "Golden Lion Shield (if delivered letter)"
+    ],
+    "rewards_cn": [
+      "弗蕾亚的套装",
+      "红狮子大剑",
+      "狮子大弓",
+      "金狮盾（如果交付信件）"
+    ],
+    "failureConditions": [
+      "Killing Freyja early",
+      "Entering Enir-Ilim before delivering the letter from Ansbach (if you want the alternate outcome)"
+    ],
+    "failureConditions_cn": [
+      "提前杀死弗蕾亚。",
+      "在交付安帕赫的信之前进入艾尼尔伊利姆。"
+    ]
+  },
+  "ansbach": {
+    "name": "Sir Ansbach",
+    "name_cn": "老兵安帕赫",
+    "description": "A veteran warrior who once served Mohg, Lord of Blood. He now follows Miquella seeking redemption.",
+    "description_cn": "一位曾侍奉鲜血君王蒙格的老兵。如今他追随米凯拉寻求救赎。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Ansbach at the Main Gate Cross grace (outside Belurat Tower Settlement). Exhaust his dialogue.",
+        "zone": "BELURAT",
+        "note": "He is standing near the cross.",
+        "optional": false,
+        "description_cn": "遇见安帕赫在正门十字标记赐福 (外部贝瑞特塔聚落). 对话至重复。",
+        "note_cn": "他站附近十字标记。"
+      },
+      {
+        "id": 2,
+        "description": "Speak to Ansbach about his past. He gives you information about Mohg and Miquella.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "与安帕赫关于他的过去. 他会给你情报关于蒙格并米凯拉。"
+      },
+      {
+        "id": 3,
+        "description": "Find the \"Secret Rite Scroll\" in the Shadow Keep (library area). Give it to Ansbach.",
+        "zone": "SCADU_ALTUS",
+        "note": "The scroll is in the Shadow Keep's storeroom.",
+        "optional": false,
+        "description_cn": "寻找 \"秘密仪式卷轴\" 在幽影城 (图书馆区域). 交给安帕赫。",
+        "note_cn": "卷轴是在幽影城的储藏室。"
+      },
+      {
+        "id": 4,
+        "description": "Ansbach studies the scroll. He asks you to deliver a letter to Freyja (if you haven't already).",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "安帕赫研究卷轴. 他请求你交付信弗蕾亚 (如果有的已经)。"
+      },
+      {
+        "id": 5,
+        "description": "Deliver the letter to Freyja. Return to Ansbach.",
+        "zone": "DLC_MULTIPLE",
+        "note": "This affects the Enir-Ilim outcome.",
+        "optional": false,
+        "description_cn": "交付信弗蕾亚. 返回安帕赫。",
+        "note_cn": "这个影响艾尼尔伊利姆结果。"
+      },
+      {
+        "id": 6,
+        "description": "Progress to Enir-Ilim. Ansbach's summon sign appears if you completed his quest. He fights alongside you against Leda's forces.",
+        "zone": "ENIR_ILIM",
+        "note": "If not progressed, his sign is replaced by Bloody Knight Nataan's.",
+        "optional": false,
+        "description_cn": "进度艾尼尔伊利姆. 安帕赫的召唤标记出现在如果完成他的支线. 他对抗沿着站队你蕾妲的势力。",
+        "note_cn": "如果不推进, 他的标记是替换通过血骑士纳塔恩。"
+      },
+      {
+        "id": 7,
+        "description": "If Ansbach survives the Enir-Ilim conflict, you can find him later and receive his final rewards.",
+        "zone": "ENIR_ILIM",
+        "note": null,
+        "optional": false,
+        "description_cn": "如果安帕赫存活艾尼尔伊利姆冲突, 可以找到他之后并获取他的最终奖励。"
+      }
+    ],
+    "rewards": [
+      "Ansbach's Set (armor)",
+      "Ansbach's Longbow",
+      "Ansbach's Ashes (spirit ash)",
+      "Secret Rite-related items"
+    ],
+    "rewards_cn": [
+      "安帕赫的套装",
+      "安帕赫的长弓",
+      "安帕赫的骨灰",
+      "秘密仪式相关道具"
+    ],
+    "failureConditions": [
+      "Killing Ansbach before completing his quest",
+      "Entering Enir-Ilim before giving him the Secret Rite Scroll"
+    ],
+    "failureConditions_cn": [
+      "在完成支线之前杀死安帕赫。",
+      "在交付秘密仪式卷轴之前进入艾尼尔伊利姆。"
+    ]
+  },
+  "moore": {
+    "name": "Moore",
+    "name_cn": "穆尔",
+    "description": "A merchant and provisioner for Miquella's followers. His fate is tied to the Forager Brood and the choices you make.",
+    "description_cn": "米凯拉追随者的商人和补给官。他的命运与采集者族群和你的选择息息相关。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Moore at the Main Gate Cross grace (outside Belurat). He sells various wares.",
+        "zone": "BELURAT",
+        "note": "Buy items to progress his dialogue.",
+        "optional": false,
+        "description_cn": "遇见穆尔在正门十字标记赐福 (外部贝瑞特). 他出售各个货物。",
+        "note_cn": "购买道具进度他的对话。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust his dialogue. He talks about the Forager Brood and his role in the group.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复. 他对话关于觅食后裔并他的在群。"
+      },
+      {
+        "id": 3,
+        "description": "Travel to the Abyssal Woods or the Cerulean Coast. Find the Forager Brood NPCs interacting with Moore's items.",
+        "zone": "DLC_MULTIPLE",
+        "note": null,
+        "optional": true,
+        "description_cn": "前往深渊森林或青蓝海岸. 寻找觅食后裔 NPCs 互动与穆尔的道具。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Moore periodically. His dialogue changes based on DLC progression.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回穆尔定期. 他的对话变化基于在 DLC 进度。"
+      },
+      {
+        "id": 5,
+        "description": "After the burning of the sealing tree, Moore is conflicted about his loyalty. Speak to him at Enir-Ilim.",
+        "zone": "ENIR_ILIM",
+        "note": "He asks you a question about his purpose.",
+        "optional": false,
+        "description_cn": "在燃烧的封印 , 穆尔是冲突关于他的忠诚. 与他艾尼尔伊利姆。",
+        "note_cn": "他请求你问题关于他的目的。"
+      },
+      {
+        "id": 6,
+        "description": "Your answer determines his fate. If you say he should feel sad/conflicted, he eventually dies. If you say \"I don't know\" and keep him going, he survives.",
+        "zone": "ENIR_ILIM",
+        "note": "If he dies, you can loot his bell bearing and armor.",
+        "optional": false,
+        "description_cn": "你的回答决定他的命运. 如果他应该 /冲突, 他最终死去. 如果 \" ' \" 并城他去, 他存活。",
+        "note_cn": "如果他死去, 可以拾取他的铃珠并套装。"
+      }
+    ],
+    "rewards": [
+      "Moore's Set (armor)",
+      "Moore's Shield (greatshield)",
+      "Moore's Bell Bearing",
+      "Forager Brood-related items",
+      "Various merchant wares"
+    ],
+    "rewards_cn": [
+      "穆尔的套装",
+      "穆尔的盾牌（大盾）",
+      "穆尔的铃珠",
+      "采集者族群相关道具",
+      "各种商店商品"
+    ],
+    "failureConditions": [
+      "Killing Moore early (locks his shop and quest)",
+      "Choosing the wrong dialogue option at Enir-Ilim (Moore dies but you still get his items)"
+    ],
+    "failureConditions_cn": [
+      "提前杀死穆尔（锁定商店和支线）。",
+      "在艾尼尔伊利姆选择错误对话选项（穆尔会死，但仍可获取他的道具）。"
+    ]
+  },
+  "thiollier": {
+    "name": "Thiollier",
+    "name_cn": "休里耶",
+    "description": "A poison merchant obsessed with St. Trina. His quest intertwines with the sleeping goddess and the deepest secrets of the DLC.",
+    "description_cn": "一位痴迷圣托莉娜的毒药商人。他的支线与沉睡女神和幽影地的最深秘密交织在一起。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Thiollier at the Pillar Path Cross grace in Gravesite Plain (northeastern border).",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "He sells poison-related items.",
+        "optional": false,
+        "description_cn": "遇见休里耶在柱路十字标记赐福墓地平原 (东北边界)。",
+        "note_cn": "他出售毒-相关道具。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust his dialogue about St. Trina. He talks about the Goddess of Sleep.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复关于圣托莉娜. 他对话关于女神的睡眠。"
+      },
+      {
+        "id": 3,
+        "description": "Find the entrance to the Stone Coffin Fissure (accessed from the Cerulean Coast). Navigate down to the Garden of Deep Purple.",
+        "zone": "STONE_COFFIN",
+        "note": "The fissure is long and has several tough enemies.",
+        "optional": false,
+        "description_cn": "寻找入口石棺裂谷 (进入从青蓝海岸). 穿过向下深紫花园。",
+        "note_cn": "裂隙是长并有几个困难敌人。"
+      },
+      {
+        "id": 4,
+        "description": "Find St. Trina in the Garden of Deep Purple. Speak to her while she sleeps.",
+        "zone": "STONE_COFFIN",
+        "note": "She is at the bottom of the fissure.",
+        "optional": false,
+        "description_cn": "在深紫花园找到圣托莉娜。与她的同时她睡眠。",
+        "note_cn": "他在底部的裂隙。"
+      },
+      {
+        "id": 5,
+        "description": "Return to Thiollier and tell him about St. Trina. He gives you a special item and asks you to go back.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回休里耶并告诉他关于圣托莉娜. 他会给你特殊道具并请求你去返回。"
+      },
+      {
+        "id": 6,
+        "description": "Return to St. Trina. Exhaust all dialogue to learn about Miquella's past. Receive the \"Sleeping Goddess\" related items.",
+        "zone": "STONE_COFFIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回圣托莉娜. 对话至重复了解关于米凯拉的过去. 获得 \"睡眠女神\" 相关道具。"
+      },
+      {
+        "id": 7,
+        "description": "After the sealing tree is burned, Thiollier moves to Enir-Ilim. His summon sign appears for the final battle.",
+        "zone": "ENIR_ILIM",
+        "note": "He fights on your side.",
+        "optional": false,
+        "description_cn": "在封印是烧毁, 休里耶移动到艾尼尔伊利姆. 他的召唤标记出现最终战斗。",
+        "note_cn": "他对抗在你的站队。"
+      },
+      {
+        "id": 8,
+        "description": "Speak to Thiollier after the final battle. He reveals what he learned and gives you final rewards.",
+        "zone": "ENIR_ILIM",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话休里耶在最终战斗. 他揭示什么他了解并给予你最终奖励。"
+      }
+    ],
+    "rewards": [
+      "Thiollier's Set (armor)",
+      "Thiollier's Hidden Needle (talisman)",
+      "St. Trina's Smile (talisman)",
+      "St. Trina's Torch",
+      "Various poison items",
+      "Frenzied Flame-related lore"
+    ],
+    "rewards_cn": [
+      "休里耶的套装",
+      "休里耶的隐藏针（护符）",
+      "圣托莉娜的微笑（护符）",
+      "圣托莉娜的火把",
+      "各种毒药道具",
+      "癫火相关背景故事"
+    ],
+    "failureConditions": [
+      "Killing Thiollier before finding St. Trina",
+      "Entering Enir-Ilim before completing the St. Trina conversation chain",
+      "Killing St. Trina (she cannot be killed, only interacted with)"
+    ],
+    "failureConditions_cn": [
+      "在找到圣托莉娜之前杀死休里耶。",
+      "在完成圣托莉娜对话链之前进入艾尼尔伊利姆。",
+      "杀死圣托莉娜（无法杀死，只能互动）。"
+    ]
+  },
+  "igon": {
+    "name": "Igon",
+    "name_cn": "龙战士埃贡",
+    "description": "A vengeful dragon hunter consumed by his hatred for Bayle the Dread. Help him fulfill his lifelong vendetta.",
+    "description_cn": "一个被对恐惧之龙贝勒的仇恨吞噬的复仇龙猎人。帮助他实现毕生的仇杀。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Meet Igon at the Pillar Path Waypoint grace in Gravesite Plain. He is lying on the ground, wounded.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "Exhaust his dialogue about Bayle.",
+        "optional": false,
+        "description_cn": "遇见埃贡在巨柱路标赐福墓地平原. 他在地上, 受伤。",
+        "note_cn": "对话至重复关于贝勒。"
+      },
+      {
+        "id": 2,
+        "description": "Travel to the Dragon Pit in Gravesite Plain. Navigate through it and defeat the boss (ancient dragon).",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "The Dragon Pit is south of the grace.",
+        "optional": false,
+        "description_cn": "前往龙坑在墓地平原. 穿过穿过并击败首领 (古龙)。",
+        "note_cn": "龙坑是南的赐福。"
+      },
+      {
+        "id": 3,
+        "description": "Exit the Dragon Pit to reach the Jagged Peak. Igon arrives on his own and can be spoken to.",
+        "zone": "JAGGED_PEAK",
+        "note": null,
+        "optional": false,
+        "description_cn": "出口龙坑到达尖刺山. 埃贡到达在他的并可以对话过。"
+      },
+      {
+        "id": 4,
+        "description": "Progress through the Jagged Peak. Find Igon at two locations along the path, each time resting and speaking.",
+        "zone": "JAGGED_PEAK",
+        "note": null,
+        "optional": false,
+        "description_cn": "推进尖刺山. 寻找埃贡在二位置沿着路径, 每个时间休息并对话。"
+      },
+      {
+        "id": 5,
+        "description": "Before the Bayle boss arena, Igon's summon sign is available. Summon him to fight Bayle the Dread.",
+        "zone": "JAGGED_PEAK",
+        "note": "Igon MUST be summoned to complete his quest.",
+        "optional": false,
+        "description_cn": "之前贝勒首领竞技场, 埃贡的召唤标记是可用. 召唤他对抗贝勒恐惧。",
+        "note_cn": "埃贡必须召唤完成他的支线。"
+      },
+      {
+        "id": 6,
+        "description": "Defeat Bayle with Igon. He plays a crucial role in the fight and shouts at Bayle during the battle.",
+        "zone": "JAGGED_PEAK",
+        "note": "After the fight, speak to Igon one last time.",
+        "optional": false,
+        "description_cn": "击败贝勒与埃贡. 他扮演关键在对抗并喊贝勒期间战斗。",
+        "note_cn": "在对抗, 与埃贡最后时间。"
+      },
+      {
+        "id": 7,
+        "description": "Igon passes away after his revenge is fulfilled. Loot his armor set and weapon from his body near the arena.",
+        "zone": "JAGGED_PEAK",
+        "note": null,
+        "optional": false,
+        "description_cn": "埃贡关口在他的复仇是完成. 拾取他的套装套装并武器从他的尸体附近竞技场。"
+      }
+    ],
+    "rewards": [
+      "Igon's Set (armor)",
+      "Igon's Greatbow",
+      "Igon's Bow (weapon)",
+      "Dragon Heart (from Bayle)",
+      "Bayle's Incantation (from rememberance)"
+    ],
+    "rewards_cn": [
+      "埃贡的套装",
+      "埃贡的大弓",
+      "埃贡之弓",
+      "龙心脏（从贝勒获得）",
+      "贝勒的祷告（从追忆获得）"
+    ],
+    "failureConditions": [
+      "Killing Igon or failing to speak to him before the Bayle boss fight",
+      "Fighting Bayle without summoning Igon",
+      "Killing Bayle before finding Igon at Jagged Peak"
+    ],
+    "failureConditions_cn": [
+      "在贝勒首领战之前杀死埃贡或未与他对话。",
+      "未召唤埃贡就击败贝勒。",
+      "在找到尖刺山的埃贡之前击败贝勒。"
+    ]
+  },
+  "dane": {
+    "name": "Dryleaf Dane",
+    "name_cn": "落叶丹恩",
+    "description": "A silent martial arts master who follows Miquella. His spartan lifestyle and combat prowess make him a formidable ally or enemy.",
+    "description_cn": "一位追随米凯拉的沉默武术大师。他简朴的生活方式和战斗技巧使他成为令人畏惧的盟友或敌人。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Dane at the Moorth Ruins in Scadu Altus. He is meditating and does not speak.",
+        "zone": "SCADU_ALTUS",
+        "note": "He is in a clearing within the ruins.",
+        "optional": false,
+        "description_cn": "寻找丹恩在穆斯废墟幽影亚坛. 他冥想并不对话。",
+        "note_cn": "他在清理内废墟。"
+      },
+      {
+        "id": 2,
+        "description": "Use the \"Dryleaf\" gesture in front of him (found elsewhere in the DLC, or at the ruins).",
+        "zone": "SCADU_ALTUS",
+        "note": "The gesture can be found from a corpse in the area.",
+        "optional": false,
+        "description_cn": "使用 \"干叶\" 动作在前方的他 (找到别处 DLC, 或在废墟)。",
+        "note_cn": "动作可以找到从尸体在区域。"
+      },
+      {
+        "id": 3,
+        "description": "After the gesture, Dane acknowledges you but remains silent. He gives you the \"Dryleaf Arts\" martial arts weapon.",
+        "zone": "SCADU_ALTUS",
+        "note": null,
+        "optional": false,
+        "description_cn": "在动作, 丹恩承认你但留沉默. 他会给你 \"干叶武艺\" 格斗武器。"
+      },
+      {
+        "id": 4,
+        "description": "Dane moves to other locations as you progress. He can be found near various crosses in Scadu Altus.",
+        "zone": "SCADU_ALTUS",
+        "note": null,
+        "optional": true,
+        "description_cn": "丹恩移动到其他位置作为你进度. 他可以找到附近各个十字标记在幽影亚坛。"
+      },
+      {
+        "id": 5,
+        "description": "At Enir-Ilim, Dane joins the final confrontation. He fights alongside Leda if you oppose her.",
+        "zone": "ENIR_ILIM",
+        "note": "He is a formidable opponent.",
+        "optional": false,
+        "description_cn": "在艾尼尔伊利姆, 丹恩加入最终对峙. 他对抗沿着站队蕾妲如果反对她的。",
+        "note_cn": "他强大对手。"
+      },
+      {
+        "id": 6,
+        "description": "Defeat or spare Dane. His armor set can be collected from his body.",
+        "zone": "ENIR_ILIM",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败或饶恕丹恩. 他的套装套装可以收集从他的尸体。"
+      }
+    ],
+    "rewards": [
+      "Dryleaf Arts (martial arts weapon)",
+      "Dane's Set (armor)",
+      "Dane's Footwear (talisman/unique item)"
+    ],
+    "rewards_cn": [
+      "落叶武技（武术武器）",
+      "丹恩的套装",
+      "丹恩的足具（护符/特殊道具）"
+    ],
+    "failureConditions": [
+      "Killing Dane before using the Dryleaf gesture",
+      "Entering Enir-Ilim without finding the gesture first"
+    ],
+    "failureConditions_cn": [
+      "在使用落叶动作之前杀死丹恩。",
+      "在找到动作之前进入艾尼尔伊利姆。"
+    ]
+  },
+  "ymir": {
+    "name": "Count Ymir",
+    "name_cn": "大祭司尤弥尔",
+    "description": "The High Priest of the Cathedral of Manus Metyr. He studies the fingers and seeks to unlock the secrets of the Fingerslayer.",
+    "description_cn": "马努斯美缇尔大教堂的大祭司。他研究指头，寻求解开猎杀指头的秘密。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Count Ymir at the Cathedral of Manus Metyr (southwest of Scadu Altus, past the Cerulean Coast).",
+        "zone": "MANUS_METYR",
+        "note": "The Cathedral is at the end of a long path.",
+        "optional": false,
+        "description_cn": "找到尤弥尔在大教堂的马努斯·美缇尔大教堂 (西南的幽影亚坛, 过去青蓝海岸)。",
+        "note_cn": "大教堂是在结局的长路径。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust Ymir's dialogue. He talks about the fingers and gives you the \"Finger Ruins\" key.",
+        "zone": "MANUS_METYR",
+        "note": null,
+        "optional": false,
+        "description_cn": "重复对话至尤弥尔的对话. 他对话关于指并给予你 \"指头遗迹\" 钥匙。"
+      },
+      {
+        "id": 3,
+        "description": "Travel to the Finger Ruins (accessible from the Cathedral's back area). Find the Fingerslayer Ruins and interact with them.",
+        "zone": "MANUS_METYR",
+        "note": null,
+        "optional": false,
+        "description_cn": "前往指头遗迹 (可到达从大教堂的返回区域). 寻找猎杀指头刀废墟并互动使用。"
+      },
+      {
+        "id": 4,
+        "description": "Return to Ymir. Report what you saw. He gives you the \"Beloved Stardust\" talisman.",
+        "zone": "MANUS_METYR",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回尤弥尔. 报告什么你 . 他会给你 \"深爱星尘\" 护符。"
+      },
+      {
+        "id": 5,
+        "description": "Speak to Swordhand of Night Jolan at the Cathedral (she leans against a wall inside). Exhaust her dialogue.",
+        "zone": "MANUS_METYR",
+        "note": "Jolan only appears after speaking to Ymir first.",
+        "optional": false,
+        "description_cn": "对话黑夜骑士约兰在大教堂 (她倚靠墙内部). 对话至重复。",
+        "note_cn": "约兰仅出现在对话尤弥尔第一。"
+      },
+      {
+        "id": 6,
+        "description": "Travel to a second Finger Ruins (located elsewhere in the DLC). Interact again with the ruins.",
+        "zone": "DLC_MULTIPLE",
+        "note": null,
+        "optional": false,
+        "description_cn": "前往第二指头遗迹 (位于别处在 DLC). 互动再次使用废墟。"
+      },
+      {
+        "id": 7,
+        "description": "Return to Ymir. He reveals more about Metyr, the Mother of Fingers. He gives you a special incantation.",
+        "zone": "MANUS_METYR",
+        "note": null,
+        "optional": false,
+        "description_cn": "返回尤弥尔. 他揭示更多关于美缇尔, 母亲的指. 他会给你特殊祷告。"
+      },
+      {
+        "id": 8,
+        "description": "Travel to the final Finger Ruins deep beneath the Cathedral. Defeat the boss (Metyr, Mother of Fingers).",
+        "zone": "MANUS_METYR",
+        "note": "This is a challenging boss fight.",
+        "optional": false,
+        "description_cn": "前往最终指头遗迹深下方大教堂. 击败首领 (美缇尔, 母亲的指)。",
+        "note_cn": "这是挑战首领对抗。"
+      },
+      {
+        "id": 9,
+        "description": "Return to Ymir one last time. He has gone mad from the revelations. Fight and defeat him.",
+        "zone": "MANUS_METYR",
+        "note": "He uses finger sorceries against you.",
+        "optional": false,
+        "description_cn": "返回尤弥尔最后时间. 他有离去从启示. 对抗并击败他。",
+        "note_cn": "他使用指头魔法你。"
+      },
+      {
+        "id": 10,
+        "description": "After Ymir's death, speak to Jolan. She now has a new purpose. You can either fight her or take her as a spirit ash.",
+        "zone": "MANUS_METYR",
+        "note": "Your choice determines the reward.",
+        "optional": false,
+        "description_cn": "在尤弥尔的死亡, 与约兰. 她现作为新目的. 可以任一对抗她的或拿取她的作为骨灰。",
+        "note_cn": "你的选择决定奖励。"
+      }
+    ],
+    "rewards": [
+      "Ymir's Set (armor)",
+      "Beloved Stardust (talisman)",
+      "Finger Ruins incantations",
+      "Metyr's Remembrance",
+      "Jolan's Ashes (spirit ash) or Jolan's Set (armor)"
+    ],
+    "rewards_cn": [
+      "尤弥尔的套装",
+      "钟爱的星尘（护符）",
+      "指头遗迹祷告",
+      "指母的追忆",
+      "约兰的骨灰 或 约兰的套装"
+    ],
+    "failureConditions": [
+      "Killing Ymir before completing the Finger Ruins explorations",
+      "Killing Jolan before completing Ymir's questline",
+      "Entering Enir-Ilim before finishing the Finger Ruins chain"
+    ],
+    "failureConditions_cn": [
+      "在完成指头遗迹探索之前杀死尤弥尔。",
+      "在完成尤弥尔支线之前杀死约兰。",
+      "在完成指头遗迹链之前进入艾尼尔伊利姆。"
+    ]
+  },
+  "queelign": {
+    "name": "Fire Knight Queelign",
+    "name_cn": "火焰骑士昆兰",
+    "description": "A Fire Knight of Messmer who questions his purpose. His quest involves the flame of ruin and the truth behind Messmer's fire.",
+    "description_cn": "一位质疑自己使命的梅瑟莫火焰骑士。他的支线涉及毁灭之火和梅瑟莫火焰背后的真相。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Queelign at Belurat, Tower Settlement. He is standing in a room near the entrance.",
+        "zone": "BELURAT",
+        "note": "Exhaust his dialogue about Messmer.",
+        "optional": false,
+        "description_cn": "在房间附近入口找到昆兰塔之镇贝瑞特. 他站。",
+        "note_cn": "对话至重复关于梅瑟莫。"
+      },
+      {
+        "id": 2,
+        "description": "Defeat the Divine Beast Dancing Lion in Belurat. Return to speak to Queelign.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "击败神圣野兽舞狮子在贝瑞特. 返回与昆兰。"
+      },
+      {
+        "id": 3,
+        "description": "Find Queelign at the Shadow Keep (or elsewhere in Scadu Altus, depending on progression).",
+        "zone": "SHADOW_KEEP",
+        "note": null,
+        "optional": true,
+        "description_cn": "在幽影亚坛, 取决于进度)找到昆兰幽影城 (或别处。"
+      },
+      {
+        "id": 4,
+        "description": "Queelign invades you at a specific location (or offers a summon sign). Defeat or help him face his inner conflict.",
+        "zone": "DLC_MULTIPLE",
+        "note": "The interaction depends on your choices.",
+        "optional": false,
+        "description_cn": "昆兰入侵你在具体位置 (或提交召唤标记). 击败或帮助他他的内部冲突。",
+        "note_cn": "互动取决于在你的选择。"
+      },
+      {
+        "id": 5,
+        "description": "If you help him see the truth, Queelign gives you his flame incantations and becomes a merchant.",
+        "zone": "DLC_MULTIPLE",
+        "note": null,
+        "optional": false,
+        "description_cn": "如果帮助他真相, 昆兰给予你他的火焰祷告并成为商人。"
+      },
+      {
+        "id": 6,
+        "description": "If you oppose him, he fights you as an invader. Killing him drops his bell bearing and armor.",
+        "zone": "DLC_MULTIPLE",
+        "note": "Alternate ending.",
+        "optional": true,
+        "description_cn": "如果反对他, 他对抗你作为入侵者. 击杀他掉落他的铃珠并套装。",
+        "note_cn": "替代结局。"
+      }
+    ],
+    "rewards": [
+      "Queelign's Set (armor)",
+      "Queelign's Flame Incantations",
+      "Queelign's Bell Bearing",
+      "Messmer Fire-related items"
+    ],
+    "rewards_cn": [
+      "昆兰的套装",
+      "昆兰的火焰祷告",
+      "昆兰的铃珠",
+      "梅瑟莫火焰相关道具"
+    ],
+    "failureConditions": [
+      "Killing Queelign in Belurat before he has a chance to move",
+      "Missing him at the Shadow Keep encounter"
+    ],
+    "failureConditions_cn": [
+      "在贝瑞特提前杀死昆兰。",
+      "在幽影城错过与他的相遇。"
+    ]
+  },
+  "hornsent_grandam": {
+    "name": "Hornsent Grandam",
+    "name_cn": "角人老妪",
+    "description": "The elder of the Hornsent people. She resides in Belurat and shares the history of the Hornsent people and their persecution.",
+    "description_cn": "角人族的长老。她居住在贝瑞特，分享角人的历史和他们遭受的迫害。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find Hornsent Grandam in the Storeroom of Belurat, Tower Settlement. She is behind a locked door.",
+        "zone": "BELURAT",
+        "note": "You need the Storeroom Key from the area.",
+        "optional": false,
+        "description_cn": "在储藏室的塔之镇贝瑞特找到角人老妪。他后面锁定门。",
+        "note_cn": "需要储藏室钥匙从区域。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust her dialogue about the history of the Hornsent and Marika's crusade against them.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复关于历史的角人并玛丽卡远征他们。"
+      },
+      {
+        "id": 3,
+        "description": "Progress through the DLC. Return to her periodically to hear new stories and lore.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": true,
+        "description_cn": "推进 DLC. 返回她的定期新故事并背景。"
+      },
+      {
+        "id": 4,
+        "description": "After specific events (defeating major bosses like Messmer), return to hear her commentary.",
+        "zone": "BELURAT",
+        "note": null,
+        "optional": true,
+        "description_cn": "在具体事件 (击败主要首领梅瑟莫), 返回她的评论。"
+      },
+      {
+        "id": 5,
+        "description": "Complete the DLC. She has no quest ending per se — she remains in the storeroom as a lore NPC.",
+        "zone": "BELURAT",
+        "note": "No rewards other than lore.",
+        "optional": false,
+        "description_cn": "完成 DLC. 他有没有支线结局—她留在储藏室作为背景 NPC。",
+        "note_cn": "没有奖励其他背景。"
+      }
+    ],
+    "rewards": [
+      "Hornsent lore and history (no physical rewards)",
+      "Emotes and stories about Marika's past"
+    ],
+    "rewards_cn": [
+      "角人的历史和故事（无实物奖励）",
+      "关于玛丽卡过去的表情和故事"
+    ],
+    "failureConditions": [
+      "Killing Hornsent Grandam",
+      "Failing to open the Storeroom door before progressing too far (door remains locked)"
+    ],
+    "failureConditions_cn": [
+      "杀死角人老妪。",
+      "推进太远而未打开保管库的门。"
+    ]
+  },
+  "dragon_priestess": {
+    "name": "Dragon Communion Priestess",
+    "name_cn": "龙飨女巫",
+    "description": "A priestess who serves the Dragon Communion altar. Help her unlock the true power of the dragons.",
+    "description_cn": "一位侍奉龙飨祭坛的女祭司。帮助她解锁龙的真正力量。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find the Dragon Communion Priestess at the Grand Altar of Dragon Communion (south of the Dragon Pit exit).",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "She is kneeling at the altar.",
+        "optional": false,
+        "description_cn": "寻找龙飨女巫在龙飨大祭坛 (南的龙坑出口)。",
+        "note_cn": "他跪在祭坛。"
+      },
+      {
+        "id": 2,
+        "description": "Exhaust her dialogue. She tells you about the heart of the dragons and the great dragon communion.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话至重复. 她告诉你关于心的龙并大龙飨。"
+      },
+      {
+        "id": 3,
+        "description": "Defeat the Dragon Bosses in the DLC. Bring Dragon Hearts to the Priestess.",
+        "zone": "DLC_MULTIPLE",
+        "note": "Key dragon bosses: Ancient Dragon, Bayle, etc.",
+        "optional": false,
+        "description_cn": "击败龙首领在 DLC. 带来龙心女巫。",
+        "note_cn": "钥匙龙首领: 古龙, 贝勒,。"
+      },
+      {
+        "id": 4,
+        "description": "Offer Dragon Hearts to her. She grants you stronger dragon incantations.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "提交龙心她的. 她给予你更强龙祷告。"
+      },
+      {
+        "id": 5,
+        "description": "After offering enough hearts, she reveals the secret of the Dragon Form. She can transform you into an aspect of the dragon.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "This is the Dragon Transformation.",
+        "optional": false,
+        "description_cn": "在提交足够心, 她揭示秘密的龙形态. 他可以转化你进入方面的龙。",
+        "note_cn": "这是龙转化。"
+      },
+      {
+        "id": 6,
+        "description": "Complete the Dragon Transformation ritual. The Priestess completes her duty and may depart or remain.",
+        "zone": "GRAVESITE_PLAIN",
+        "note": "You receive the Dragon Form incantation.",
+        "optional": false,
+        "description_cn": "完成龙转化仪式. 女巫完成她的并可能离开或保持。",
+        "note_cn": "你获得龙形态祷告。"
+      }
+    ],
+    "rewards": [
+      "Dragon Form (transform into dragon aspect)",
+      "Dragon Communion Incantations (all DLC dragon spells)",
+      "Dragon Heart interactions",
+      "Priestess's Bell Bearing"
+    ],
+    "rewards_cn": [
+      "龙之形态（变身成龙）",
+      "龙飨祷告（所有DLC龙系魔法）",
+      "龙心脏互动",
+      "女巫的铃珠"
+    ],
+    "failureConditions": [
+      "Killing the Dragon Communion Priestess",
+      "Failing to defeat enough Dragon Bosses before completing the DLC"
+    ],
+    "failureConditions_cn": [
+      "杀死龙飨女巫。",
+      "在完成DLC之前未击败足够的龙首领。"
+    ]
+  },
+  "st_trina": {
+    "name": "St. Trina",
+    "name_cn": "圣托莉娜",
+    "description": "Miquella's other half and the Goddess of Sleep. She was abandoned in the depths of the Stone Coffin Fissure. Speak to her in her slumber.",
+    "description_cn": "米凯拉的另一半，睡梦之神。她被遗弃在石棺裂谷的深处。她沉睡时与她对话。",
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find the entrance to the Stone Coffin Fissure on the Cerulean Coast (western edge of the DLC map).",
+        "zone": "STONE_COFFIN",
+        "note": "The entrance is near a cliff.",
+        "optional": false,
+        "description_cn": "寻找入口石棺裂谷在青蓝海岸 (西部的 DLC 地图)。",
+        "note_cn": "入口是附近悬崖。"
+      },
+      {
+        "id": 2,
+        "description": "Navigate through the Stone Coffin Fissure. It is a long descent with many enemies.",
+        "zone": "STONE_COFFIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "穿过穿过石棺裂谷. 是长下降与多敌人。"
+      },
+      {
+        "id": 3,
+        "description": "Reach the Garden of Deep Purple at the bottom of the fissure. Find St. Trina sleeping in the garden.",
+        "zone": "STONE_COFFIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "到达深紫花园在底部的裂隙. 花园找到圣托莉娜睡眠。"
+      },
+      {
+        "id": 4,
+        "description": "Speak to St. Trina. She talks in her sleep about Miquella, her other half, and why she was abandoned.",
+        "zone": "STONE_COFFIN",
+        "note": null,
+        "optional": false,
+        "description_cn": "对话圣托莉娜. 她对话在她的睡眠关于米凯拉, 她的其他半, 并他曾废弃。"
+      },
+      {
+        "id": 5,
+        "description": "Leave and return after making progress in the DLC. Speak to her again for more dialogue.",
+        "zone": "STONE_COFFIN",
+        "note": null,
+        "optional": true,
+        "description_cn": "离开然后返回在制作进度 DLC. 与她的再次更多对话。"
+      },
+      {
+        "id": 6,
+        "description": "Exhaust all her dialogue across multiple visits. She reveals crucial lore about Miquella's plan.",
+        "zone": "STONE_COFFIN",
+        "note": "She also gives you the \"St. Trina's Smile\" talisman or similar.",
+        "optional": false,
+        "description_cn": "重复对话至所有她的对话穿过多个探访. 她揭示关键背景关于米凯拉的。",
+        "note_cn": "她也给予你 \"圣托莉娜的微笑\" 护符或类似。"
+      },
+      {
+        "id": 7,
+        "description": "After the DLC story is complete, return to St. Trina one last time. She may have a final message.",
+        "zone": "STONE_COFFIN",
+        "note": "Her fate is tied to Miquella's.",
+        "optional": false,
+        "description_cn": "在 DLC 故事是完成, 返回圣托莉娜最后时间. 她可能有最终信息。",
+        "note_cn": "她的命运是米凯拉的。"
+      }
+    ],
+    "rewards": [
+      "St. Trina's Smile (talisman)",
+      "Deep lore about Miquella",
+      "St. Trina's Torch",
+      "St. Trina's Lily (item)"
+    ],
+    "rewards_cn": [
+      "圣托莉娜的微笑（护符）",
+      "关于米凯拉的深层背景故事",
+      "圣托莉娜的火把",
+      "圣托莉娜的睡莲"
+    ],
+    "failureConditions": [
+      "Killing St. Trina (not possible)",
+      "Entering Enir-Ilim without visiting St. Trina at least once (locks deeper lore)"
+    ],
+    "failureConditions_cn": [
+      "杀死圣托莉娜（不可能）。",
+      "在进入艾尼尔伊利姆之前未访问圣托莉娜至少一次。"
+    ]
+  }
+}
