@@ -623,6 +623,21 @@ body {
   border-radius: 10px;
 }
 
+.tag-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text);
+  transition: opacity 0.15s;
+}
+.tag-filter-btn:hover { opacity: 0.8; }
+.tag-filter-btn.active { outline: 2px solid var(--accent-gold); outline-offset: 1px; }
+
 .rarity-Common { background: rgba(255,255,255,0.05); color: var(--text-muted); }
 .rarity-Rare { background: rgba(76,138,201,0.15); color: var(--accent-blue); }
 .rarity-Legendary { background: rgba(201,168,76,0.15); color: var(--accent-gold); }

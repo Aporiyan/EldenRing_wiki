@@ -51,6 +51,10 @@ export async function renderBossDetail(container, params) {
         <span class="item-card-tag" style="background:var(--accent-gold);color:#000;">${region}</span>
         ${location ? `<span class="item-card-tag" style="background:var(--bg-card);color:var(--text);border:1px solid var(--border-color);">${location}</span>` : ''}
         ${boss.healthPoints && boss.healthPoints !== '未知' ? `<span class="item-card-tag" style="background:var(--accent-red);color:#fff;">HP ${boss.healthPoints}</span>` : ''}
+        ${(boss.tags || []).map(t => {
+          const colors = { '追忆': 'background:var(--accent-gold);color:#000;', '主线': 'background:#8b0000;color:#fff;', '隐藏': 'background:#4a0080;color:#fff;', '普通': 'background:var(--bg-card);color:var(--text);border:1px solid var(--border-color);' };
+          return `<span class="item-card-tag" style="${colors[t] || colors['普通']}">${t}</span>`;
+        }).join('')}
       </div>
       ${desc ? `<p style="color:var(--text-secondary);line-height:1.6;margin-bottom:20px;">${desc}</p>` : ''}
   `;

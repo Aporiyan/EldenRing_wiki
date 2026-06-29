@@ -14,7 +14,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "火山官邸"
+    "location_cn": "火山官邸",
+    "tags": [
+      "普通"
+    ]
   },
   "Alecto, Black Knife Ringleader": {
     "id": "17f69b4ba0al0i1uk6s98t1nbtxunt",
@@ -31,7 +34,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "头目的封印监牢"
+    "location_cn": "头目的封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Alabaster Lord": {
     "id": "17f69b85929l0i1ukc4l2up7yp9v0i",
@@ -48,7 +54,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "王室封印监牢"
+    "location_cn": "王室封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Adan, Thief Of Fire": {
     "id": "17f69a3ca37l0i1ukd1lq14ctafbk",
@@ -65,7 +74,10 @@
     "healthPoints": "2200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "恶兵的封印监牢"
+    "location_cn": "恶兵的封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Ancient Dragon Lansseax": {
     "id": "17f69a63610l0i1ukyx7xgx6vf0zoa",
@@ -82,7 +94,10 @@
     "healthPoints": "9087",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "亚坛高原"
+    "location_cn": "亚坛高原",
+    "tags": [
+      "普通"
+    ]
   },
   "Ancestor Spirit": {
     "id": "17f69590896l0i1ul0hnmor8iyf9xd",
@@ -99,7 +114,10 @@
     "healthPoints": "2200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "希芙拉河"
+    "location_cn": "希芙拉河",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Ancient Hero Of Zamor": {
     "id": "17f69878c4al0i1ul0i7dsfou8igrk",
@@ -121,7 +139,10 @@
     "healthPoints": "2200",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "啜泣封印监牢、击败巨人的英雄墓地"
+    "location_cn": "啜泣封印监牢、击败巨人的英雄墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Beast Clergyman": {
     "id": "17f697240ecl0i1ul21nevug9wq54e",
@@ -136,7 +157,10 @@
     "healthPoints": "2200",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+    "location_cn": "逐渐崩毁的法姆·亚兹拉",
+    "tags": [
+      "普通"
+    ]
   },
   "Astel, Stars Of Darkness": {
     "id": "17f69bcfd7dl0i1ul502rklvi8tx62",
@@ -153,7 +177,10 @@
     "healthPoints": "25,376",
     "is_dlc": false,
     "region_cn": "化圣雪原",
-    "location_cn": "耶洛克尼斯坑道（化圣雪原）"
+    "location_cn": "耶洛克尼斯坑道（化圣雪原）",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Beast Of Farum Azula": {
     "id": "17f69d4387al0i1ulpqqumwqw05j3c",
@@ -170,7 +197,10 @@
     "healthPoints": "1960",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "林洞"
+    "location_cn": "林洞",
+    "tags": [
+      "普通"
+    ]
   },
   "Beastman Of Farum Azula": {
     "id": "17f69d7fe72l0i1ultk418yedh25s7",
@@ -188,7 +218,10 @@
     "healthPoints": "1,960",
     "is_dlc": false,
     "region_cn": "龙墓",
-    "location_cn": "林洞、龙墓洞窟"
+    "location_cn": "林洞、龙墓洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Bell Bearing Hunter": {
     "id": "17f69c4aacel0i1uluegh15idblimv",
@@ -205,7 +238,10 @@
     "healthPoints": "6000 Runes, Meat Peddler's Bell Bearing",
     "is_dlc": false,
     "region_cn": "龙墓",
-    "location_cn": "战帅破屋、结缘教堂等多地点"
+    "location_cn": "战帅破屋、结缘教堂等多地点",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Black Blade Kindred": {
     "id": "17f69a61779l0i1ulv0a3ru8iy0zh5",
@@ -225,7 +261,10 @@
     "healthPoints": "12,500",
     "is_dlc": false,
     "region_cn": "龙墓",
-    "location_cn": "盖利德、禁域"
+    "location_cn": "盖利德、禁域",
+    "tags": [
+      "普通"
+    ]
   },
   "Black Knife Assassin": {
     "id": "17f69bd3c06l0i1ulx2jxbiogta1i",
@@ -245,7 +284,10 @@
     "healthPoints": "2750",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "死亡触碰地下墓地、黑刀地下墓地、贤者洞窟"
+    "location_cn": "死亡触碰地下墓地、黑刀地下墓地、贤者洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Bloodhound Knight Darriwil": {
     "id": "17f69637e92l0i1um8wqsflgk3i9yr",
@@ -262,7 +304,10 @@
     "healthPoints": "14,792",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "宁姆格福·猎犬封印监牢"
+    "location_cn": "宁姆格福·猎犬封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Burial Tree Watchdog": {
     "id": "17f697f48d5l0i1umdbu7v5phffgq",
@@ -279,7 +324,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "宁姆格福·风暴脚跟地下墓地"
+    "location_cn": "宁姆格福·风暴脚跟地下墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Cleanrot Knight": {
     "id": "17f69563d15l0i1umhb4am3xzuib3g",
@@ -297,7 +345,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "静水洞窟"
+    "location_cn": "静水洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Borealis The Freezing Fog": {
     "id": "17f69d6ca41l0i1umlxg0j36mhrnzr",
@@ -314,7 +365,10 @@
     "healthPoints": "11,100",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "巨人山顶"
+    "location_cn": "巨人山顶",
+    "tags": [
+      "普通"
+    ]
   },
   "Commander Niall": {
     "id": "17f698b7d2fl0i1umtkf7cu5a21hdw",
@@ -331,7 +385,10 @@
     "healthPoints": "16,000",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "巨人山顶"
+    "location_cn": "巨人山顶",
+    "tags": [
+      "普通"
+    ]
   },
   "Commander O'neil": {
     "id": "17f69562d87l0i1umxu2qwle86ai8q",
@@ -349,7 +406,10 @@
     "healthPoints": "11,400",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "盖利德"
+    "location_cn": "盖利德",
+    "tags": [
+      "普通"
+    ]
   },
   "Crucible Knight Ordovis": {
     "id": "17f699b0755l0i1un48m87fngquaw",
@@ -370,7 +430,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "亚雷萨英雄墓地"
+    "location_cn": "亚雷萨英雄墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Crystalians": {
     "id": "17f695b37c1l0i1ungf7vjojqaf4zp",
@@ -390,7 +453,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "学院结晶洞窟、亚坛坑道"
+    "location_cn": "学院结晶洞窟、亚坛坑道",
+    "tags": [
+      "普通"
+    ]
   },
   "Deathbird": {
     "id": "17f69e151d8l0i1uo19hl8r6l0snmo",
@@ -409,7 +475,10 @@
     "healthPoints": "2750",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "宁姆格福、啜泣半岛、利耶尼亚"
+    "location_cn": "宁姆格福、啜泣半岛、利耶尼亚",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Decaying Ekzykes": {
     "id": "17f69bcc1cdl0i1uoai2hm5tcbuhh2",
@@ -426,7 +495,10 @@
     "healthPoints": "23,731",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "盖利德"
+    "location_cn": "盖利德",
+    "tags": [
+      "普通"
+    ]
   },
   "Demi-human Chief": {
     "id": "17f6961da46l0i1uoh7hemoben3dtg",
@@ -444,7 +516,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "海岸洞窟"
+    "location_cn": "海岸洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Demi-human Queen Maggie": {
     "id": "17f69559137l0i1uoqf3qzndh0901t",
@@ -462,7 +537,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "普通"
+    ]
   },
   "Divine Bridge Golem": {
     "id": "17f69518792l0i1up7fr7vzvqcmzf",
@@ -477,7 +555,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "王城罗德尔"
+    "location_cn": "王城罗德尔",
+    "tags": [
+      "普通"
+    ]
   },
   "Demi-human Queen Margot": {
     "id": "17f69b39c43l0i1up7iq7q4lvvgyc",
@@ -494,7 +575,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "普通"
+    ]
   },
   "Draconic Tree Sentinel": {
     "id": "17f69625d6el0i1upqw478c5kvsjv3",
@@ -512,7 +596,10 @@
     "healthPoints": "8,398",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "王城郊外、法姆·亚兹拉"
+    "location_cn": "王城郊外、法姆·亚兹拉",
+    "tags": [
+      "主线"
+    ]
   },
   "Dragonkin Soldier": {
     "id": "17f69de1071l0i1uprrms3umg3rug",
@@ -529,7 +616,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "希芙拉河、腐败湖"
+    "location_cn": "希芙拉河、腐败湖",
+    "tags": [
+      "普通"
+    ]
   },
   "Cemetery Shade": {
     "id": "17f69b43b78l0i1upyrupf0wna8q7a",
@@ -548,7 +638,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "巡礼教堂地下墓地、黑刀地下墓地、盖利德地下墓地"
+    "location_cn": "巡礼教堂地下墓地、黑刀地下墓地、盖利德地下墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Crucible Knight": {
     "id": "17f69a6fae3l0i1uq63au7m71cs8mh",
@@ -566,7 +659,10 @@
     "healthPoints": "Stormhill Evergaol:, 2750",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "风暴封印监牢、史东薇尔城、亚雷萨英雄墓地"
+    "location_cn": "风暴封印监牢、史东薇尔城、亚雷萨英雄墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Dragonkin Soldier Of Nokstella": {
     "id": "17f699200d2l0i1uqbs9w1ijmp2ner",
@@ -583,7 +679,10 @@
     "healthPoints": "≈4372",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "安瑟尔河"
+    "location_cn": "安瑟尔河",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Dragonlord Placidusax": {
     "id": "17f69bf3366l0i1uqds10qc8exqn1ik",
@@ -600,7 +699,11 @@
     "healthPoints": "≈26651",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+    "location_cn": "逐渐崩毁的法姆·亚兹拉",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ]
   },
   "Elden Beast": {
     "id": "17f699dadfbl0i1uqmgi50oii11eaj",
@@ -617,7 +720,11 @@
     "healthPoints": "26,880 (GOD)",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "艾尔登王座"
+    "location_cn": "艾尔登王座",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Elemer Of The Briar": {
     "id": "17f695cb903l0i1uqqf40ik8th6wqw",
@@ -635,7 +742,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "日荫城"
+    "location_cn": "日荫城",
+    "tags": [
+      "普通"
+    ]
   },
   "Esgar, Priest Of Blood": {
     "id": "17f69579c3dl0i1uqxt6ul73e103ur",
@@ -652,7 +762,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "王城罗德尔"
+    "location_cn": "王城罗德尔",
+    "tags": [
+      "普通"
+    ]
   },
   "Erdtree Avatar": {
     "id": "17f6969fb51l0i1ur3o74ppc7h3gl5",
@@ -678,7 +791,10 @@
     "healthPoints": "14,992",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "小黄金树（多地点）"
+    "location_cn": "小黄金树（多地点）",
+    "tags": [
+      "普通"
+    ]
   },
   "Fallingstar Beast": {
     "id": "17f69aae933l0i1urbz9zyz3jjvhjf",
@@ -698,7 +814,10 @@
     "healthPoints": "≈8000",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "瑟利亚结晶坑道"
+    "location_cn": "瑟利亚结晶坑道",
+    "tags": [
+      "普通"
+    ]
   },
   "Fell Twins": {
     "id": "17f69c5a361l0i1urf5b4r5s5cf125",
@@ -715,7 +834,10 @@
     "healthPoints": "15,664",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "王城郊外"
+    "location_cn": "王城郊外",
+    "tags": [
+      "普通"
+    ]
   },
   "Fia's Champions": {
     "id": "17f695d42c3l0i1uriibjok1ydfodg",
@@ -732,7 +854,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "深根底层"
+    "location_cn": "深根底层",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Flying Dragon Agheel": {
     "id": "17f69725115l0i1urx3t47u0gfs43",
@@ -749,7 +874,10 @@
     "healthPoints": "≈3200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "宁姆格福·龙息废墟"
+    "location_cn": "宁姆格福·龙息废墟",
+    "tags": [
+      "普通"
+    ]
   },
   "Fire Giant": {
     "id": "17f69ba1aa7l0i1us08w3dodkoeju",
@@ -766,7 +894,11 @@
     "healthPoints": "126,720",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "巨人山顶"
+    "location_cn": "巨人山顶",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Flying Dragon Greyll": {
     "id": "17f69846e66l0i1us1stxjbqloi1z",
@@ -783,7 +915,10 @@
     "healthPoints": "11,628 Greater Foe",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "盖利德"
+    "location_cn": "盖利德",
+    "tags": [
+      "普通"
+    ]
   },
   "Frenzied Duelist": {
     "id": "17f696b2a70l0i1us26mtvbp7p85",
@@ -800,7 +935,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "监狱洞窟"
+    "location_cn": "监狱洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "God-devouring Serpent": {
     "id": "17f699fafc0l0i1usmk2s2oybvx44a",
@@ -815,7 +953,10 @@
     "healthPoints": "≈30439",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "普通"
+    ]
   },
   "Glintstone Dragon Smarag": {
     "id": "17f6953dec4l0i1uso41jlanmo9c4v",
@@ -832,7 +973,10 @@
     "healthPoints": "6,100",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "利耶尼亚"
+    "location_cn": "利耶尼亚",
+    "tags": [
+      "普通"
+    ]
   },
   "Glintstone Dragon Adula": {
     "id": "17f695d390el0i1usszzihpctlfb2",
@@ -850,7 +994,10 @@
     "healthPoints": "≈11550",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "利耶尼亚"
+    "location_cn": "利耶尼亚",
+    "tags": [
+      "普通"
+    ]
   },
   "Godefroy The Grafted": {
     "id": "17f69c4aefal0i1usvodp9osviy7v",
@@ -867,7 +1014,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "黄金一族的封印监牢"
+    "location_cn": "黄金一族的封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Godfrey, First Elden Lord (hoarah Loux)": {
     "id": "17f69a82a2el0i1uta5rxvqv53g7e",
@@ -884,7 +1034,11 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "灰城罗德尔"
+    "location_cn": "灰城罗德尔",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Godfrey, First Elden Lord (golden Shade)": {
     "id": "17f697d2396l0i1utcv9km3qxcnt6m",
@@ -901,7 +1055,10 @@
     "healthPoints": "≈7099",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "王城罗德尔"
+    "location_cn": "王城罗德尔",
+    "tags": [
+      "主线"
+    ]
   },
   "Godrick The Grafted": {
     "id": "17f6953f0d5l0i1uthl5j30bc50wdo",
@@ -919,7 +1076,11 @@
     "healthPoints": "6080",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "史东薇尔城"
+    "location_cn": "史东薇尔城",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Godskin Apostle": {
     "id": "17f69c1bc31l0i1utrgxwhdp1csdis",
@@ -937,7 +1098,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "唤灵洞窟"
+    "location_cn": "唤灵洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Godskin Apostle And Godskin Noble": {
     "id": "17f69c68871l0i1utx4r38kpdj1yil",
@@ -955,7 +1119,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "唤灵洞窟（巨人山顶）"
+    "location_cn": "唤灵洞窟（巨人山顶）",
+    "tags": [
+      "普通"
+    ]
   },
   "Death Rite Bird": {
     "id": "17f69e15137l0i1uu7e0w9qynlhveh",
@@ -973,7 +1140,10 @@
     "healthPoints": "≈2750",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "巨人山顶"
+    "location_cn": "巨人山顶",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Godskin Noble": {
     "id": "17f69814439l0i1uuifby3b0bn9gs",
@@ -993,7 +1163,10 @@
     "healthPoints": "≈10,000",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "唤灵洞窟、火山官邸"
+    "location_cn": "唤灵洞窟、火山官邸",
+    "tags": [
+      "普通"
+    ]
   },
   "Grafted Scion": {
     "id": "17f69bf253bl0i1uuma3733w2zwodm",
@@ -1012,7 +1185,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "教学区域"
+    "location_cn": "教学区域",
+    "tags": [
+      "普通"
+    ]
   },
   "Great Wyrm Theodorix": {
     "id": "17f695140e9l0i1uuu2pjzqqsbskl",
@@ -1029,7 +1205,10 @@
     "healthPoints": "≈35,000",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "白面具塔北方（巨人山顶）"
+    "location_cn": "白面具塔北方（巨人山顶）",
+    "tags": [
+      "普通"
+    ]
   },
   "Hoarah Loux, Warrior": {
     "id": "17f695022a1l0i1uv9aohy5ip9yh9f",
@@ -1046,7 +1225,11 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "灰城罗德尔"
+    "location_cn": "灰城罗德尔",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Kindred Of Rot": {
     "id": "17f69a5abc3l0i1uvfn18gmmqaf8jvj",
@@ -1063,7 +1246,10 @@
     "healthPoints": "≈4000",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "普通"
+    ]
   },
   "Guardian Golem": {
     "id": "17f69cbe6cbl0i1uvgek1x2hoimz99",
@@ -1080,7 +1266,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "大道洞窟"
+    "location_cn": "大道洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Godskin Duo": {
     "id": "17f698b6791l0i1uvgjwlxwarfpe7a",
@@ -1098,7 +1287,10 @@
     "healthPoints": "≈24,000",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+    "location_cn": "逐渐崩毁的法姆·亚兹拉",
+    "tags": [
+      "主线"
+    ]
   },
   "Leonine Misbegotten": {
     "id": "17f69644c82l0i1uw7sqlk2v4b6bfg",
@@ -1115,7 +1307,10 @@
     "healthPoints": "14,272",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "摩恩城（啜泣半岛）"
+    "location_cn": "摩恩城（啜泣半岛）",
+    "tags": [
+      "普通"
+    ]
   },
   "Lichdragon Fortissax": {
     "id": "17f699223e7l0i1uwcol7wflmcgajb",
@@ -1132,7 +1327,11 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "深根底层"
+    "location_cn": "深根底层",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ]
   },
   "Mad Pumpkin Head": {
     "id": "17f69a078e0l0i1uwdp4xqjq6cpbxl",
@@ -1147,7 +1346,10 @@
     "healthPoints": "≈10,500",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "驿站街遗迹、盖尔坑道废墟"
+    "location_cn": "驿站街遗迹、盖尔坑道废墟",
+    "tags": [
+      "普通"
+    ]
   },
   "Magma Wyrm": {
     "id": "17f69bfa759l0i1uwfa0yrdvzcov1i",
@@ -1165,7 +1367,10 @@
     "healthPoints": "7000",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "盖尔坑道"
+    "location_cn": "盖尔坑道",
+    "tags": [
+      "普通"
+    ]
   },
   "Lion Guardian": {
     "id": "17f696318a4l0i1uwi4cr4u43opdj5",
@@ -1180,7 +1385,10 @@
     "healthPoints": "≈2350",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "史东薇尔城"
+    "location_cn": "史东薇尔城",
+    "tags": [
+      "普通"
+    ]
   },
   "Malenia, Blade Of Miquella": {
     "id": "17f69a48308l0i1ux3rigvv37tx84f",
@@ -1198,7 +1406,11 @@
     "healthPoints": "≈26,128",
     "is_dlc": false,
     "region_cn": "化圣雪原",
-    "location_cn": "圣树分支艾布雷菲尔"
+    "location_cn": "圣树分支艾布雷菲尔",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ]
   },
   "Maliketh, The Black Blade": {
     "id": "17f69dbf58cl0i1ux7vft8wsk6ejbb",
@@ -1215,7 +1427,11 @@
     "healthPoints": "≈10620",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "逐渐崩毁的法姆·亚兹拉"
+    "location_cn": "逐渐崩毁的法姆·亚兹拉",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Miranda The Blighted Bloom": {
     "id": "17f699a40dfl0i1ux9v66kv7dyxcqx",
@@ -1233,7 +1449,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "啜泣半岛归树洞窟、亚坛平原调香师洞窟"
+    "location_cn": "啜泣半岛归树洞窟、亚坛平原调香师洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Mimic Tear": {
     "id": "17f69e11c75l0i1uxa6gb2wpb12ipb",
@@ -1251,7 +1470,10 @@
     "healthPoints": "≈19,536",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "永恒之城诺克隆恩"
+    "location_cn": "永恒之城诺克隆恩",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Misbegotten Crusader": {
     "id": "17f698a5648l0i1uxs5sk4eq7dy3vh",
@@ -1268,7 +1490,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "巨人山顶",
-    "location_cn": "离世洞窟（巨人山顶）"
+    "location_cn": "离世洞窟（巨人山顶）",
+    "tags": [
+      "普通"
+    ]
   },
   "Mohg, Lord Of Blood": {
     "id": "17f697f4363l0i1uy2tk9e7g2jqcu",
@@ -1286,7 +1511,11 @@
     "healthPoints": "≈38,848",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "蒙格温王朝"
+    "location_cn": "蒙格温王朝",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ]
   },
   "Mohg, The Omen": {
     "id": "17f69a3b2f2l0i1uy2usy0fea155ms",
@@ -1303,7 +1532,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "下水道"
+    "location_cn": "下水道",
+    "tags": [
+      "普通"
+    ]
   },
   "Magma Wyrm Makar": {
     "id": "17f69d3101al0i1uyefex03ulrqazi",
@@ -1321,7 +1553,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "古遗迹断崖"
+    "location_cn": "古遗迹断崖",
+    "tags": [
+      "普通"
+    ]
   },
   "Necromancer Garris": {
     "id": "17f69d237f0l0i1uytr06ed4gz92qdj",
@@ -1338,7 +1573,10 @@
     "healthPoints": "Field Boss",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "贤者洞窟（亚坛高原）"
+    "location_cn": "贤者洞窟（亚坛高原）",
+    "tags": [
+      "普通"
+    ]
   },
   "Nox Swordstress & Nox Priest": {
     "id": "17f6963b02cl0i1uyzthmeyyq45wna",
@@ -1355,7 +1593,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "瑟利亚镇"
+    "location_cn": "瑟利亚镇",
+    "tags": [
+      "普通"
+    ]
   },
   "Night's Cavalry": {
     "id": "17f69a6c3fcl0i1uyzw7a7ssn0qlpp",
@@ -1378,7 +1619,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "多个地点"
+    "location_cn": "多个地点",
+    "tags": [
+      "隐藏"
+    ]
   },
   "Omenkiller": {
     "id": "17f69a1be26l0i1uz1kl2dyuibof4d",
@@ -1396,7 +1640,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "白金村、火山官邸、调香师洞窟"
+    "location_cn": "白金村、火山官邸、调香师洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Onyx Lord": {
     "id": "17f69a36cf8l0i1uz6gmzy0dr777k",
@@ -1413,7 +1660,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "封印坑道、王室封印监牢"
+    "location_cn": "封印坑道、王室封印监牢",
+    "tags": [
+      "普通"
+    ]
   },
   "Perfumer Tricia": {
     "id": "17f699438b8l0i1uze1493a9h5ipk3",
@@ -1428,7 +1678,10 @@
     "healthPoints": "≈1024",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "丑陋地下墓地"
+    "location_cn": "丑陋地下墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Putrid Grave Warden Duelist": {
     "id": "17f699ad704l0i1uzmqfup4jxyto7",
@@ -1446,7 +1699,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "化圣雪原",
-    "location_cn": "化圣雪原地下墓地"
+    "location_cn": "化圣雪原地下墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Pumpkin Head": {
     "id": "17f697e343bl0i1uznxx67p026exqf",
@@ -1464,7 +1720,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "摩恩城（啜泣半岛）"
+    "location_cn": "摩恩城（啜泣半岛）",
+    "tags": [
+      "普通"
+    ]
   },
   "Putrid Tree Spirit": {
     "id": "17f69cfaee3l0i1uzongoyxg1dptid",
@@ -1482,7 +1741,10 @@
     "healthPoints": "≈18091",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "死亡战争地下墓地"
+    "location_cn": "死亡战争地下墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Radagon Of The Golden Order": {
     "id": "17f69bc8bd6l0i1v03619u4s9j9ql",
@@ -1497,7 +1759,11 @@
     "healthPoints": "≈13339",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "艾尔登王座"
+    "location_cn": "艾尔登王座",
+    "tags": [
+      "追忆",
+      "主线"
+    ]
   },
   "Red Wolf Of Radagon": {
     "id": "17f6992c3e3l0i1v0af3d14p4dcgzx",
@@ -1514,7 +1780,10 @@
     "healthPoints": "≈2204",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "雷亚卢卡利亚学院"
+    "location_cn": "雷亚卢卡利亚学院",
+    "tags": [
+      "主线"
+    ]
   },
   "Red Wolf Of The Champion": {
     "id": "17f69cf967fl0i1v0cmt73nix34p0c",
@@ -1531,7 +1800,10 @@
     "healthPoints": "≈3238",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔英雄墓地"
+    "location_cn": "格密尔英雄墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Regal Ancestor Spirit": {
     "id": "17f69ae5092l0i1v0k714w3s2jz8tj",
@@ -1548,7 +1820,11 @@
     "healthPoints": "≈6301",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "永恒之城诺克隆恩"
+    "location_cn": "永恒之城诺克隆恩",
+    "tags": [
+      "追忆",
+      "隐藏"
+    ]
   },
   "Royal Knight Loretta": {
     "id": "17f69b19e80l0i1v0x2eima4yhdbd",
@@ -1566,7 +1842,10 @@
     "healthPoints": "≈4214",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "卡利亚城寨"
+    "location_cn": "卡利亚城寨",
+    "tags": [
+      "普通"
+    ]
   },
   "Royal Revenant": {
     "id": "17f69de0562l0i1v105zzs817wea9m",
@@ -1581,7 +1860,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "王室领地废墟"
+    "location_cn": "王室领地废墟",
+    "tags": [
+      "普通"
+    ]
   },
   "Runebear": {
     "id": "17f699179aal0i1v13n497m1yhps2s",
@@ -1598,7 +1880,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "地道洞窟（啜泣半岛）"
+    "location_cn": "地道洞窟（啜泣半岛）",
+    "tags": [
+      "普通"
+    ]
   },
   "Rykard, Lord Of Blasphemy": {
     "id": "17f696d979al0i1v1775oof02bi8oh",
@@ -1616,7 +1901,10 @@
     "healthPoints": "1000000",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "追忆"
+    ]
   },
   "Scaly Misbegotten": {
     "id": "17f698d3cc6l0i1v18wptud2du5ts",
@@ -1633,7 +1921,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "啜泣半岛",
-    "location_cn": "摩恩坑道"
+    "location_cn": "摩恩坑道",
+    "tags": [
+      "普通"
+    ]
   },
   "Sir Gideon Ofnir, The All-knowing": {
     "id": "17f69ca8b2al0i1v1pg987jdl4cd68",
@@ -1654,7 +1945,10 @@
     "healthPoints": "≈6226",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "灰城罗德尔"
+    "location_cn": "灰城罗德尔",
+    "tags": [
+      "主线"
+    ]
   },
   "Soldier Of Godrick": {
     "id": "17f6982dbf7l0i1v1r3i4p5cy7kvcs",
@@ -1669,7 +1963,10 @@
     "healthPoints": "≈10,464",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "漂流墓地"
+    "location_cn": "漂流墓地",
+    "tags": [
+      "普通"
+    ]
   },
   "Spirit-caller Snail": {
     "id": "17f6987c932l0i1v1t55h6j6fm1l83",
@@ -1688,7 +1985,10 @@
     "healthPoints": "≈2200",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "道路尽头地下墓地、唤灵洞窟"
+    "location_cn": "道路尽头地下墓地、唤灵洞窟",
+    "tags": [
+      "普通"
+    ]
   },
   "Starscourge Radahn": {
     "id": "17f69dc74fdl0i1v1wz3qrzn19aps8",
@@ -1706,7 +2006,10 @@
     "healthPoints": "≈25,856",
     "is_dlc": false,
     "region_cn": "盖利德",
-    "location_cn": "盖利德"
+    "location_cn": "盖利德",
+    "tags": [
+      "追忆"
+    ]
   },
   "Tibia Mariner": {
     "id": "17f6968dcfal0i1v1y8dnaop27j5qg",
@@ -1726,7 +2029,10 @@
     "healthPoints": "≈2750",
     "is_dlc": false,
     "region_cn": "利耶尼亚",
-    "location_cn": "唤水村、温达姆废墟"
+    "location_cn": "唤水村、温达姆废墟",
+    "tags": [
+      "普通"
+    ]
   },
   "Ulcerated Tree Spirit": {
     "id": "17f69621aadl0i1v2f5fkvee5z6719",
@@ -1744,7 +2050,10 @@
     "healthPoints": "≈17,428",
     "is_dlc": false,
     "region_cn": "格密尔火山",
-    "location_cn": "格密尔火山"
+    "location_cn": "格密尔火山",
+    "tags": [
+      "普通"
+    ]
   },
   "Valiant Gargoyle": {
     "id": "17f697500cal0i1v2hh14qewvbrwrn",
@@ -1762,7 +2071,10 @@
     "healthPoints": "≈9,120",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "希芙拉导水渠"
+    "location_cn": "希芙拉导水渠",
+    "tags": [
+      "普通"
+    ]
   },
   "Wormface": {
     "id": "17f696a35c3l0i1v2k2s30hlu2y50j",
@@ -1780,7 +2092,10 @@
     "healthPoints": "未知",
     "is_dlc": false,
     "region_cn": "亚坛高原",
-    "location_cn": "小黄金树（亚坛高原）"
+    "location_cn": "小黄金树（亚坛高原）",
+    "tags": [
+      "普通"
+    ]
   },
   "Tree Sentinel": {
     "id": "17f6992d42bl0i1v2mmti9t0qkl5yj",
@@ -1799,6 +2114,9 @@
     "healthPoints": "≈1954",
     "is_dlc": false,
     "region_cn": "宁姆格福",
-    "location_cn": "宁姆格福大道"
+    "location_cn": "宁姆格福大道",
+    "tags": [
+      "普通"
+    ]
   }
 }
