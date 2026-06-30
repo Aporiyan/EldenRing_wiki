@@ -42,6 +42,7 @@ export async function renderMerchants(container, params) {
   let searchQuery = '';
   let filterType = '';
   let filterDLC = '';  // '' = all, 'yes' = DLC only, 'no' = base only
+  let filterBell = '';  // '' = all, 'yes' = has bell bearing, 'no' = no bell bearing
   let expandedMerchant = ''; // merchant id that has inventory expanded
 
   function render() {
@@ -50,6 +51,8 @@ export async function renderMerchants(container, params) {
     if (filterType) filtered = filtered.filter(m => m.type === filterType);
     if (filterDLC === 'yes') filtered = filtered.filter(m => m.is_dlc);
     if (filterDLC === 'no') filtered = filtered.filter(m => !m.is_dlc);
+    if (filterBell === 'yes') filtered = filtered.filter(m => !!m.bell_bearing);
+    if (filterBell === 'no') filtered = filtered.filter(m => !m.bell_bearing);
     if (q) filtered = filtered.filter(m =>
       (m.name_cn || '').toLowerCase().includes(q) ||
       m.name.toLowerCase().includes(q) ||
@@ -87,37 +90,26 @@ export async function renderMerchants(container, params) {
         `).join('')}
       </div>
       ${hasDLC ? `
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
         <button class="tag-filter-btn ${filterDLC === '' ? 'active' : ''}" data-dlc="">全部版本</button>
         <button class="tag-filter-btn ${filterDLC === 'no' ? 'active' : ''}" data-dlc="no">仅本体</button>
         <button class="tag-filter-btn ${filterDLC === 'yes' ? 'active' : ''}" data-dlc="yes">仅 DLC</button>
       </div>` : ''}
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+        <button class="tag-filter-btn ${filterBell === '' ? 'active' : ''}" data-bell="">全部灵珠</button>
+        <button class="tag-filter-btn ${filterBell === 'yes' ? 'active' : ''}" data-bell="yes">有灵珠</button>
+        <button class="tag-filter-btn ${filterBell === 'no' ? 'active' : ''}" data-bell="no">无灵珠</button>
+      </div>
       <input type="text" id="merchantSearch" placeholder="搜索商人名称或位置..." value="${searchQuery.replace(/"/g, '&quot;')}" style="width:100%;padding:8px 12px;border:1px solid var(--border-color);border-radius:6px;background:var(--bg-card);color:var(--text);font-size:0.85rem;margin-bottom:16px;">
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;">
         ${filtered.map(m => {
           const hasBB = !!m.bell_bearing;
           const inv = getInventory(m);
           const isExpanded = expandedMerchant === m.id;
-          const bottomContent = [];
-          if (hasBB) bottomContent.push('<div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:4px;">🔔 ' + (m.bell_bearing_name || m.bell_bearing) + '</div>');
-          if (inv && inv.matched_count > 0) {
-            bottomContent.push('<button class="inv-toggle-btn" data-inv-id="' + m.id + '" style="display:block;width:100%;padding:6px;border:1px solid var(--border-color);border-radius:4px;background:var(--bg-tertiary);color:var(--text-muted);font-size:0.75rem;cursor:pointer;text-align:center;">' + (isExpanded ? '收起库存' : '查看库存 (' + inv.matched_count + ' 种商品)') + '</button>');
-            if (isExpanded) {
-              bottomContent.push('<div style="margin-top:8px;border-top:1px solid var(--border-color);padding-top:8px;max-height:300px;overflow-y:auto;">' +
-                inv.items.map(item => '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--border-color);font-size:0.75rem;">' +
-                  '<div style="display:flex;align-items:center;gap:6px;flex:1;min-width:0;">' +
-                    '<span style="font-size:0.6rem;padding:1px 4px;border-radius:3px;background:var(--bg-tertiary);border:1px solid var(--border-color);color:var(--text-muted);white-space:nowrap;">' + (CAT_CN[item.category] || item.category) + '</span>' +
-                    '<span style="color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="' + itemName(item) + '">' + itemName(item) + '</span>' +
-                  '</div>' +
-                  '<div style="display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:8px;">' +
-                    (item.quantity_max !== null ? '<span style="color:var(--text-muted);font-size:0.65rem;">×' + item.quantity_max + '</span>' : '<span style="color:var(--text-muted);font-size:0.65rem;">无限</span>') +
-                    (item.price !== null && item.price !== undefined ? '<span style="color:var(--accent-gold);font-weight:600;font-size:0.75rem;">' + item.price + '卢恩</span>' : '') +
-                    (item.deathroot_required ? '<span style="color:var(--text-muted);font-size:0.65rem;">死根×' + item.deathroot_required + '</span>' : '') +
-                  '</div>' +
-                '</div>').join('') +
-              '</div>');
-            }
-          }
+          const hasInv = inv && inv.matched_count > 0;
+          const bbLine = hasBB
+            ? '<div style="font-size:0.7rem;color:var(--text-muted);">🔔 ' + (m.bell_bearing_name || m.bell_bearing) + '</div>'
+            : '<div style="height:1.2rem;"></div>';
           return `
             <div class="merchant-card ${m.is_dlc ? 'merchant-card--dlc' : ''}" style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:8px;padding:14px;">
               <div style="flex:1;">
@@ -133,7 +125,23 @@ export async function renderMerchants(container, params) {
                 <div style="font-size:0.75rem;color:var(--text-secondary);margin-bottom:8px;">${m.description || ''}</div>
                 ${m.items_sold && m.items_sold.length ? '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px;">' + m.items_sold.map(item => '<span style="font-size:0.65rem;padding:1px 6px;border-radius:4px;background:var(--bg-tertiary);border:1px solid var(--border-color);color:var(--accent-gold);">' + item + '</span>').join('') + '</div>' : ''}
               </div>
-              ${bottomContent.length ? '<div class="merchant-card-foot">' + bottomContent.join('') + '</div>' : ''}
+              <div class="merchant-card-foot">
+                ${bbLine}
+                ${hasInv ? '<button class="inv-toggle-btn" data-inv-id="' + m.id + '" style="display:block;width:100%;padding:6px;margin-top:4px;border:1px solid var(--border-color);border-radius:4px;background:var(--bg-tertiary);color:var(--text-muted);font-size:0.75rem;cursor:pointer;text-align:center;">' + (isExpanded ? '收起库存' : '查看库存 (' + inv.matched_count + ' 种商品)') + '</button>' : ''}
+                ${hasInv && isExpanded ? '<div style="margin-top:8px;border-top:1px solid var(--border-color);padding-top:8px;max-height:300px;overflow-y:auto;">' +
+                  inv.items.map(item => '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--border-color);font-size:0.75rem;">' +
+                    '<div style="display:flex;align-items:center;gap:6px;flex:1;min-width:0;">' +
+                      '<span style="font-size:0.6rem;padding:1px 4px;border-radius:3px;background:var(--bg-tertiary);border:1px solid var(--border-color);color:var(--text-muted);white-space:nowrap;">' + (CAT_CN[item.category] || item.category) + '</span>' +
+                      '<span style="color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="' + itemName(item) + '">' + itemName(item) + '</span>' +
+                    '</div>' +
+                    '<div style="display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:8px;">' +
+                      (item.quantity_max !== null ? '<span style="color:var(--text-muted);font-size:0.65rem;">×' + item.quantity_max + '</span>' : '<span style="color:var(--text-muted);font-size:0.65rem;">无限</span>') +
+                      (item.price !== null && item.price !== undefined ? '<span style="color:var(--accent-gold);font-weight:600;font-size:0.75rem;">' + item.price + '卢恩</span>' : '') +
+                      (item.deathroot_required ? '<span style="color:var(--text-muted);font-size:0.65rem;">死根×' + item.deathroot_required + '</span>' : '') +
+                    '</div>' +
+                  '</div>').join('') +
+                '</div>' : ''}
+              </div>
             </div>`;
         }).join('')}
       </div>
@@ -161,6 +169,12 @@ export async function renderMerchants(container, params) {
     container.querySelectorAll('[data-dlc]').forEach(btn => {
       btn.addEventListener('click', () => {
         filterDLC = btn.dataset.dlc;
+        render();
+      });
+    });
+    container.querySelectorAll('[data-bell]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBell = btn.dataset.bell;
         render();
       });
     });

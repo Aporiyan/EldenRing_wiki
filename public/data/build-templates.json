@@ -1,0 +1,80 @@
+[
+  {
+    "name": "出血神秘流",
+    "name_en": "Bleed Arcane",
+    "description": "当前版本最强的 PvE 流派，利用神秘质变的出血积累和尸山血海的高爆发",
+    "level": 150,
+    "class": "武士",
+    "stats": { "vigor": 60, "mind": 20, "endurance": 25, "strength": 12, "dexterity": 18, "intelligence": 7, "faith": 12, "arcane": 60 },
+    "weapons": ["尸山血海", "欧赫宝剑"],
+    "talismans": ["鲜血君王的欢愉", "腐败翼剑徽章", "米莉森的义手", "黄金树的恩惠+2"],
+    "armor": ["白面具"],
+    "spells": [],
+    "tips": ["感应优先到 45-60", "血质变武器面板最高", "尸山血海战技秒天秒地"]
+  },
+  {
+    "name": "力量猛男流",
+    "name_en": "Strength Colossal",
+    "description": "纯力量重武器流派，双手巨剑/粉碎巨人锤，削韧极高",
+    "level": 150,
+    "class": "流浪骑士",
+    "stats": { "vigor": 60, "mind": 16, "endurance": 30, "strength": 80, "dexterity": 12, "intelligence": 7, "faith": 7, "arcane": 9 },
+    "weapons": ["巨剑", "粉碎巨人槌"],
+    "talismans": ["斧护符", "大壶众武护符", "咆哮护符", "黄金树的恩惠+2"],
+    "armor": ["大山羊头盔", "大山羊铠甲", "大山羊臂甲", "大山羊腿甲"],
+    "spells": [],
+    "tips": ["力量点到 54 即可双手达到 81 软上限", "跳劈是核心输出手段", "配合铁砧大锤的专属战技"]
+  },
+  {
+    "name": "智信祷告流",
+    "name_en": "Strength/Faith",
+    "description": "亵渎圣剑+火焰祷告的组合，自带回血效果，生存力极强",
+    "level": 150,
+    "class": "预言家",
+    "stats": { "vigor": 60, "mind": 25, "endurance": 20, "strength": 22, "dexterity": 15, "intelligence": 7, "faith": 50, "arcane": 9 },
+    "weapons": ["亵渎圣剑"],
+    "talismans": ["圣战护符", "群聚信徒的立誓布", "双指的传说", "黄金树的恩惠+2"],
+    "armor": [],
+    "spells": ["火焰啊！赐予我力量！", "黄金树立誓", "兽石"],
+    "tips": ["亵渎圣剑击杀回血", "前期可用焰术质变过渡", "推荐 54 力量 50 信仰"]
+  },
+  {
+    "name": "法师智力流",
+    "name_en": "Intelligence Sorcery",
+    "description": "纯法师流派，月光大剑+暗月大剑近战，配合彗星亚兹勒远程爆发",
+    "level": 150,
+    "class": "观星者",
+    "stats": { "vigor": 55, "mind": 35, "endurance": 20, "strength": 12, "dexterity": 18, "intelligence": 70, "faith": 7, "arcane": 9 },
+    "weapons": ["暗月大剑", "名刀月隐"],
+    "talismans": ["魔力对蝎", "魔法学院护符", "拉达冈的肖像", "黄金树的恩惠+2"],
+    "armor": [],
+    "spells": ["彗星亚兹勒", "毁灭流星", "罗蕾塔的大弓", "帚星"],
+    "tips": ["智力优先到 60-80", "名刀月隐战技削韧极强", "彗星亚兹勒配合灵药无限蓝"]
+  },
+  {
+    "name": "灵巧居合流",
+    "name_en": "Dexterity Samurai",
+    "description": "纯灵巧流派，双刀/长牙/尸山血海，攻速快出血积累高",
+    "level": 150,
+    "class": "武士",
+    "stats": { "vigor": 50, "mind": 20, "endurance": 30, "strength": 16, "dexterity": 80, "intelligence": 7, "faith": 7, "arcane": 12 },
+    "weapons": ["长牙", "尸山血海"],
+    "talismans": ["腐败翼剑徽章", "米莉森的义手", "鲜血君王的欢愉", "黄金树的恩惠+2"],
+    "armor": [],
+    "spells": [],
+    "tips": ["灵巧 80 达到软上限", "双持打刀/长牙跳劈频率极高", "配合居合战技"]
+  },
+  {
+    "name": "纯信火焰流",
+    "name_en": "Pure Faith Pyromancer",
+    "description": "纯信仰火焰祷告流派，巨人火焰伤害极高，配合火焰质变武器",
+    "level": 150,
+    "class": "预言家",
+    "stats": { "vigor": 50, "mind": 35, "endurance": 20, "strength": 30, "dexterity": 12, "intelligence": 9, "faith": 60, "arcane": 9 },
+    "weapons": ["巨人的红发辫"],
+    "talismans": ["火对蝎", "群聚信徒的立誓布", "拉达冈的肖像", "黄金树的恩惠+2"],
+    "armor": [],
+    "spells": ["巨人火焰啊", "火焰啊！赐予我力量！", "癫火", "黄金树立誓", "感受巨人火焰吧"],
+    "tips": ["信仰 60 软上限", "巨人火焰范围大伤害高", "配合火焰质变武器近战"]
+  }
+]

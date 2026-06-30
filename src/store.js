@@ -124,6 +124,9 @@ let spellImageMap = null;
 let ashImageMap = null;
 let spiritAshImageMap = null;
 
+// Item source data (where to find each item)
+let itemSources = null;
+
 const IMAGE_MANIFEST_FILES = {
   armaments: 'weapon-images.json',
   armor: 'armor-images.json',
@@ -255,6 +258,14 @@ export async function loadAllData() {
       } catch (e) {
         setter({});
       }
+    }
+
+    // Load item sources
+    try {
+      const resp = await fetch('./data/item-sources.json');
+      itemSources = await resp.json();
+    } catch (e) {
+      itemSources = {};
     }
   })();
   return loadPromise;
@@ -427,7 +438,8 @@ export function getCategoryList() {
 }
 
 export function getLocations(item) {
-  return null;
+  if (!itemSources || !item || !item.name_en) return null;
+  return itemSources[item.name_en] || null;
 }
 
 const MAX_LV_MAP = {0:25,1900:25,2200:10,2400:10,3000:0,3100:25,3200:10,3300:10,8000:25,8100:25,8200:25,8300:10,8500:10,1300:10,3400:10,3500:10};

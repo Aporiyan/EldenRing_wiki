@@ -237,7 +237,8 @@ export function renderBuildPlanner(container, params) {
               <div id="bp-reqs" style="border-top:1px solid var(--border-color);padding-top:10px">
                 <div style="font-size:0.8rem;color:var(--text-muted)">选择装备后显示需求</div>
               </div>
-              <button id="bp-clear" style="margin-top:8px;width:100%;padding:6px;border:1px solid var(--border-color);border-radius:4px;background:transparent;color:var(--text-muted);font-size:0.75rem;cursor:pointer">清除套装</button>
+              <button id="bp-load-preset" style="margin-top:8px;width:100%;padding:6px;border:1px solid var(--accent-gold-dim);border-radius:4px;background:transparent;color:var(--accent-gold-dim);font-size:0.75rem;cursor:pointer">加载预设</button>
+              <button id="bp-clear" style="margin-top:4px;width:100%;padding:6px;border:1px solid var(--border-color);border-radius:4px;background:transparent;color:var(--text-muted);font-size:0.75rem;cursor:pointer">清除套装</button>
             </div>
           </div>
 
@@ -751,6 +752,128 @@ export function renderBuildPlanner(container, params) {
       renderCells();
       updateSummary();
     });
+  }
+
+  const presetBtn = container.querySelector('#bp-load-preset');
+  if (presetBtn) {
+    presetBtn.addEventListener('click', showPresetModal);
+  }
+
+  async function showPresetModal() {
+    try {
+      const resp = await fetch('./data/build-templates.json');
+      const templates = await resp.json();
+      overlay.innerHTML = `
+        <div class="bp-modal" style="max-width:520px">
+          <div class="bp-modal-head">
+            <div class="bp-modal-head-left">
+              <span class="bp-modal-icon">◈</span>
+              <span class="bp-modal-title">选择预设 Build</span>
+              <span class="bp-modal-count">${templates.length}</span>
+            </div>
+            <button class="bp-modal-close" id="bp-mclose">✕</button>
+          </div>
+          <div class="bp-modal-list" style="padding:12px;display:flex;flex-direction:column;gap:8px">
+            ${templates.map((t, i) => `
+              <div class="bp-preset-card" data-idx="${i}" style="padding:12px;border:1px solid var(--border-color);border-radius:8px;cursor:pointer;background:var(--bg-card)">
+                <div style="font-weight:600;font-size:0.9rem">${t.name}</div>
+                <div style="font-size:0.72rem;color:var(--text-muted);margin:2px 0 4px">${t.name_en} · Lv.${t.level} · ${t.class}</div>
+                <div style="font-size:0.78rem;color:var(--text-secondary)">${t.description}</div>
+                <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">
+                  ${Object.entries(t.stats).filter(([,v]) => v > 10).map(([k,v]) => `
+                    <span style="font-size:0.7rem;padding:2px 8px;background:var(--bg-input);border-radius:4px;color:var(--text-muted)">${STAT_CN[k]||k} ${v}</span>
+                  `).join('')}
+                </div>
+              </div>`).join('')}
+          </div>
+        </div>`;
+      overlay.style.display = 'flex';
+      overlay.querySelector('#bp-mclose').addEventListener('click', () => { overlay.style.display = 'none'; overlay.innerHTML = ''; });
+      overlay.querySelectorAll('.bp-preset-card').forEach(el => {
+        el.addEventListener('click', () => {
+          const idx = parseInt(el.dataset.idx);
+          applyPreset(templates[idx]);
+          overlay.style.display = 'none';
+          overlay.innerHTML = '';
+        });
+        el.addEventListener('mouseenter', () => { el.style.background = 'var(--bg-card-hover)'; });
+        el.addEventListener('mouseleave', () => { el.style.background = 'var(--bg-card)'; });
+      });
+    } catch (e) {
+      console.error('加载预设失败:', e);
+    }
+  }
+
+  function applyPreset(template) {
+    Object.keys(build).forEach(k => delete build[k]);
+    stats = { ...template.stats };
+
+    const inputsDiv = container.querySelector('#bp-stat-inputs');
+    if (inputsDiv) {
+      STAT_ORDER.forEach(sn => {
+        inputsDiv.querySelectorAll(`[data-stat="${sn}"]`).forEach(el => el.value = stats[sn]);
+      });
+    }
+
+    const armaments = getData('armaments');
+    const weaponSlots = ['weapon_r1', 'weapon_r2', 'weapon_r3', 'weapon_l1', 'weapon_l2', 'weapon_l3'];
+    if (template.weapons) {
+      template.weapons.forEach((cnName, i) => {
+        if (i >= weaponSlots.length) return;
+        const item = armaments.find(a => a.name === cnName);
+        if (item) build[weaponSlots[i]] = item;
+      });
+    }
+
+    const talismans = getData('talismans');
+    const taliSlots = ['tali1', 'tali2', 'tali3', 'tali4'];
+    if (template.talismans) {
+      template.talismans.forEach((cnName, i) => {
+        if (i >= taliSlots.length) return;
+        const item = talismans.find(t => t.name === cnName);
+        if (item) build[taliSlots[i]] = item;
+      });
+    }
+
+    const spells = getData('spells');
+    const memSlots = ['mem1', 'mem2', 'mem3', 'mem4', 'mem5', 'mem6', 'mem7', 'mem8', 'mem9', 'mem10'];
+    if (template.spells) {
+      template.spells.forEach((cnName, i) => {
+        if (i >= memSlots.length) return;
+        const item = spells.find(s => s.name === cnName);
+        if (item) build[memSlots[i]] = item;
+      });
+    }
+
+    const armor = getData('armor');
+    const armorSlots = ['head', 'chest', 'arms', 'legs'];
+    const slotCategoryCheck = {
+      head: i => i.category === 'Head',
+      chest: i => i.category === 'Body' || i.category === 'Chest',
+      arms: i => i.category === 'Arms',
+      legs: i => i.category === 'Legs',
+    };
+    if (template.armor) {
+      template.armor.forEach(cnName => {
+        let item = armor.find(a => a.name === cnName);
+        if (!item) {
+          const prefix = cnName.replace('套装', '');
+          item = armor.find(a => a.name.startsWith(prefix));
+        }
+        if (item) {
+          for (const sk of armorSlots) {
+            if (slotCategoryCheck[sk](item) && !build[sk]) {
+              build[sk] = item;
+              break;
+            }
+          }
+        }
+      });
+    }
+
+    renderCells();
+    updateSummary();
+    saveBuild();
   }
 
   syncEnduranceInputs();

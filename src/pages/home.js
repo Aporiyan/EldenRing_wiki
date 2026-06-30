@@ -13,7 +13,17 @@ function categoryRoute(cat) {
     cat.key === 'items' ? 'items' : cat.key);
 }
 
-export function renderHome(container) {
+async function fetchCount(path, fallback) {
+  try {
+    const r = await fetch(path);
+    const data = await r.json();
+    return Object.keys(data).length;
+  } catch (e) {
+    return fallback;
+  }
+}
+
+export async function renderHome(container) {
   const cats = getCategoryList();
   const total = getTotalCount();
 
@@ -23,12 +33,21 @@ export function renderHome(container) {
   const displayCats = cats.filter(c => !MERGE_KEYS.includes(c.key) && !c.key.startsWith('dlc-'));
   displayCats.push({ key: 'items', label: '道具 & 材料', count: mergedCount });
 
+  const [npcCount, bossCount, recipeCount, ammoCount, merchantCount, achievementCount] = await Promise.all([
+    fetchCount('./data/npcs.json', 84),
+    fetchCount('./data/bosses.json', 121),
+    fetchCount('./data/cookbook-recipes.json', 59),
+    fetchCount('./data/ammo.json', 63),
+    fetchCount('./data/merchants.json', 39),
+    fetchCount('./data/achievements.json', 42),
+  ]);
+
   const infoCount = (getData('info') || []).length;
 
   container.innerHTML = `
     <div class="home-hero">
       <div class="home-title">ELDEN RING</div>
-      <div class="home-subtitle">交界地知识库 — 武器 · 防具 · 魔法 · 更多</div>
+      <div class="home-subtitle">交界地知识库 — 全资料 · 配装 · 路线</div>
       <div class="home-search-box">
         <div class="search-box">
           <span class="search-icon">🔍</span>
@@ -42,12 +61,20 @@ export function renderHome(container) {
         </div>
         <div class="home-stat">
           <div class="home-stat-number">${displayCats.length}</div>
-          <div class="home-stat-label">分类</div>
+          <div class="home-stat-label">资料分类</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number">${bossCount}</div>
+          <div class="home-stat-label">Boss</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number">${npcCount}</div>
+          <div class="home-stat-label">NPC</div>
         </div>
       </div>
     </div>
 
-    <div style="margin-top:32px;">
+    <div style="margin-top:28px;">
       <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">道具</div>
       <div class="home-categories" style="margin-top:0;">
         ${displayCats.map(cat => `
@@ -57,15 +84,10 @@ export function renderHome(container) {
             <div class="home-category-count">${cat.count} 件</div>
           </a>
         `).join('')}
-        <a href="#/map" class="home-category-card">
-          <div class="home-category-icon">🗺</div>
-          <div class="home-category-name">活点地图</div>
-          <div class="home-category-count">全区域</div>
-        </a>
       </div>
     </div>
 
-    <div style="margin-top:32px;">
+    <div style="margin-top:28px;">
       <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">工具</div>
       <div class="home-categories" style="margin-top:0;">
         <a href="#/build-planner" class="home-category-card">
@@ -96,18 +118,23 @@ export function renderHome(container) {
       </div>
     </div>
 
-    <div style="margin-top:32px;">
+    <div style="margin-top:28px;">
       <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">百科</div>
       <div class="home-categories" style="margin-top:0;">
         <a href="#/npcs" class="home-category-card">
           <div class="home-category-icon">👤</div>
           <div class="home-category-name">NPC</div>
-          <div class="home-category-count">84 名</div>
+          <div class="home-category-count">${npcCount} 名</div>
         </a>
         <a href="#/bosses" class="home-category-card">
           <div class="home-category-icon">👹</div>
           <div class="home-category-name">Boss</div>
-          <div class="home-category-count">121 只</div>
+          <div class="home-category-count">${bossCount} 只</div>
+        </a>
+        <a href="#/walkthrough" class="home-category-card">
+          <div class="home-category-icon">🗺</div>
+          <div class="home-category-name">推图路线</div>
+          <div class="home-category-count">9 个阶段</div>
         </a>
         <a href="#/info" class="home-category-card">
           <div class="home-category-icon">📜</div>
@@ -117,28 +144,33 @@ export function renderHome(container) {
         <a href="#/recipes" class="home-category-card">
           <div class="home-category-icon">🧪</div>
           <div class="home-category-name">制作配方</div>
-          <div class="home-category-count">59 本笔记</div>
+          <div class="home-category-count">${recipeCount} 本笔记</div>
         </a>
         <a href="#/ammo" class="home-category-card">
           <div class="home-category-icon">🏹</div>
           <div class="home-category-name">弹药图鉴</div>
-          <div class="home-category-count">63 种</div>
+          <div class="home-category-count">${ammoCount} 种</div>
         </a>
         <a href="#/merchants" class="home-category-card">
           <div class="home-category-icon">🏪</div>
           <div class="home-category-name">商人列表</div>
-          <div class="home-category-count">39 位</div>
+          <div class="home-category-count">${merchantCount} 位</div>
+        </a>
+        <a href="#/weapons-compare" class="home-category-card">
+          <div class="home-category-icon">📋</div>
+          <div class="home-category-name">武器质变数据</div>
+          <div class="home-category-count">479 件</div>
         </a>
       </div>
     </div>
 
-    <div style="margin-top:32px;">
+    <div style="margin-top:28px;">
       <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">记录</div>
       <div class="home-categories" style="margin-top:0;">
         <a href="#/achievements" class="home-category-card">
           <div class="home-category-icon">🏆</div>
           <div class="home-category-name">成就</div>
-          <div class="home-category-count">42 项</div>
+          <div class="home-category-count">${achievementCount} 项</div>
         </a>
       </div>
     </div>
@@ -169,8 +201,6 @@ export function renderHome(container) {
       }
     });
   }
-
-  return () => {};
 }
 
 function getIcon(key) {

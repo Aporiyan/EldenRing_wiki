@@ -401,7 +401,41 @@ function renderChartSection(item, info) {
 }
 
 function renderLocations(item) {
-  return '';
+  const locs = getLocations(item);
+  if (!locs || !locs.sources || !locs.sources.length) return '';
+  const rows = locs.sources.map(s => {
+    if (s.type === 'boss') {
+      return `<div style="display:flex;align-items:center;gap:6px;font-size:0.8rem;padding:3px 0;">
+        <span style="color:var(--accent-gold);font-weight:600;">Boss掉落</span>
+        <span style="color:var(--text);">${s.bossName_cn || s.bossName}</span>
+        <span style="color:var(--text-muted);font-size:0.7rem;">📍 ${s.location_cn || ''}</span>
+        <span style="color:var(--text-muted);font-size:0.7rem;">🗺 ${s.region_cn || ''}</span>
+      </div>`;
+    }
+    if (s.type === 'merchant') {
+      return `<div style="display:flex;align-items:center;gap:6px;font-size:0.8rem;padding:3px 0;">
+        <span style="color:#7a8fc9;font-weight:600;">商人出售</span>
+        <span style="color:var(--text);">${s.merchantName_cn || s.merchantName}</span>
+        ${s.price ? `<span style="color:var(--accent-gold);font-size:0.75rem;">${s.price}卢恩</span>` : ''}
+        ${s.quantity_max != null ? `<span style="color:var(--text-muted);font-size:0.7rem;">×${s.quantity_max === 0 ? '无限' : s.quantity_max}</span>` : ''}
+      </div>`;
+    }
+    if (s.type === 'quest') {
+      return `<div style="display:flex;align-items:center;gap:6px;font-size:0.8rem;padding:3px 0;">
+        <span style="color:#6a9a4a;font-weight:600;">任务奖励</span>
+        <span style="color:var(--text);">${s.npc_cn || s.npc}</span>
+        ${s.reward_cn ? `<span style="color:var(--text-muted);font-size:0.75rem;">→ ${s.reward_cn}</span>` : ''}
+      </div>`;
+    }
+    if (s.type === 'crafting') {
+      return `<div style="display:flex;align-items:center;gap:6px;font-size:0.8rem;padding:3px 0;">
+        <span style="color:#d47a4a;font-weight:600;">制作</span>
+        <span style="color:var(--text);">${s.cookbook_cn || s.cookbook}</span>
+      </div>`;
+    }
+    return '';
+  }).join('');
+  return `<div class="stat-block"><div class="stat-block-title">获取来源</div><div style="padding:8px;">${rows}</div></div>`;
 }
 
 function renderRemarks(item) {

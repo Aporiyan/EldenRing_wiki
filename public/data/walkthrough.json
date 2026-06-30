@@ -1,0 +1,287 @@
+[
+  {
+    "id": "limgrave",
+    "name": "宁姆格福",
+    "name_en": "Limgrave",
+    "order": 1,
+    "level_range": "1-30",
+    "recommended_level": 15,
+    "recommended_upgrade": "+3",
+    "description": "游戏起始区域。向南探索啜泣半岛后再向北挑战史东薇尔城。",
+    "sub_areas": [
+      { "name": "啜泣半岛", "level_range": "1-20", "recommended_level": 10, "description": "南方半岛，有大量低威胁敌人和重要道具" },
+      { "name": "史东薇尔城", "level_range": "20-30", "recommended_level": 25, "description": "主线必经之地，击败葛瑞克后获得大卢恩" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「碎片君王」葛瑞克", "name_en": "Godrick the Grafted", "location": "史东薇尔城", "drops": ["葛瑞克的大卢恩", "接肢的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「大树守卫」", "name_en": "Tree Sentinel", "location": "宁姆格福大道", "drops": ["黄金戟"] },
+      { "name": "「恶兆妖鬼」玛尔基特", "name_en": "Margit the Fell Omen", "location": "史东薇尔城门口", "drops": ["护符皮带"] },
+      { "name": "「猎犬骑士」达瑞威尔", "name_en": "Darriwil", "location": "啜泣半岛 无主猎犬的封印监牢", "drops": ["猎犬长牙"] },
+      { "name": "「狮子混种」", "name_en": "Leonine Misbegotten", "location": "啜泣半岛 摩恩城", "drops": ["剑骸大剑"] }
+    ],
+    "key_items": [
+      { "name": "灵马哨笛", "location": "关卡前废墟 与梅琳娜对话" },
+      { "name": "招魂铃", "location": "艾蕾教堂 与菈妮对话（夜晚）" },
+      { "name": "砥石刀", "location": "关卡前废墟 地窖" },
+      { "name": "圣杯露滴", "location": "宁姆格福 多个教堂" },
+      { "name": "黄金种子", "location": "宁姆格福 多个地点" }
+    ],
+    "tips": [
+      "啜泣半岛是宁姆格福的『新手村』，建议优先探索",
+      "遇到玛尔基特打不过时，先去啜泣半岛升级武器和等级",
+      "灵马哨笛必须尽早获得，探索效率完全不同",
+      "夜晚去艾蕾教堂可以遇到菈妮获得招魂铃"
+    ]
+  },
+  {
+    "id": "liurnia",
+    "name": "湖之利耶尼亚",
+    "name_en": "Liurnia of the Lakes",
+    "order": 2,
+    "level_range": "30-50",
+    "recommended_level": 40,
+    "recommended_upgrade": "+6",
+    "description": "通过史东薇尔城后进入利耶尼亚。南北跨度大，湖区和地下区域值得深入探索。",
+    "sub_areas": [
+      { "name": "湖区", "level_range": "30-40", "recommended_level": 35, "description": "广阔的湖泊区域，北部有学院" },
+      { "name": "卡利亚城寨", "level_range": "40-50", "recommended_level": 45, "description": "西北部，通往菈妮任务线" },
+      { "name": "月光祭坛", "level_range": "50-60", "recommended_level": 55, "description": "菈妮任务线终点，高难度区域" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「满月女王」蕾娜菈", "name_en": "Rennala, Queen of the Full Moon", "location": "雷亚卢卡利亚学院", "drops": ["蕾娜菈的大卢恩", "满月女王的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「禁卫骑士」罗蕾塔", "name_en": "Royal Knight Loretta", "location": "卡利亚城寨", "drops": ["罗蕾塔的大弓"] }
+    ],
+    "key_items": [
+      { "name": "学院辉石钥匙", "location": "学院门前的辉石龙后方的尸体" },
+      { "name": "记忆石", "location": "利耶尼亚 多个地点" },
+      { "name": "锻造石矿工的铃珠", "location": "雷亚卢卡利亚结晶坑道" }
+    ],
+    "tips": [
+      "蕾娜菈的洗点功能在击败她后解锁，非常实用",
+      "湖区地下有大量墓地，注意看地图上的墓碑标记",
+      "卡利亚城寨有隐藏路径通往菈妮任务线"
+    ]
+  },
+  {
+    "id": "caelid",
+    "name": "盖利德",
+    "name_en": "Caelid",
+    "order": 3,
+    "level_range": "50-70",
+    "recommended_level": 60,
+    "recommended_upgrade": "+9",
+    "description": "高难度猩红腐败区域。可通过盖利德或穿过湖区抵达。",
+    "sub_areas": [
+      { "name": "盖利德南部", "level_range": "50-65", "recommended_level": 55, "description": "猩红沼泽区域，腐败状态威胁" },
+      { "name": "龙墓", "level_range": "65-80", "recommended_level": 70, "description": "北部高难度区域，有大量龙类敌人" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「碎星将军」拉塔恩", "name_en": "Starscourge Radahn", "location": "红狮子城 盖利德", "drops": ["拉塔恩的大卢恩", "碎星将军的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「腐败女神」艾奥尼亚的蝶", "name_en": "Malenia's projection", "location": "艾奥尼亚沼泽" },
+      { "name": "「神皮使徒」", "name_en": "Godskin Apostle", "location": "盖利德神授塔" }
+    ],
+    "key_items": [
+      { "name": "强化古龙岩", "location": "龙墓 法洛斯要塞后方的龙" },
+      { "name": "黄金种子", "location": "盖利德 多个地点" }
+    ],
+    "tips": [
+      "腐败状态会持续扣血，多备腐败苔药",
+      "红狮子城的祭典需要完成菈妮任务线或推进主线触发",
+      "龙墓的敌人比其他区域强很多，不建议早期前往"
+    ]
+  },
+  {
+    "id": "altus",
+    "name": "亚坛高原",
+    "name_en": "Altus Plateau",
+    "order": 4,
+    "level_range": "60-80",
+    "recommended_level": 70,
+    "recommended_upgrade": "+12",
+    "description": "通过迪可达斯大升降机或坑道抵达。王城外围区域，格密尔火山也在附近。",
+    "sub_areas": [
+      { "name": "亚坛高原", "level_range": "60-75", "recommended_level": 65, "description": "主要区域，包含王城外围和封印监牢" },
+      { "name": "格密尔火山", "level_range": "70-85", "recommended_level": 75, "description": "火山官邸所在地，有隐藏剧情" },
+      { "name": "王城外围", "level_range": "75-90", "recommended_level": 80, "description": "王城大门前的区域，有大量士兵" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「亵渎君王」拉卡德", "name_en": "Rykard, Lord of Blasphemy", "location": "格密尔火山 火山官邸", "drops": ["拉卡德的大卢恩", "亵渎君王的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「大蛇」", "name_en": "God-Devouring Serpent", "location": "格密尔火山 火山官邸", "drops": ["无法正常获取"] },
+      { "name": "「树灵」", "name_en": "Erdtree Avatar", "location": "亚坛高原" }
+    ],
+    "key_items": [
+      { "name": "迪可达斯符节", "location": "法洛斯要塞（右）" },
+      { "name": "秘密符节", "location": "盖利德 神授塔/雪原" },
+      { "name": "火山官邸邀请函", "location": "利耶尼亚 与雅各布对话" }
+    ],
+    "tips": [
+      "火山官邸的暗杀任务完成后可以获得传说级护符和武器",
+      "拉卡德战请使用专用武器「蛇骨刀」，会极大降低难度",
+      "黄金律法基本主义祷告在亚坛高原可以购买",
+      "通往王城需要两个符节"
+    ]
+  },
+  {
+    "id": "leyndell",
+    "name": "王城罗德尔",
+    "name_en": "Leyndell, Royal Capital",
+    "order": 5,
+    "level_range": "80-100",
+    "recommended_level": 90,
+    "recommended_upgrade": "+15",
+    "description": "黄金树脚下的王城。错综复杂的街道和下水道系统。",
+    "sub_areas": [
+      { "name": "王城地面", "level_range": "80-95", "recommended_level": 85, "description": "主要区域，教堂和宫殿建筑群" },
+      { "name": "王城下水道", "level_range": "85-100", "recommended_level": 90, "description": "复杂的地下迷宫，通往癫火封印" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「初始之王」葛孚雷幻影", "name_en": "Godfrey, First Elden Lord (Golden Shade)", "location": "王城 埃尔登宝座前", "drops": ["无掉落"] },
+      { "name": "「恶兆王」蒙葛特", "name_en": "Morgott, the Omen King", "location": "王城 埃尔登宝座", "drops": ["蒙葛特的大卢恩", "恶兆王的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「龙装大树守卫」", "name_en": "Draconic Tree Sentinel", "location": "王城大门外", "drops": ["大树守卫的武器"] }
+    ],
+    "key_items": [
+      { "name": "古龙岩锻造石", "location": "王城 多个隐藏区域" },
+      { "name": "癫火封印", "location": "王城下水道 最深处" },
+      { "name": "黄金树的恩惠+1", "location": "王城 黄金树下方" }
+    ],
+    "tips": [
+      "王城下水道极其复杂，建议标记已探索路线",
+      "击败蒙葛特后王城会变成灰城罗德尔，部分物品会永久丢失",
+      "如果玩信仰流，可以在王城购买强力祷告",
+      "癫火封印需要脱光衣服才能打开"
+    ]
+  },
+  {
+    "id": "mountaintops",
+    "name": "巨人山顶",
+    "name_en": "Mountaintops of the Giants",
+    "order": 6,
+    "level_range": "100-120",
+    "recommended_level": 110,
+    "recommended_upgrade": "+18",
+    "description": "通过王城后到达的雪地区域。分为巨人山顶和化圣雪原两部分。",
+    "sub_areas": [
+      { "name": "巨人山顶", "level_range": "100-115", "recommended_level": 110, "description": "北部雪原，有火焰巨人和巨人部队" },
+      { "name": "化圣雪原", "level_range": "110-125", "recommended_level": 120, "description": "极寒区域，视线极差，需要秘密符节到达" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「火焰巨人」", "name_en": "Fire Giant", "location": "巨人山顶 巨人火焰大锅", "drops": ["火焰巨人的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「神皮双人组」", "name_en": "Godskin Duo", "location": "巨人山顶 神授桥" },
+      { "name": "「死亡仪式鸟」", "name_en": "Death Rite Bird", "location": "巨人山顶 夜晚" },
+      { "name": "「英雄石像鬼」", "name_en": "Valiant Gargoyle", "location": "化圣雪原" }
+    ],
+    "key_items": [
+      { "name": "秘密符节（左）", "location": "巨人山顶 索尔城" },
+      { "name": "古龙岩锻造石", "location": "化圣雪原 多个地点" },
+      { "name": "黄金种子", "location": "巨人山顶 多个地点" }
+    ],
+    "tips": [
+      "火焰巨人二阶段会滚出大范围火焰，保持在侧面输出",
+      "化圣雪原需要左右秘密符节才能通过大升降机",
+      "索尔城在巨人山顶北部，击败老将尼奥可以获得左符节",
+      "建议带火焰减伤护符应对火焰巨人"
+    ]
+  },
+  {
+    "id": "farum-azula",
+    "name": "逐渐崩毁的法姆·亚兹拉",
+    "name_en": "Crumbling Farum Azula",
+    "order": 7,
+    "level_range": "120-140",
+    "recommended_level": 130,
+    "recommended_upgrade": "+22",
+    "description": "击败火焰巨人后在龙背休息触发的隐藏天空城。线性区域但也有分支探索。",
+    "sub_areas": [
+      { "name": "法姆·亚兹拉外部", "level_range": "120-130", "recommended_level": 125, "description": "龙背区域，有大量龙和狂龙" },
+      { "name": "法姆·亚兹拉内部", "level_range": "130-140", "recommended_level": 135, "description": "混乱的废墟，有兽人祭司" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「神皮双人组」", "name_en": "Godskin Duo", "location": "法姆·亚兹拉 大教堂", "drops": ["无直接掉落"] },
+      { "name": "「龙王」普拉顿桑克斯", "name_en": "Dragonlord Placidusax", "location": "法姆·亚兹拉 隐藏区域", "drops": ["龙王的追忆"] },
+      { "name": "「初始之王」葛孚雷", "name_en": "Godfrey, First Elden Lord", "location": "法姆·亚兹拉 最终区域", "drops": ["初始之王的追忆"] }
+    ],
+    "key_bosses": [
+      { "name": "「狂龙」", "name_en": "Ancient Dragon", "location": "法姆·亚兹拉 多个地点" },
+      { "name": "「兽人祭司」", "name_en": "Beast Clergyman", "location": "法姆·亚兹拉 内部" }
+    ],
+    "key_items": [
+      { "name": "古龙岩锻造石", "location": "法姆·亚兹拉 多个地点" },
+      { "name": "失色古龙岩", "location": "法姆·亚兹拉 隐藏房间" }
+    ],
+    "tips": [
+      "龙王普拉顿桑克斯在隐藏区域，需要从一个大洞跳下去",
+      "该区域敌人以雷属性为主，建议带雷防护护符",
+      "击败葛孚雷后即可通往最终区域",
+      "该区域部分物品在击败最终BOSS后会永久丢失"
+    ]
+  },
+  {
+    "id": "haligtree",
+    "name": "米凯拉的圣树",
+    "name_en": "Miquella's Haligtree",
+    "order": 8,
+    "level_range": "130-150",
+    "recommended_level": 140,
+    "recommended_upgrade": "+25",
+    "description": "隐藏区域，需要完成米莉森任务线或收集圣树秘密符节。全游戏最难的区域之一。",
+    "sub_areas": [
+      { "name": "圣树分枝", "level_range": "130-140", "recommended_level": 135, "description": "通往圣树的主要路径" },
+      { "name": "圣树镇", "level_range": "135-145", "recommended_level": 140, "description": "复杂的建筑群" },
+      { "name": "艾奥尼亚蝶", "level_range": "140-150", "recommended_level": 145, "description": "最后区域" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「圣树骑士」罗蕾塔", "name_en": "Loretta, Knight of the Haligtree", "location": "圣树镇 北部", "drops": ["魔法 罗蕾塔的绝招"] },
+      { "name": "「女武神」玛莲妮亚", "name_en": "Malenia, Blade of Miquella", "location": "艾奥尼亚蝶 树顶上", "drops": ["玛莲妮亚的大卢恩", "女武神的追忆"] }
+    ],
+    "key_items": [
+      { "name": "圣树秘密符节", "location": "化圣雪原 白金村" },
+      { "name": "米莉森的义手", "location": "米莉森任务线" }
+    ],
+    "tips": [
+      "玛莲妮亚是公认的全游戏最难BOSS，建议在150级以上挑战",
+      "圣树镇物资产出极好，建议仔细探索每个角落",
+      "圣树区域敌人抗异常状态较高，出血流效果打折扣",
+      "米莉森任务线可以获得传说级护符「米莉森的义手」"
+    ]
+  },
+  {
+    "id": "ashen-capital",
+    "name": "灰城罗德尔 / 最终",
+    "name_en": "Ashen Capital / Finale",
+    "order": 9,
+    "level_range": "140-160",
+    "recommended_level": 150,
+    "recommended_upgrade": "+25",
+    "description": "击败火焰巨人后王城变为灰城。最终阶段，连续BOSS战。",
+    "sub_areas": [
+      { "name": "灰城罗德尔", "level_range": "140-150", "recommended_level": 145, "description": "灰烬中的王城" },
+      { "name": "黄金树内部", "level_range": "150-160", "recommended_level": 150, "description": "最终BOSS区域" }
+    ],
+    "mandatory_bosses": [
+      { "name": "「初始之王」葛孚雷 / 战士荷莱·露", "name_en": "Godfrey, First Elden Lord / Hoarah Loux", "location": "灰城 埃尔登宝座", "drops": ["初始之王的追忆"] },
+      { "name": "「黄金律法拉达冈」/ 艾尔登之兽", "name_en": "Radagon of the Golden Order / Elden Beast", "location": "黄金树内部", "drops": ["艾尔登之王", "（结局道具）"] }
+    ],
+    "key_items": [
+      { "name": "古龙岩锻造石", "location": "灰城 多个地点（部分被灰覆盖）" }
+    ],
+    "tips": [
+      "灰城部分区域与原王城不同，有新的物品可以收集",
+      "拉达冈弱打击和出血，但对魔法有较高抗性",
+      "艾尔登之兽是体型极大的BOSS，注意躲避范围攻击",
+      "击败最终BOSS后可以选择结局，建议提前备份存档体验不同结局",
+      "二周目会保留等级和大部分物品，但大卢恩和大钥匙会丢失"
+    ]
+  }
+]
