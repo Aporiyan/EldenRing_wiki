@@ -19,6 +19,8 @@ import { renderAchievements } from './pages/achievements.js';
 import { renderAffinityCompare } from './pages/affinity-compare.js';
 import { renderDataCharts } from './pages/charts.js';
 import { renderRecipes } from './pages/recipes.js';
+import { renderAmmo } from './pages/ammo.js';
+import { renderMerchants } from './pages/merchants.js';
 
 async function init() {
   const content = document.getElementById('content-area');
@@ -98,6 +100,12 @@ async function init() {
 
   // Recipes (crafting)
   registerRoute('/recipes', (container, params) => renderRecipes(container, params));
+
+  // Ammo
+  registerRoute('/ammo', (container, params) => renderAmmo(container, params));
+
+  // Merchants
+  registerRoute('/merchants', (container, params) => renderMerchants(container, params));
 
   // New feature pages
   registerRoute('/info', (container, params) => renderInfoPage(container, params));

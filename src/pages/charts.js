@@ -141,7 +141,13 @@ export async function renderDataCharts(container, params) {
     }
 
     overlay.querySelector('#ch-mclose').addEventListener('click', () => { overlay.style.display = 'none'; });
-    overlay.querySelector('#ch-msearch').addEventListener('input', renderItems);
+    const chsInput = overlay.querySelector('#ch-msearch');
+    if (chsInput) {
+      let composing = false;
+      chsInput.addEventListener('compositionstart', () => { composing = true; });
+      chsInput.addEventListener('compositionend', () => { composing = false; query = chsInput.value; renderItems(); });
+      chsInput.addEventListener('input', () => { if (composing) return; query = chsInput.value; renderItems(); });
+    }
     overlay.querySelector('#ch-mfilter')?.addEventListener('click', e => {
       const chip = e.target.closest('.bp-chip');
       if (!chip) return;

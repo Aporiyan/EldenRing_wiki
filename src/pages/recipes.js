@@ -34,6 +34,7 @@ export async function renderRecipes(container, params) {
 
   let searchQuery = '';
   let viewMode = 'byMaterial'; // 'byMaterial' | 'byProduct' | 'byCookbook'
+  let activeGroup = '';
 
   function render() {
     const q = searchQuery.toLowerCase();
@@ -53,33 +54,84 @@ export async function renderRecipes(container, params) {
     `;
 
     if (viewMode === 'byCookbook') {
-      let cbkEntries = Object.entries(cookbookData);
-      if (q) {
-        cbkEntries = cbkEntries.filter(([key, cbk]) =>
-          (translateName(key) || key).toLowerCase().includes(q) ||
-          cbk.recipes.some(r => (translateName(r) || r).toLowerCase().includes(q))
-        );
+      // Parse full-width numbers: ０→0, １→1, etc.
+      const fwDigit = ch => '０１２３４５６７８９'.indexOf(ch);
+      const parseNum = cn => {
+        const m = cn.match(/【(.+?)】/);
+        if (!m) return 99;
+        let n = 0;
+        for (const ch of m[1]) {
+          const d = fwDigit(ch);
+          if (d >= 0) n = n * 10 + d;
+        }
+        return n;
+      };
+      const parsePrefix = cn => {
+        const m = cn.match(/^(.+?)的制作笔记/);
+        return m ? m[1] : cn;
+      };
+
+      // Build grouped data sorted by number
+      let groups = {};
+      for (const [key, cbk] of Object.entries(cookbookData)) {
+        const cn = cbk.name_cn || translateName(key) || key;
+        const prefix = parsePrefix(cn);
+        const num = parseNum(cn);
+        if (!groups[prefix]) groups[prefix] = [];
+        groups[prefix].push({ key, cbk, cn, num });
+      }
+      for (const p of Object.keys(groups)) {
+        groups[p].sort((a, b) => a.num - b.num);
       }
 
-      html += `<div style="display:flex;flex-direction:column;gap:12px;">`;
-      for (const [cbKey, cbk] of cbkEntries) {
-        const cbName = translateName(cbKey) || cbKey;
-        const filteredRecipes = q
-          ? cbk.recipes.filter(r => (translateName(r) || r).toLowerCase().includes(q))
-          : cbk.recipes;
+      const groupList = Object.keys(groups).sort();
 
-        html += `
-          <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:8px;padding:12px;">
-            <div style="font-weight:600;font-size:0.9rem;margin-bottom:8px;color:var(--accent-gold);">${cbName}</div>
-            <div style="display:flex;flex-wrap:wrap;gap:6px;">
-              ${filteredRecipes.map(r => `<span class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--border-color);color:var(--text);">${translateName(r) || r}</span>`).join('')}
-            </div>
-            ${cbk.recipes.length !== filteredRecipes.length ? `<div style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">显示 ${filteredRecipes.length}/${cbk.recipes.length} 个配方</div>` : ''}
-          </div>`;
+      // Filter by search and group
+      let filteredGroups = {};
+      for (const g of groupList) {
+        const entries = groups[g];
+        if (activeGroup && g !== activeGroup) continue;
+        const matched = entries.filter(e =>
+          !q || e.cn.toLowerCase().includes(q) ||
+          e.cbk.recipes.some(r => (translateName(r) || r).toLowerCase().includes(q))
+        );
+        if (matched.length) filteredGroups[g] = matched;
+      }
+
+      // Group filter chips
+      if (!q) {
+        html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">`;
+        html += `<button class="bp-chip ${!activeGroup ? 'on' : ''}" data-cbg="">全部</button>`;
+        for (const g of groupList) {
+          html += `<button class="bp-chip ${activeGroup === g ? 'on' : ''}" data-cbg="${g}">${g} (${groups[g].length})</button>`;
+        }
+        html += `</div>`;
+      }
+
+      // Card grid
+      let hasAny = false;
+      html += `<div style="display:flex;flex-direction:column;gap:24px;">`;
+      for (const [prefix, entries] of Object.entries(filteredGroups)) {
+        html += `<div style="font-weight:700;font-size:1rem;color:var(--accent-gold);padding:4px 0 2px 0;">${prefix}</div>`;
+        html += `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;">`;
+        for (const { cn, cbk } of entries) {
+          hasAny = true;
+          const filteredRecipes = q
+            ? cbk.recipes.filter(r => (translateName(r) || r).toLowerCase().includes(q))
+            : cbk.recipes;
+          html += `
+            <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:10px;padding:14px;transition:box-shadow 0.15s;display:flex;flex-direction:column;">
+              <div style="font-weight:600;font-size:0.9rem;margin-bottom:10px;color:var(--text);line-height:1.3;">${cn}</div>
+              <div style="display:flex;flex-wrap:wrap;gap:6px;align-items:flex-start;">
+                ${filteredRecipes.map(r => `<span class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--border-color);color:var(--text);font-size:0.78rem;padding:3px 8px;">${translateName(r) || r}</span>`).join('')}
+              </div>
+            </div>`;
+        }
+        html += `</div>`;
       }
       html += `</div>`;
 
-      if (!cbkEntries.length) {
+      if (!hasAny) {
         html += '<div class="empty-state"><div class="empty-state-icon">📖</div><div class="empty-state-text">无匹配制作笔记</div></div>';
       }
     } else if (viewMode === 'byMaterial') {
@@ -168,13 +220,30 @@ export async function renderRecipes(container, params) {
       }
     }
 
-    document.getElementById('recipeSearch')?.addEventListener('input', e => {
-      searchQuery = e.target.value;
-      render();
-    });
+    const searchInput = document.getElementById('recipeSearch');
+    if (searchInput) {
+      let composing = false;
+      searchInput.addEventListener('compositionstart', () => { composing = true; });
+      searchInput.addEventListener('compositionend', () => {
+        composing = false;
+        searchQuery = searchInput.value;
+        render();
+      });
+      searchInput.addEventListener('input', e => {
+        if (composing) return;
+        searchQuery = e.target.value;
+        render();
+      });
+    }
     container.querySelectorAll('[data-view]').forEach(btn => {
       btn.addEventListener('click', () => {
         viewMode = btn.dataset.view;
+        render();
+      });
+    });
+    container.querySelectorAll('[data-cbg]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeGroup = btn.dataset.cbg;
         render();
       });
     });

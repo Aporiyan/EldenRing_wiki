@@ -117,10 +117,13 @@ export function renderInfoPage(container, params) {
         </div>
       </div>`;
 
-    container.querySelector('#info-search').addEventListener('input', e => {
-      searchQuery = e.target.value;
-      render();
-    });
+    const infoInput = container.querySelector('#info-search');
+    if (infoInput) {
+      let composing = false;
+      infoInput.addEventListener('compositionstart', () => { composing = true; });
+      infoInput.addEventListener('compositionend', () => { composing = false; searchQuery = infoInput.value; render(); });
+      infoInput.addEventListener('input', e => { if (composing) return; searchQuery = e.target.value; render(); });
+    }
     container.querySelector('#toggle-en').addEventListener('click', e => {
       showEn = !showEn;
       render();

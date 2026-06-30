@@ -360,7 +360,11 @@ export function createListPage(key, title, subtitle, options = {}) {
       // Search input
       const searchInput = container.querySelector('#page-search-input');
       if (searchInput) {
+        let composing = false;
+        searchInput.addEventListener('compositionstart', () => { composing = true; });
+        searchInput.addEventListener('compositionend', () => { composing = false; searchQuery = searchInput.value; applyFiltersAndSearch(); saveState(); renderGrid(); });
         searchInput.addEventListener('input', () => {
+          if (composing) return;
           searchQuery = searchInput.value;
           applyFiltersAndSearch();
           saveState();

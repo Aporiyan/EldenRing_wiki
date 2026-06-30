@@ -261,10 +261,10 @@ export function renderItemsTabGroup(container, params) {
 
     const input = container.querySelector('#page-search-input');
     if (input) {
-      input.addEventListener('input', () => {
-        searchQuery = input.value;
-        render();
-      });
+      let composing = false;
+      input.addEventListener('compositionstart', () => { composing = true; });
+      input.addEventListener('compositionend', () => { composing = false; searchQuery = input.value; render(); });
+      input.addEventListener('input', () => { if (composing) return; searchQuery = input.value; render(); });
     }
 
     const tabBar = container.querySelector('#tab-bar');
@@ -358,10 +358,10 @@ export function renderItemsCategory(container, params) {
 
     const input = container.querySelector('#page-search-input');
     if (input) {
-      input.addEventListener('input', () => {
-        searchQuery = input.value;
-        render();
-      });
+      let composing = false;
+      input.addEventListener('compositionstart', () => { composing = true; });
+      input.addEventListener('compositionend', () => { composing = false; searchQuery = input.value; render(); });
+      input.addEventListener('input', () => { if (composing) return; searchQuery = input.value; render(); });
     }
 
   }

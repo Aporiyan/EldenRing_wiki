@@ -149,10 +149,13 @@ export async function renderNpcList(container, params) {
       }
     }
 
-    container.querySelector('#npc-search').addEventListener('input', e => {
-      searchQuery = e.target.value;
-      render();
-    });
+    const npcInput = container.querySelector('#npc-search');
+    if (npcInput) {
+      let composing = false;
+      npcInput.addEventListener('compositionstart', () => { composing = true; });
+      npcInput.addEventListener('compositionend', () => { composing = false; searchQuery = npcInput.value; render(); });
+      npcInput.addEventListener('input', e => { if (composing) return; searchQuery = e.target.value; render(); });
+    }
     container.querySelector('#npc-region-filter').addEventListener('change', e => {
       filterRegion = e.target.value;
       render();

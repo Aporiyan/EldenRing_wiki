@@ -333,10 +333,13 @@ export function renderBuildPlanner(container, params) {
       </div>`;
 
     overlay.querySelector('#bp-mclose').addEventListener('click', closeModal);
-    overlay.querySelector('#bp-msearch').addEventListener('input', e => {
-      query = e.target.value;
-      renderItems();
-    });
+    const bpInput = overlay.querySelector('#bp-msearch');
+    if (bpInput) {
+      let composing = false;
+      bpInput.addEventListener('compositionstart', () => { composing = true; });
+      bpInput.addEventListener('compositionend', () => { composing = false; query = bpInput.value; renderItems(); });
+      bpInput.addEventListener('input', e => { if (composing) return; query = e.target.value; renderItems(); });
+    }
     const filterDiv = overlay.querySelector('#bp-mfilter');
     if (filterDiv) {
       filterDiv.addEventListener('click', e => {

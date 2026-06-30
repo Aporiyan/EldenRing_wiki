@@ -130,7 +130,13 @@ export async function renderBossList(container, params) {
       }
     }
 
-    document.getElementById('bossSearch')?.addEventListener('input', e => { searchQuery = e.target.value; render(); });
+    const bsInput = document.getElementById('bossSearch');
+    if (bsInput) {
+      let composing = false;
+      bsInput.addEventListener('compositionstart', () => { composing = true; });
+      bsInput.addEventListener('compositionend', () => { composing = false; searchQuery = bsInput.value; render(); });
+      bsInput.addEventListener('input', e => { if (composing) return; searchQuery = e.target.value; render(); });
+    }
     document.getElementById('bossRegionFilter')?.addEventListener('change', e => { filterRegion = e.target.value; render(); });
     container.querySelectorAll('.tag-filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {

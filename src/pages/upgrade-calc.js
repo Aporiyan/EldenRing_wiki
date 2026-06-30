@@ -159,7 +159,13 @@ export function renderUpgradeCalc(container, params) {
     }
 
     overlay.querySelector('#uc-mclose').addEventListener('click', () => { overlay.style.display = 'none'; });
-    overlay.querySelector('#uc-msearch').addEventListener('input', renderItems);
+    const ucInput = overlay.querySelector('#uc-msearch');
+    if (ucInput) {
+      let composing = false;
+      ucInput.addEventListener('compositionstart', () => { composing = true; });
+      ucInput.addEventListener('compositionend', () => { composing = false; query = ucInput.value; renderItems(); });
+      ucInput.addEventListener('input', () => { if (composing) return; query = ucInput.value; renderItems(); });
+    }
     const filterDiv = overlay.querySelector('#uc-mfilter');
     if (filterDiv) {
       filterDiv.addEventListener('click', e => {

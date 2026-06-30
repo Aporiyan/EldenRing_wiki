@@ -17,11 +17,13 @@ export function renderHome(container) {
   const cats = getCategoryList();
   const total = getTotalCount();
 
-  const MERGE_KEYS = ['tools', 'keys', 'crafting-materials', 'bolstering-materials'];
-  const mergedCount = MERGE_KEYS.reduce((s, k) => s + (getData(k) || []).length, 0);
+  const MERGE_KEYS = ['tools', 'keys', 'crafting-materials', 'bolstering-materials', 'info'];
+  const mergedCount = MERGE_KEYS.slice(0,4).reduce((s, k) => s + (getData(k) || []).length, 0);
 
   const displayCats = cats.filter(c => !MERGE_KEYS.includes(c.key) && !c.key.startsWith('dlc-'));
   displayCats.push({ key: 'items', label: '道具 & 材料', count: mergedCount });
+
+  const infoCount = (getData('info') || []).length;
 
   container.innerHTML = `
     <div class="home-hero">
@@ -44,25 +46,117 @@ export function renderHome(container) {
         </div>
       </div>
     </div>
-    <div class="home-categories">
-      ${displayCats.map(cat => `
-        <a href="${categoryRoute(cat)}" class="home-category-card">
-          <div class="home-category-icon">${getIcon(cat.key)}</div>
-          <div class="home-category-name">${cat.label}</div>
-          <div class="home-category-count">${cat.count} 件</div>
+
+    <div style="margin-top:32px;">
+      <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">道具</div>
+      <div class="home-categories" style="margin-top:0;">
+        ${displayCats.map(cat => `
+          <a href="${categoryRoute(cat)}" class="home-category-card">
+            <div class="home-category-icon">${getIcon(cat.key)}</div>
+            <div class="home-category-name">${cat.label}</div>
+            <div class="home-category-count">${cat.count} 件</div>
+          </a>
+        `).join('')}
+        <a href="#/map" class="home-category-card">
+          <div class="home-category-icon">🗺</div>
+          <div class="home-category-name">活点地图</div>
+          <div class="home-category-count">全区域</div>
         </a>
-      `).join('')}
-      <a href="#/npcs" class="home-category-card" style="opacity:0.9">
-        <div class="home-category-icon">👤</div>
-        <div class="home-category-name">NPC</div>
-        <div class="home-category-count">45+ 名</div>
-      </a>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;">
+      <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">工具</div>
+      <div class="home-categories" style="margin-top:0;">
+        <a href="#/build-planner" class="home-category-card">
+          <div class="home-category-icon">🔨</div>
+          <div class="home-category-name">Build 配装器</div>
+          <div class="home-category-count">配装模拟</div>
+        </a>
+        <a href="#/upgrade-calc" class="home-category-card">
+          <div class="home-category-icon">⬆</div>
+          <div class="home-category-name">强化计算</div>
+          <div class="home-category-count">材料计算</div>
+        </a>
+        <a href="#/item-compare" class="home-category-card">
+          <div class="home-category-icon">⇄</div>
+          <div class="home-category-name">物品对比</div>
+          <div class="home-category-count">对比工具</div>
+        </a>
+        <a href="#/affinities" class="home-category-card">
+          <div class="home-category-icon">⚗</div>
+          <div class="home-category-name">质变对比</div>
+          <div class="home-category-count">对比工具</div>
+        </a>
+        <a href="#/charts" class="home-category-card">
+          <div class="home-category-icon">📊</div>
+          <div class="home-category-name">数据图表</div>
+          <div class="home-category-count">分析工具</div>
+        </a>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;">
+      <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">百科</div>
+      <div class="home-categories" style="margin-top:0;">
+        <a href="#/npcs" class="home-category-card">
+          <div class="home-category-icon">👤</div>
+          <div class="home-category-name">NPC</div>
+          <div class="home-category-count">84 名</div>
+        </a>
+        <a href="#/bosses" class="home-category-card">
+          <div class="home-category-icon">👹</div>
+          <div class="home-category-name">Boss</div>
+          <div class="home-category-count">121 只</div>
+        </a>
+        <a href="#/info" class="home-category-card">
+          <div class="home-category-icon">📜</div>
+          <div class="home-category-name">信息/信件</div>
+          <div class="home-category-count">${infoCount} 条</div>
+        </a>
+        <a href="#/recipes" class="home-category-card">
+          <div class="home-category-icon">🧪</div>
+          <div class="home-category-name">制作配方</div>
+          <div class="home-category-count">59 本笔记</div>
+        </a>
+        <a href="#/ammo" class="home-category-card">
+          <div class="home-category-icon">🏹</div>
+          <div class="home-category-name">弹药图鉴</div>
+          <div class="home-category-count">63 种</div>
+        </a>
+        <a href="#/merchants" class="home-category-card">
+          <div class="home-category-icon">🏪</div>
+          <div class="home-category-name">商人列表</div>
+          <div class="home-category-count">39 位</div>
+        </a>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;">
+      <div style="font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--accent-gold);margin-bottom:12px;letter-spacing:0.05em;">记录</div>
+      <div class="home-categories" style="margin-top:0;">
+        <a href="#/achievements" class="home-category-card">
+          <div class="home-category-icon">🏆</div>
+          <div class="home-category-name">成就</div>
+          <div class="home-category-count">42 项</div>
+        </a>
+      </div>
     </div>
   `;
 
   const searchInput = container.querySelector('#home-search');
   if (searchInput) {
+    let composing = false;
+    searchInput.addEventListener('compositionstart', () => { composing = true; });
+    searchInput.addEventListener('compositionend', () => {
+      composing = false;
+      const q = searchInput.value.trim();
+      if (q.length >= 1) {
+        window.dispatchEvent(new CustomEvent('global-search', { detail: q }));
+      }
+    });
     searchInput.addEventListener('input', () => {
+      if (composing) return;
       const q = searchInput.value.trim();
       if (q.length >= 1) {
         window.dispatchEvent(new CustomEvent('global-search', { detail: q }));

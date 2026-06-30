@@ -133,7 +133,13 @@ export async function renderAffinityCompare(container, params) {
     }
 
     overlay.querySelector('#ac-mclose').addEventListener('click', () => { overlay.style.display = 'none'; });
-    overlay.querySelector('#ac-msearch').addEventListener('input', renderItems);
+    const acInput = overlay.querySelector('#ac-msearch');
+    if (acInput) {
+      let composing = false;
+      acInput.addEventListener('compositionstart', () => { composing = true; });
+      acInput.addEventListener('compositionend', () => { composing = false; query = acInput.value; renderItems(); });
+      acInput.addEventListener('input', () => { if (composing) return; query = acInput.value; renderItems(); });
+    }
     overlay.querySelector('#ac-mfilter')?.addEventListener('click', e => {
       const chip = e.target.closest('.bp-chip');
       if (!chip) return;

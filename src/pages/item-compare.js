@@ -133,7 +133,13 @@ export function renderItemCompare(container, params) {
     }
 
     overlay.querySelector('#ic-mclose').addEventListener('click', () => { overlay.style.display = 'none'; });
-    overlay.querySelector('#ic-msearch').addEventListener('input', renderItems);
+    const icInput = overlay.querySelector('#ic-msearch');
+    if (icInput) {
+      let composing = false;
+      icInput.addEventListener('compositionstart', () => { composing = true; });
+      icInput.addEventListener('compositionend', () => { composing = false; query = icInput.value; renderItems(); });
+      icInput.addEventListener('input', () => { if (composing) return; query = icInput.value; renderItems(); });
+    }
     const filterDiv = overlay.querySelector('#ic-mfilter');
     if (filterDiv) {
       filterDiv.addEventListener('click', e => {
