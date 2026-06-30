@@ -23,6 +23,11 @@ import { renderAmmo } from './pages/ammo.js';
 import { renderMerchants } from './pages/merchants.js';
 import { renderWeaponsCompare } from './pages/weapons-compare.js';
 import { renderWalkthrough } from './pages/walkthrough.js';
+import { renderGestures } from './pages/gestures.js';
+import { renderShopItems } from './pages/shop-items.js';
+
+import { renderItemSourcesTable } from './pages/item-sources-table.js';
+
 
 async function init() {
   const content = document.getElementById('content-area');
@@ -115,7 +120,9 @@ async function init() {
   // Walkthrough
   registerRoute('/walkthrough', (container, params) => renderWalkthrough(container, params));
 
-  // New feature pages
+  registerRoute('/gestures', (container, params) => renderGestures(container, params));
+  registerRoute('/shop-items', (container, params) => renderShopItems(container, params));
+  registerRoute('/item-sources', (container, params) => renderItemSourcesTable(container, params));
   registerRoute('/info', (container, params) => renderInfoPage(container, params));
   registerRoute('/upgrade-calc', (container, params) => renderUpgradeCalc(container, params));
   registerRoute('/build-planner', (container, params) => renderBuildPlanner(container, params));

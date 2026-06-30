@@ -172,10 +172,15 @@ export function renderBuildPlanner(container, params) {
     const cls = 'bp-cell' + (equipped ? ' has-item' : '');
     const sec = SECTIONS.find(s => s.slots.includes(sl));
     const isSpell = sec && sec.type === 'spells';
+    const thumb = equipped ? getItemImageUrl(sec ? sec.type : '', equipped.name_en || equipped.name) : null;
     return `<div class="${cls}" data-key="${sl.key}">
       <div class="bp-cell-label">${sl.label}</div>
       ${equipped
-        ? `<div class="bp-cell-name">${cn}</div><div class="bp-cell-weight">${isSpell ? (equipped.fp_cost || 0) + 'FP' : equipped.weight}</div>`
+        ? `${thumb ? `<img class="bp-cell-img" src="${thumb}" alt="">` : `<div class="bp-cell-img" style="background:var(--bg-tertiary);border-radius:3px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0">◈</div>`}
+          <div class="bp-cell-info">
+            <div class="bp-cell-name">${cn}</div>
+            <div class="bp-cell-weight">${isSpell ? (equipped.fp_cost || 0) + 'FP' : equipped.weight}</div>
+          </div>`
         : `<div class="bp-cell-empty">空</div>`}
     </div>`;
   }
@@ -368,11 +373,18 @@ export function renderBuildPlanner(container, params) {
       if (!slotDef) return;
       const equipped = build[key];
       const cn = equipped ? (translateName(equipped.name) || equipped.name) : null;
+      const sec = getSectionBySlotKey(key);
+      const isSpell = sec && sec.type === 'spells';
+      const thumb = equipped ? getItemImageUrl(sec ? sec.type : '', equipped.name_en || equipped.name) : null;
       cell.className = 'bp-cell' + (equipped ? ' has-item' : '');
       cell.innerHTML = `
         <div class="bp-cell-label">${slotDef.label}</div>
         ${equipped
-          ? `<div class="bp-cell-name">${cn}</div><div class="bp-cell-weight">${equipped.weight}</div>`
+          ? `${thumb ? `<img class="bp-cell-img" src="${thumb}" alt="">` : `<div class="bp-cell-img" style="background:var(--bg-tertiary);border-radius:3px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0">◈</div>`}
+            <div class="bp-cell-info">
+              <div class="bp-cell-name">${cn}</div>
+              <div class="bp-cell-weight">${isSpell ? (equipped.fp_cost || 0) + 'FP' : equipped.weight}</div>
+            </div>`
           : `<div class="bp-cell-empty">空</div>`}`;
     });
   }

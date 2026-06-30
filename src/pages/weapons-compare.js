@@ -185,6 +185,7 @@ export async function renderWeaponsCompare(container, params) {
         .wc-sort-off{color:var(--text-muted);border:1px solid transparent;}
         .wc-sort-off:hover{color:var(--text-primary);border-color:var(--border-color);}
         .wc-sort-on{color:var(--accent-gold);background:var(--accent-glow);border:1px solid var(--accent-gold-dim);font-weight:600;}
+        .wc-fl{width:40px;font-size:0.75rem;color:var(--text-muted);flex-shrink:0;line-height:28px;}
       `;
       document.head.appendChild(s);
     }
@@ -192,27 +193,33 @@ export async function renderWeaponsCompare(container, params) {
     container.innerHTML = `
       <div class="page-header">
         <div class="page-title" style="font-family:'Cinzel',serif;">武器质变数据</div>
-        <div class="page-meta">${rows.length} 件武器 · ${AFFINITY_CN[filterAffinity] || filterAffinity}质变</div>
+        <div class="page-meta">${rows.length} 件（共 479 件，陨石杖无法强化）· ${AFFINITY_CN[filterAffinity] || filterAffinity}质变</div>
       </div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
-        <button class="tag-filter-btn ${!filterCat ? 'active' : ''}" data-cat="">全分类</button>
-        ${categories.map(c => `<button class="tag-filter-btn ${filterCat === c ? 'active' : ''}" data-cat="${c}">${catCn(c)}</button>`).join('')}
+      <div style="display:flex;gap:6px;margin-bottom:6px;">
+        <span class="wc-fl">类型：</span>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;flex:1">
+          <button class="tag-filter-btn ${!filterCat ? 'active' : ''}" data-cat="">全分类</button>
+          ${categories.map(c => `<button class="tag-filter-btn ${filterCat === c ? 'active' : ''}" data-cat="${c}">${catCn(c)}</button>`).join('')}
+        </div>
       </div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
-        <span style="font-size:0.75rem;color:var(--text-muted);align-self:center;">质变：</span>
-        ${AFFINITIES.map(a => `<button class="tag-filter-btn ${filterAffinity === a ? 'active' : ''}" data-aff="${a}">${AFFINITY_CN[a] || a}</button>`).join('')}
+      <div style="display:flex;gap:6px;margin-bottom:12px;">
+        <span class="wc-fl">质变：</span>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;flex:1">
+          ${AFFINITIES.map(a => `<button class="tag-filter-btn ${filterAffinity === a ? 'active' : ''}" data-aff="${a}">${AFFINITY_CN[a] || a}</button>`).join('')}
+        </div>
       </div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;justify-content:space-between;align-items:center;">
-        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+      <div style="display:flex;gap:6px;margin-bottom:6px;">
+        <span class="wc-fl">版本：</span>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;flex:1;align-items:center;">
           <button class="tag-filter-btn ${filterDLC === '' ? 'active' : ''}" data-dlc="">全部版本</button>
           <button class="tag-filter-btn ${filterDLC === 'no' ? 'active' : ''}" data-dlc="no">仅本体</button>
           <button class="tag-filter-btn ${filterDLC === 'yes' ? 'active' : ''}" data-dlc="yes">仅 DLC</button>
-          <span style="width:1px;height:20px;background:var(--border-color);margin:0 4px;align-self:center;"></span>
+          <span style="width:1px;height:20px;background:var(--border-color);align-self:center;"></span>
+          <span style="font-size:0.75rem;color:var(--text-muted);">强化：</span>
           <button class="tag-filter-btn ${filterUpgrade === '' ? 'active' : ''}" data-ug="">全部强化</button>
           <button class="tag-filter-btn ${filterUpgrade === 'normal' ? 'active' : ''}" data-ug="normal">普通</button>
           <button class="tag-filter-btn ${filterUpgrade === 'somber' ? 'active' : ''}" data-ug="somber">失色</button>
-        </div>
-        <div style="display:flex;gap:4px">
+          <div style="flex:1;min-width:0"></div>
           <button class="wc-view-btn ${viewMode === 'list' ? 'active' : ''}" data-view="list">列表</button>
           <button class="wc-view-btn ${viewMode === 'card' ? 'active' : ''}" data-view="card">卡片</button>
         </div>

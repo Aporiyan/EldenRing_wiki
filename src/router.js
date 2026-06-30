@@ -1,5 +1,6 @@
 let currentRoute = '/';
 let cleanup = null;
+let _navSeq = 0;
 
 const routes = {};
 
@@ -32,6 +33,8 @@ function matchRoute(hash) {
 }
 
 export async function navigate(hash) {
+  const seq = ++_navSeq;
+
   if (cleanup) {
     cleanup();
     cleanup = null;
@@ -46,13 +49,21 @@ export async function navigate(hash) {
   currentRoute = match.path;
   const content = document.getElementById('content-area');
 
-  // Deferred loading screen: only show if handler takes >120ms
-  let loadingTimer = setTimeout(() => {
-    content.innerHTML = '<div class="loading-screen"><div class="loading-ring"></div><div class="loading-text">加载中...</div></div>';
+  // Deferred loading screen: only show if still the latest nav
+  const loadingTimer = setTimeout(() => {
+    if (seq === _navSeq) {
+      content.innerHTML = '<div class="loading-screen"><div class="loading-ring"></div><div class="loading-text">加载中...</div></div>';
+    }
   }, 120);
 
   cleanup = await match.handler(content, match.params);
   clearTimeout(loadingTimer);
+
+  // If a newer navigation superseded this one, discard result
+  if (seq !== _navSeq) {
+    if (cleanup) { cleanup(); cleanup = null; }
+    return;
+  }
 
   // Scroll to top
   window.scrollTo(0, 0);

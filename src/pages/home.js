@@ -33,13 +33,16 @@ export async function renderHome(container) {
   const displayCats = cats.filter(c => !MERGE_KEYS.includes(c.key) && !c.key.startsWith('dlc-'));
   displayCats.push({ key: 'items', label: '道具 & 材料', count: mergedCount });
 
-  const [npcCount, bossCount, recipeCount, ammoCount, merchantCount, achievementCount] = await Promise.all([
+  const [npcCount, bossCount, recipeCount, ammoCount, merchantCount, achievementCount, gestureCount, shopCount, itemSrcCount] = await Promise.all([
     fetchCount('./data/npcs.json', 84),
     fetchCount('./data/bosses.json', 121),
     fetchCount('./data/cookbook-recipes.json', 59),
     fetchCount('./data/ammo.json', 63),
     fetchCount('./data/merchants.json', 39),
     fetchCount('./data/achievements.json', 42),
+    fetchCount('./data/gestures.json', 47),
+    fetchCount('./data/shop.json', 122),
+    fetchCount('./data/item-sources.json', 1118),
   ]);
 
   const infoCount = (getData('info') || []).length;
@@ -160,6 +163,21 @@ export async function renderHome(container) {
           <div class="home-category-icon">📋</div>
           <div class="home-category-name">武器质变数据</div>
           <div class="home-category-count">479 件</div>
+        </a>
+        <a href="#/item-sources" class="home-category-card">
+          <div class="home-category-icon">📦</div>
+          <div class="home-category-name">全物品获取方式</div>
+          <div class="home-category-count">${itemSrcCount} 件</div>
+        </a>
+        <a href="#/gestures" class="home-category-card">
+          <div class="home-category-icon">🙌</div>
+          <div class="home-category-name">姿势图鉴</div>
+          <div class="home-category-count">${gestureCount} 种</div>
+        </a>
+        <a href="#/shop-items" class="home-category-card">
+          <div class="home-category-icon">📜</div>
+          <div class="home-category-name">卷轴 & 铃珠 & 笔记</div>
+          <div class="home-category-count">${shopCount} 件</div>
         </a>
       </div>
     </div>

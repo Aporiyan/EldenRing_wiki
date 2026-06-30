@@ -117,6 +117,7 @@ export function createDetailPage(key, title) {
         </div>
         ${upgradeInfo ? renderUpgradeTable(upgradeInfo, upgradeInfo.isSomber) : ''}
         ${renderChartSection(item, upgradeInfo)}
+        ${renderCorrectionSection(item, key)}
         ${renderLocations(item)}
         ${renderRemarks(item)}
         ${renderConflicts(item)}
@@ -170,6 +171,18 @@ export function createDetailPage(key, title) {
         });
 
         requestAnimationFrame(drawChart);
+      })();
+    }
+
+    // Correction curves
+    if (key === 'armaments') {
+      (async () => {
+        const area = container.querySelector('#corr-chart-area');
+        if (!area) return;
+        await loadCorrectionData();
+        const aff = item.affinity?.Standard || item.affinity?.[Object.keys(item.affinity || {})[0]];
+        if (!aff) { area.innerHTML = '<div style="padding:12px;text-align:center;color:var(--text-muted);font-size:0.85rem">无补正数据</div>'; return; }
+        drawCorrectionCurves(area, item, aff);
       })();
     }
 
@@ -459,6 +472,118 @@ function renderConflicts(item) {
     unique.map(c => `<div style="font-size:0.85rem;color:var(--accent-red);padding:2px 0">${c}</div>`).join(''),
     { flexCol: true }
   );
+}
+
+let correctionGraphData = null;
+let correctionAttackData = null;
+
+async function loadCorrectionData() {
+  if (correctionGraphData) return;
+  const [cg, ca] = await Promise.all([
+    fetch('./data/correction-graph.json').then(r => r.json()),
+    fetch('./data/correction-attack.json').then(r => r.json()),
+  ]);
+  correctionGraphData = cg;
+  correctionAttackData = ca;
+}
+
+const CORR_STAT_CN = { strength: '力气', dexterity: '灵巧', intelligence: '智力', faith: '信仰', arcane: '感应' };
+const CORR_DMG_CN = { physical: '物理', magic: '魔力', fire: '火', lightning: '雷', holy: '圣' };
+const CORR_COLORS = ['#c9a84c', '#e74a3b', '#4ca84c', '#4c8ac9', '#8a4cc9'];
+
+function renderCorrectionSection(item, key) {
+  if (key !== 'armaments') return '';
+  const aff = item.affinity?.Standard || item.affinity?.[Object.keys(item.affinity || {})[0]];
+  if (!aff || !aff.scaling) return '';
+  const activeScaling = Object.entries(aff.scaling).filter(([, v]) => v > 0);
+  if (!activeScaling.length) return '';
+
+  return `<div class="stat-block" style="margin-top:12px">
+    <div class="stat-block-title">补正曲线</div>
+    <div id="corr-chart-area" style="min-height:50px">
+      <div style="text-align:center;padding:16px;color:var(--text-muted);font-size:0.85rem">加载中...</div>
+    </div>
+  </div>`;
+}
+
+function drawCorrectionCurves(container, item, aff) {
+  if (!correctionGraphData || !correctionAttackData) return;
+  const scaling = aff.scaling || {};
+  const correctionCalcId = aff.correction_calc_id || {};
+  const atkId = aff.correction_attack_id;
+  const atkConfig = correctionAttackData[String(atkId)];
+  const damage = aff.damage || {};
+
+  const activeScaling = Object.entries(scaling).filter(([, v]) => v > 0);
+  if (!activeScaling.length) { container.innerHTML = '<div style="padding:12px;text-align:center;color:var(--text-muted);font-size:0.85rem">无补正数据</div>'; return; }
+
+  const charts = [];
+  for (const [stat, scaVal] of activeScaling) {
+    for (const dmgType of ['physical', 'magic', 'fire', 'lightning', 'holy']) {
+      if ((damage[dmgType] || 0) === 0) continue;
+      const gId = String(correctionCalcId[dmgType] !== undefined ? correctionCalcId[dmgType] : 0);
+      const gData = correctionGraphData[gId];
+      if (!gData) continue;
+      if (atkConfig && atkConfig.correction && atkConfig.correction[dmgType] && atkConfig.correction[dmgType][stat] === false) continue;
+      const ratio = (atkConfig && atkConfig.ratio && atkConfig.ratio[dmgType]) ? (atkConfig.ratio[dmgType][stat] || 1.0) : 1.0;
+      const base = damage[dmgType] || 0;
+      const points = [];
+      for (let s = 1; s <= 99; s++) {
+        const gVal = gData[Math.min(s, 150)] || 0;
+        const bonus = gVal * scaVal * ratio;
+        points.push({ stat: s, bonus: Math.round(bonus * 100) / 100, total: Math.round((base + base * bonus) * 10) / 10 });
+      }
+      charts.push({ stat, dmgType, scaVal, points, base });
+    }
+  }
+
+  if (!charts.length) { container.innerHTML = '<div style="padding:12px;text-align:center;color:var(--text-muted);font-size:0.85rem">无可用补正数据</div>'; return; }
+
+  const statGroups = {};
+  for (const c of charts) {
+    if (!statGroups[c.stat]) statGroups[c.stat] = [];
+    statGroups[c.stat].push(c);
+  }
+
+  const W = 420, H = 170, PAD = { top: 12, right: 8, bottom: 20, left: 40 };
+
+  function renderSvg(points, label, color) {
+    const maxVal = Math.max(...points.map(p => p.total));
+    const minVal = Math.min(...points.map(p => p.total));
+    const range = maxVal - minVal || 1;
+    const xScale = s => PAD.left + (s - 1) / 98 * (W - PAD.left - PAD.right);
+    const yScale = v => PAD.top + (1 - (v - minVal) / range) * (H - PAD.top - PAD.bottom);
+    const yTicks = 4;
+    const yStep = range / yTicks;
+    const yAxis = [];
+    for (let i = 0; i <= yTicks; i++) {
+      const v = Math.round((minVal + i * yStep) * 10) / 10;
+      yAxis.push({ v, y: yScale(v) });
+    }
+    const pathD = points.map((p, i) => `${i === 0 ? 'M' : 'L'}${xScale(p.stat).toFixed(1)},${yScale(p.total).toFixed(1)}`).join(' ');
+    return `<svg width="${W}" height="${H}" style="background:var(--bg-tertiary);border-radius:6px;overflow:visible">
+      ${yAxis.map(t => `<text x="${PAD.left - 4}" y="${t.y + 3}" text-anchor="end" font-size="8" fill="var(--text-muted)">${t.v}</text>
+        <line x1="${PAD.left}" y1="${t.y}" x2="${W - PAD.right}" y2="${t.y}" stroke="var(--border-color)" stroke-width="0.5"/>`).join('')}
+      <text x="${PAD.left}" y="${H - 4}" text-anchor="middle" font-size="8" fill="var(--text-muted)">1</text>
+      <text x="${xScale(50)}" y="${H - 4}" text-anchor="middle" font-size="8" fill="var(--text-muted)">50</text>
+      <text x="${xScale(99)}" y="${H - 4}" text-anchor="middle" font-size="8" fill="var(--text-muted)">99</text>
+      <path d="${pathD}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke"/>
+      <text x="${W - PAD.right - 2}" y="${PAD.top + 10}" text-anchor="end" font-size="9" fill="${color}" font-weight="600">${label}</text>
+    </svg>`;
+  }
+
+  const html = Object.entries(statGroups).map(([stat, chartList]) => `
+    <div style="margin-bottom:10px">
+      <div style="font-weight:600;font-size:0.8rem;color:var(--accent-gold);margin-bottom:6px">${CORR_STAT_CN[stat] || stat}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        ${chartList.map((c, i) => renderSvg(c.points, CORR_DMG_CN[c.dmgType] || c.dmgType, CORR_COLORS[i % CORR_COLORS.length])).join('')}
+      </div>
+      <div style="font-size:0.65rem;color:var(--text-muted);margin-top:4px">
+        ${chartList.map(c => `<span style="margin-right:10px"><span style="color:${CORR_COLORS[chartList.indexOf(c) % CORR_COLORS.length]}">●</span> ${CORR_DMG_CN[c.dmgType]}（基础${c.base}，系数${c.scaVal.toFixed(2)}）</span>`).join('')}
+      </div>
+    </div>
+  `).join('');
+  container.innerHTML = html;
 }
 
 function block(title, content, opts = {}) {

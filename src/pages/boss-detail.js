@@ -2,47 +2,56 @@ import { getData } from '../store.js';
 
 let bossesData = {};
 let imageManifest = {};
-let reverseNameMap = null;
-let bossItemCache = [];
+let nameMapData = {};
+let reverseCnMap = {};
 
 function buildReverseMap() {
-  if (reverseNameMap) return reverseNameMap;
-  // Build Chinese → English from cached items (all data loaded by store.js)
-  const map = {};
+  if (Object.keys(reverseCnMap).length) return;
+  // name_map.json maps English → Chinese, invert to Chinese → English
+  for (const [en, cn] of Object.entries(nameMapData)) {
+    reverseCnMap[cn] = en;
+  }
+  // Also add direct item name_cn → item lookups
   const cats = ['armaments','armor','talismans','spells','tools','keys','crafting-materials','bolstering-materials','spirit-ashes','ashes-of-war'];
   for (const cat of cats) {
     const items = getData(cat);
     for (const item of items) {
       if (item.name_cn && item.name_en) {
-        map[item.name_cn] = { key: cat, item };
+        reverseCnMap[item.name_cn] = item.name_en;
       }
     }
   }
-  reverseNameMap = map;
-  return map;
 }
 
 const DROP_ROUTES = {
-  armaments: '#/weapons/',
-  armor: '#/armor/',
-  talismans: '#/talismans/',
-  spells: '#/spells/',
-  tools: '#/items/',
-  keys: '#/items/',
-  'crafting-materials': '#/items/',
-  'bolstering-materials': '#/items/',
-  'spirit-ashes': '#/spirits/',
-  'ashes-of-war': '#/ashes/',
+  armaments: '#/weapons/', armor: '#/armor/', talismans: '#/talismans/',
+  spells: '#/spells/', tools: '#/items/', keys: '#/items/',
+  'crafting-materials': '#/items/', 'bolstering-materials': '#/items/',
+  'spirit-ashes': '#/spirits/', 'ashes-of-war': '#/ashes/',
 };
 
+function findItem(cnName) {
+  const enName = reverseCnMap[cnName];
+  if (!enName) return null;
+  const cats = ['armaments','armor','talismans','spells','tools','keys','crafting-materials','bolstering-materials','spirit-ashes','ashes-of-war'];
+  for (const cat of cats) {
+    const items = getData(cat);
+    const found = items.find(i => (i.name_en || i.name) === enName || i.name === enName);
+    if (found) return { key: cat, id: found.id };
+  }
+  return null;
+}
+
 async function loadBossData() {
-  if (Object.keys(bossesData).length) return;
+  if (Object.keys(bossesData).length && Object.keys(nameMapData).length) return;
   try {
-    const [bossResp, imgResp] = await Promise.all([
+    const [bossResp, imgResp, nmResp] = await Promise.all([
       fetch('./data/bosses.json'),
       fetch('./data/bosses-images.json'),
+      fetch('./data/name_map.json'),
     ]);
     bossesData = await bossResp.json();
+    nameMapData = await nmResp.json();
     try { imageManifest = await imgResp.json(); } catch (e) {}
   } catch (e) {
     console.warn('Boss data load failed:', e);
@@ -51,6 +60,7 @@ async function loadBossData() {
 
 export async function renderBossDetail(container, params) {
   await loadBossData();
+  buildReverseMap();
 
   const bossId = decodeURIComponent(params.id);
   const boss = bossesData[bossId];
@@ -72,6 +82,19 @@ export async function renderBossDetail(container, params) {
   const region = boss.region_cn || boss.region;
   const location = boss.location_cn || boss.location;
   const desc = boss.description_cn || boss.description;
+  const drops = boss.drops || [];
+
+  // Build drop tag HTML
+  function renderDrop(d) {
+    const found = findItem(d);
+    if (found) {
+      const route = DROP_ROUTES[found.key] || '#/items/';
+      return `<a href="${route}${found.id}" class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--accent-gold);color:var(--accent-gold);text-decoration:none;cursor:pointer;display:inline-block;">${d}</a>`;
+    }
+    // Try name_map: show Chinese name, no link
+    const cn = nameMapData[d] || d;
+    return `<span class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--border-color);color:var(--text);">${cn}</span>`;
+  }
 
   let html = `
     <div class="detail-view">
@@ -112,23 +135,14 @@ export async function renderBossDetail(container, params) {
       })() : ''}
   `;
 
-  if (boss.drops && boss.drops.length) {
-    const revMap = buildReverseMap();
+  if (drops.length) {
     html += `
-      <div style="margin-top:24px;">
-        <h3 style="font-size:1rem;margin-bottom:8px;color:var(--accent-gold);">掉落物</h3>
-        <div style="display:flex;flex-wrap:wrap;gap:6px;">
-          ${boss.drops.map(d => {
-            const matched = revMap[d];
-            if (matched) {
-              const route = DROP_ROUTES[matched.key] || '#/items/';
-              return `<a href="${route}${matched.item.id}" class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--accent-gold);color:var(--accent-gold);text-decoration:none;cursor:pointer;display:inline-block;">${d}</a>`;
-            }
-            return `<span class="item-card-tag" style="background:var(--bg-card);border:1px solid var(--border-color);color:var(--text);">${d}</span>`;
-          }).join('')}
+      <div class="stat-block" style="margin-top:16px;">
+        <div class="stat-block-title">掉落物（${drops.length} 件）</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;padding:8px 0;">
+          ${drops.map(renderDrop).join('')}
         </div>
-      </div>
-    `;
+      </div>`;
   }
 
   html += `</div>`;
