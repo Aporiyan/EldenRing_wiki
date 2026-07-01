@@ -37,12 +37,21 @@ const DESC_MAP = {
   'Golden Order Totality': '黄金律法的全部', 'The Ring': '指环',
 };
 
+let _gesturesCache = null;
+
+async function ensureGestureCache() {
+  if (_gesturesCache) return;
+  const resp = await fetch('./data/gestures.json');
+  _gesturesCache = await resp.json();
+}
+
 export async function renderGestures(container, params) {
   let query = '';
+  let detached = false;
 
   async function render() {
-    const resp = await fetch('./data/gestures.json');
-    const data = await resp.json();
+    await ensureGestureCache();
+    const data = _gesturesCache;
     let list = Object.values(data);
 
     if (query) {
@@ -102,6 +111,13 @@ export async function renderGestures(container, params) {
     }
   }
 
-  await render();
-  return () => {};
+  container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>';
+  ensureGestureCache().then(() => {
+    if (detached) return;
+    render();
+  }, () => {
+    if (detached) return;
+    container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>';
+  });
+  return () => { detached = true; };
 }

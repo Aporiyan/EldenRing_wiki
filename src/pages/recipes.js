@@ -30,8 +30,7 @@ async function loadAll() {
 }
 
 export async function renderRecipes(container, params) {
-  await loadAll();
-
+  let detached = false;
   let searchQuery = '';
   let viewMode = 'byMaterial'; // 'byMaterial' | 'byProduct' | 'byCookbook'
   let activeGroup = '';
@@ -249,6 +248,13 @@ export async function renderRecipes(container, params) {
     });
   }
 
-  render();
-  return () => {};
+  container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>';
+  loadAll().then(() => {
+    if (detached) return;
+    render();
+  }, () => {
+    if (detached) return;
+    container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>';
+  });
+  return () => { detached = true; };
 }

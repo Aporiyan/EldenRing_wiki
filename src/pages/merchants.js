@@ -37,8 +37,7 @@ const TYPE_CN = { nomadic: '流浪商人', isolated: '隐居商人', hermit: '�
 const TYPE_ORDER = ['nomadic', 'isolated', 'hermit', 'abandoned', 'imprisoned', 'spell', 'unique'];
 
 export async function renderMerchants(container, params) {
-  await loadMerchants();
-  await loadInventories();
+  let detached = false;
   let searchQuery = '';
   let filterType = '';
   let filterDLC = '';  // '' = all, 'yes' = DLC only, 'no' = base only
@@ -186,6 +185,13 @@ export async function renderMerchants(container, params) {
     });
   }
 
-  render();
-  return () => {};
+  container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>';
+  Promise.all([loadMerchants(), loadInventories()]).then(() => {
+    if (detached) return;
+    render();
+  }, () => {
+    if (detached) return;
+    container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>';
+  });
+  return () => { detached = true; };
 }

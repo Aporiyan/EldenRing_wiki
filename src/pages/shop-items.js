@@ -17,6 +17,9 @@ const CAT_DESC = {
   Cookbook: '使用后可习得新的制作配方',
 };
 
+// Global cache
+let _shopCache = null;
+
 function translateLead(text) {
   for (const [en, cn] of Object.entries(DESC_LEAD)) {
     text = text.replace(en, cn);
@@ -24,13 +27,11 @@ function translateLead(text) {
   return text;
 }
 
-// Translate item/NPC names in text using name_map
 function translateNames(text, nm) {
   text = translateLead(text);
   for (const [en, cn] of Object.entries(NPC_MAP)) {
     text = text.replace(new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), cn);
   }
-  // Translate by checking all known name_map keys (longest match first)
   const known = Object.keys(nm).sort((a, b) => b.length - a.length);
   for (const en of known) {
     const idx = text.indexOf(en);
@@ -45,15 +46,23 @@ function isUnlockLine(line) {
   return line.trim().startsWith('- ') || /^(Defeat |Dropped by |Reward for |Purchase from )/.test(line.trim());
 }
 
+async function ensureShopCache() {
+  if (_shopCache) return _shopCache;
+  const [shopData, nm] = await Promise.all([
+    fetch('./data/shop.json').then(r => r.json()),
+    fetch('./data/name_map.json').then(r => r.json()),
+  ]);
+  _shopCache = { shopData, nm };
+  return _shopCache;
+}
+
 export async function renderShopItems(container, params) {
   let query = '';
   let filterCat = '';
+  let detached = false;
 
   async function render() {
-    const [shopData, nm] = await Promise.all([
-      fetch('./data/shop.json').then(r => r.json()),
-      fetch('./data/name_map.json').then(r => r.json()),
-    ]);
+    const { shopData, nm } = await ensureShopCache();
 
     let list = Object.values(shopData);
     const cats = [...new Set(list.map(i => i.category))].filter(Boolean).sort();
@@ -94,7 +103,6 @@ export async function renderShopItems(container, params) {
             const lines = desc.split('\n');
             const unlockLines = lines.filter(l => isUnlockLine(l)).map(l => translateNames(l.replace(/^- /, '').replace(/^\* /, ''), nm));
             const leadLine = lines.map(l => { const t = l.trim(); return { orig: t, trans: translateLead(t) }; }).find(({ orig, trans }) => trans !== orig && !isUnlockLine(orig) && !/^(Sell at|can be sold|sell for|Purchase for|no\b)/i.test(orig));
-            // Description footnote (sell price, etc.)
             const footnotes = lines.filter(l => /^(Sell at|can be sold|sell for|Purchase for)/.test(l.trim())).map(l => translateNames(l.trim(), nm));
             const loc = i.locations && i.locations[0] && i.locations[0].summary !== 'no summary' ? i.locations[0].summary : '';
             const catColor = CAT_CLS_RAW[i.category] || 'var(--text-muted)';
@@ -133,6 +141,13 @@ export async function renderShopItems(container, params) {
     });
   }
 
-  await render();
-  return () => {};
+  container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>`;
+  ensureShopCache().then(() => {
+    if (detached) return;
+    render();
+  }, () => {
+    if (detached) return;
+    container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>`;
+  });
+  return () => { detached = true; };
 }

@@ -49,7 +49,7 @@ function renderDamageIcons(damage) {
 }
 
 export async function renderAmmo(container, params) {
-  await loadAmmo();
+  let detached = false;
   let searchQuery = '';
   let filterCat = '';
 
@@ -201,6 +201,13 @@ export async function renderAmmo(container, params) {
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
   }
 
-  render();
-  return () => {};
+  container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>';
+  loadAmmo().then(() => {
+    if (detached) return;
+    render();
+  }, () => {
+    if (detached) return;
+    container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>';
+  });
+  return () => { detached = true; };
 }
