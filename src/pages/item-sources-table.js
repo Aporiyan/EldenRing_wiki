@@ -113,6 +113,14 @@ async function loadAndBuildRows() {
 }
 
 export async function renderItemSourcesTable(container, params) {
+  let query = '';
+  let filterType = '';
+  let page = 0;
+  let allRows = [];
+  let loading = true;
+  let loadingMore = false;
+  let observer = null;
+  let detached = false;
 
   const styleId = 'istyle';
   if (!document.getElementById(styleId)) {
@@ -267,12 +275,17 @@ export async function renderItemSourcesTable(container, params) {
   }
 
   container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载物品数据...</div></div></div>`;
-  allRows = await ensureData();
-  loading = false;
-  if (detached) return () => {};
-  try { render(); } catch (e) {
-    if (detached) return () => {};
-    container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">加载出错：${e.message}</div></div></div>`;
-  }
+  ensureData().then(rows => {
+    if (detached) return;
+    allRows = rows;
+    loading = false;
+    try { render(); } catch (e) {
+      if (detached) return;
+      container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">加载出错：${e.message}</div></div></div>`;
+    }
+  }, () => {
+    if (detached) return;
+    container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>`;
+  });
   return () => { detached = true; if (observer) observer.disconnect(); };
 }
