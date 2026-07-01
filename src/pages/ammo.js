@@ -202,9 +202,12 @@ export async function renderAmmo(container, params) {
   }
 
   container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>';
-  loadAmmo().then(() => {
+  loadAmmo().then(async () => {
     if (detached) return;
-    render();
+    try { await render(); } catch (e) {
+      if (detached) return;
+      container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">渲染出错：' + e.message + '</div></div></div>';
+    }
   }, () => {
     if (detached) return;
     container.innerHTML = '<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>';
