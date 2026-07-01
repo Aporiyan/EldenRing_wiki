@@ -29,9 +29,6 @@ function translateLead(text) {
 
 function translateNames(text, nm) {
   text = translateLead(text);
-  for (const [en, cn] of Object.entries(NPC_MAP)) {
-    text = text.replace(new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), cn);
-  }
   const known = Object.keys(nm).sort((a, b) => b.length - a.length);
   for (const en of known) {
     const idx = text.indexOf(en);
@@ -142,9 +139,12 @@ export async function renderShopItems(container, params) {
   }
 
   container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>`;
-  ensureShopCache().then(() => {
+  ensureShopCache().then(async () => {
     if (detached) return;
-    render();
+    try { await render(); } catch (e) {
+      if (detached) return;
+      container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">渲染出错：${e.message}</div></div></div>`;
+    }
   }, () => {
     if (detached) return;
     container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">数据加载失败</div></div></div>`;
