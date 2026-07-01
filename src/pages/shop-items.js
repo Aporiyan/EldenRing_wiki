@@ -58,6 +58,8 @@ export async function renderShopItems(container, params) {
   let filterCat = '';
   let detached = false;
 
+  let _listenerAttached = false;
+
   async function render() {
     const { shopData, nm } = await ensureShopCache();
 
@@ -103,6 +105,9 @@ export async function renderShopItems(container, params) {
             const footnotes = lines.filter(l => /^(Sell at|can be sold|sell for|Purchase for)/.test(l.trim())).map(l => translateNames(l.trim(), nm));
             const loc = i.locations && i.locations[0] && i.locations[0].summary !== 'no summary' ? i.locations[0].summary : '';
             const catColor = CAT_CLS_RAW[i.category] || 'var(--text-muted)';
+            const showExtra = unlockLines.length > 5;
+            const visible = unlockLines.slice(0, 5);
+            const extra = unlockLines.slice(5);
             return `<div class="item-card" style="cursor:default">
               <div class="item-card-header" style="gap:10px">
                 <div style="width:40px;height:40px;border-radius:6px;background:var(--bg-tertiary);display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0">${CAT_ICON[i.category] || '📦'}</div>
@@ -112,7 +117,11 @@ export async function renderShopItems(container, params) {
                 </div>
               </div>
               ${leadLine ? `<div style="font-size:0.75rem;color:var(--text-secondary);margin-top:6px;line-height:1.4">${leadLine.trans}</div>` : ''}
-              ${unlockLines.length ? `<div style="margin-top:8px;padding:8px 10px;background:var(--bg-tertiary);border-radius:6px;font-size:0.78rem;color:var(--accent-gold);line-height:1.7">${unlockLines.map(l => `<div>· ${l}</div>`).join('')}</div>` : ''}
+              ${unlockLines.length ? `<div style="margin-top:8px;padding:8px 10px;background:var(--bg-tertiary);border-radius:6px;font-size:0.78rem;color:var(--accent-gold);line-height:1.7">
+                ${visible.map(l => `<div>· ${l}</div>`).join('')}
+                ${showExtra ? `<div class="unlock-extra" style="max-height:0;overflow:hidden;transition:max-height .3s ease">${extra.map(l => `<div>· ${l}</div>`).join('')}</div>` : ''}
+                ${showExtra ? `<div class="unlock-expand" data-expanded="false" data-count="${extra.length}" style="margin-top:4px;cursor:pointer;color:var(--accent-blue);font-weight:600;text-align:center;padding:2px 0;">展开 ${extra.length} 项 ▸</div>` : ''}
+              </div>` : ''}
               ${footnotes.length ? `<div style="margin-top:4px;font-size:0.72rem;color:var(--text-muted)">${footnotes.join('<br>')}</div>` : ''}
               ${loc ? `<div style="font-size:0.72rem;color:var(--accent-blue);margin-top:6px">📍 ${loc}</div>` : ''}
             </div>`;
@@ -136,6 +145,28 @@ export async function renderShopItems(container, params) {
     container.querySelectorAll('[data-cat]').forEach(b => {
       b.addEventListener('click', () => { filterCat = b.dataset.cat; render(); });
     });
+  }
+
+  if (!_listenerAttached) {
+    container.addEventListener('click', e => {
+      const btn = e.target.closest('.unlock-expand');
+      if (!btn) return;
+      const card = btn.closest('.item-card');
+      if (!card) return;
+      const extra = card.querySelector('.unlock-extra');
+      if (!extra) return;
+      const expanded = btn.dataset.expanded === 'true';
+      if (expanded) {
+        extra.style.maxHeight = '0';
+        btn.dataset.expanded = 'false';
+        btn.textContent = '展开 ' + btn.dataset.count + ' 项 ▸';
+      } else {
+        extra.style.maxHeight = extra.scrollHeight + 'px';
+        btn.dataset.expanded = 'true';
+        btn.textContent = '收起 ▾';
+      }
+    });
+    _listenerAttached = true;
   }
 
   container.innerHTML = `<div class="page"><div class="empty-state"><div class="empty-state-icon">⏳</div><div class="empty-state-text">正在加载...</div></div></div>`;

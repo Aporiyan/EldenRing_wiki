@@ -224,7 +224,7 @@ function renderReqs(item) {
   if (!reqs.length) return '';
   const map = { strength: '力量', dexterity: '灵巧', intelligence: '智力', faith: '信仰', arcane: '感应' };
   return block('需求属性',
-    reqs.map(([k, v]) => `<span class="req-badge" style="font-size:0.85rem;padding:4px 14px">${map[k] || k} ${v}</span>`).join(' ')
+    reqs.map(([k, v]) => row(map[k] || k, v)).join('')
   );
 }
 

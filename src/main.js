@@ -124,6 +124,7 @@ async function init() {
   registerRoute('/shop-items', (container, params) => renderShopItems(container, params));
   registerRoute('/item-sources', (container, params) => renderItemSourcesTable(container, params));
   registerRoute('/info', (container, params) => renderInfoPage(container, params));
+  registerRoute('/map', (container) => { container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🗺</div><div class="empty-state-text">暂无内容，等待后续开发</div></div>'; });
   registerRoute('/upgrade-calc', (container, params) => renderUpgradeCalc(container, params));
   registerRoute('/build-planner', (container, params) => renderBuildPlanner(container, params));
   registerRoute('/item-compare', (container, params) => renderItemCompare(container, params));

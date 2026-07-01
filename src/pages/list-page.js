@@ -494,16 +494,20 @@ function renderCard(item, key) {
     parts.push(`<span class="item-card-stat"><span class="item-card-stat-label">重</span> <span class="item-card-stat-value">${item.weight}</span></span>`);
   }
 
-  if (item.requirements) {
-    const reqs = Object.entries(item.requirements).filter(([k, v]) => v > 0);
-    if (reqs.length > 0) {
-      parts.push(`<span class="req-display">${reqs.map(([k, v]) => `<span class="req-badge">${reqLabel(k)} ${v}</span>`).join('')}</span>`);
-    }
-  }
-
   if (item.category === 'Sorcery' || item.category === 'Incantation') {
-    if (item.fp_cost !== undefined) parts.push(`<span class="item-card-stat"><span class="item-card-stat-label">专注</span> <span class="item-card-stat-value">${item.fp_cost}</span></span>`);
-    if (item.slots_used) parts.push(`<span class="item-card-stat"><span class="item-card-stat-label">格</span> <span class="item-card-stat-value">${item.slots_used}</span></span>`);
+    const reqs = item.requirements ? Object.entries(item.requirements).filter(([k, v]) => v > 0) : [];
+    if (reqs.length > 0) {
+      parts.push(`<div class="stat-row"><span class="stat-label">需求属性</span><span class="stat-value">${reqs.map(([k, v]) => `${reqLabel(k)} ${v}`).join(' ')}</span></div>`);
+    }
+    if (item.fp_cost !== undefined) parts.push(`<div class="stat-row"><span class="stat-label">专注</span><span class="stat-value">${item.fp_cost}</span></div>`);
+    if (item.slots_used) parts.push(`<div class="stat-row"><span class="stat-label">格</span><span class="stat-value">${item.slots_used}</span></div>`);
+  } else {
+    if (item.requirements) {
+      const reqs = Object.entries(item.requirements).filter(([k, v]) => v > 0);
+      if (reqs.length > 0) {
+        parts.push(`<span class="req-display">${reqs.map(([k, v]) => `<span class="req-badge">${reqLabel(k)} ${v}</span>`).join('')}</span>`);
+      }
+    }
   }
 
   if (item.fp_cost !== undefined && key === 'spirit-ashes') {

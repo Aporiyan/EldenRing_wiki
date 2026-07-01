@@ -298,7 +298,7 @@ export function renderBuildPlanner(container, params) {
           ${thumb ? `<img class="bp-mcard-thumb" src="${thumb}" alt="">` : ''}
           <div class="bp-mcard-text">
             <div class="bp-mcard-name">${cn}</div>
-            <div class="bp-mcard-meta">${i.weight}${reqs ? ' · ' + reqs : ''}</div>
+            <div class="bp-mcard-meta">${sec.type === 'spells' ? (i.fp_cost || 0) + 'FP' : i.weight}${reqs ? ' · ' + reqs : ''}</div>
           </div>
         </div>`;
       }).join('');
